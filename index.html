@@ -24,9 +24,9 @@
 			}
 			function populate_heroes() {
 				$.each(heroes, function(hk,hero) {
-					var result = '<h2>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h2>';
+					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
-						result += '<h3 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as complete</span>)</h3>';
+						result += '<h4 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as complete</span>)</h4>';
 						result += '<ul id="' + hk + gk + '" class="' + gk + '">';
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
@@ -71,7 +71,8 @@
 		</script>
 		<style>
 			#error { background:red; color:white; }
-			h3 { text-transform:capitalize; }
+			h4 { text-transform:capitalize; }
+			span { text-transform:lowercase; color:#666; }
 			.green { color:green }
 			.blue { color:blue }
 			.purple { color:purple }
