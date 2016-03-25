@@ -6,6 +6,7 @@
 		<script src="heroes.json"></script>
 		<script>
 			function sanity_check() {
+				alert('sanity');
 				var litmus = false;
 				alert(heroes);
 				alert(gear);
@@ -27,7 +28,9 @@
 					
 				}
 			}
+			alert('pre');
 			sanity_check();
+			alert('post');
 		</script>
 		<style>
 			#error { background:red; color:white; }
