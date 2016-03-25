@@ -35,7 +35,10 @@
 					});
 				});
 				$.each(needed, function(k,v) {
+					alert(k);
+					alert(v);
 					var item = gear[k];
+					alert(item.name);
 					$('#' + item.color).html($('#' + item.color) + '<li>' + item.name + ': ' + v + '</li>');
 				});
 			}
