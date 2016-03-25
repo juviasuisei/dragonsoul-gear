@@ -1,7 +1,7 @@
 var gear = {
 	"foam_finger" : "white",
 	"fine_brie" : "white",
-	"free_mans_crowbar" : "white",
+	"free_mans_crowbar_" : "white",
 	"goblin_grog" : "white",
 	"my_first_shield" : "white"
 };
