@@ -24,7 +24,7 @@
 			}
 			function calculate_gear() {
 				$.each(heroes, function(hk,hero) {
-					$.each(hero, function(gk,gearset) {
+					$.each(hero.gearsets, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
 							if(false === item in needed) {
 								needed[item] = 1;
