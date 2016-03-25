@@ -26,7 +26,7 @@
 				$.each(heroes, function(hk,hero) {
 					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
-						result += '<h4 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as complete</span>)</h4>';
+						result += '<h4 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
 						result += '<ul id="' + hk + gk + '" class="' + gk + '">';
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
