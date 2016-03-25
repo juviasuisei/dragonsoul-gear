@@ -5,6 +5,7 @@
 		<script src="gear.json"></script>
 		<script src="heroes.json"></script>
 		<script>
+			var needed = {};
 			function sanity_check() {
 				var litmus = false;
 				$.each(heroes, function(hk,hero) {
@@ -25,9 +26,17 @@
 				$.each(heroes, function(hk,hero) {
 					$.each(hero, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
-
+							if(false === item in needed) {
+								needed[item] = 1;
+							} else {
+								needed[item] += 1;
+							}
 						});
 					});
+				});
+				$.each(needed, function(k,v) {
+					var item = gear[k];
+					$('#' + item.color).html($('#' + item.color) + 
 				});
 			}
 			$(function() { sanity_check(); });

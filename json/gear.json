@@ -1,7 +1,7 @@
 var gear = {
 	"foam_finger" : { "name" : "Foam Finger", "color" : "white"},
 	"fine_brie" : { "name" : "Fine Brie", "color" : "white"},
-	"free_mans_crowbar_" : { "name" : "Free Man's Crowbar", "color" : "white"},
+	"free_mans_crowbar" : { "name" : "Free Man's Crowbar", "color" : "white"},
 	"goblin_grog" : { "name" : "Goblin Grog", "color" : "white"},
 	"my_first_shield" : { "name" : "My First Shield", "color" : "white"}
 };
