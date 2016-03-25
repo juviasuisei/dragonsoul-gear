@@ -24,10 +24,10 @@
 			}
 			function populate_heroes() {
 				$.each(heroes, function(hk,hero) {
-					var result = '<h2>' + hero.name + '</h2>';
+					var result = '<h2>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h2>';
 					$.each(hero.gearsets, function(gk,gearset) {
-						result += '<h3 class="' + gk + '"><input type="checkbox" id="' + hk + gk + '" onchange="toggle_gearset(\'' + hk + gk + '\', \'' + hk + gk + 'list\');" /> ' + gk + '</h3>';
-						result += '<ul id="' + hk + gk + 'list" class="' + gk + '">';
+						result += '<h3 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as complete</span>)</h3>';
+						result += '<ul id="' + hk + gk + '" class="' + gk + '">';
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
 						});
@@ -37,9 +37,13 @@
 				});
 				calculate_gear();
 			}
-			function toggle_gearset(id, list) {
-				var litmus = $('#' + id).is(':checked');
-				$('#' + list + ' li input').prop('checked', litmus);
+			function check_gearsets(id) {
+				$.each(heroes[id].gearsets, function(gk,gearset) {
+					check_gearset(id + gk);
+				});
+			}
+			function check_gearset(id) {
+				$('#' + id + ' li input').prop('checked', true);
 				calculate_gear();
 			}
 			function calculate_gear() {
