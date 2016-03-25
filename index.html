@@ -37,6 +37,7 @@
 				calculate_gear();
 			}
 			function calculate_gear() {
+				needed = {};
 				$.each(heroes, function(hk,hero) {
 					$.each(hero.gearsets, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
@@ -50,6 +51,7 @@
 						});
 					});
 				});
+				$('#white, #green, #blue, #purple, #orange').html('');
 				$.each(needed, function(k,v) {
 					var item = gear[k];
 					$('#' + item.color).html($('#' + item.color).html() + '<li>' + item.name + ': ' + v + '</li>');
