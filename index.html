@@ -35,17 +35,29 @@
 					});
 				});
 				$.each(needed, function(k,v) {
-					alert(k);
-					alert(v);
 					var item = gear[k];
-					alert(item.name);
-					$('#' + item.color).html($('#' + item.color) + '<li>' + item.name + ': ' + v + '</li>');
+					$('#' + item.color).html($('#' + item.color).html() + '<li>' + item.name + ': ' + v + '</li>');
+				});
+				populate_heroes();
+			}
+			function populate_heroes() {
+				$.each(heroes, function(hk,hero) {
+					var result = '<h2>' + hero.name + '</h2>';
+					$.each(hero.gearsets, function(gk,gearset) {
+						result += '<h3 class="' + gk + '">' + gk + '</h3>';
+						result += '<ul class="' + gk + '"></ul>';
+						$.each(gearset, function(slot,item) {
+							result += '<li>' + gear[item].name + '</li>';
+						});
+					});
+					$('#heroes').html($('#heroes').html() + result);
 				});
 			}
 			$(function() { sanity_check(); });
 		</script>
 		<style>
 			#error { background:red; color:white; }
+			h3 { text-transform:capitalize; }
 			.green { color:green }
 			.blue { color:blue }
 			.purple { color:purple }
