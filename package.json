@@ -1,7 +1,7 @@
 {
-  "name": "one-stitch",
+  "name": "dragonsoul-gear",
   "version": "1.0.0",
-  "description": "One Stitch Simulation",
+  "description": "DragonSoul Gear Calculator",
   "main": "index.js",
   "enginges": {
 	"node": "4.2.3"
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j-a-mercury/one-stitch.git"
+    "url": "git+https://github.com/j-a-mercury/dragonsoul-gear.git"
   },
   "author": "J. A. Mercury",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/j-a-mercury/one-stitch/issues"
+    "url": "https://github.com/j-a-mercury/dragonsoul-gear/issues"
   },
-  "homepage": "https://github.com/j-a-mercury/one-stitch#readme"
+  "homepage": "https://github.com/j-a-mercury/dragonsoul-gear#readme"
 }
