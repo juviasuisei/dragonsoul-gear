@@ -11,10 +11,9 @@
 				$.each(heroes, function(hero,gearsets) {
 					$.each(gearsets, function(color,slots) {
 						$.each(slots, function(slot,item) {
-							alert(item);
-							alert(item in gear);
 							if(false === item in gear) {
-								$('#error').html('UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item);
+alert(item);
+								$('#error').html($('#error').html() + 'UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item + '<br />');
 								litmus = true;
 							}
 						});
