@@ -8,15 +8,12 @@
 			function sanity_check() {
 				alert('sanity');
 				var litmus = false;
-				alert(heroes);
-				alert(gear);
 				$.each(heroes, function(hero,gearsets) {
 					$.each(gearsets, function(color,slots) {
-						alert('gearloop')
 						$.each(slots, function(slot,item) {
 							alert(item);
-							alert(gear.inArray(item));
-							if(false === gear.inArray(item)) {
+							alert(item in gear);
+							if(false === item in gear) {
 								$('#error').html('UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item);
 								litmus = true;
 							}
@@ -29,7 +26,6 @@
 			}
 			alert('pre');
 			sanity_check();
-			alert('post');
 		</script>
 		<style>
 			#error { background:red; color:white; }
