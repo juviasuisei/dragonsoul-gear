@@ -7,19 +7,28 @@
 		<script>
 			function sanity_check() {
 				var litmus = false;
-				$.each(heroes, function(hero,gearsets) {
-					$.each(gearsets, function(color,slots) {
-						$.each(slots, function(slot,item) {
+				$.each(heroes, function(hk,hero) {
+					$.each(hero.gearsets, function(gk,gearset) {
+						$.each(gearset, function(slot,item) {
 							if(false === item in gear) {
-								$('#error').html($('#error').html() + 'UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item + '<br />');
+								$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + hk + '/' + gk + '/' + (slot + 1) + '/' + item + '<br />');
 								litmus = true;
 							}
 						});
 					});
 				});
 				if(false === litmus) {
-					
+					calculate_gear();
 				}
+			}
+			function calculate_gear() {
+				$.each(heroes, function(hk,hero) {
+					$.each(hero, function(gk,gearset) {
+						$.each(gearset, function(slot,item) {
+
+						});
+					});
+				});
 			}
 			$(function() { sanity_check(); });
 		</script>
