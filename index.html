@@ -4,28 +4,6 @@
 		<script src="recipes.json"></script>
 		<script src="gear.json"></script>
 		<script src="heroes.json"></script>
-		<script>
-			function sanity_check() {
-				alert('sanity');
-				var litmus = false;
-				$.each(heroes, function(hero,gearsets) {
-					$.each(gearsets, function(color,slots) {
-						$.each(slots, function(slot,item) {
-							if(false === item in gear) {
-alert(item);
-								$('#error').html($('#error').html() + 'UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item + '<br />');
-								litmus = true;
-							}
-						});
-					});
-				});
-				if(false === litmus) {
-					
-				}
-			}
-			alert('pre');
-			sanity_check();
-		</script>
 		<style>
 			#error { background:red; color:white; }
 			.green { color:green }
