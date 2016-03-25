@@ -38,6 +38,7 @@
 			}
 			function toggle_gearset(element, id) {
 				var litmus = $(element).is('checked');
+				alert(litmus);
 				$('#' + id + ' li input').prop('checked', litmus);
 				calculate_gear();
 			}
