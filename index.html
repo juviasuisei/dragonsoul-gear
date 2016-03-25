@@ -10,6 +10,8 @@
 				$.each(heroes, function(hero,gearsets) {
 					$.each(gearset, function(color,slots) {
 						$.each(slots, function(slot,item) {
+							alert(item);
+							alert(gear.inArray(item));
 							if(false === gear.inArray(item)) {
 								$('#error').html('UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item);
 								litmus = true;
