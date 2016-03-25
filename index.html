@@ -27,10 +27,11 @@
 					var result = '<h2>' + hero.name + '</h2>';
 					$.each(hero.gearsets, function(gk,gearset) {
 						result += '<h3 class="' + gk + '"><input type="checkbox" id="' + hk + gk + '" onchange="toggle_gearset(\'' + hk + gk + '\', \'' + hk + gk + 'list\');" /> ' + gk + '</h3>';
-						result += '<ul id="' + hk + gk + 'list" class="' + gk + '"></ul>';
+						result += '<ul id="' + hk + gk + 'list" class="' + gk + '">';
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
 						});
+						result += '</ul>'
 					});
 					$('#heroes').html($('#heroes').html() + result);
 				});
@@ -38,7 +39,6 @@
 			}
 			function toggle_gearset(id, list) {
 				var litmus = $('#' + id).is(':checked');
-				alert(litmus);
 				$('#' + list + ' li input').prop('checked', litmus);
 				calculate_gear();
 			}
