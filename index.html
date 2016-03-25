@@ -5,9 +5,47 @@
 		<script src="gear.json"></script>
 		<script src="heroes.json"></script>
 		<script>
+			function sanity_check() {
+				var litmus = false;
+				$.each(heroes, function(hero,gearsets) {
+					$.each(gearset, function(color,slots) {
+						$.each(slots, function(slot,item) {
+							if(false === gear.inArray(item)) {
+								$('#error').html('UNMATCHED GEAR:' + hero + '/' + color + '/' + slot + '/' + item);
+								litmus = true;
+							}
+						});
+					});
+				});
+				if(false === litmus) {
+					
+				}
+			}
+			sanity_check();
 		</script>
+		<style>
+			#error { background:red; color:white; }
+			.green { color:green }
+			.blue { color:blue }
+			.purple { color:purple }
+			.orange { color:orange }
+		</style>
 	</head>
 	<body>
 		<h1>DragonSoul RPG Gear Calculator</h1>
+		<div id="error" />
+		<h2>Items Needed</h2>
+		<h3>White</h3>
+		<div id="white" />
+		<h3>Green</h3>
+		<div id="green" class="green" />
+		<h3>Blue</h3>
+		<div id="blue" class="blue" />
+		<h3>Purple</h3>
+		<div id="purple" class="purple" />
+		<h3>Orange</h3>
+		<div id="orange" class="orange" />
+		<h2>Heroes</h2>
+		<div id="heroes" />
 	</body>
 </html>
