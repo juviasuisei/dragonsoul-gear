@@ -37,8 +37,13 @@
 						var color = gk.match(/^[^+]*/)[0];
 						result += '<h4 class="' + color + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
 						result += '<ul id="' + hk + gk + '" class="' + color + '">';
+						var i = 1;
 						$.each(gearset, function(slot,item) {
-							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
+							result += '<li class="inline"><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
+							if(3 === i) {
+								result += '<br />';
+							}
+							i++;
 						});
 						result += '</ul>';
 					});
@@ -119,6 +124,7 @@
 			.blue { color:blue }
 			.purple { color:purple }
 			.orange { color:orange }
+			.inline { display:inline-block }
 		</style>
 	</head>
 	<body>
