@@ -4,7 +4,7 @@ var heroes = {
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
 			"green" : ["paper_crown","foam_finger","bloody_bat","enchanted_elbow_pads","captains_tightpants","stickon_moustache"],
-			"green+1" : ["mace_of_friendship","bloody_bat","lucky_orcs_foot","thong_of_vitality","bloody_bat","directors_cut"]
+			"green1" : ["mace_of_friendship","bloody_bat","lucky_orcs_foot","thong_of_vitality","bloody_bat","directors_cut"]
 		}
 	}
 };
