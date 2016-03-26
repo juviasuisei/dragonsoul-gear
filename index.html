@@ -57,13 +57,16 @@
 				calculate_gear();
 			}
 			function calculate_recipe(recipe) {
+alert('recipe');
+alert(recipe.cost);
 				cost += recipe.cost;
 				$('#gold').html(cost);
 				$.each(recipe.materials, function(k,material) {
+alert(material);
 					if(false === material.item in needed) {
-						needed[item] = material.quantity;
+						needed[material.item] = material.quantity;
 					} else {
-						needed[item] += material.quantity;
+						needed[material.item] += material.quantity;
 					}
 					if(true === material.item in recipes) {
 						var i = 0;
@@ -86,6 +89,7 @@
 									needed[item] += 1;
 								}
 								if(true === item in recipes) {
+alert('first');
 									calculate_recipe(recipes[item]);
 								}
 							}
