@@ -34,8 +34,8 @@
 				$.each(heroes, function(hk,hero) {
 					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
-						var color = gk.match(/^[^+]*/)[0];
-						result += '<h4 class="' + color + '">' + gk.replace(/\d+ + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
+						var color = gk.match(/^[^\d]*/)[0];
+						result += '<h4 class="' + color + '">' + gk.replace(/\d+$/, " +&") + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
 						result += '<ul id="' + hk + gk + '">';
 						var i = 1;
 						$.each(gearset, function(slot,item) {
