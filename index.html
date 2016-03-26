@@ -96,9 +96,9 @@
 					needed_sortable.push({"item" : gear[k], "quantity" : v});
 				});
 				needed_sortable.sort(function(a,b) {
-					var diff = a.quantity - b.quantity;
+					var diff = b.quantity - a.quantity;
 					if(0 === diff) {
-						return(a.item.name - b.item.name);
+						return(b.item.name - a.item.name);
 					} else {
 						return(diff);
 					}
