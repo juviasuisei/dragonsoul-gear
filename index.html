@@ -34,8 +34,9 @@
 				$.each(heroes, function(hk,hero) {
 					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
-						result += '<h4 class="' + gk + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
-						result += '<ul id="' + hk + gk + '" class="' + gk + '">';
+						var color = gk.match(/^[^+]*/)[0];
+						result += '<h4 class="' + color + '">' + gk + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
+						result += '<ul id="' + hk + gk + '" class="' + color + '">';
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
 						});
@@ -56,7 +57,7 @@
 			}
 			function calculate_recipe(recipe) {
 				cost += recipe.cost;
-				$('#gold').html(cost);
+				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
 				$.each(recipe.materials, function(k,material) {
 					if(false === material.item in needed) {
 						needed[material.item] = material.quantity;
