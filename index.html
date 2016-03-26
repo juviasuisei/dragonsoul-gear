@@ -20,8 +20,10 @@
 					});
 				});
 				$.each(recipes, function(rk,recipe) {
+alert(rk);
 					$.each(recipe.materials, function(mk,material) {
-							if(false === material in gear || false === material in recipes) {
+alert(mk);
+							if(false === material.item in gear || false === material in recipes) {
 								$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material + '<br />');
 								litmus = true;
 							}
