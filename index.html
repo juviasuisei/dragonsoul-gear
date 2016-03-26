@@ -39,7 +39,7 @@
 						$.each(gearset, function(slot,item) {
 							result += '<li><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
 						});
-						result += '</ul>'
+						result += '</ul>';
 					});
 					$('#heroes').html($('#heroes').html() + result);
 				});
@@ -94,7 +94,7 @@
 				var needed_sortable = [];
 				$.each(needed, function(k,v) {
 					needed_sortable.push({"item" : gear[k], "quantity" : v});
-				}
+				});
 				needed_sortable.sort(function(a,b) {
 					var diff = a.quantity - b.quantity;
 					if(0 === diff) {
