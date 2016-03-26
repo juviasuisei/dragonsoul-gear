@@ -35,7 +35,7 @@
 					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
 						var color = gk.match(/^[^\d]*/)[0];
-						result += '<h4 class="' + color + '">' + gk.replace(/\d+$/, " +&") + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
+						result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
 						result += '<ul id="' + hk + gk + '">';
 						var i = 1;
 						$.each(gearset, function(slot,item) {
@@ -62,7 +62,10 @@
 				calculate_gear();
 			}
 			function calculate_recipe(recipe) {
+console.log('calculate_recipe');
+console.log(cost);
 				cost += recipe.cost;
+console.log(cost);
 				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
 				$.each(recipe.materials, function(k,material) {
 					if(false === material.item in needed) {
@@ -73,6 +76,7 @@
 					if(true === material.item in recipes) {
 						var i = 0;
 						while(i < material.quantity) {
+console.log(material.item);
 							calculate_recipe(recipes[material.item]);
 							i++;
 						}
@@ -82,6 +86,9 @@
 			function calculate_gear() {
 				needed = {};
 				cost = 0;
+console.log('calculate_gear');
+console.log(needed);
+console.log(cost);
 				$.each(heroes, function(hk,hero) {
 					$.each(hero.gearsets, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
@@ -92,6 +99,7 @@
 									needed[item] += 1;
 								}
 								if(true === item in recipes) {
+console.log(item);
 									calculate_recipe(recipes[item]);
 								}
 							}
@@ -103,8 +111,14 @@
 					needed_sortable.push({"item" : gear[k], "quantity" : v});
 				});
 				needed_sortable.sort(function(a,b) {
+console.log('sort');
+console.log(a);
+console.log(b);
 					var diff = b.quantity - a.quantity;
 					if(0 === diff) {
+console.log(a.item.name);
+console.log(b.item.name);
+console.log(b.item.name - a.item.name);
 						return(b.item.name - a.item.name);
 					} else {
 						return(diff);
