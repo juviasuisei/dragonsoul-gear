@@ -39,7 +39,7 @@
 						result += '<ul id="' + hk + gk + '" class="' + color + '">';
 						var i = 1;
 						$.each(gearset, function(slot,item) {
-							result += '<li class="inline"><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</li>';
+							result += '<li class="inline"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear[item].name + '</label></li>';
 							if(3 === i) {
 								result += '<br />';
 							}
@@ -124,7 +124,7 @@
 			.blue { color:blue; }
 			.purple { color:purple; }
 			.orange { color:orange; }
-			.inline { display:inline-block; width: 200px; }
+			.inline { display:inline-block; width: 200px; padding-bottom: 20px; }
 		</style>
 	</head>
 	<body>
