@@ -23,11 +23,9 @@
 alert(rk);
 					$.each(recipe.materials, function(mk,material) {
 alert(mk);
-							if(false === material.item in gear || false === material in recipes) {
-								$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material + '<br />');
-								litmus = true;
-							}
-						});
+						if(false === material.item in gear || false === material in recipes) {
+							$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material + '<br />');								litmus = true;
+						}
 					});
 				});
 				if(false === litmus) {
