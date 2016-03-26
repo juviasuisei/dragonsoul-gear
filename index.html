@@ -20,11 +20,9 @@
 					});
 				});
 				$.each(recipes, function(rk,recipe) {
-alert(rk);
 					$.each(recipe.materials, function(mk,material) {
-alert(mk);
-						if(false === material.item in gear || false === material in recipes) {
-							$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material + '<br />');								litmus = true;
+						if(false === material.item in gear || false === material.item in recipes) {
+							$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material.item + '<br />');								litmus = true;
 						}
 					});
 				});
@@ -57,8 +55,6 @@ alert(mk);
 				calculate_gear();
 			}
 			function calculate_recipe(recipe) {
-alert('recipe');
-alert(recipe.cost);
 				cost += recipe.cost;
 				$('#gold').html(cost);
 				$.each(recipe.materials, function(k,material) {
@@ -89,7 +85,6 @@ alert(material);
 									needed[item] += 1;
 								}
 								if(true === item in recipes) {
-alert('first');
 									calculate_recipe(recipes[item]);
 								}
 							}
