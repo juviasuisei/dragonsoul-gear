@@ -91,10 +91,21 @@
 						});
 					});
 				});
-				$('#white, #green, #blue, #purple, #orange').html('');
+				var needed_sortable = [];
 				$.each(needed, function(k,v) {
-					var item = gear[k];
-					$('#' + item.color).html($('#' + item.color).html() + '<li>' + item.name + ': ' + v + '</li>');
+					needed_sortable.push({"item" : gear[k], "quantity" : v});
+				}
+				needed_sortable.sort(function(a,b) {
+					var diff = a.quantity - b.quantity;
+					if(0 === diff) {
+						return(a.item.name - b.item.name);
+					} else {
+						return(diff);
+					}
+				});
+				$('#white, #green, #blue, #purple, #orange').html('');
+				$.each(needed_sortable, function(k,v) {
+					$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ': ' + v.quantity + '</li>');
 				});
 			}
 			$(function() { sanity_check(); });
