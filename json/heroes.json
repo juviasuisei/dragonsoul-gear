@@ -2,7 +2,8 @@ var heroes = {
 	"dragon_lady" : {
 		"name" : "Dragon Lady",
 		"gearsets" : {
-			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"]
+			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
+			"green" : ["paper_crown","foam_finger","bloody_bat","enchanted_elbow_pads","captains_tightpants","stickon_moustache"]
 		}
 	}
 };

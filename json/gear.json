@@ -3,5 +3,10 @@ var gear = {
 	"fine_brie" : { "name" : "Fine Brie", "color" : "white"},
 	"free_mans_crowbar" : { "name" : "Free Man's Crowbar", "color" : "white"},
 	"goblin_grog" : { "name" : "Goblin Grog", "color" : "white"},
-	"my_first_shield" : { "name" : "My First Shield", "color" : "white"}
+	"my_first_shield" : { "name" : "My First Shield", "color" : "white"},
+	"paper_crown" : { "name" : "Paper Crown", "color" : "white" },
+	"bloody_bat" : { "name" : "Bloody Bat", "color" : "white" },
+	"enchanted_elbow_pads" : { "name" : "Enchanted Elbow Pads", "color" : "white" },
+	"captains_tightpants" : { "name" : "Captain's Tightpants", "color" : "green" },
+	"stickon_moustache" : { "name" : "Stick-on Moustache", "color" : "white" },
 };

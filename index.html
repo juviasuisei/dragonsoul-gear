@@ -6,6 +6,7 @@
 		<script src="heroes.json"></script>
 		<script>
 			var needed = {};
+			var cost = 0;
 			function sanity_check() {
 				var litmus = false;
 				$.each(heroes, function(hk,hero) {
@@ -13,6 +14,15 @@
 						$.each(gearset, function(slot,item) {
 							if(false === item in gear) {
 								$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + hk + '/' + gk + '/' + (slot + 1) + '/' + item + '<br />');
+								litmus = true;
+							}
+						});
+					});
+				});
+				$.each(recipes, function(rk,recipe) {
+					$.each(recipe.materials, function(mk,material) {
+							if(false === material in gear || false === material in recipes) {
+								$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material + '<br />');
 								litmus = true;
 							}
 						});
@@ -46,6 +56,24 @@
 				$('#' + id + ' li input').prop('checked', true);
 				calculate_gear();
 			}
+			function calculate_recipe(recipe) {
+				cost += recipe.cost;
+				$('#gold').html(cost);
+				$.each(recipe.materials, function(k,material) {
+					if(false === material.item in needed) {
+						needed[item] = material.quantity;
+					} else {
+						needed[item] += material.quantity;
+					}
+					if(true === material.item in recipes) {
+						var i = 0;
+						while(i < material.quantity) {
+							calculate_recipe(recipes[material.item]);
+							i++;
+						}
+					}
+				});
+			}
 			function calculate_gear() {
 				needed = {};
 				$.each(heroes, function(hk,hero) {
@@ -53,9 +81,12 @@
 						$.each(gearset, function(slot,item) {
 							if(false === $('#' + hk + gk + slot).is(':checked')) {
 								if(false === item in needed) {
-									needed[item] = 1;
+					 				needed[item] = 1;
 								} else {
 									needed[item] += 1;
+								}
+								if(true === item in recipes) {
+									calculate_recipe(recipes[item]);
 								}
 							}
 						});
@@ -82,6 +113,8 @@
 	<body>
 		<h1>DragonSoul RPG Gear Calculator</h1>
 		<div id="error"></div>
+ 		<h2>Gold Needed</h2>
+ 		<p id="gold"></p>
 		<h2>Items Needed</h2>
 		<h3>White</h3>
 		<ul id="white"></ul>
