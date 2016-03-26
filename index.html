@@ -61,34 +61,10 @@
 				$('#' + id + ' li input').prop('checked', true);
 				calculate_gear();
 			}
-			function calculate_recipe(recipe) {
-console.log('calculate_recipe');
-console.log(cost);
-				cost += recipe.cost;
-console.log(cost);
-				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
-				$.each(recipe.materials, function(k,material) {
-					if(false === material.item in needed) {
-						needed[material.item] = material.quantity;
-					} else {
-						needed[material.item] += material.quantity;
-					}
-					if(true === material.item in recipes) {
-						var i = 0;
-						while(i < material.quantity) {
-console.log(material.item);
-							calculate_recipe(recipes[material.item]);
-							i++;
-						}
-					}
-				});
-			}
 			function calculate_gear() {
 				needed = {};
 				cost = 0;
-console.log('calculate_gear');
-console.log(needed);
-console.log(cost);
+				$('#gold').html(0);
 				$.each(heroes, function(hk,hero) {
 					$.each(hero.gearsets, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
@@ -99,7 +75,6 @@ console.log(cost);
 									needed[item] += 1;
 								}
 								if(true === item in recipes) {
-console.log(item);
 									calculate_recipe(recipes[item]);
 								}
 							}
@@ -123,6 +98,24 @@ console.log(item);
 				$('#white, #green, #blue, #purple, #orange').html('');
 				$.each(needed_sortable, function(k,v) {
 					$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ': ' + v.quantity + '</li>');
+				});
+			}
+			function calculate_recipe(recipe) {
+				cost += recipe.cost;
+				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
+				$.each(recipe.materials, function(k,material) {
+					if(false === material.item in needed) {
+						needed[material.item] = material.quantity;
+					} else {
+						needed[material.item] += material.quantity;
+					}
+					if(true === material.item in recipes) {
+						var i = 0;
+						while(i < material.quantity) {
+							calculate_recipe(recipes[material.item]);
+							i++;
+						}
+					}
 				});
 			}
 			$(function() { sanity_check(); });
