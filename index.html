@@ -74,7 +74,7 @@
 			}
 			function calculate_gear() {
 				needed = {};
-				cost = {};
+				cost = 0;
 				$.each(heroes, function(hk,hero) {
 					$.each(hero.gearsets, function(gk,gearset) {
 						$.each(gearset, function(slot,item) {
