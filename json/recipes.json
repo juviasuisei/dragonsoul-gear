@@ -4,7 +4,7 @@ var recipes = {
 		"materials" : [
 			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
 			{ "item" : "foam_finger", "quantity" : 1 },
-			{ "item" : "bloody_bat_scroll", "quantity" : 1 },
+			{ "item" : "bloody_bat_scroll", "quantity" : 1 }
 		]
 	}
 };
