@@ -8,5 +8,6 @@ var gear = {
 	"bloody_bat" : { "name" : "Bloody Bat", "color" : "white" },
 	"enchanted_elbow_pads" : { "name" : "Enchanted Elbow Pads", "color" : "white" },
 	"captains_tightpants" : { "name" : "Captain's Tightpants", "color" : "green" },
-	"stickon_moustache" : { "name" : "Stick-on Moustache", "color" : "white" }
+	"stickon_moustache" : { "name" : "Stick-on Moustache", "color" : "white" },
+	"bloody_bat_scroll" : { "name" : "Bloody Bat Scroll", "color" : "white" }
 };

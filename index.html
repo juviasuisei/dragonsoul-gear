@@ -21,7 +21,7 @@
 				});
 				$.each(recipes, function(rk,recipe) {
 					$.each(recipe.materials, function(mk,material) {
-						if(false === material.item in gear || false === material.item in recipes) {
+						if(false === material.item in gear && false === material.item in recipes) {
 							$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material.item + '<br />');								litmus = true;
 						}
 					});
@@ -58,7 +58,6 @@
 				cost += recipe.cost;
 				$('#gold').html(cost);
 				$.each(recipe.materials, function(k,material) {
-alert(material);
 					if(false === material.item in needed) {
 						needed[material.item] = material.quantity;
 					} else {
