@@ -6,5 +6,46 @@ var recipes = {
 			{ "item" : "foam_finger", "quantity" : 1 },
 			{ "item" : "bloody_bat_scroll", "quantity" : 1 }
 		]
+	},
+	"mace_of_friendship" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_mace_of_friendship", "quantity" : 5 }
+		]
+	},
+	"lucky_orcs_foot" : {
+		"cost" : 300,
+		"materials" : [
+			{ "item" : "paper_crown", "quantity" : 1 },
+			{ "item" : "lucky_orcs_foot_scroll", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 1 }
+		]
+	},
+	"thong_of_vitality" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "raw_egg", "quantity" : 1 },
+			{ "item" : "my_first_shield", "quantity" : 1 },
+			{ "item" : "melty_chocolate_bar", "quantity" : 1 }
+		]
+	},
+	"directors_cut" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "protein_powder", "quantity" : 1 },
+			{ "item" : "gloves_of_crit", "quantity" : 1 }
+		]
 	}
 };
+
+/*
+
+	"" : {
+		"cost" : 00,
+		"materials" : [
+			{ "item" : "", "quantity" : 1 },
+		]
+	}
+
+*/

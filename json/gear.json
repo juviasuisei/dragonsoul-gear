@@ -9,5 +9,15 @@ var gear = {
 	"enchanted_elbow_pads" : { "name" : "Enchanted Elbow Pads", "color" : "white" },
 	"captains_tightpants" : { "name" : "Captain's Tightpants", "color" : "green" },
 	"stickon_moustache" : { "name" : "Stick-on Moustache", "color" : "white" },
-	"bloody_bat_scroll" : { "name" : "Bloody Bat Scroll", "color" : "white" }
+	"bloody_bat_scroll" : { "name" : "Bloody Bat Scroll", "color" : "white" },
+	"mace_of_friendship" : { "name" : "Mace of Friendship", "color" : "blue" },
+	"scrap_of_a_mace_of_friendship" : { "name" : "Scrap of a Mace of Friendship", "color" : "blue" },
+	"lucky_orcs_foot" : { "name" : "Lucky Orc's Foot", "color" : "white" },
+	"lucky_orcs_foot_scroll" : { "name" : "Lucky Orc's Foot Scroll", "color" : "white" },
+	"thong_of_vitality" : { "name" : "Thong of Vitality", "color" : "green" },
+	"raw_egg" : { "name" : "Raw Egg", "color" : "green" },
+	"melty_chocolate_bar" : { "name" : "Melty Chocolate Bar", "color" : "green" },
+	"directors_cut" : { "name" : "Director's Cut", "color" : "green" },
+	"protein_powder" : { "name" : "Protein Powder", "color" : "green" },
+	"gloves_of_crit" : { "name" : "Gloves of Crit", "color" : "green" }
 };
