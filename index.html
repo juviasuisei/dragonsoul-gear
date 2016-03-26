@@ -111,15 +111,11 @@ console.log(item);
 					needed_sortable.push({"item" : gear[k], "quantity" : v});
 				});
 				needed_sortable.sort(function(a,b) {
-console.log('sort');
-console.log(a);
-console.log(b);
 					var diff = b.quantity - a.quantity;
 					if(0 === diff) {
-console.log(a.item.name);
-console.log(b.item.name);
-console.log(a.item.name > b.item.name);
-						return(a.item.name > b.item.name);
+						if(a.item.name < b.item.name) { return(-1); }
+						if(a.item.name > b.item.name) { return(1); }
+						return(0);
 					} else {
 						return(diff);
 					}
