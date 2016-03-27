@@ -65,5 +65,6 @@ var gear = {
 	"the_compensator" : { "name" : "The Compensator", "color" : "blue" },
 	"gentlemens_club" : { "name" : "Gentlemen's Club", "color" : "blue" },
 	"scrap_of_a_gentlemens_club" : { "name" : "Scrap of a Gentlemen's Club", "color" : "blue" },
-	"the_compensator_scroll" : { "name" : "The Compensator Scroll", "color" : "blue" }
+	"the_compensator_scroll" : { "name" : "The Compensator Scroll", "color" : "blue" },
+	"scrap_of_a_compensator_scroll" : { "name" : "Scrap of a Compensator Scroll", "color" : "blue" }
 };
