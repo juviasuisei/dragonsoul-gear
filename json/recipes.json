@@ -36,11 +36,68 @@ var recipes = {
 			{ "item" : "protein_powder", "quantity" : 1 },
 			{ "item" : "gloves_of_crit", "quantity" : 1 }
 		]
+	},
+	"glaive_of_dismemberment" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "dont_tase_me_bow", "quantity" : 1 },
+			{ "item" : "and_my_axe", "quantity" : 1 }
+		]
+	},
+	"dont_tase_me_bow" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_dont_tase_me_bow", "quantity" : 5 }
+		]
+	},
+	"and_my_axe" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_an_and_my_axe", "quantity" : 5 },
+		]
+	},
+	"side_of_bacon" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "foam_finger", "quantity" : 2 },
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "scroll_of_a_side_of_bacon", "quantity" : 1 }
+		]
+	},
+	"snazzy_vest" : {
+		"cost" : 300,
+		"materials" : [
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "rubber_vest", "quantity" : 1 }
+		]
+	},
+	"blissful_ignorance" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "nonstick_shield", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 2 },
+			{ "item" : "melty_chocolate_bar", "quantity" : 1 }
+		]
+	},
+	"excaliburtreynolds" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "hemp_bracelet", "quantity" : 1 },
+			{ "item" : "melty_chocolate_bar", "quantity" : 1 }
+		]
+	},
+	"sock_full_opennies" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "bessies_bane", "quantity" : 2 },
+			{ "item" : "stickon_moustache", "quantity" : 1 }
+		]
 	}
 };
 
 /*
 
+,
 	"" : {
 		"cost" : 00,
 		"materials" : [

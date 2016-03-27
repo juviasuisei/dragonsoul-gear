@@ -19,5 +19,21 @@ var gear = {
 	"melty_chocolate_bar" : { "name" : "Melty Chocolate Bar", "color" : "green" },
 	"directors_cut" : { "name" : "Director's Cut", "color" : "green" },
 	"protein_powder" : { "name" : "Protein Powder", "color" : "green" },
-	"gloves_of_crit" : { "name" : "Gloves of Crit", "color" : "green" }
+	"gloves_of_crit" : { "name" : "Gloves of Crit", "color" : "green" },
+	"glaive_of_dismemberment" : { "name" : "Glaive of Dismemberment", "color" : "blue" },
+	"dont_tase_me_bow" : { "name" : "Don't Tase Me Bow!", "color" : "blue" },
+	"and_my_axe" : { "name" : "And My Axe!", "color" : "blue" },
+	"side_of_bacon" : { "name" : "Side of Bacon", "color" : "green" },
+	"bit_onip" : { "name" : "Bit o' Nip", "color" : "white" },
+	"scroll_of_a_side_of_bacon" : { "name" : "Scroll of a Side of Bacon", "color": "green" },
+	"snazzy_vest" : { "name" : "Snazzy Vest", "color" : "white" },
+	"rubber_vest" : { "name" : "Rubber Vest", "color" : "white" },
+	"blissful_ignorance" : { "name" : "Blissful Ignorance", "color" : "green" },
+	"nonstick_shield" : { "name" : "Nonstick Shield", "color" : "green" },
+	"exaliburtreynolds" : { "name" : "Excaliburtreynolds", "color" : "green" },
+	"hemp_bracelet" : { "name" : "Hemp Bracelet", "color" : "green" },
+	"sock_full_opennies" : { "name" : "Sock Full o' Pennies", "color" : "green" },
+	"bessies_bane" : { "name" : "Bessie's Bane", "color" : "white" },
+	"scrap_of_a_dont_tase_me_bow" : { "name" : "Scrap of a Don't Tase Me Bow!", "color" : "blue" },
+	"scrap_of_an_and_my_axe" : { "name" : "Scrap of an And My Axe!", "color" : "blue" }
 };
