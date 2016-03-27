@@ -151,6 +151,67 @@ var recipes = {
 			{ "item" : "goblin_grog", "quantity" : 1 },
 			{ "item" : "sparkle_pony_keychain_scroll", "quantity" : 1 }
 		]
+	},
+	"super_spikey_spear" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "vorpal_boomerang", "quantity" : 1 },
+			{ "item" : "impractical_chestplate", "quantity" : 1 },
+			{ "item" : "scroll_of_a_super_spikey_spear", "quantity" : 1 },
+			{ "item" : "penetrable_armor", "quantity" : 1 }
+		]
+	},
+	"vorpal_boomerang" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_vorpal_boomerang", "quantity" : 20 }
+		]
+	},
+	"impractical_chestplate" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_an_impractical_chestplate", "quantity" : 5 }
+		]
+	},
+	"scroll_of_a_super_spikey_spear" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_super_spikey_spear_scroll", "quantity" : 20 }
+		]
+	},
+	"the_mad_gods_trident" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "bessies_bane", "quantity" : 1 },
+			{ "item" : "the_mad_gods_trident_scroll", "quantity" : 1 },
+			{ "item" : "and_my_axe", "quantity" : 1 }
+		]
+	},
+	"the_mad_gods_trident_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_the_mad_gods_trident_scroll", "quantity" : 1 }
+		]
+	},
+	"the_compensator" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "muscle_wax", "quantity" : 1 },
+			{ "item" : "gentlemens_club", "quantity" : 1 },
+			{ "item" : "the_compensator_scroll", "quantity" : 1 }
+		]
+	},
+	"gentlemens_club" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_gentlemens_club", "quantity" : 5 }
+		]
+	},
+	"the_compensator_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_compensator_scroll", "quantity" : 5 }
+		]
 	}
 };
 
