@@ -263,7 +263,7 @@ var recipes = {
 	"philter_of_pure_testosterone" : {
 		"cost" : 15000,
 		"materials" : [
-			{ "item" : "scrap of a philter of pure testosterone", "quantity" : 50 }
+			{ "item" : "scrap_of_a_philter_of_pure_testosterone", "quantity" : 50 }
 		]
 	},
 	"diplomatic_immunity" : {
