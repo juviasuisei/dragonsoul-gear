@@ -92,6 +92,77 @@ var recipes = {
 			{ "item" : "bessies_bane", "quantity" : 2 },
 			{ "item" : "stickon_moustache", "quantity" : 1 }
 		]
+	},
+	"axes_of_dual_wielding" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "bag_ohammers", "quantity" : 1 },
+			{ "item" : "spud_gun", "quantity" : 1 }
+		]
+	},
+	"bag_ohammers" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "muscle_wax", "quantity" : 1 },
+			{ "item" : "bag_ohammers_scroll", "quantity" : 1 },
+			{ "item" : "protein_powder", "quantity" : 1 }
+		]
+	},
+	"muscle_wax" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_muscle_wax", "quantity" : 5 }
+		]
+	},
+	"spud_gun" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "oxfords_of_alacrity", "quantity" : 1 },
+			{ "item" : "spudgun_scroll", "quantity" : 1 },
+			{ "item" : "racing_stripes", "quantity" : 1 }
+		]
+	},
+	"racing_stripes" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_racing_stripes", "quantity" : 5 }
+		]
+	},
+	"robe_of_sharp_comebacks" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "penetrable_armor", "quantity" : 1 },
+			{ "item" : "smarty_pants", "quantity" : 1 },
+			{ "item" : "and_my_axe", "quantity" : 1 }
+		]
+	},
+	"mussel_milk" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "excaliburtreynolds", "quantity" : 1 },
+			{ "item" : "mace_of_friendship", "quantity" : 1 },
+			{ "item" : "and_my_axe", "quantity" : 1 }
+		]
+	},
+	"sparkle_pony_keychain" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "paper_crown", "quantity" : 2 },
+			{ "item" : "goblin_grog", "quantity" : 1 },
+			{ "item" : "sparkle_pony_keychain_scroll", "quantity" : 1 }
+		]
+	}
+	"" : {
+		"cost" : 00,
+		"materials" : [
+			{ "item" : "", "quantity" : 1 },
+		]
+	},
+	"" : {
+		"cost" : 00,
+		"materials" : [
+			{ "item" : "", "quantity" : 1 },
+		]
 	}
 };
 

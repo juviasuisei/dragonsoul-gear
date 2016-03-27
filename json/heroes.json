@@ -5,7 +5,8 @@ var heroes = {
 			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
 			"green" : ["paper_crown","foam_finger","bloody_bat","enchanted_elbow_pads","captains_tightpants","stickon_moustache"],
 			"green1" : ["mace_of_friendship","bloody_bat","lucky_orcs_foot","thong_of_vitality","bloody_bat","directors_cut"],
-			"blue" : ["glaive_of_dismemberment","side_of_bacon","snazzy_vest","blissful_ignorance","excaliburtreynolds","sock_full_opennies"]
+			"blue" : ["glaive_of_dismemberment","side_of_bacon","snazzy_vest","blissful_ignorance","excaliburtreynolds","sock_full_opennies"],
+			"blue1" : ["axes_of_dual_wielding","robe_of_sharp_comebacks","penetrable_armor","mussel_milk","sparkle_pony_keychain","directors_cut"]
 		}
 	}
 };

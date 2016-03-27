@@ -35,5 +35,21 @@ var gear = {
 	"sock_full_opennies" : { "name" : "Sock Full o' Pennies", "color" : "green" },
 	"bessies_bane" : { "name" : "Bessie's Bane", "color" : "white" },
 	"scrap_of_a_dont_tase_me_bow" : { "name" : "Scrap of a Don't Tase Me Bow!", "color" : "blue" },
-	"scrap_of_an_and_my_axe" : { "name" : "Scrap of an And My Axe!", "color" : "blue" }
+	"scrap_of_an_and_my_axe" : { "name" : "Scrap of an And My Axe!", "color" : "blue" },
+	"axes_of_dual_wielding" : { "name" : "Axes of Dual Wielding", "color" : "blue" },
+	"bag_ohammers" : { "name" : "Bag o' Hammers", "color" : "blue" },
+	"muscle_wax" : { "name" : "Muscle Wax", "color" : "blue" },
+	"scrap_of_wax" : { "name" : "Scrap of Muscle Wax", "color" : "blue" },
+	"bag_ohammers_scroll" : { "name" : "Bag o' Hammers Scroll", "color" : "green" },
+	"spud_gun" : { "name" : "Spud Gun", "color" : "blue" },
+	"oxfords_of_alacrity" : { "name" : "Oxfords of Alacrity", "color" : "green" },
+	"spudgun_scroll" : { "name" : "Spudgun Scroll", "color" : "green" },
+	"racing_stripes" : { "name" : "Racing Stripes", "color" : "blue" },
+	"scrap_of_racing_stripes" : { "name" : "Scrap of Racing Stripes", "color" : "blue" },
+	"robe_of_sharp_comebacks" : { "name" : "Robe of Sharp Comebacks", "color" : "blue" },
+	"penetrable_armor" : { "name" : "Penetrable Armor", "color" : "green" },
+	"smarty_pants" : { "name" : "Smarty Pants", "color" : "green" },
+	"mussel_milk" : { "name" : "Mussel Milk", "color" : "blue" },
+	"sparkle_pony_keychain" : { "name" : "Sparkle Pony Keychain", "color" : "green" },
+	"sparkle_pony_keychain_scroll" : { "name" : "Sparkle Pony Keychain Scroll", "color" : "green" }
 };
