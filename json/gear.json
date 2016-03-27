@@ -66,5 +66,13 @@ var gear = {
 	"gentlemens_club" : { "name" : "Gentlemen's Club", "color" : "blue" },
 	"scrap_of_a_gentlemens_club" : { "name" : "Scrap of a Gentlemen's Club", "color" : "blue" },
 	"the_compensator_scroll" : { "name" : "The Compensator Scroll", "color" : "blue" },
-	"scrap_of_a_compensator_scroll" : { "name" : "Scrap of a Compensator Scroll", "color" : "blue" }
+	"scrap_of_a_compensator_scroll" : { "name" : "Scrap of a Compensator Scroll", "color" : "blue" },
+	"hammer_of_wicked_beats" : { "name" : "Hammer of Wicked Beats", "color" : "purple" },
+	"adamantium_tiara" : { "name" : "Adamantium Tiara", "color" : "purple" },
+	"scrap_of_an_adamantium_tiara" : { "name" : "Scrap of an Adamantium Tiara", "color" : "purple" },
+	"hammer_of_wicked_beats_scroll" : { "name" : "Hammer of Wicked Beats Scroll", "color" : "purple" },
+	"scrap_of_a_hammer_of_wicked_beats" : { "name" : "Scrap of a Hammer of Wicked Beats", "color" : "purple" },
+	"intimidating_beard" : { "name" : "Intimidating Beard", "color" : "blue" },
+	"scroll_of_an_intimidating_beard" : { "name" : "Scroll of an Intimidating Beard", "color" : "blue" },
+	"scrap_of_an_intimidating_beard_scroll" : { "name" : "Scrap of an Intimidating Beard Scroll", "color" : "blue" }
 };

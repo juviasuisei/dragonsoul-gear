@@ -212,6 +212,39 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_compensator_scroll", "quantity" : 5 }
 		]
+	},
+	"hammer_of_wicked_beats" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "adamantium_tiara", "quantity" : 1 },
+			{ "item" : "hammer_of_wicked_beats_scroll", "quantity" : 1 },
+			{ "item" : "excaliburtreynolds", "quantity" : 1 }
+		]
+	},
+	"adamantium_tiara" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_an_adamantium_tiara", "quantity" : 20 }
+		]
+	},
+	"hammer_of_wicked_beats_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_hammer_of_wicked_beats", "quantity" : 20 }
+		]
+	},
+	"intimidating_beard" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "scroll_of_an_intimidating_beard", "quantity" : 1 }
+		]
+	},
+	"scroll_of_an_intimidating_beard" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_an_intimidating_beard_scroll", "quantity" : 5 }
+		]
 	}
 };
 
