@@ -39,7 +39,7 @@ var gear = {
 	"axes_of_dual_wielding" : { "name" : "Axes of Dual Wielding", "color" : "blue" },
 	"bag_ohammers" : { "name" : "Bag o' Hammers", "color" : "blue" },
 	"muscle_wax" : { "name" : "Muscle Wax", "color" : "blue" },
-	"scrap_of_wax" : { "name" : "Scrap of Muscle Wax", "color" : "blue" },
+	"scrap_of_muscle_wax" : { "name" : "Scrap of Muscle Wax", "color" : "blue" },
 	"bag_ohammers_scroll" : { "name" : "Bag o' Hammers Scroll", "color" : "green" },
 	"spud_gun" : { "name" : "Spud Gun", "color" : "blue" },
 	"oxfords_of_alacrity" : { "name" : "Oxfords of Alacrity", "color" : "green" },
