@@ -245,6 +245,47 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_an_intimidating_beard_scroll", "quantity" : 5 }
 		]
+	},
+	"sandwich_of_unsurpassed_meatiness" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "raw_egg", "quantity" : 1 },
+			{ "item" : "meaty_sandwich_scroll", "quantity" : 1 },
+			{ "item" : "philter_of_pure_testosterone", "quantity" : 1 }
+		]
+	},
+	"meaty_sandwich_scroll" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_a_meaty_sandwich_scroll", "quantity" : 50 }
+		]
+	},
+	"philter_of_pure_testosterone" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap of a philter of pure testosterone", "quantity" : 50 }
+		]
+	},
+	"diplomatic_immunity" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "lucky_orcs_foot", "quantity" : 1 },
+			{ "item" : "blissful_ignorance", "quantity" : 1 },
+			{ "item" : "diplomatic_immunity_scroll", "quantity" : 1 }
+		]
+	},
+	"diplomatic_immunity_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_diplomatic_immunity_scroll", "quantity" : 20 },
+		]
+	},
+	"lifesipper" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "captains_tightpants", "quantity" : 1 },
+			{ "item" : "ya_vampire_series", "quantity" : 1 },
+		]
 	}
 };
 

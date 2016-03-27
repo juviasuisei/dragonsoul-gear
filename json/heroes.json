@@ -8,7 +8,188 @@ var heroes = {
 			"blue" : ["glaive_of_dismemberment","side_of_bacon","snazzy_vest","blissful_ignorance","excaliburtreynolds","sock_full_opennies"],
 			"blue1" : ["axes_of_dual_wielding","robe_of_sharp_comebacks","penetrable_armor","mussel_milk","sparkle_pony_keychain","directors_cut"],
 			"blue2" : ["super_spikey_spear","the_mad_gods_trident","thong_of_vitality","the_compensator","impractical_chestplate","sock_full_opennies"],
-			"purple" : ["hammer_of_wicked_beats","glaive_of_dismemberment","excaliburtreynolds","axes_of_dual_wielding","mace_of_friendship","intimidating_beard"]
+			"purple" : ["hammer_of_wicked_beats","glaive_of_dismemberment","excaliburtreynolds","axes_of_dual_wielding","mace_of_friendship","intimidating_beard"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","mussel_milk","thong_of_vitality","diplomatic_immunity","lifesipper","intimidating_beard"]
+		}
+	},
+	"unstable_understudy" : {
+		"name" : "Unstable Understudy",
+		"gearsets" : {
+		}
+	},
+	"Electroyeti" : {
+		"name" : "Electroyeti",
+		"gearsets" : {
+		}
+	},
+	"dark_dracul" : {
+		"name" : "Dark Dracul",
+		"gearsets" : {
+		}
+	},
+	"faith_healer" : {
+		"name" : "Faith Healer",
+		"gearsets" : {
+		}
+	},
+	"cosmic_elf" : {
+		"name" : "Cosmic Elf",
+		"gearsets" : {
+		}
+	},
+	"dust_devil" : {
+		"name" : "Dust Devil",
+		"gearsets" : {
+		}
+	},
+	"shadow_assassin" : {
+		"name" : "Shadow Assassin",
+		"gearsets" : {
+		}
+	},
+	"snap_dragon" : {
+		"name" : "Snap Dragon",
+		"gearsets" : {
+		}
+	},
+	"centaur_of_attention" : {
+		"name" : "Centaur of Attention",
+		"gearsets" : {
+		}
+	},
+	"hydra" : {
+		"name" : "Hydra",
+		"gearsets" : {
+		}
+	},
+	"roller_warrior" : {
+		"name" : "Roller Warrior",
+		"gearsets" : {
+		}
+	},
+	"moon_drake" : {
+		"name" : "Moon Drake",
+		"gearsets" : {
+		}
+	},
+	"crimson_witch" : {
+		"name" : "Crimson Witch",
+		"gearsets" : {
+		}
+	},
+	"ninja_dwarf" : {
+		"name" : "Ninja Dwarf",
+		"gearsets" : {
+		}
+	},
+	"brozerker" : {
+		"name" : "Brozerker",
+		"gearsets" : {
+		}
+	},
+	"polemaster" : {
+		"name" : "Polemaster",
+		"gearsets" : {
+		}
+	},
+	"megataur" : {
+		"name" : "Megataur",
+		"gearsets" : {
+		}
+	},
+	"medusa" : {
+		"name" : "Medusa",
+		"gearsets" : {
+		}
+	},
+	"catapult_knight" : {
+		"name" : "Catapult Knight",
+		"gearsets" : {
+		}
+	},
+	"aquatic_man" : {
+		"name" : "Aquatic Man",
+		"gearsets" : {
+		}
+	},
+	"zombie_squire" : {
+		"name" : "Zombie Squire",
+		"gearsets" : {
+		}
+	},
+	"bardbarian" : {
+		"name" : "Bardbarian",
+		"gearsets" : {
+		}
+	},
+	"magic_dragon" : {
+		"name" : "Magic Dragon",
+		"gearsets" : {
+		}
+	},
+	"bone_dragon" : {
+		"name" : "Bone Dragon",
+		"gearsets" : {
+		}
+	},
+	"groovy_druid" : {
+		"name" : "Groovy Druid",
+		"gearsets" : {
+		}
+	},
+	"savage_cutie" : {
+		"name" : "Savage Cutie",
+		"gearsets" : {
+		}
+	},
+	"frost_giant" : {
+		"name" : "Frost Giant",
+		"gearsets" : {
+		}
+	},
+	"spikey_dragon" : {
+		"name" : "Spikey Dragon",
+		"gearsets" : {
+		}
+	},
+	"dark_horse" : {
+		"name" : "Dark Horse",
+		"gearsets" : {
+		}
+	},
+	"pixie_queen" : {
+		"name" : "Pixie Queen",
+		"gearsets" : {
+		}
+	},
+	"rabid_dragon" : {
+		"name" : "Rabid Dragon",
+		"gearsets" : {
+		}
+	},
+	"orc_monk" : {
+		"name" : "Orc Monk",
+		"gearsets" : {
+		}
+	},
+	"dwarven_archer" : {
+		"name" : "Dwarven Archer",
+		"gearsets" : {
+		}
+	},
+	"storm_drake" : {
+		"name" : "Storm Drake",
+		"gearsets" : {
+		}
+	},
+	"wild_satyr" : {
+		"name" : "Wild Satyr",
+		"gearsets" : {
+		}
+	},
+	"skeleton_king" : {
+		"name" : "Skeleton King",
+		"gearsets" : {
 		}
 	}
 };

@@ -74,5 +74,15 @@ var gear = {
 	"scrap_of_a_hammer_of_wicked_beats" : { "name" : "Scrap of a Hammer of Wicked Beats", "color" : "purple" },
 	"intimidating_beard" : { "name" : "Intimidating Beard", "color" : "blue" },
 	"scroll_of_an_intimidating_beard" : { "name" : "Scroll of an Intimidating Beard", "color" : "blue" },
-	"scrap_of_an_intimidating_beard_scroll" : { "name" : "Scrap of an Intimidating Beard Scroll", "color" : "blue" }
+	"scrap_of_an_intimidating_beard_scroll" : { "name" : "Scrap of an Intimidating Beard Scroll", "color" : "blue" },
+	"sandwich_of_unsurpassed_meatiness" : { "name" : "Sandwich of Unsurpassed Meatiness", "color" : "purple" },
+	"meaty_sandwich_scroll" : { "name" : "Meaty Sandwich Scroll", "color" : "purple" },
+	"scrap_of_a_meaty_sandwich_scroll" : { "name" : "Scrap of a Meaty Sandwich Scroll", "color" : "purple" },
+	"philter_of_pure_testosterone" : { "name" : "Philter of Pure Testosterone", "color" : "purple" },
+	"scrap_of_a_philter_of_pure_testosterone" : { "name" : "Scrap of a Philter of Pure Testosterone", "color" : "purple" },
+	"diplomatic_immunity" : { "name" : "Diplomatic Immunity", "color" : "purple" },
+	"diplomatic_immunity_scroll" : { "name" : "Diplomatic Immunity Scroll", "color" : "purple" },
+	"scrap_of_a_diplomatic_immunity_scroll" : { "name" : "Scrap of a Diplomatic Immunity Scroll", "color" : "purple" },
+	"lifesipper" : { "name" : "Lifesipper", "color" : "green" },
+	"ya_vampire_series" : { "name" : "YA Vampire Series", "color" : "green" }
 };
