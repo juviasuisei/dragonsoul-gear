@@ -30,7 +30,7 @@ var gear = {
 	"rubber_vest" : { "name" : "Rubber Vest", "color" : "white" },
 	"blissful_ignorance" : { "name" : "Blissful Ignorance", "color" : "green" },
 	"nonstick_shield" : { "name" : "Nonstick Shield", "color" : "green" },
-	"exaliburtreynolds" : { "name" : "Excaliburtreynolds", "color" : "green" },
+	"excaliburtreynolds" : { "name" : "Excaliburtreynolds", "color" : "green" },
 	"hemp_bracelet" : { "name" : "Hemp Bracelet", "color" : "green" },
 	"sock_full_opennies" : { "name" : "Sock Full o' Pennies", "color" : "green" },
 	"bessies_bane" : { "name" : "Bessie's Bane", "color" : "white" },
