@@ -97,7 +97,7 @@
 				});
 				$('#white, #green, #blue, #purple, #orange').html('');
 				$.each(needed_sortable, function(k,v) {
-					$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ': ' + v.quantity + '</li>');
+					$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ' &#x2014; ' + v.quantity + '</li>');
 				});
 			}
 			function calculate_recipe(recipe) {
@@ -128,7 +128,7 @@
 			.blue { color:blue; }
 			.purple { color:purple; }
 			.orange { color:orange; }
-			.inline { display:inline-block; width: 200px; padding-bottom: 20px; }
+			.inline { display:inline-block; width: 250px; padding-bottom: 20px; }
 		</style>
 	</head>
 	<body>
