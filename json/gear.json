@@ -58,7 +58,7 @@ var gear = {
 	"impractical_chestplate" : { "name" : "Impractical Chestplate", "color" : "blue" },
 	"scrap_of_an_impractical_chestplate" : { "name" : "Scrap of an Impractical Chestplate", "color" : "blue" },
 	"scroll_of_a_super_spikey_spear" : { "name" : "Scroll of a Super Spikey Spear", "color" : "purple" },
-	"scrap_of_a_super_spikey_spear_scroll" : { "name" : Scrap of a Super Spike Spear Scroll", "color" : "purple" },
+	"scrap_of_a_super_spikey_spear_scroll" : { "name" : "Scrap of a Super Spike Spear Scroll", "color" : "purple" },
 	"the_mad_gods_trident" : { "name" : "The Mad God's Trident", "color" : "blue" },
 	"the_mad_gods_trident_scroll" : { "name" : "The Mad God's Trident Scroll", "color" : "blue" },
 	"scrap_of_the_mad_gods_trident_scroll" : { "name" : "Scrap of the Mad God Trident's Scroll", "color" : "blue" },
