@@ -152,18 +152,6 @@ var recipes = {
 			{ "item" : "sparkle_pony_keychain_scroll", "quantity" : 1 }
 		]
 	}
-	"" : {
-		"cost" : 00,
-		"materials" : [
-			{ "item" : "", "quantity" : 1 },
-		]
-	},
-	"" : {
-		"cost" : 00,
-		"materials" : [
-			{ "item" : "", "quantity" : 1 },
-		]
-	}
 };
 
 /*
