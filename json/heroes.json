@@ -27,13 +27,13 @@ var heroes = {
 		"gearsets" : {
 		}
 	},
-	"faith_healer" : {
-		"name" : "Faith Healer",
+	"cosmic_elf" : {
+		"name" : "Cosmic Elf",
 		"gearsets" : {
 		}
 	},
-	"cosmic_elf" : {
-		"name" : "Cosmic Elf",
+	"faith_healer" : {
+		"name" : "Faith Healer",
 		"gearsets" : {
 		}
 	},
