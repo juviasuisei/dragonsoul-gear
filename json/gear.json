@@ -84,5 +84,18 @@ var gear = {
 	"diplomatic_immunity_scroll" : { "name" : "Diplomatic Immunity Scroll", "color" : "purple" },
 	"scrap_of_a_diplomatic_immunity_scroll" : { "name" : "Scrap of a Diplomatic Immunity Scroll", "color" : "purple" },
 	"lifesipper" : { "name" : "Lifesipper", "color" : "green" },
-	"ya_vampire_series" : { "name" : "YA Vampire Series", "color" : "green" }
+	"ya_vampire_series" : { "name" : "YA Vampire Series", "color" : "green" },
+	"grievous_bodily_harm" : { "name" : "Grievous Bodily Harm", "color" : "purple" },
+	"scroll_of_grievous_bodily_harm" : { "name" : "Scroll of Grievous Bodily Harm", "color" : "purple" },
+	"scrap_of_a_grievous_bodily_harm_scroll" : { "name" : "Scrap of a Grievous Bodily Harm Scroll", "color" : "purple" },
+	"head_banger" : { "name" : "Head Banger", "color" : "purple" },
+	"scrap_of_a_head_banger" : { "name" : "Scrap of a Head Banger", "color" : "purple" },
+	"enids_expensive_elixir" : { "name" : "Enid's Expensive Elixir", "color" : "purple" },
+	"king_jeffs_crossbow" : { "name" : "King Jeff's Crossbow", "color" : "green" },
+	"banjo_of_dueling" : { "name" : "Banjo of Dueling", "color" : "green" },
+	"enids_expensive_elixir_scroll" : { "name" : "Enid's Expensive Elixir Scroll", "color" : "purple" },
+	"scrap_of_an_enids_expensive_elixir_scroll" : { "name" : "Scrap of an Enid's Expensive Elixir Scroll", "color" : "purple" },
+	"kindness" : { "name" : "Kindness", "color" : "blue" },
+	"kindness_scroll" : { "name" : "Kindess Scroll", "color" : "blue" },
+	"scrap_of_a_kindness_scroll" : { "name" : "Scrap of a Kindness Scroll", "color" : "blue" }
 };

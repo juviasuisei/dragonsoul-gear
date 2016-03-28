@@ -9,7 +9,8 @@ var heroes = {
 			"blue1" : ["axes_of_dual_wielding","robe_of_sharp_comebacks","penetrable_armor","mussel_milk","sparkle_pony_keychain","directors_cut"],
 			"blue2" : ["super_spikey_spear","the_mad_gods_trident","thong_of_vitality","the_compensator","impractical_chestplate","sock_full_opennies"],
 			"purple" : ["hammer_of_wicked_beats","glaive_of_dismemberment","excaliburtreynolds","axes_of_dual_wielding","mace_of_friendship","intimidating_beard"],
-			"purple1" : ["sandwich_of_unsurpassed_meatiness","mussel_milk","thong_of_vitality","diplomatic_immunity","lifesipper","intimidating_beard"]
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","mussel_milk","thong_of_vitality","diplomatic_immunity","lifesipper","intimidating_beard"],
+			"purple2" : ["grievous_bodily_harm","the_compensator","impractical_chestplate","enids_expensive_elixir","kindness","intimidating_beard"]
 		}
 	},
 	"unstable_understudy" : {

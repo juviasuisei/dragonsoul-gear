@@ -286,6 +286,62 @@ var recipes = {
 			{ "item" : "captains_tightpants", "quantity" : 1 },
 			{ "item" : "ya_vampire_series", "quantity" : 1 },
 		]
+	},
+	"grievous_bodily_harm" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "scroll_of_grievous_bodily_harm", "quantity" : 1 },
+			{ "item" : "the_mad_gods_trident", "quantity" : 1 },
+			{ "item" : "head_banger", "quantity" : 1 }
+		]
+	},
+	"scroll_of_grievous_bodily_harm" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_a_grievous_bodily_harm_scroll", "quantity" : 50 }
+		]
+	},
+	"head_banger" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_head_banger", "quantity" : 20 }
+		]
+	},
+	"enids_expensive_elixir" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "king_jeffs_crossbow", "quantity" : 1 },
+			{ "item" : "excaliburtreynolds", "quantity" : 1 },
+			{ "item" : "enids_expensive_elixir_scroll", "quantity" : 1 }
+		]
+	},
+	"king_jeffs_crossbow" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "banjo_of_dueling", "quantity" : 1 },
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "smarty_pants", "quantity" : 1 }
+		]
+	},
+	"enids_expensive_elixir_scroll" : {
+		"cost" : 00,
+		"materials" : [
+			{ "item" : "scrap_of_an_enids_expensive_elixir_scroll", "quantity" : 20 }
+		]
+	},
+	"kindness" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "gloves_of_crit", "quantity" : 1 },
+			{ "item" : "kindness_scroll", "quantity" : 1 },
+			{ "item" : "gentlemens_club", "quantity" : 1 }
+		]
+	},
+	"kindness_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_kindness_scroll", "quantity" : 5 }
+		]
 	}
 };
 
