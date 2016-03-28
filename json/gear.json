@@ -121,7 +121,7 @@ var gear = {
 	"scrap_of_antimagic_shell" : { "name" : "Scrap of Anti-Magic Shell", "color" : "purple" },
 	"self_preserver" : { "name" : "Self Preserver", "color" : "purple" },
 	"scrap_of_a_self_preserver" : { "name" : "Scrap of a Self Preserver", "color" : "purple" },
-	"mystical_elven_sh*t" : { "name" : "Mystical Elven Sh*t", "color" : "orange" },
+	"mystical_elven_shit" : { "name" : "Mystical Elven Sh*t", "color" : "orange" },
 	"extreme_fad_diet" : { "name" : "Extreme Fad Diet", "color" : "purple" },
 	"scrap_of_an_extreme_fad_diet" : { "name" : "Scrap of an Extreme Fad Diet", "color" : "purple" }
 };

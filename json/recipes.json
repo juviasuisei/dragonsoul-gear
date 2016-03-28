@@ -445,7 +445,7 @@ var recipes = {
 			{ "item" : "scrap_of_a_self_preserver", "quantity" : 50 }
 		]
 	},
-	"mystical_elven_sh*t" : {
+	"mystical_elven_shit" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "self_preserver", "quantity" : 1 },
