@@ -97,5 +97,16 @@ var gear = {
 	"scrap_of_an_enids_expensive_elixir_scroll" : { "name" : "Scrap of an Enid's Expensive Elixir Scroll", "color" : "purple" },
 	"kindness" : { "name" : "Kindness", "color" : "blue" },
 	"kindness_scroll" : { "name" : "Kindess Scroll", "color" : "blue" },
-	"scrap_of_a_kindness_scroll" : { "name" : "Scrap of a Kindness Scroll", "color" : "blue" }
+	"scrap_of_a_kindness_scroll" : { "name" : "Scrap of a Kindness Scroll", "color" : "blue" },
+	"lifedrinker" : { "name" : "Lifedrinker", "color" : "purple" },
+	"lifedrinker_scroll" : { "name" : "Lifedrinker Scroll", "color" : "purple" },
+	"scrap_of_a_lifedrinker_scroll" : { "name" : "Scrap of a Lifedrinker Scroll", "color" : "purple" },
+	"mjlnirby" : { "name" : "Mjlnirby", "color" : "purple" },
+	"mjlnirby_scroll" : { "name" : "Mjlnirby Scroll", "color" : "purple" },
+	"scrap_of_a_mjlnirby_scroll" : { "name" : "Scrap of a Mjlnirby Scroll", "color" : "purple" },
+	"big_stabby_spear" : { "name" : "Big Stabby Spear", "color" : "purple" },
+	"harolds_homemade_halberd" : { "name" : "Harold's Homemade Halberd", "color" : "purple" },
+	"scrap_of_harolds_homemade_halberd" : { "name" : "Scrap of Harold's Homemade Halberd", "color" : "purple" },
+	"big_stabby_spear_scroll" : { "name" : "Big Stabby Spear Scroll", "color" : "purple" },
+	"scrap_of_a_big_stabby_spear_scroll" : { "name" : "Scrap of a Big Stabby Spear Scroll", "color" : "purple" }
 };

@@ -342,6 +342,53 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_kindness_scroll", "quantity" : 5 }
 		]
+	},
+	"lifedrinker" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "lifedrinker_scroll", "quantity" : 1 },
+			{ "item" : "philter_of_pure_testosterone", "quantity" : 1 },
+			{ "item" : "lifesipper", "quantity" : 1 }
+		]
+	},
+	"lifedrinker_scroll" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_a_lifedrinker_scroll", "quantity" : 50 }
+		]
+	},
+	"mjlnirby" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "vorpal_boomerang", "quantity" : 1 },
+			{ "item" : "mjlnirby_scroll", "quantity" : 1 },
+			{ "item" : "kindness", "quantity" : 1 }
+		]
+	},
+	"mjlnirby_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_mjlnirby_scroll", "quantity" : 20 }
+		]
+	},
+	"big_stabby_spear" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "harolds_homemade_halberd", "quantity" : 1 },
+			{ "item" : "big_stabby_spear_scroll", "quantity" : 1 }
+		]
+	},
+	"harolds_homemade_halberd" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_harolds_homemade_halberd", "quantity" : 50 }
+		]
+	},
+	"big_stabby_spear_scroll" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_a_big_stabby_spear_scroll", "quantity" : 50 }
+		]
 	}
 };
 
