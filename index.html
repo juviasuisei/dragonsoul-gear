@@ -83,11 +83,13 @@
 				});
 				var needed_sortable = [];
 				$.each(needed, function(k,v) {
-					needed_sortable.push({"item" : gear[k], "quantity" : v});
+					needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
 				});
 				needed_sortable.sort(function(a,b) {
 					var diff = b.quantity - a.quantity;
 					if(0 === diff) {
+						alert(a.k);
+						alert(b.k);
 						if(a.item.name < b.item.name) { return(-1); }
 						if(a.item.name > b.item.name) { return(1); }
 						return(0);
