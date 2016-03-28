@@ -389,6 +389,75 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_big_stabby_spear_scroll", "quantity" : 50 }
 		]
+	},
+	"the_power_of_science" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "thong_of_vitality", "quantity" : 1 },
+			{ "item" : "sandwich_of_unsurpassed_meatiness", "quantity" : 1 },
+			{ "item" : "peter_pipers_pepper_spray", "quantity" : 1 }
+		]
+	},
+	"peter_pipers_pepper_spray" : {
+		"cost" : 30000,
+		"materials" : [
+			{ "item" : "scrap_of_peter_pipers_pepper_spray", "quantity" : 50 }
+		]
+	},
+	"swordy_mcepicpants" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "bag_ohammers", "quantity" : 1 },
+			{ "item" : "bunny_slippers", "quantity" : 1 }
+		]
+	},
+	"bunny_slippers" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_bunny_slippers", "quantity" : 20 }
+		]
+	},
+	"chugg_boots" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "vorpal_boomerang", "quantity" : 1 },
+			{ "item" : "intimidating_beard", "quantity" : 1 },
+			{ "item" : "head_banger", "quantity" : 1 }
+		]
+	},
+	"dragon_scale" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "adamantium_tiara", "quantity" : 1 },
+			{ "item" : "sandwich_of_unsurpassed_meatiness", "quantity" : 1 },
+			{ "item" : "antimagic_shell", "quantity" : 1 }
+		]
+	},
+	"antimagic_shell" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_antimagic_shell", "quantity" : 50 }
+		]
+	},
+	"self_preserver" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_a_self_preserver", "quantity" : 50 }
+		]
+	},
+	"mystical_elven_sh*t" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "self_preserver", "quantity" : 1 },
+			{ "item" : "extreme_fad_diet", "quantity" : 1 },
+			{ "item" : "sandwich_of_unsurpassed_meatiness", "quantity" : 1 }
+		]
+	},
+	"extreme_fad_diet" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_an_extreme_fad_diet", "quantity" : 50 }
+		]
 	}
 };
 

@@ -108,5 +108,20 @@ var gear = {
 	"harolds_homemade_halberd" : { "name" : "Harold's Homemade Halberd", "color" : "purple" },
 	"scrap_of_harolds_homemade_halberd" : { "name" : "Scrap of Harold's Homemade Halberd", "color" : "purple" },
 	"big_stabby_spear_scroll" : { "name" : "Big Stabby Spear Scroll", "color" : "purple" },
-	"scrap_of_a_big_stabby_spear_scroll" : { "name" : "Scrap of a Big Stabby Spear Scroll", "color" : "purple" }
+	"scrap_of_a_big_stabby_spear_scroll" : { "name" : "Scrap of a Big Stabby Spear Scroll", "color" : "purple" },
+	"the_power_of_science" : { "name" : "The Power of SCIENCE", "color" : "orange" },
+	"peter_pipers_pepper_spray" : { "name" : "Peter Piper's Pepper Spray", "color" : "orange" },
+	"scrap_of_peter_pipers_pepper_spray" : { "name" : "Scrap of Peter Piper's Pepper Spray", "color" : "orange" },
+	"swordy_mcepicpants" : { "name" : "Swordy McEpicPants", "color" : "purple" },
+	"bunny_slipers" : { "name" : "Bunny Slippers", "color" : "purple" },
+	"scrap_of_bunny_slippers" : { "name" : "Scrap of Bunny Slippers", "color" : "purple" },
+	"chugg_boots" : { "name" : "CHUGG Boots", "color" : "purple" },
+	"dragon_scale" : { "name" : "Dragon Scale", "color" : "purple" },
+	"antimagic_shell" : { "name" : "Anti-Magic Shell", "color" : "purple" },
+	"scrap_of_antimagic_shell" : { "name" : "Scrap of Anti-Magic Shell", "color" : "purple" },
+	"self_preserver" : { "name" : "Self Preserver", "color" : "purple" },
+	"scrap_of_a_self_preserver" : { "name" : "Scrap of a Self Preserver", "color" : "purple" },
+	"mystical_elven_sh*t" : { "name" : "Mystical Elven Sh*t", "color" : "orange" },
+	"extreme_fad_diet" : { "name" : "Extreme Fad Diet", "color" : "purple" },
+	"scrap_of_an_extreme_fad_diet" : { "name" : "Scrap of an Extreme Fad Diet", "color" : "purple" }
 };
