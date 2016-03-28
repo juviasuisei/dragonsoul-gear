@@ -21,7 +21,7 @@
 				});
 				$.each(recipes, function(rk,recipe) {
 					$.each(recipe.materials, function(mk,material) {
-						if(false === material.item in gear && false === material.item in recipes) {
+						if(false === material.item in gear) {
 							$('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material.item + '<br />');								litmus = true;
 						}
 					});
@@ -88,8 +88,6 @@
 				needed_sortable.sort(function(a,b) {
 					var diff = b.quantity - a.quantity;
 					if(0 === diff) {
-						alert(a.k);
-						alert(b.k);
 						if(a.item.name < b.item.name) { return(-1); }
 						if(a.item.name > b.item.name) { return(1); }
 						return(0);
