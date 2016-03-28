@@ -113,7 +113,7 @@ var gear = {
 	"peter_pipers_pepper_spray" : { "name" : "Peter Piper's Pepper Spray", "color" : "orange" },
 	"scrap_of_peter_pipers_pepper_spray" : { "name" : "Scrap of Peter Piper's Pepper Spray", "color" : "orange" },
 	"swordy_mcepicpants" : { "name" : "Swordy McEpicPants", "color" : "purple" },
-	"bunny_slipers" : { "name" : "Bunny Slippers", "color" : "purple" },
+	"bunny_slippers" : { "name" : "Bunny Slippers", "color" : "purple" },
 	"scrap_of_bunny_slippers" : { "name" : "Scrap of Bunny Slippers", "color" : "purple" },
 	"chugg_boots" : { "name" : "CHUGG Boots", "color" : "purple" },
 	"dragon_scale" : { "name" : "Dragon Scale", "color" : "purple" },
