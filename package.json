@@ -7,7 +7,8 @@
 	"node": "4.2.3"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "js-cookie": "^2.1.10"
   },
   "devDependencies": {},
   "scripts": {
