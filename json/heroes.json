@@ -13,7 +13,7 @@ var heroes = {
 			"purple2" : ["grievous_bodily_harm","the_compensator","impractical_chestplate","enids_expensive_elixir","kindness","intimidating_beard"],
 			"purple3" : ["lifedrinker","mjlnirby","thong_of_vitality","big_stabby_spear","glaive_of_dismemberment","intimidating_beard"],
 			"purple4" : ["the_power_of_science","sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","peter_pipers_pepper_spray","swordy_mcepicpants","chugg_boots"],
-			"orange" : ["philter_of_pure_testosterone","dragon_scale","self_preserver","mystical_elven_sh*t","extreme_fad_diet","chugg_boots"]
+			"orange" : ["philter_of_pure_testosterone","dragon_scale","self_preserver","mystical_elven_shit","extreme_fad_diet","chugg_boots"]
 		}
 	},
 	"unstable_understudy" : {
