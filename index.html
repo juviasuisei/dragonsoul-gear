@@ -4,6 +4,7 @@
 		<script src="recipes.json"></script>
 		<script src="gear.json"></script>
 		<script src="heroes.json"></script>
+		<script src="js.cookie.js"></script>
 		<script>
 			var needed = {};
 			var cost = 0;
@@ -31,16 +32,21 @@
 				}
 			}
 			function populate_heroes() {
+				var progress = Cookies.getJSON('progress');
 				$.each(heroes, function(hk,hero) {
-					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\');">mark as completed</span>)</h3>';
+					var result = '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span>)</h3>';
 					$.each(hero.gearsets, function(gk,gearset) {
 						var color = gk.match(/^[^\d]*/)[0];
-						result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\');">mark as completed</span>)</h4>';
+						result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true);">mark as completed</span>)</h4>';
 						result += '<ul id="' + hk + gk + '">';
 						var i = 1;
 						$.each(gearset, function(slot,item) {
 							var gear_item = gear[item]
-							result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();" /> ' + gear_item.name + '</label></li>';
+							result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
+							if(true === progress[hk][gk][slot]) {
+								result += ' checked="checked"';
+							}
+							result += ' /> ' + gear_item.name + '</label></li>';
 							if(3 === i) {
 								result += '<br />';
 							}
@@ -52,23 +58,27 @@
 				});
 				calculate_gear();
 			}
-			function check_gearsets(id) {
+			function check_gearsets(id,checked) {
 				$.each(heroes[id].gearsets, function(gk,gearset) {
-					check_gearset(id + gk);
+					check_gearset(id + gk, checked);
 				});
 			}
-			function check_gearset(id) {
-				$('#' + id + ' li input').prop('checked', true);
+			function check_gearset(id,checked) {
+				$('#' + id + ' li input').prop('checked', checked);
 				calculate_gear();
 			}
 			function calculate_gear() {
 				needed = {};
 				cost = 0;
+				var progress = {};
 				$('#gold').html(0);
 				$.each(heroes, function(hk,hero) {
+					progress[hk] = {};
 					$.each(hero.gearsets, function(gk,gearset) {
+						progress[hk][gk] = {};
 						$.each(gearset, function(slot,item) {
 							if(false === $('#' + hk + gk + slot).is(':checked')) {
+								progress[hk][gk][slot] = false;
 								if(false === item in needed) {
 					 				needed[item] = 1;
 								} else {
@@ -77,10 +87,13 @@
 								if(true === item in recipes) {
 									calculate_recipe(recipes[item]);
 								}
+							} else {
+								progress[hk][gk][slot] = true;
 							}
 						});
 					});
 				});
+				Cookies.set('progress', progress, { "expires" : 99999 });
 				var needed_sortable = [];
 				$.each(needed, function(k,v) {
 					needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
@@ -118,13 +131,19 @@
 					}
 				});
 			}
+			function reset() {
+				$.each(heroes, function(hk,hero) {
+					check_gearsets(hk, false);
+				});
+			}
 			$(function() { sanity_check(); });
 		</script>
 		<style>
 			#error { background:red; color:white; }
-			h2 { padding-top: 10px; border-top: solid 1px #666; }
+			h2 { padding-top: 10px; border-top:solid 1px #666; }
 			h4 { text-transform:capitalize; }
 			span { text-transform:lowercase; color:#666; }
+			.strike { text-decoration:line-through; }
 			.green { color:green; }
 			.blue { color:blue; }
 			.purple { color:purple; }
@@ -138,10 +157,11 @@
 		<p>Ever wondered how many of each material you needed to get every hero all the way to <span class="orange">Orange</span>? Or how much that would cost? This site aims to eventually be able to tell you that.</p>
 		<p>Instructions: At the top it displays the total gold needed to craft all items listed below as well as all the raw materials necessary, grouped by rarity and sorted by amount needed. Below that is a list of all the heroes with all of their gearsets (currently this list is severely incomplete). Check the boxes if you've already equipped that gear so that it will remove it from the counts above. You can also quickly check off an entire gearset or even an entire hero to remove items from the materials list using the text links (mark as completed).</p>
 		<p>Caveats: I'll be adding in more data most every day. This will get more and more complete. Data completion is my #1 goal right now (see more future features below). Also, I'm well aware that this site has no styling and that the UX kinda sucks. Once all the data is in I'll start working on niceties.</p>
-		<p>Planned Features for the Future: Getting all the hero data in; Storing your current checkbox states in a cookie so you don't have to fill it out each time you visit; Better layout; Use gear/hero icons; Being able to create a shopping list; Include stats on all the gear; Display the tree of dependencies for any given item; Display data about where to get each item; Eventually expand into other DragonSoul RPG data topics like how to best go after Titan, etc.</p>
+		<p>Planned Features for the Future: Getting all the hero data in; <span class="strike">Storing your current checkbox states in a cookie so you don't have to fill it out each time you visit;</span> Better layout; Use gear/hero icons; Being able to create a shopping list; Include stats on all the gear; Display the tree of dependencies for any given item; Display data about where to get each item; Eventually expand into other DragonSoul RPG data topics like how to best go after Titan, etc.</p>
 		<p>Ideas? Corrections? Feel free to open an issue or comment: <a href="https://github.com/j-a-mercury/dragonsoul-gear">GitHub</a></p>
 		<p><strong>Guild: Also &#x2014; please consider joining my guild! It's very new and needs players! We're active and hope to grow and get competitive. We're on Server 1 (Foam Finger) and our guild is called "cool treats" &#x2014; come join us!</strong></p>
 		<div id="error"></div>
+		<p>(<span onclick="reset();">reset everything</span>)</p>
  		<h2>Gold Needed</h2>
  		<p id="gold"></p>
 		<h2>Items Needed</h2>
@@ -157,5 +177,10 @@
 		<ul id="orange" class="orange"></ul>
 		<h2>Heroes</h2>
 		<div id="heroes"></div>
+		<h2>Release History</h2>
+		<ul>
+			<li>v0.02 &#x2014; IN PROGRESS &#x2014; added cookie-based progress-saving + reset functionality</li>
+			<li>v0.01 &#x2014; 27 March 2016 &#x2014; full Dragon Lady gear data; terrible UX; no design</li>
+		</ul>
 	</body>
 </html>
