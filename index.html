@@ -43,7 +43,7 @@
 						$.each(gearset, function(slot,item) {
 							var gear_item = gear[item]
 							result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
-							if('undefined' !== typeof progress[hk][gk][slot] && true === progress[hk][gk][slot]) {
+							if('undefined' !== typeof progress && 'undefined' !== progress[hk] && 'undefined' !== typeof progress[hk][gk] && 'undefined' !== progress[hk][gk][slot] && true === progress[hk][gk][slot]) {
 								result += ' checked="checked"';
 							}
 							result += ' /> ' + gear_item.name + '</label></li>';
