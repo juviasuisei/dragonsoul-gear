@@ -458,6 +458,134 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_an_extreme_fad_diet", "quantity" : 50 }
 		]
+	},
+	"chunky_femur" : {
+		"cost" : 300,
+		"materials" : [
+			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
+			{ "item" : "chunky_femur_scroll", "quantity" : 1 },
+			{ "item" : "loaded_die", "quantity" : 1 }
+		]
+	},
+	"staff_of_boss_fighting" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_staff_of_boss_fighting", "quantity" : 5 }
+		]
+	},
+	"sacred_codex" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_sacred_codex", "quantity" : 5 }
+		]
+	},
+	"laser_pointer" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "chunky_femur", "quantity" : 1 },
+			{ "item" : "sacred_codex", "quantity" : 1 },
+			{ "item" : "laser_pointer_scroll", "quantity" : 1 }
+		]
+	},
+	"laser_pointer_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_laser_pointer_scroll", "quantity" : 5 }
+		]
+	},
+	"rod_of_tasing" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "muscle_wax", "quantity" : 1 },
+			{ "item" : "sacred_codex", "quantity" : 1 },
+			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 },
+			{ "item" : "racing_stripes", "quantity" : 1 }
+		]
+	},
+	"hippy_glo_sticks" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "wand_of_gold_sparkles", "quantity" : 1 }
+		]
+	},
+	"necronomicon" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "sacred_codex", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 1 },
+			{ "item" : "necronomicon_scroll", "quantity" : 1 }
+		]
+	},
+	"necronomicon_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_necronomicon_scroll", "quantity" : 5 }
+		]
+	},
+	"laser_visor" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "laser_pointer", "quantity" : 2 }
+		]
+	},
+	"orb_of_everlasting_flavor" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "orb_of_everlasting_flavor_scroll", "quantity" : 1 },
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "sacred_codex", "quantity" : 1 },
+			{ "item" : "hemp_bracelet", "quantity" : 1 }
+		]
+	},
+	"orb_of_everlasting_flavor_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_an_orb_of_everlasting_flavor_scroll", "quantity" : 5 }
+		]
+	},
+	"framed_diploma" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_framed_diploma", "quantity" : 20 }
+		]
+	},
+	"shiny_bottlecap" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "scroll_of_a_bottle_cap", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 1 }
+		]
+	},
+	"the_1_ring" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "adamantium_tiara", "quantity" : 1 },
+			{ "item" : "the_1_ring_scroll", "quantity" : 1 },
+			{ "item" : "hemp_bracelet", "quantity" : 1 },
+			{ "item" : "framed_diploma", "quantity" : 1 }
+		]
+	},
+	"the_1_ring_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_the_1_ring_scroll", "quantity" : 20 }
+		]
+	},
+	"27_pocket_protector" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "impractical_chestplate", "quantity" : 1 },
+			{ "item" : "framed_diploma", "quantity" : 1 },
+			{ "item" : "27_pocket_protector_scroll", "quantity" : 1 }
+		]
+	},
+	"27_pocket_protector_scroll" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_a_27_pocket_protector_scroll", "quantity" : 50 }
+		]
 	}
 };
 

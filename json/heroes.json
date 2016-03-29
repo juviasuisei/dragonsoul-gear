@@ -19,6 +19,14 @@ var heroes = {
 	"unstable_understudy" : {
 		"name" : "Unstable Understudy",
 		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["wand_of_gold_sparkles","chunky_femur","bloody_bat","smarty_pants","chunky_femur","stickon_moustache"],
+			"green1" : ["staff_of_boss_fighting","sacred_codex","bit_onip","king_jeffs_crossbow","snazzy_vest","stickon_moustache"],
+			"blue" : ["laser_pointer","wand_of_gold_sparkles","chunky_femur","rod_of_tasing","smarty_pants","hippy_glo_sticks"],
+			"blue1" : ["laser_pointer","the_compensator","smarty_pants","necronomicon","wand_of_gold_sparkles","hippy_glo_sticks"],
+			"blue2" : ["laser_visor","orb_of_everlasting_flavor","bloody_bat","framed_diploma","wand_of_gold_sparkles","hippy_glo_sticks"],
+			"purple" : ["enids_expensive_elixir","necronomicon","shiny_bottlecap","the_1_ring","wand_of_gold_sparkles","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","adamantium_tiara","king_jeffs_crossbow","hammer_of_wicked_beats","king_jeffs_crossbow","intimidating_beard"]
 		}
 	},
 	"Electroyeti" : {
