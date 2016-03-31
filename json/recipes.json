@@ -586,6 +586,112 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_27_pocket_protector_scroll", "quantity" : 50 }
 		]
+	},
+	"laser_sword" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "laser_visor", "quantity" : 2 }
+		]
+	},
+	"rod_of_witty_banter" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "king_jeffs_crossbow", "quantity" : 2 },
+			{ "item" : "rod_of_witty_banter_scroll", "quantity" : 1 }
+		]
+	},
+	"rod_of_witty_banter_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_rod_of_witty_banter_scroll", "quantity" : 20 }
+		]
+	},
+	"holy_hand_grenade" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "boots_made_for_walkin", "quantity" : 1 },
+			{ "item" : "staff_of_boss_fighting", "quantity" : 1 }
+		]
+	},
+	"boots_made_for_walkin" : {
+		"cost" : 15000,
+		"materials" : [
+			{ "item" : "scrap_of_boots_made_for_walkin", "quantity" : 50 }
+		]
+	},
+	"laser_kitten" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "laser_sword", "quantity" : 2 }
+		]
+	},
+	"girdle_of_victory" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "disk_of_some_power", "quantity" : 1 },
+			{ "item" : "framed_diploma", "quantity" : 1 },
+			{ "item" : "high_tea", "quantity" : 1 }
+		]
+	},
+	"disk_of_some_power" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_a_disk_of_some_power", "quantity" : 50 }
+		]
+	},
+	"high_tea" : {
+		"cost" : 30000,
+		"materials" : [
+			{ "item" : "scrap_of_high_tea", "quantity" : 50 }
+		]
+	},
+	"overpowering_fragrance" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "enids_expensive_elixir", "quantity" : 1 },
+			{ "item" : "disk_of_some_power", "quantity" : 1 },
+			{ "item" : "shiny_bottlecap", "quantity" : 1 },
+			{ "item" : "shot_in_the_arm", "quantity" : 1 }
+		]
+	},
+	"shot_in_the_arm" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "snake_oil", "quantity" : 1 },
+			{ "item" : "excaliburtreynolds", "quantity" : 1 }
+		]
+	},
+	"snake_oil" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "raw_egg", "quantity" : 1 },
+			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 },
+			{ "item" : "wand_of_gold_sparkles", "quantity" : 1 }
+		]
+	},
+	"jar_of_kitten_tears" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "orb_of_everlasting_flavor", "quantity" : 1 },
+			{ "item" : "staff_of_boss_fighting", "quantity" : 1 },
+			{ "item" : "laser_kitten", "quantity" : 1 },
+			{ "item" : "roll_of_duct_tape", "quantity" : 1 }
+		]
+	},
+	"roll_of_duct_tape" : {
+		"cost" : 30000,
+		"materials" : [
+			{ "item" : "scrap_of_a_roll_of_duct_tape", "quantity" : 50 }
+		]
+	},
+	"motivational_cassette" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "super_spikey_spear", "quantity" : 1 },
+			{ "item" : "holy_hand_grenade", "quantity" : 1 },
+			{ "item" : "the_1_ring", "quantity" : 1 },
+			{ "item" : "laser_kitten", "quantity" : 1 }
+		]
 	}
 };
 
