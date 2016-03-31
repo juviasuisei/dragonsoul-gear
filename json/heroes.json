@@ -36,6 +36,11 @@ var heroes = {
 	"Electroyeti" : {
 		"name" : "Electroyeti",
 		"gearsets" : {
+			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
+			"green" : ["hemp_bracelet","chunky_femur","snazzy_vest","chunky_femur","goblin_grog","stickon_moustache"],
+			"green1" : ["sacred_codex","shiny_bottlecap","chunky_femur","sparkle_pony_keychain","chunky_femur","hippy_glo_sticks"],
+			"blue" : ["rod_of_tasing","excaliburtreynolds","bloody_bat","necronomicon","wand_of_gold_sparkles","hippy_glo_sticks"],
+			"blue1" : ["orb_of_everlasting_flavor","tome_of_forbidden_trivia","enchanted_elbow_pads","snake_oil","shiny_bottlecap","hippy_glo_sticks"]
 		}
 	},
 	"dark_dracul" : {

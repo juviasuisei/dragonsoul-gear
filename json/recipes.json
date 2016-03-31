@@ -692,6 +692,20 @@ var recipes = {
 			{ "item" : "the_1_ring", "quantity" : 1 },
 			{ "item" : "laser_kitten", "quantity" : 1 }
 		]
+	},
+	"tome_of_forbidden_trivia" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "protein_powder", "quantity" : 1 },
+			{ "item" : "sacred_codex", "quantity" : 1 },
+			{ "item" : "tome_of_trivia_scroll", "quantity" : 1 }
+		]
+	},
+	"tome_of_trivia_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_tome_of_trivia_scroll", "quantity" : 5 }
+		]
 	}
 };
 

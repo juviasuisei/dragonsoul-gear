@@ -174,5 +174,8 @@ var gear = {
 	"jar_of_kitten_tears" : { "name" : "Jar of Kitten Tears", "color" : "orange" },
 	"roll_of_duct_tape" : { "name" : "Roll of Duct Tape", "color" : "orange" },
 	"scrap_of_a_roll_of_duct_tape" : { "name" : "Scrap of a Roll of Duct Tape", "color" : "orange" },
-	"motivational_cassette" : { "name" : "Motivational Cassette", "color" : "purple" }
+	"motivational_cassette" : { "name" : "Motivational Cassette", "color" : "purple" },
+	"tome_of_forbidden_trivia" : { "name" : "Tome of Forbidden Trivia", "color" : "blue" },
+	"tome_of_trivia_scroll" : { "name" : "Tome of Trivia Scroll", "color" : "blue" },
+	"scrap_of_a_tome_of_trivia_scroll" : { "name" : "Scrap of a Tome of Trivia Scroll", "color" : "blue" }
 };
