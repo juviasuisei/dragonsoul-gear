@@ -27,7 +27,7 @@ var heroes = {
 			"blue2" : ["laser_visor","orb_of_everlasting_flavor","bloody_bat","framed_diploma","wand_of_gold_sparkles","hippy_glo_sticks"],
 			"purple" : ["enids_expensive_elixir","necronomicon","shiny_bottlecap","the_1_ring","wand_of_gold_sparkles","intimidating_beard"],
 			"purple1" : ["27_pocket_protector","adamantium_tiara","king_jeffs_crossbow","hammer_of_wicked_beats","king_jeffs_crossbow","intimidating_beard"],
-			"purple2" : ["laser_sword","rod_of_witty_banter","staff_of_boss_fighting","holy_hand_grenade","impractictal_chestplate","intimidating_beard"],
+			"purple2" : ["laser_sword","rod_of_witty_banter","staff_of_boss_fighting","holy_hand_grenade","impractical_chestplate","intimidating_beard"],
 			"purple3" : ["laser_kitten","the_1_ring","the_compensator","sandwich_of_unsurpassed_meatiness","rod_of_tasing","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","disk_of_some_power","hammer_of_wicked_beats","high_tea","rod_of_witty_banter","chugg_boots"],
 			"orange" : ["laser_kitten","overpowering_fragrance","framed_diploma","jar_of_kitten_tears","motivational_cassette","chugg_boots"]
