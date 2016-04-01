@@ -177,5 +177,12 @@ var gear = {
 	"motivational_cassette" : { "name" : "Motivational Cassette", "color" : "purple" },
 	"tome_of_forbidden_trivia" : { "name" : "Tome of Forbidden Trivia", "color" : "blue" },
 	"tome_of_trivia_scroll" : { "name" : "Tome of Trivia Scroll", "color" : "blue" },
-	"scrap_of_a_tome_of_trivia_scroll" : { "name" : "Scrap of a Tome of Trivia Scroll", "color" : "blue" }
+	"scrap_of_a_tome_of_trivia_scroll" : { "name" : "Scrap of a Tome of Trivia Scroll", "color" : "blue" },
+	"tome_of_eldritch_goingson" : { "name" : "Tome of Eldritch Goings-on", "color" : "purple" },
+	"tome_of_unspeakable_hearsay" : { "name" : "Tome of Unspeakable Hearsay", "color" : "purple" },
+	"tome_of_nasty_behavior" : { "name" : "Tome of Nasty Behavior", "color" : "purple" },
+	"daisy_chainsaw" : { "name" : "Daisy Chainsaw", "color" : "green" },
+	"purple_pills_of_potentcy" : { "name" : "Purple Pills of Potentcy", "color" : "purple" },
+	"wizardry_for_idiots" : { "name" : "Wizardry for Idiots", "color" : "purple" },
+	"scrap_of_wizardry_for_idiots" : { "name" : "Scrap of Wizardry for Idiots", "color" : "purple" }
 };

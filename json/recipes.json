@@ -706,6 +706,40 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_tome_of_trivia_scroll", "quantity" : 5 }
 		]
+	},
+	"tome_of_eldritch_goingson" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "tome_of_forbidden_trivia", "quantity" : 2 }
+		]
+	},
+	"tome_of_unspeakable_hearsay" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "tome_of_eldritch_goingson", "quantity" : 2 }
+		]
+	},
+	"tome_of_nasty_behavior" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "daisy_chainsaw", "quantity" : 1 },
+			{ "item" : "adamantium_tiara", "quantity" : 2 },
+			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 }
+		]
+	},
+	"purple_pills_of_potentcy" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
+			{ "item" : "tome_of_nasty_behavior", "quantity" : 1 },
+			{ "item" : "disk_of_some_power", "quantity" : 1 }
+		]
+	},
+	"wizardry_for_idiots" : {
+		"cost" : 10000,
+		"materials" : [
+			{ "item" : "scrap_of_wizardry_for_idiots", "quantity" : 20 }
+		]
 	}
 };
 
