@@ -53,6 +53,14 @@ var heroes = {
 	"dark_dracul" : {
 		"name" : "Dark Dracul",
 		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["raw_egg","chunky_femur","goblin_grog","wand_of_gold_sparkles","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","sparkle_pony_keychain","nonstick_shield","thong_of_vitality","shiny_bottlecap","chaps_of_endurance"],
+			"blue" : ["orb_of_everlasting_flavor","blissful_ignorance","chunky_femur","snake_oil","smarty_pants","hippy_glo_sticks"],
+			"blue1" : ["rod_of_shenanigans","the_compensator","bit_onip","glaive_of_dismemberment","tenfoot_pole","hippy_glo_sticks"],
+			"blue2" : ["diplomatic_immunity","adamantium_tiara","chunky_femur","tome_of_forbidden_trivia","thong_of_vitality","butter_knife"],
+			"purple" : ["the_1_ring","adamantium_tiara","chunky_femur","rod_of_witty_banter","artifact_of_unimaginable_power","butter_knife"],
+			"purple1" : ["27_pocket_protector","dirk_of_disemboweling","staff_of_boss_fighting","tome_of_eldritch_goingson","the_power_of_medicine","intimidating_beard"]
 		}
 	},
 	"cosmic_elf" : {

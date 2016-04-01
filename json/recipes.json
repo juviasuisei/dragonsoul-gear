@@ -740,6 +740,59 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_wizardry_for_idiots", "quantity" : 20 }
 		]
+	},
+	"chaps_of_endurance" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 1 },
+			{ "item" : "rubber_vest", "quantity" : 1 }
+		]
+	},
+	"rod_of_shenanigans" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "sacred_codex", "quantity" : 2 },
+			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 }
+		]
+	},
+	"tenfoot_pole" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
+			{ "item" : "bloody_bat", "quantity" : 1 },
+			{ "item" : "tenfoot_pole", "quantity" : 1 }
+		]
+	},
+	"butter_knife" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "gloves_of_crit", "quantity" : 1 },
+			{ "item" : "smarty_pants", "quantity" : 1 }
+		]
+	},
+	"dirk_of_disemboweling" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "adamantium_tiara", "quantity" : 1 },
+			{ "item" : "dirk_of_disemboweling_scroll", "quantity" : 1 },
+			{ "item" : "spud_gun", "quantity" : 1 }
+		]
+	},
+	"dirk_of_disemboweling_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_dirk_of_disemboweling_scroll", "quantity" : 20 }
+		]
+	},
+	"the_power_of_medicine" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "lucky_orcs_foot", "quantity" : 1 },
+			{ "item" : "scroll_of_the_power_of_medicine", "quantity" : 1 },
+			{ "item" : "pretty_sweet_cape", "quantity" : 1 }
+		]
 	}
 };
 

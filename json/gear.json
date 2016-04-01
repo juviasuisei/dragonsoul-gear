@@ -184,5 +184,17 @@ var gear = {
 	"daisy_chainsaw" : { "name" : "Daisy Chainsaw", "color" : "green" },
 	"purple_pills_of_potentcy" : { "name" : "Purple Pills of Potentcy", "color" : "purple" },
 	"wizardry_for_idiots" : { "name" : "Wizardry for Idiots", "color" : "purple" },
-	"scrap_of_wizardry_for_idiots" : { "name" : "Scrap of Wizardry for Idiots", "color" : "purple" }
+	"scrap_of_wizardry_for_idiots" : { "name" : "Scrap of Wizardry for Idiots", "color" : "purple" },
+	"chaps_of_endurance" : { "name" : "Chaps of Endurance", "color" : "green" },
+	"rod_of_shenanigans" : { "name" : "Rod of Shenanigans", "color" : "blue" },
+	"tenfoot_pole" : { "name" : "Ten-Foot Pole", "color" : "green" },
+	"tenfoot_pole_scroll" : { "name" : "Ten-Foot Pole Scroll", "color" : "green" },
+	"butter_knife" : { "name" : "Butter Knife", "color" : "green" },
+	"dirk_of_disemboweling" : { "name" : "Dirk of Disemboweling", "color" : "purple" },
+	"dirk_of_disemboweling_scroll" : { "name" : "Dirk of Disemboweling Scroll", "color" : "purple" },
+	"scrap_of_a_dirk_of_disemboweling_scroll" : { "name" : "Scrap of a Dirk of Disemboweling_scroll", "color" : "purple" },
+	"the_power_of_medicine" : { "name" : "The Power of Medicine", "color" : "green" },
+	"scroll_of_the_power_of_medicine" : { "name" : "Scroll of The Power of Medicine", "color" : "green" },
+	"pretty_sweet_cape" : { "name" : "Pretty Sweet Cape", "color" : "green" },
+	"pretty_sweet_cape_scroll" : { "name" : "Pretty Sweet Cape Scroll", "color" : "green" }
 };
