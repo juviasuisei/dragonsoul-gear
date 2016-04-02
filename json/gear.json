@@ -234,7 +234,7 @@ var gear = {
 	"war_sandals" : { "name" : "War Sandals", "color" : "purple" },
 	"scrap_of_war_sandals" : { "name" : "Scrap of War Sandals", "color" : "purple" },
 	"dead_eye" : { "name" : "Dead Eye", "color" : "blue" },
-	"scrap_of_dead_eye" : { "name" : "Scrap of Dead Eyes", "color" : "blue" },
+	"scrap_of_dead_eye" : { "name" : "Scrap of Dead Eye", "color" : "blue" },
 	"ring_of_the_squirrel" : { "name" : "Ring of the Squirrel", "color" : "orange" },
 	"scrap_of_a_ring_of_the_squirrel" : { "name" : "Scrap of a Ring of the Squirrel", "color" : "orange" },
 	"blacksteel_blade" : { "name" : "Blacksteel Blade", "color" : "purple" },

@@ -964,7 +964,7 @@ var recipes = {
 	"dead_eye" : {
 		"cost" : 6000,
 		"materials" : [
-			{ "item" : "scrap_of_dead_eyes", "quantity" : 5 }
+			{ "item" : "scrap_of_dead_eye", "quantity" : 5 }
 		]
 	},
 	"ring_of_the_squirrel" : {
