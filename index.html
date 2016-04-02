@@ -71,6 +71,9 @@
 			function calculate_gear() {
 				needed = {};
 				cost = 0;
+				queue = 0;
+				var id = setTimeout(function() {}, 0);
+				while(id--) { window.clearTimeout(id); }
 				var progress = {};
 				$('#gold').html(0);
 				$.each(heroes, function(hk,hero) {
