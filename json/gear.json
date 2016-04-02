@@ -182,7 +182,7 @@ var gear = {
 	"tome_of_unspeakable_hearsay" : { "name" : "Tome of Unspeakable Hearsay", "color" : "purple" },
 	"tome_of_nasty_behavior" : { "name" : "Tome of Nasty Behavior", "color" : "purple" },
 	"daisy_chainsaw" : { "name" : "Daisy Chainsaw", "color" : "green" },
-	"purple_pills_of_potentcy" : { "name" : "Purple Pills of Potentcy", "color" : "purple" },
+	"purple_pills_of_potency" : { "name" : "Purple Pills of Potency", "color" : "purple" },
 	"wizardry_for_idiots" : { "name" : "Wizardry for Idiots", "color" : "purple" },
 	"scrap_of_wizardry_for_idiots" : { "name" : "Scrap of Wizardry for Idiots", "color" : "purple" },
 	"chaps_of_endurance" : { "name" : "Chaps of Endurance", "color" : "green" },

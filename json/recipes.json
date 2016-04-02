@@ -727,7 +727,7 @@ var recipes = {
 			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 }
 		]
 	},
-	"purple_pills_of_potentcy" : {
+	"purple_pills_of_potency" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
