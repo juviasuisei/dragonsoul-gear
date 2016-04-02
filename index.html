@@ -125,7 +125,7 @@
 					if(true === material.item in recipes) {
 						var i = 0;
 						while(i < material.quantity) {
-							calculate_recipe(recipes[material.item]);
+							setTimeout(function() { recipes[material.item] }, 100);
 							i++;
 						}
 					}
