@@ -50,6 +50,34 @@ var heroes = {
 			"orange" : ["laser_kitten","purple_pills_of_potency","framed_diploma","jar_of_kitten_tears","27_pocket_protector","chugg_boots"]
 		}
 	},
+	"dark_dracul" : {
+		"name" : "Dark Dracul",
+		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["raw_egg","chunky_femur","goblin_grog","wand_of_gold_sparkles","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","sparkle_pony_keychain","nonstick_shield","thong_of_vitality","shiny_bottlecap","chaps_of_endurance"],
+			"blue" : ["orb_of_everlasting_flavor","blissful_ignorance","chunky_femur","snake_oil","smarty_pants","hippy_glo_sticks"],
+			"blue1" : ["rod_of_shenanigans","the_compensator","bit_onip","glaive_of_dismemberment","tenfoot_pole","hippy_glo_sticks"],
+			"blue2" : ["diplomatic_immunity","adamantium_tiara","chunky_femur","tome_of_forbidden_trivia","thong_of_vitality","butter_knife"],
+			"purple" : ["the_1_ring","adamantium_tiara","chunky_femur","rod_of_witty_banter","artifact_of_unimaginable_power","butter_knife"],
+			"purple1" : ["27_pocket_protector","dirk_of_disemboweling","staff_of_boss_fighting","tome_of_eldritch_goingson","the_power_of_medicine","intimidating_beard"],
+			"purple2" : ["holy_hand_grenade","framed_diploma","sacred_codex","hammer_of_wicked_beats","tenfoot_pole","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","enids_expensive_elixir","side_of_bacon","tome_of_unspeakable_hearsay","the_compensator","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","27_pocket_protector","disk_of_some_power","high_tea","the_1_ring","chugg_boots"],
+			"orange" : ["laser_kitten","purple_pills_of_potency","adamantium_tiara","jar_of_kitten_tears","overpowering_fragrance","chugg_boots"]
+		}
+	},
+	"cosmic_elf" : {
+		"name" : "Cosmic Elf",
+		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["smarty_pants","chunky_femur","my_first_shield","lucky_orcs_foot","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","tenfoot_pole","bloody_bat","thong_of_vitality","chunky_femur","stickon_moustache"],
+			"blue" : ["necronomicon","king_jeffs_crossbow","raw_egg","laser_pointer","wand_of_gold_sparkles","butter_knife"],
+			"blue1" : ["rod_of_shenanigans","the_compensator","chunky_femur","glaive_of_dismemberment","king_jeffs_crossbow","butter_knife"],
+			"blue2" : ["rod_of_witty_banter","tome_of_forbidden_trivia","smarty_pants","laser_visor","blissful_ignorance","hippy_glo_sticks"]
+		}
+	},
 	"faith_healer" : {
 		"name" : "Faith Healer",
 		"gearsets" : {
