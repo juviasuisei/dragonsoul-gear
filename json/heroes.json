@@ -70,8 +70,8 @@ var heroes = {
 	"cosmic_elf" : {
 		"name" : "Cosmic Elf",
 		"gearsets" : {
-			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","l;oaded_die"],
-			"green" : ["smarty_pants","chunky_femur","my_first_shield","lucky_orcs","chunky_femur","stickon_moustache"],
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["smarty_pants","chunky_femur","my_first_shield","lucky_orcs_foot","chunky_femur","stickon_moustache"],
 			"green1" : ["sacred_codex","tenfoot_pole","bloody_bat","thong_of_vitality","chunky_femur","stickon_moustache"]
 		}
 	},
