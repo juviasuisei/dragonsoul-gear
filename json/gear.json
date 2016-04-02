@@ -202,5 +202,11 @@ var gear = {
 	"glass_case_of_emotion" : { "name" : "Glass Case of Emotion", "color" : "orange" },
 	"thinking_cap" : { "name" : "Thinking Cap", "color" : "blue" },
 	"thinking_cap_scroll" : { "name" : "Thinking Cap Scroll", "color" : "blue" },
-	"scrap_of_a_thinking_cap_scroll" : { "name" : "Scrap of a Thinking Cap Scroll", "color" : "blue" }
+	"scrap_of_a_thinking_cap_scroll" : { "name" : "Scrap of a Thinking Cap Scroll", "color" : "blue" },
+	"the_power_of_positive_thinking" : { "name" : "The Power of Positive Thinking", "color" : "blue" },
+	"the_power_of_friendship" : { "name" : "The Power of Friendship", "color" : "purple" },
+	"the_power_of_love" : { "name" : "The Power of Love", "color" : "purple" },
+	"purifying_tuning_fork" : { "name" : "Purifying Tuning Fork", "color" : "orange" },
+	"liger_balm" : { "name" : "Liger Palm", "color" : "purple" },
+	"scrap_of_liger_balm" : { "name" : "Scrap of Liger Balm", "color" : "purple" }
 };

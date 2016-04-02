@@ -821,6 +821,39 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_thinking_cap_scroll", "quantity" : 5 }
 		]
+	},
+	"the_power_of_positive_thinking" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "the_power_of_medicine", "quantity" : 2 }
+		]
+	},
+	"the_power_of_friendship" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "the_power_of_positive_thinking", "quantity" : 2 }
+		]
+	},
+	"the_power_of_love" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "the_power_of_friendship", "quantity" : 2 }
+		]
+	},
+	"purifying_tuning_fork" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "philter_of_pure_testosterone", "quantity" : 1 },
+			{ "item" : "the_power_of_love", "quantity" : 1 },
+			{ "item" : "liger_balm", "quantity" : 1 },
+			{ "item" : "high_tea", "quantity" : 1 }
+		]
+	},
+	"liger_balm" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_liger_balm", "quantity" : 50 }
+		]
 	}
 };
 

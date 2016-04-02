@@ -87,6 +87,18 @@ var heroes = {
 	"faith_healer" : {
 		"name" : "Faith Healer",
 		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","enchanted_elbow_pads","rubber_vest"],
+			"green" : ["wand_of_gold_sparkles","snazzy_vest","bloody_bat","chunky_femur","lucky_orcs_foot","stickon_moustache"],
+			"green1" : ["sacred_codex","sparkle_pony_keychain","bit_onip","the_power_of_medicine","smarty_pants","stickon_moustache"],
+			"blue" : ["rod_of_tasing","tenfoot_pole","hemp_bracelet","orb_of_everlasting_flavor","side_of_bacon","hippy_glo_sticks"],
+			"blue1" : ["the_power_of_positive_thinking","blissful_ignorance","muscle_wax","snake_oil","sacred_codex","sock_full_opennies"],
+			"blue2" : ["diplomatic_immunity","the_compensator","bit_onip","shot_in_the_arm","staff_of_boss_fighting","butter_knife"],
+			"purple" : ["the_1_ring","necronomicon","raw_egg","the_power_of_friendship","impractical_chestplate","butter_knife"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","framed_diploma","wand_of_gold_sparkles","super_spikey_spear","excaliburtreynolds","intimidating_beard"],
+			"purple2" : ["the_poower_of_love","adamantium_tiara","blissful_ignorance","hammer_of_wicked_beats","sacred_codex","intimidating_beard"],
+			"purple3" : ["27_pocket_protector","the_1_ring","rod_of_tasing","diplomatic_immunity","necronomicon","intimidating_beard"],
+			"purple4" : ["purifying_tuning_fork","disk_of_some_power","rod_of_witty_banter","high_tea","hammer_of_wicked_beats","chugg_boots"],
+			"orange" : ["laser_kitten","overpowering_fragrance","adamantium_tiara","glass_case_of_emotion","extreme_fad_diet","chugg_boots"]
 		}
 	},
 	"dust_devil" : {
