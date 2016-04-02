@@ -119,8 +119,7 @@
 				queue--;
 			}
 			function so_needy() {
-				alert(queue);
-				if(0 < queue) {
+				if(0 >= queue) {
 					var needed_sortable = [];
 					$.each(needed, function(k,v) {
 						needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
