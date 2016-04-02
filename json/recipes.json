@@ -793,6 +793,34 @@ var recipes = {
 			{ "item" : "scroll_of_the_power_of_medicine", "quantity" : 1 },
 			{ "item" : "pretty_sweet_cape", "quantity" : 1 }
 		]
+	},
+	"antimagic_shell" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_antimagic_shell", "quantity" : 50 }
+		]
+	},
+	"glass_case_of_emotion" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "thinking_cap", "quantity" : 1 },
+			{ "item" : "roll_of_duct_tape", "quantity" : 1 },
+			{ "item" : "rod_of_witty_banter", "quantity" : 1 }
+		]
+	},
+	"thinking_cap" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "captains_tightpants", "quantity" : 1 },
+			{ "item" : "thinking_cap_scroll", "quantity" : 1 },
+			{ "item" : "smarty_pants", "quantity" : 2 }
+		]
+	},
+	"thinking_cap_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_thinking_cap_scroll", "quantity" : 5 }
+		]
 	}
 };
 
