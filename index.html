@@ -68,6 +68,7 @@
 				calculate_gear();
 			}
 			function calculate_gear() {
+				alert('calculating');
 				needed = {};
 				cost = 0;
 				var progress = {};
@@ -142,8 +143,8 @@
 			#error { background:red; color:white; }
 			h2 { padding-top: 10px; border-top:solid 1px #666; }
 			h4 { text-transform:capitalize; }
-			span { text-transform:lowercase; color:#666; }
-			.strike { text-decoration:line-through; }
+			span { text-transform:lowercase; color:#666; cursor:pointer; }
+			.strike { text-decoration:line-through; cursor:default; }
 			.green { color:green; }
 			.blue { color:blue; }
 			.purple { color:purple; }
