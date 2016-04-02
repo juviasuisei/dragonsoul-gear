@@ -8,7 +8,6 @@
 		<script>
 			var needed = {};
 			var cost = 0;
-			var queue = 0;
 			function sanity_check() {
 				var litmus = false;
 				$.each(heroes, function(hk,hero) {
@@ -71,9 +70,6 @@
 			function calculate_gear() {
 				needed = {};
 				cost = 0;
-				queue = 0;
-				var id = setTimeout(function() {}, 0);
-				while(id--) { window.clearTimeout(id); }
 				var progress = {};
 				$('#gold').html(0);
 				$.each(heroes, function(hk,hero) {
@@ -89,7 +85,6 @@
 									needed[item] += 1;
 								}
 								if(true === item in recipes) {
-									queue++;
 									calculate_recipe(recipes[item]);
 								}
 							} else {
@@ -99,10 +94,26 @@
 					});
 				});
 				Cookies.set('progress', progress, { "expires" : 99999 });
-				so_needy();
+				var needed_sortable = [];
+				$.each(needed, function(k,v) {
+					needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
+				});
+				needed_sortable.sort(function(a,b) {
+					var diff = b.quantity - a.quantity;
+					if(0 === diff) {
+						if(a.item.name < b.item.name) { return(-1); }
+						if(a.item.name > b.item.name) { return(1); }
+						return(0);
+					} else {
+						return(diff);
+					}
+				});
+				$('#white, #green, #blue, #purple, #orange').html('');
+				$.each(needed_sortable, function(k,v) {
+					$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ' &#x2014; ' + v.quantity + '</li>');
+				});
 			}
 			function calculate_recipe(recipe) {
-				console.log('recipe' + queue);
 				cost += recipe.cost;
 				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
 				$.each(recipe.materials, function(k,material) {
@@ -114,39 +125,11 @@
 					if(true === material.item in recipes) {
 						var i = 0;
 						while(i < material.quantity) {
-							queue++;
 							setTimeout(function() { recipes[material.item] }, 100);
 							i++;
 						}
 					}
 				});
-				queue--;
-			}
-			function so_needy() {
-				console.log('needy' + queue);
-				if(0 >= queue) {
-					console.log('going for it');
-					var needed_sortable = [];
-					$.each(needed, function(k,v) {
-						needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
-					});
-					needed_sortable.sort(function(a,b) {
-						var diff = b.quantity - a.quantity;
-						if(0 === diff) {
-							if(a.item.name < b.item.name) { return(-1); }
-							if(a.item.name > b.item.name) { return(1); }
-							return(0);
-						} else {
-							return(diff);
-						}
-					});
-					$('#white, #green, #blue, #purple, #orange').html('');
-					$.each(needed_sortable, function(k,v) {
-						$('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ' &#x2014; ' + v.quantity + '</li>');
-					});
-				} else {
-					setTimeout(so_needy(), 100);
-				}
 			}
 			function reset() {
 				$.each(heroes, function(hk,hero) {

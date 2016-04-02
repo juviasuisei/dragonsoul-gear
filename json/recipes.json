@@ -761,7 +761,7 @@ var recipes = {
 		"materials" : [
 			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
 			{ "item" : "bloody_bat", "quantity" : 1 },
-			{ "item" : "tenfoot_pole", "quantity" : 1 }
+			{ "item" : "tenfoot_pole_scroll", "quantity" : 1 }
 		]
 	},
 	"butter_knife" : {
