@@ -854,6 +854,14 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_liger_balm", "quantity" : 50 }
 		]
+	},
+	"magic_eight_ball" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "magic_eight_ball_scroll", "quantity" : 1 },
+			{ "item" : "bit_onip", "quantity" : 1 },
+			{ "item" : "penetrable_armor", "quantity" : 1 }
+		]
 	}
 };
 

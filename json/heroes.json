@@ -104,6 +104,18 @@ var heroes = {
 	"dust_devil" : {
 		"name" : "Dust Devil",
 		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","fine_brie","rubber_vest"],
+			"green" : ["sparkle_pony_keychain","chunky_femur","goblin_grog","snazzy_vest","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","tenfoot_pole","smarty_pants","side_of_bacon","wand_of_gold_sparkles","stickon_moustache"],
+			"blue" : ["orb_of_everlasting_flavor","nonstick_shield","raw_egg","necronomicon","artifact_of_unimaginable_power","hippy_glo_sticks"],
+			"blue1" : ["rod_of_tasing","laser_pointer","blissful_ignorance","tome_of_forbidden_trivia","magic_eight_ball","hippy_glo_sticks"],
+			"blue2" : ["the_1_ring","thinking_cap","chunky_femur","adamantium_tiara","smarty_pants","hippy_glo_sticks"],
+			"purple" : ["diplomatic_immunity","the_compensator","impractical_chestplate","tome_of_eldritch_goingson","rod_of_shenanigans","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","laser_visor","chunky_femur","hammer_of_wicked_beats","orb_of_everlasting_flavor","intimidating_beard"],
+			"purple2" : ["tome_of_unspeakable_hearsay","laser_sword","chunky_femur","dirk_of_disemboweling","tenfoot_pole","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","side_of_bacon","tome_of_nasty_behavior","laser_kitten","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","disk_of_some_power","overpowering_fragrance","high_tea","framed_diploma","chugg_boots"],
+			"orange" : ["laser_kitten","extreme_fad_diet","hammer_of_wicked_beats","jar_of_kitten_tears","adamantium_tiara","chugg_boots"]
 		}
 	},
 	"shadow_assassin" : {
