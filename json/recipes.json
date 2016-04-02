@@ -862,6 +862,146 @@ var recipes = {
 			{ "item" : "bit_onip", "quantity" : 1 },
 			{ "item" : "penetrable_armor", "quantity" : 1 }
 		]
+	},
+	"goblin_whacker" : {
+		"cost" : 300,
+		"materials" : [
+			{ "item" : "stolen_sneakers", "quantity" : 1 },
+			{ "item" : "goblin_whacker_scroll", "quantity" : 1 },
+			{ "item" : "enchanted_elbow_pads", "quantity" : 1 }
+		]
+	},
+	"swash_buckler" : {
+		"cost" : 300,
+		"materials" : [
+			{ "item" : "stolen_sneakers", "quantity" : 2 },
+			{ "item" : "my_first_shield", "quantity" : 1 }
+		]
+	},
+	"plastic_vampire_teeth" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "ya_vampire_series", "quantity" : 1 },
+			{ "item" : "plastic_vampire_teeth_scroll", "quantity" : 1 }
+		]
+	},
+	"flail_of_total_devastation" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "flail_of_devastation_scroll", "quantity" : 1 },
+			{ "item" : "gentlemens_club", "quantity" : 2 }
+		]
+	},
+	"flail_of_devastation_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_flail_of_total_devastation_scroll", "quantity" : 5 }
+		]
+	},
+	"arcane_slacks" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "goblin_whacker", "quantity" : 1 },
+			{ "item" : "snazzy_vest", "quantity" : 1 }
+		]
+	},
+	"head_banger" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_head_banger", "quantity" : 20 }
+		]
+	},
+	"plucky_heroines_shortbow" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "oxfords_of_alacrity", "quantity" : 1 },
+			{ "item" : "stickon_moustache", "quantity" : 1 },
+			{ "item" : "gloves_of_crit", "quantity" : 1 }
+		]
+	},
+	"shovel" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "the_ugly_stick", "quantity" : 2 },
+			{ "item" : "shovel_scroll", "quantity" : 1 },
+			{ "item" : "head_banger", "quantity" : 1 }
+		]
+	},
+	"the_ugly_stick" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_an_ugly_stick", "quantity" : 5 }
+		]
+	},
+	"shovel_scroll" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_a_shovel_scroll", "quantity" : 20 }
+		]
+	},
+	"lavishly_adorned_rapier" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "banjo_of_dueling", "quantity" : 1 },
+			{ "item" : "boots_made_for_walkin", "quantity" : 1 },
+			{ "item" : "bunny_slippers", "quantity" : 1 }
+		]
+	},
+	"yodeling_sword" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "war_sandals", "quantity" : 1 },
+			{ "item" : "dead_eye", "quantity" : 1 },
+			{ "item" : "ring_of_the_squirrel", "quantity" : 1 }
+		]
+	},
+	"war_sandals" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_war_sandals", "quantity" : 50 }
+		]
+	},
+	"dead_eye" : {
+		"cost" : 6000,
+		"materials" : [
+			{ "item" : "scrap_of_dead_eyes", "quantity" : 5 }
+		]
+	},
+	"ring_of_the_squirrel" : {
+		"cost" : 30000,
+		"materials" : [
+			{ "item" : "scrap_of_a_ring_of_the_squirrel", "quantity" : 50 }
+		]
+	},
+	"blacksteel_blade" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "flail_of_total_devastation", "quantity" : 1 },
+			{ "item" : "harolds_homemade_halberd", "quantity" : 1 },
+			{ "item" : "war_sandals", "quantity" : 1 },
+			{ "item" : "the_mad_gods_trident", "quantity" : 1 }
+		]
+	},
+	"readin_rain_bow" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "orb_of_everlasting_flavor", "quantity" : 1 },
+			{ "item" : "harolds_homemade_halberd", "quantity" : 1 },
+			{ "item" : "photo_bomb", "quantity" : 1 },
+			{ "item" : "bowie_knife", "quantity" : 1 }
+		]
+	},
+	"photo_bomb" : {
+		"cost" : 30000,
+		"materials" : [
+			{ "item" : "scrap_of_a_photo_bomb", "quantity" : 50 }
+		]
+	},
+	"bowie_knife" : {
+		"cost" : 10000,
+		"materials" : [
+			{ "item" : "scrap_of_a_bowie_knife", "quantity" : 20 }
+		]
 	}
 };
 

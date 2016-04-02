@@ -121,6 +121,18 @@ var heroes = {
 	"shadow_assassin" : {
 		"name" : "Shadow Assassin",
 		"gearsets" : {
+			"white" : ["paper_crown","stolen_sneakers","stolen_sneakers","paper_crown","stolen_sneakers","my_first_shield"],
+			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","captains_tightpants","stickon_moustache"],
+			"green1" : ["gentlemens_clubs","plastic_vampire_teeth","oxfords_of_alacrity","lifesipper","racing_stripes","chaps_of_endurance"],
+			"blue" : ["glaive_of_dismemberment","banjo_of_dueling","goblin_whacker","the_mad_gods_trident","oxfords_of_alacrity","sock_full_opennies"],
+			"blue1" : ["flail_of_total_devastation","axes_of_duel_wielding","goblin_whacker","kindness","arcane_slacks","hippy_glo_sticks"],
+			"blue2" : ["head_banger","gentlemens_club","spud_gun","adamantium_tiara","lifesipper","plucky_heroines_shortbow"],
+			"purple" : ["dirk_of_disemboweling","the_compensator","and_my_axe","shovel","mace_of_friendship","intimidating_beard"],
+			"purple1" : ["lavishly_adorned_rapier","flail_of_total_devastation","impractical_chestplate","head_banger","axes_of_dual_wielding","intimidating_beard"],
+			"purple2" : ["holy_hand_grenade","the_mad_gods_trident","the_ugly_stick","super_spikey_spear","the_compensator","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","shovel","glaive_of_dismemberment","dirk_of_disemboweling","mjnirby","intimidating_beard"],
+			"purple4" : ["yodeling_sword","blacksteel_blade","swordy_mcepicpants","ring_of_the_squirrel","wizardry_for_idiots","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","lifedrinker","head_banger","readin_rain_bow","harolds_homemade_halberd","chugg_boots"]
 		}
 	},
 	"snap_dragon" : {
