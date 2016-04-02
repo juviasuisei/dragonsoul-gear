@@ -99,6 +99,7 @@
 				so_needy();
 			}
 			function calculate_recipe(recipe) {
+				console.log('recipe' + queue);
 				cost += recipe.cost;
 				$('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
 				$.each(recipe.materials, function(k,material) {
@@ -119,7 +120,9 @@
 				queue--;
 			}
 			function so_needy() {
+				console.log('needy' + queue);
 				if(0 >= queue) {
+					console.log('going for it');
 					var needed_sortable = [];
 					$.each(needed, function(k,v) {
 						needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
