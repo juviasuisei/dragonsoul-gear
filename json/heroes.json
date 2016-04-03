@@ -138,6 +138,18 @@ var heroes = {
 	"snap_dragon" : {
 		"name" : "Snap Dragon",
 		"gearsets" : {
+			"white" : ["paper_crown","foam_finger","my_first_shield","paper_crown","foam_finger","free_mans_crowbar"],
+			"green" : ["raw_egg","bloody_bat","bessies_bane","fine_brie","bloody_bat","stickon_moustache"],
+			"green1" : ["thong_of_vitality","blissful_ignorance","bloody_bat","and_my_axe","penetrable_armor","stickon_moustache"],
+			"blue" : ["robe_of_sharp_comebacks","raw_egg","bloody_bat","muscle_wax","artifact_of_unimaginable_power","sock_full_opennies"],
+			"blue1" : ["rod_of_tasing","impractical_chestplate","bloody_bat","mussel_milk","thong_of_vitality","sock_full_opennies"],
+			"blue2" : ["diplomatic_immunity","snake_oil","bloody_bat","the_compensator","tenfoot_pole","sock_full_opennies"],
+			"purple" : ["hammer_of_wicked_beats","laser_pointer","bloody_bat","shot_in_the_arm","thong_of_vitality","hippy_glo_sticks"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","muscle_wax","blissful_ignorance","super_spikey_spear","thong_of_vitality","intimidating_beard"],
+			"purple2" : ["27_pocket_protector","bag_ohammers","impractical_chestplate","lifedrinker","rod_of_tasing","intimidating_beard"],
+			"purple3" : ["big_stabby_spear","hammer_of_wicked_beats","thong_of_vitality","sandwich_of_unsurpassed_meatiness","robe_of_sharp_comebacks","intimidating_beard"],
+			"purple4" : ["rattling_sabre","liche_finger","mjlnirby","peter_pipers_pepper_spray","philter_of_pure_testosterone","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","self_preserver","wicked_mullet","super_spikey_spear","chugg_boots"]
 		}
 	},
 	"centaur_of_attention" : {

@@ -242,5 +242,8 @@ var gear = {
 	"photo_bomb" : { "name" : "Photo Bomb", "color" : "orange" },
 	"scrap_of_a_photo_bomb" : { "name" : "Scrap of a Photo Bomb", "color" : "orange" },
 	"bowie_knife" : { "name" : "Bowie Knife", "color" : "purple" },
-	"scrap_of_a_bowie_knife" : { "name" : "Scrap of a Bowie Knife", "color" : "purple" }
+	"scrap_of_a_bowie_knife" : { "name" : "Scrap of a Bowie Knife", "color" : "purple" },
+	"rattling_sabre" : { "name" : "Rattling Sabre", "color" : "orange" },
+	"liche_finger" : { "name" : "Liche Finger", "color" : "purple" },
+	"wicked_mullet" : { "name" : "Wicked Mullet", "color" : "orange" }
 };
