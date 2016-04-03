@@ -1041,6 +1041,20 @@ var recipes = {
 		"materials" : [
 			{ "item" : "scrap_of_a_decoder_ring_scroll", "quantity" : 5 }
 		]
+	},
+	"" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "the_ugly_stick", "quantity" : 1 },
+			{ "item" : "protein_powder", "quantity" : 1 },
+			{ "item" : "death_metal_blade_scroll", "quantity" : 1 }
+		]
+	},
+	"death_metal_blade_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_death_metal_blade_scroll", "quantity" : 5 }
+		]
 	}
 };
 

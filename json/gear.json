@@ -248,5 +248,8 @@ var gear = {
 	"wicked_mullet" : { "name" : "Wicked Mullet", "color" : "orange" },
 	"decoder_ring" : { "name" : "Decoder Ring", "color" : "blue" },
 	"scroll_of_a_decoder_ring" : { "name" : "Scroll of a Decoder Ring", "color" : "blue" },
-	"scrap_of_a_decoder_ring_scroll" : { "name" : "Scrap of a Decoder Ring Scroll", "color" : "blue" }
+	"scrap_of_a_decoder_ring_scroll" : { "name" : "Scrap of a Decoder Ring Scroll", "color" : "blue" },
+	"death_metal_blade" : { "name" : "Death Metal Blade", "color" : "blue" },
+	"death_metal_blade_scroll" : { "name" : "Death Metal Blade Scroll", "color" : "blue" },
+	"scrap_of_a_death_metal_scroll" : { "name" : "Scrap of a Death Metal Scroll", "color" : "blue" }
 };

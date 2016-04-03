@@ -172,6 +172,13 @@ var heroes = {
 	"hydra" : {
 		"name" : "Hydra",
 		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","my_first_shield"],
+			"green" : ["captain_tightpants","bloody_bat","swash_buckler","goblin_whacker","goblin_whacker","stickon_moustache"],
+			"green1" : ["gentlemens_club","lifesipper","goblin_whacker","oxfords_of_alacrity","arcane_slacks","stickon_moustache"],
+			"blue" : ["spud_gun","gentlemens_club","banjo_of_dueling","rod_of_tasing","mace_of_friendship","plucky_heroines_shortbow"],
+			"blue1" : ["the_compensator","staff_of_boss_fighting","raw_egg","the_mad_gods_trident","impractical_chestplate","plucky_heroines_shortbow"],
+			"blue2" : ["super_spikey_spear","gentlemens_club","goblin_whacker","death_metal_blade","lifesipper","plucky_heroines_shortbow"],
+			"purple" : ["","","","","",""]
 		}
 	},
 	"roller_warrior" : {
