@@ -245,5 +245,8 @@ var gear = {
 	"scrap_of_a_bowie_knife" : { "name" : "Scrap of a Bowie Knife", "color" : "purple" },
 	"rattling_sabre" : { "name" : "Rattling Sabre", "color" : "orange" },
 	"liche_finger" : { "name" : "Liche Finger", "color" : "purple" },
-	"wicked_mullet" : { "name" : "Wicked Mullet", "color" : "orange" }
+	"wicked_mullet" : { "name" : "Wicked Mullet", "color" : "orange" },
+	"decoder_ring" : { "name" : "Decoder Ring", "color" : "blue" },
+	"scroll_of_a_decoder_ring" : { "name" : "Scroll of a Decoder Ring", "color" : "blue" },
+	"scrap_of_a_decoder_ring_scroll" : { "name" : "Scrap of a Decoder Ring Scroll", "color" : "blue" }
 };

@@ -155,6 +155,18 @@ var heroes = {
 	"centaur_of_attention" : {
 		"name" : "Centaur of Attention",
 		"gearsets" : {
+			"white" : ["paper_crown","stolen_sneakers","enchanted_elbow_pads","paper_crown","stolen_sneakers","enchanted_elbow_pads"],
+			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","ya_vampire_series","stickon_moustache"],
+			"green1" : ["oxfords_of_alacrity","spud_gun","mace_of_friendship","banjo_of_dueling","lifesipper","chaps_of_endurance"],
+			"blue" : ["goblin_whacker","axes_of_dual_wielding","racing_stripes","oxfords_of_alacrity","glaive_of_dismemberment","plucky_heroines_shortbow"],
+			"blue1" : ["lifesipper","flail_of_total_devastation","banjo_of_dual_wielding","the_ugly_stick","the_mad_gods_trident","plucky_heroines_shortbow"],
+			"blue2" : ["the_compensator","dirk_of_disemboweling","swash_buckler","spud_gun","plastic_vampire_teeth","plucky_heroines_shortbow"],
+			"purple" : ["gentlemens_club","swordy_mcepicpants","kindness","mace_of_friendship","the_mad_gods_trident","intimidating_beard"],
+			"purple1" : ["racing_stripes","lavishly_adorned_rapier","the_compensator","and_my_axe","decoder_ring","intimidating_beard"],
+			"purple2" : ["banjo_of_dueling","grievous_bodily_harm","flail_of_total_devastation","impractical_chestplate","mjlnirby","intimidating_beard"],
+			"purple3" : ["glaive_of_dismemberment","lifedrinker","dirk_of_disemboweling","flail_of_total_devastation","super_spikey_spear","intimidating_beard"],
+			"purple4" : ["yodeling_sword","head_banger","rod_of_witty_banter","ring_of_the_squirrel","hammer_of_wicked_beats","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","shovel","war_sandals","readin_rain_bow","bowie_knife","chugg_boots"]
 		}
 	},
 	"hydra" : {

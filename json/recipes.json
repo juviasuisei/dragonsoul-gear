@@ -1027,6 +1027,20 @@ var recipes = {
 			{ "item" : "philter_of_pure_testosterone", "quantity" : 1 },
 			{ "item" : "high_tea", "quantity" : 1 }
 		]
+	},
+	"decoder_ring" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "scroll_of_a_decoder_ring", "quantity" : 1 },
+			{ "item" : "smarty_pants", "quantity" : 1 },
+			{ "item" : "racing_stripes", "quantity" : 2 }
+		]
+	},
+	"scroll_of_a_decoder_ring" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_decoder_ring_scroll", "quantity" : 5 }
+		]
 	}
 };
 
