@@ -159,7 +159,7 @@ var heroes = {
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","ya_vampire_series","stickon_moustache"],
 			"green1" : ["oxfords_of_alacrity","spud_gun","mace_of_friendship","banjo_of_dueling","lifesipper","chaps_of_endurance"],
 			"blue" : ["goblin_whacker","axes_of_dual_wielding","racing_stripes","oxfords_of_alacrity","glaive_of_dismemberment","plucky_heroines_shortbow"],
-			"blue1" : ["lifesipper","flail_of_total_devastation","banjo_of_dual_wielding","the_ugly_stick","the_mad_gods_trident","plucky_heroines_shortbow"],
+			"blue1" : ["lifesipper","flail_of_total_devastation","banjo_of_dueling","the_ugly_stick","the_mad_gods_trident","plucky_heroines_shortbow"],
 			"blue2" : ["the_compensator","dirk_of_disemboweling","swash_buckler","spud_gun","plastic_vampire_teeth","plucky_heroines_shortbow"],
 			"purple" : ["gentlemens_club","swordy_mcepicpants","kindness","mace_of_friendship","the_mad_gods_trident","intimidating_beard"],
 			"purple1" : ["racing_stripes","lavishly_adorned_rapier","the_compensator","and_my_axe","decoder_ring","intimidating_beard"],
