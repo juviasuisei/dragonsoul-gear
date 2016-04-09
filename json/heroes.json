@@ -177,7 +177,13 @@ var heroes = {
 			"green1" : ["gentlemens_club","lifesipper","goblin_whacker","oxfords_of_alacrity","arcane_slacks","stickon_moustache"],
 			"blue" : ["spud_gun","gentlemens_club","banjo_of_dueling","rod_of_tasing","mace_of_friendship","plucky_heroines_shortbow"],
 			"blue1" : ["the_compensator","staff_of_boss_fighting","raw_egg","the_mad_gods_trident","impractical_chestplate","plucky_heroines_shortbow"],
-			"blue2" : ["super_spikey_spear","gentlemens_club","goblin_whacker","death_metal_blade","lifesipper","plucky_heroines_shortbow"]
+			"blue2" : ["super_spikey_spear","gentlemens_club","goblin_whacker","death_metal_blade","lifesipper","plucky_heroines_shortbow"],
+			"purple" : ["shovel","the_compensator","arcane_slacks","dirk_of_disemboweling","blissful_ignorance","intimidating_beard"],
+			"purple1" : ["lavishly_adorned_rapier","glaive_of_dismemberment","goblin_whacker","enids_expensive_elixir","and_my_axe","intimidating_beard"],
+			"purple2" : ["lifedrinker","axes_of_dual_wielding","oxfords_of_alacrity","grievous_bodily_harm","mace_of_friendship","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","the_compensator","lifesipper","holy_hand_grenade","rod_of_tasing","intimidating_beard"],
+			"purple4" : ["rattling_sabre","harolds_homemade_halberd","mjlnirby","ring_of_the_squirrel","motivational_cassette","chugg_boots"],
+			"orange" : ["lens_of_decryption","big_stabby_spear","head_banger","readin_rain_bow","boots_made_for_walkin","chugg_boots"]
 		}
 	},
 	"roller_warrior" : {

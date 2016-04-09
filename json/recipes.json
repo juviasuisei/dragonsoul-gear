@@ -1042,7 +1042,7 @@ var recipes = {
 			{ "item" : "scrap_of_a_decoder_ring_scroll", "quantity" : 5 }
 		]
 	},
-	"" : {
+	"death_metal_blade" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "the_ugly_stick", "quantity" : 1 },
@@ -1054,6 +1054,12 @@ var recipes = {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_death_metal_blade_scroll", "quantity" : 5 }
+		]
+	},
+	"lens_of_decryption" : {
+		"cost" : 18000,
+		"materials" : [
+			{ "item" : "decoder_ring", "quantity" : 2 }
 		]
 	}
 };
