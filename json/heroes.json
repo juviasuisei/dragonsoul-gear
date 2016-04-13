@@ -1,6 +1,7 @@
 var heroes = {
 	"dragon_lady" : {
 		"name" : "Dragon Lady",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
 			"green" : ["paper_crown","foam_finger","bloody_bat","enchanted_elbow_pads","captains_tightpants","stickon_moustache"],
@@ -18,6 +19,7 @@ var heroes = {
 	},
 	"unstable_understudy" : {
 		"name" : "Unstable Understudy",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["wand_of_gold_sparkles","chunky_femur","bloody_bat","smarty_pants","chunky_femur","stickon_moustache"],
@@ -35,6 +37,7 @@ var heroes = {
 	},
 	"Electroyeti" : {
 		"name" : "Electroyeti",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
 			"green" : ["hemp_bracelet","chunky_femur","snazzy_vest","chunky_femur","goblin_grog","stickon_moustache"],
@@ -52,6 +55,7 @@ var heroes = {
 	},
 	"dark_dracul" : {
 		"name" : "Dark Dracul",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["raw_egg","chunky_femur","goblin_grog","wand_of_gold_sparkles","chunky_femur","stickon_moustache"],
@@ -69,6 +73,7 @@ var heroes = {
 	},
 	"cosmic_elf" : {
 		"name" : "Cosmic Elf",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["smarty_pants","chunky_femur","my_first_shield","lucky_orcs_foot","chunky_femur","stickon_moustache"],
@@ -86,6 +91,7 @@ var heroes = {
 	},
 	"faith_healer" : {
 		"name" : "Faith Healer",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","enchanted_elbow_pads","rubber_vest"],
 			"green" : ["wand_of_gold_sparkles","snazzy_vest","bloody_bat","chunky_femur","lucky_orcs_foot","stickon_moustache"],
@@ -103,6 +109,7 @@ var heroes = {
 	},
 	"dust_devil" : {
 		"name" : "Dust Devil",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","fine_brie","rubber_vest"],
 			"green" : ["sparkle_pony_keychain","chunky_femur","goblin_grog","snazzy_vest","chunky_femur","stickon_moustache"],
@@ -120,6 +127,7 @@ var heroes = {
 	},
 	"shadow_assassin" : {
 		"name" : "Shadow Assassin",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","stolen_sneakers","paper_crown","stolen_sneakers","my_first_shield"],
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","captains_tightpants","stickon_moustache"],
@@ -137,6 +145,7 @@ var heroes = {
 	},
 	"snap_dragon" : {
 		"name" : "Snap Dragon",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","paper_crown","foam_finger","free_mans_crowbar"],
 			"green" : ["raw_egg","bloody_bat","bessies_bane","fine_brie","bloody_bat","stickon_moustache"],
@@ -154,6 +163,7 @@ var heroes = {
 	},
 	"centaur_of_attention" : {
 		"name" : "Centaur of Attention",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","enchanted_elbow_pads","paper_crown","stolen_sneakers","enchanted_elbow_pads"],
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","ya_vampire_series","stickon_moustache"],
@@ -171,6 +181,7 @@ var heroes = {
 	},
 	"hydra" : {
 		"name" : "Hydra",
+        "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","my_first_shield"],
 			"green" : ["captains_tightpants","bloody_bat","swash_buckler","goblin_whacker","goblin_whacker","stickon_moustache"],
@@ -188,131 +199,157 @@ var heroes = {
 	},
 	"roller_warrior" : {
 		"name" : "Roller Warrior",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"moon_drake" : {
 		"name" : "Moon Drake",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"crimson_witch" : {
 		"name" : "Crimson Witch",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"ninja_dwarf" : {
 		"name" : "Ninja Dwarf",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"brozerker" : {
 		"name" : "Brozerker",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"polemaster" : {
 		"name" : "Polemaster",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"megataur" : {
 		"name" : "Megataur",
+        "version" : "0.1",
 		"gearsets" : {
 		}
 	},
 	"medusa" : {
 		"name" : "Medusa",
+        "version" : "0.2",
 		"gearsets" : {
 		}
 	},
 	"catapult_knight" : {
 		"name" : "Catapult Knight",
+        "version" : "0.2",
 		"gearsets" : {
 		}
 	},
 	"aquatic_man" : {
 		"name" : "Aquatic Man",
+        "version" : "0.3.1",
 		"gearsets" : {
 		}
 	},
 	"zombie_squire" : {
 		"name" : "Zombie Squire",
+        "version" : "0.3.1",
 		"gearsets" : {
 		}
 	},
 	"bardbarian" : {
 		"name" : "Bardbarian",
+        "version" : "1.0",
 		"gearsets" : {
 		}
 	},
 	"magic_dragon" : {
 		"name" : "Magic Dragon",
+        "version" : "1.0",
 		"gearsets" : {
 		}
 	},
 	"bone_dragon" : {
 		"name" : "Bone Dragon",
+        "version" : "1.0",
 		"gearsets" : {
 		}
 	},
 	"groovy_druid" : {
 		"name" : "Groovy Druid",
+        "version" : "1.1",
 		"gearsets" : {
 		}
 	},
 	"savage_cutie" : {
 		"name" : "Savage Cutie",
+        "version" : "1.2",
 		"gearsets" : {
 		}
 	},
 	"frost_giant" : {
 		"name" : "Frost Giant",
+        "version" : "1.3",
 		"gearsets" : {
 		}
 	},
 	"spikey_dragon" : {
 		"name" : "Spikey Dragon",
+        "version" : "1.3",
 		"gearsets" : {
 		}
 	},
 	"dark_horse" : {
 		"name" : "Dark Horse",
+        "version" : "1.3",
 		"gearsets" : {
 		}
 	},
 	"pixie_queen" : {
 		"name" : "Pixie Queen",
+        "version" : "1.3",
 		"gearsets" : {
 		}
 	},
 	"rabid_dragon" : {
 		"name" : "Rabid Dragon",
+        "version" : "2.0",
 		"gearsets" : {
 		}
 	},
 	"orc_monk" : {
 		"name" : "Orc Monk",
+        "version" : "2.0",
 		"gearsets" : {
 		}
 	},
 	"dwarven_archer" : {
 		"name" : "Dwarven Archer",
+        "version" : "2.0",
 		"gearsets" : {
 		}
 	},
 	"storm_drake" : {
 		"name" : "Storm Drake",
+        "version" : "2.1",
 		"gearsets" : {
 		}
 	},
 	"wild_satyr" : {
 		"name" : "Wild Satyr",
+        "version" : "2.1",
 		"gearsets" : {
 		}
 	},
 	"skeleton_king" : {
 		"name" : "Skeleton King",
+        "version" : "2.1",
 		"gearsets" : {
 		}
 	}

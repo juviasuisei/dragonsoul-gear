@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 app.use(express.static(__dirname + '/json'));
+app.use(express.static(__dirname + '/js'));
 app.use(express.static(__dirname + '/node_modules/js-cookie/src'));
 
 app.get('*', function(req, res) {
