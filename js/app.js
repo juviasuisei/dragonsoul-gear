@@ -108,7 +108,7 @@ function calculate_gear() {
     $.each(progress, function(k,v) {
         console.log(k);
         console.log(v);
-        //console.log(Cookies.set(k, v, { "expires" : 99999 }));
+        console.log(Cookies.set(k, v, { "expires" : 99999 }));
         console.log(Cookies.getJSON());
     });
     var needed_sortable = [];
