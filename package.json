@@ -4,11 +4,11 @@
   "description": "DragonSoul Gear Calculator",
   "main": "index.js",
   "enginges": {
-	"node": "*"
+    "node": "4.2.3"
   },
   "dependencies": {
-    "express": "*",
-    "js-cookie": "*"
+    "express": "^4.13.3",
+    "js-cookie": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
