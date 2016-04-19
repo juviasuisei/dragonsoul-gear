@@ -1061,6 +1061,142 @@ var recipes = {
 		"materials" : [
 			{ "item" : "decoder_ring", "quantity" : 2 }
 		]
+	},
+	"lead_zeppelin" : {
+		"cost" : 5000,
+		"materials" : [
+			{ "item" : "captains_tightpants", "quantity" : 1 },
+			{ "item" : "bessies_bane", "quantity" : 1 },
+			{ "item" : "lead_zeppelin_scroll", "quantity" : 1 },
+			{ "item" : "gloves_of_crit", "quantity" : 1 }
+		]
+	},
+	"lead_zeppelin_scroll" : {
+		"cost" : 1500,
+		"materials" : [
+			{ "item" : "scrap_of_a_lead_zeppelin_scroll", "quantity" : 5 }
+		]
+	},
+	"svens_sword_of_dooooom" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "death_metal_blade", "quantity" : 1 },
+			{ "item" : "harolds_homemade_halberd", "quantity" : 1 }
+		]
+	},
+	"vampire_bunnyears" : {
+		"cost" : 1200,
+		"materials" : [
+			{ "item" : "ya_vampire_series", "quantity" : 1 },
+			{ "item" : "vampire_bunny_ears_scroll", "quantity" : 1 },
+			{ "item" : "fine_brie", "quantity" : 1 },
+			{ "item" : "snazzy_vest", "quantity" : 1 }
+		]
+	},
+	"helm_of_the_raging_bear" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_a_helm_of_the_raging_bear", "quantity" : 50 }
+		]
+	},
+	"monster_hunter_armor" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "war_sandals", "quantity" : 1 },
+			{ "item" : "sweatband_of_bewitching", "quantity" : 1 },
+			{ "item" : "axe_of_major_riffage", "quantity" : 1 }
+		]
+	},
+	"sweatband_of_bewitching" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_a_sweatband_of_bewitching", "quantity" : 50 }
+		]
+	},
+	"axe_of_major_riffage" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_an_axe_of_major_riffage", "quantity" : 50 }
+		]
+	},
+	"ivy_league_haircut" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "extreme_fad_diet", "quantity" : 1 },
+			{ "item" : "glasses_of_lenslessness", "quantity" : 1 },
+			{ "item" : "healthy_dose_of_skepticism", "quantity" : 1 }
+		]
+	},
+	"glasses_of_lenslessness" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_glasses_of_lenslessness", "quantity" : 50 }
+		]
+	},
+	"healthy_dose_of_skepticism" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_a_healthy_dose_of_skepticism", "quantity" : 50 }
+		]
+	},
+	"championship_belt" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
+			{ "item" : "self_preserver", "quantity" : 1 },
+			{ "item" : "healthy_dose_of_skepticism", "quantity" : 1 }
+		]
+	},
+	"tome_of_occult_nonsense" : {
+		"cost" : 40000,
+		"materials" : [
+			{ "item" : "scrap_of_a_tome_of_occult_nonsense", "quantity" : 50 }
+		]
+	},
+	"deerstalker_hat" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "tome_of_occult_nonsense", "quantity" : 1 },
+			{ "item" : "glasses_of_lenslessness", "quantity" : 1 },
+			{ "item" : "disk_of_some_power", "quantity" : 1 }
+		]
+	},
+	"helm_of_screaming_manface" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "extreme_fad_diet", "quantity" : 1 },
+			{ "item" : "sweatband_of_bewitching", "quantity" : 1 },
+			{ "item" : "helm_of_the_raging_bear", "quantity" : 1 }
+		]
+	},
+	"dragons_ballz" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "dead_eye", "quantity" : 1 },
+			{ "item" : "antimagic_shell", "quantity" : 1 },
+			{ "item" : "bowie_knife", "quantity" : 1 },
+			{ "item" : "helm_of_the_raging_bear", "quantity" : 1 }
+		]
+	},
+	"knives_of_hackenslash" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "war_sandals", "quantity" : 1 },
+			{ "item" : "untested_jetpack", "quantity" : 1 },
+			{ "item" : "axe_of_major_riffage", "quantity" : 1 }
+		]
+	},
+	"untested_jetpack" : {
+		"cost" : 25000,
+		"materials" : [
+			{ "item" : "scrap_of_war_sandals", "quantity" : 50 }
+		]
+	},
+	"cryptozoology" : {
+		"cost" : 36000,
+		"materials" : [
+			{ "item" : "lens_of_decryption", "quantity" : 2 }
+		]
 	}
 };
 

@@ -16,34 +16,44 @@ function sanity_check() {
     $.each(recipes, function(rk,recipe) {
         $.each(recipe.materials, function(mk,material) {
             if(false === material.item in gear) {
-                $('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material.item + '<br />');								litmus = true;
+                $('#error').html($('#error').html() + 'UNMATCHED GEAR: ' + rk + '/' + mk + '/' + material.item + '<br />');
+                litmus = true;
             }
         });
     });
     if(false === litmus) {
         populate_heroes();
+        tab('welcome');
+        hero_tab('dragon_lady');
     }
 }
 
 function populate_heroes() {
-    var version = '';
-    var progress = Cookies.getJSON('progress');
+    console.log('pop');
+    var h = 0;
     $.each(heroes, function(hk,hero) {
-        var result = '';
-        if(hero.version !== version) {
-            version = hero.version;
-            result += '<h5>v' + version + '</h5>';
+        console.log(hk);
+        var nav = '';
+        if(0 < h) {
+            nav += ' &#x2022; ';
         }
+        nav += '<a href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')">' + hero.name + '</a>';
+        $('#heroes_nav').html($('#heroes_nav').html() + nav);
+        var result = '';
+        result += '<div id="' + hk + '" class="hero_tab">';
         result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span>)</h3>';
+        result += '<h5>added in v' + hero.version + '</h5>';
         $.each(hero.gearsets, function(gk,gearset) {
             var color = gk.match(/^[^\d]*/)[0];
             result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true);">mark as completed</span>)</h4>';
             result += '<ul id="' + hk + gk + '">';
             var i = 1;
+            console.log(hk + gk);
             $.each(gearset, function(slot,item) {
                 var gear_item = gear[item]
                 result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
-                if('undefined' !== typeof progress && hk in progress && gk in progress[hk] && slot in progress[hk][gk] && true === progress[hk][gk][slot]) {
+                var progress = Cookies.getJSON(hk);
+                if('undefined' !== typeof progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
                     result += ' checked="checked"';
                 }
                 result += ' /> ' + gear_item.name + '</label></li>';
@@ -54,7 +64,9 @@ function populate_heroes() {
             });
             result += '</ul>';
         });
-        $('#heroes').html($('#heroes').html() + result);
+        result += '</div>';
+        $('#heroes_list').html($('#heroes_list').html() + result);
+        h++;
     });
     calculate_gear();
 }
@@ -96,7 +108,9 @@ function calculate_gear() {
             });
         });
     });
-    Cookies.set('progress', progress, { "expires" : 99999 });
+    $.each(progress, function(k,v) {
+        Cookies.set(k, v, { "expires" : 999999 });
+    });
     var needed_sortable = [];
     $.each(needed, function(k,v) {
         needed_sortable.push({"item" : gear[k], "quantity" : v, "k" : k});
@@ -111,10 +125,17 @@ function calculate_gear() {
             return(diff);
         }
     });
-    $('#white, #green, #blue, #purple, #orange').html('');
+    var collects = '';
+    var crafts = '';
     $.each(needed_sortable, function(k,v) {
-        $('#' + v.item.color).html($('#' + v.item.color).html() + '<li>' + v.item.name + ' &#x2014; ' + v.quantity + '</li>');
+        if(true === v.k in recipes) {
+            crafts += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + v.quantity + '</li>';
+        } else {
+            collects += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + v.quantity + '</li>';
+        }
     });
+    $('#collect_list').html(collects);
+    $('#craft_list').html(crafts);
 }
 
 function calculate_recipe(recipe) {
@@ -137,9 +158,21 @@ function calculate_recipe(recipe) {
 }
 
 function reset() {
-    $.each(heroes, function(hk,hero) {
-        check_gearsets(hk, false);
-    });
+    if(true === confirm('Are you sure?')) {
+        $.each(heroes, function(hk,hero) {
+            check_gearsets(hk, false);
+        });
+    }
+}
+
+function tab(id) {
+    $('.tab').hide();
+    $('#' + id).show();
+}
+
+function hero_tab(id) {
+    $('.hero_tab').hide();
+    $('#' + id).show();
 }
 
 $(function() { sanity_check(); });
