@@ -50,7 +50,7 @@ function populate_heroes() {
                 var gear_item = gear[item]
                 result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
                 var progress = $.parseJSON(localStorage.getItem(hk));
-                if('undefined' !== typeof progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
+                if(null !== progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
                     result += ' checked="checked"';
                 }
                 result += ' /> ' + gear_item.name + '</label></li>';
