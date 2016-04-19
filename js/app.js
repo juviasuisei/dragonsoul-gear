@@ -49,7 +49,7 @@ function populate_heroes() {
             $.each(gearset, function(slot,item) {
                 var gear_item = gear[item]
                 result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
-                //var progress = Cookies.getJSON(hk);
+                var progress = $.parseJSON(localStorage.getItem(hk));
                 if('undefined' !== typeof progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
                     result += ' checked="checked"';
                 }
@@ -106,7 +106,7 @@ function calculate_gear() {
         });
     });
     $.each(progress, function(k,v) {
-        Cookies.set(k, v, { "expires" : 99999 });
+        localStorage.setItem(k, JSON.stringify(v));
     });
     var needed_sortable = [];
     $.each(needed, function(k,v) {
