@@ -345,19 +345,19 @@ var heroes = {
 		"name" : "Medusa",
         "version" : "0.2",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","stolen_sneakers","goblin_grog","paper_crown","stolen_sneakers","my_first_shield"],
+			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","snazzy_gear","stickon_moustache"],
+			"green1" : ["racing_stripes","sparkle_pony_keychain","goblin_whacker","arcane_slacks","ya_vampire_series","stickon_moustache"],
+			"blue" : ["spud_gun","snake_oil","goblin_whacker","the_mad_gods_trident","captains_tightpants","stickon_moustache"],
+			"blue1" : ["axes_of_dual_wielding","lifesipper","excaliburtreynolds","the_compensator","banjo_of_dueling","plucky_heroines_shortbow"],
+			"blue2" : ["dirk_of_disemboweling","decoder_ring","swash_buckler","flail_of_total_devastation","plastic_vampire_teeth","plucky_heroines_shortbow"],
+			"purple" : ["shovel","gentlemens_club","goblin_whacker","adamantium_tiara","banjo_of_dueling","plucky_heroines_shortbow"],
+			"purple1" : ["lavishly_adorned_rapier","adamantium_tiara","impractical_chestplate","dirk_of_disemboweling","kindness","intimidating_beard"],
+			"purple2" : ["lifedrinker","adamantium_tiara","mace_of_friendship","mjlnirby","gentlemens_club","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","enids_expensive_elixir","the_compensator","tome_of_nasty_behavior","dirk_of_disemboweling","intimidating_beard"],
+			"purple4" : ["yodeling_sword","shovel","head_banger","ring_of_the_squirrel","mjlnirby","chugg_boots"],
+			"orange" : ["lens_of_decryption","blacksteel_blade","boots_made_for_walkin","unicorn_puke","dirk_of_disemboweling","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","ring_of_the_squirrel","helm_of_the_raging_bear","knives_of_hackenslash","liche_finger","chugg_boots"]
 		}
 	},
 	"catapult_knight" : {

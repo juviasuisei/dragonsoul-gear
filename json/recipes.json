@@ -1197,6 +1197,14 @@ var recipes = {
 		"materials" : [
 			{ "item" : "lens_of_decryption", "quantity" : 2 }
 		]
+	},
+	"unicorn_puke" : {
+		"cost" : 72000,
+		"materials" : [
+			{ "item" : "photo_bomb", "quantity" : 1 },
+			{ "item" : "svens_sword_of_doooom", "quantity" : 1 },
+			{ "item" : "peter_pipers_pepper_spray", "quantity" : 1 }
+		]
 	}
 };
 
