@@ -29,10 +29,8 @@ function sanity_check() {
 }
 
 function populate_heroes() {
-    console.log('pop');
     var h = 0;
     $.each(heroes, function(hk,hero) {
-        console.log(hk);
         var nav = '';
         if(0 < h) {
             nav += ' &#x2022; ';
@@ -48,11 +46,10 @@ function populate_heroes() {
             result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true);">mark as completed</span>)</h4>';
             result += '<ul id="' + hk + gk + '">';
             var i = 1;
-            console.log(hk + gk);
             $.each(gearset, function(slot,item) {
                 var gear_item = gear[item]
                 result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
-                var progress = Cookies.getJSON(hk);
+                //var progress = Cookies.getJSON(hk);
                 if('undefined' !== typeof progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
                     result += ' checked="checked"';
                 }
@@ -109,7 +106,7 @@ function calculate_gear() {
         });
     });
     $.each(progress, function(k,v) {
-        Cookies.set(k, v, { "expires" : 999999 });
+        //Cookies.set(k, v, { "expires" : 999999 });
     });
     var needed_sortable = [];
     $.each(needed, function(k,v) {
