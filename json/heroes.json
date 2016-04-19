@@ -307,6 +307,25 @@ var heroes = {
 		"name" : "Polemaster",
         "version" : "0.1",
 		"gearsets" : {
+			"white" : ["foam_finger","fine_brie","goblin_grog","foam_finger","free_mans_crowbar","my_first_shield"],
+			"green" : ["bloody_bat","raw_egg","shiny_bottlecap","bloody_bat","protein_powder","stickon_moustache"],
+			"green1" : ["mace_of_friendship","thong_of_vitality","bloody_bat","and_my_axe","sparkle_pony_keychain","stickon_moustache"],
+			"blue" : ["rod_of_tasing","lifesipper","lucky_orcs_foot","excaliburtreynolds","protein_powder","directors_cut"],
+			"blue1" : ["mussel_milk","snazzy_vest","thong_of_vitality","and_my_axe","tenfoot_pole","directors_cut"],
+			"blue2" : ["head_banger","flail_of_total_devastation","magic_eight_ball","vorpal_boomerang","bag_ohammers","directors_cut"],
+			"purple" : ["super_spikey_spear","kindness","blissful_ignorance","shovel","axes_of_dual_wielding","intimidating_beard"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","diplomatic_immunity","flail_of_total_devastation","mjlnirby","death_metal_blade","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","swordy_mcepicpants","lead_zeppelin","philter_of_pure_testosterone","hammer_of_wicked_beats","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","big_stabby_spear","mussel_milk","lifedrinker","super_spikey_spear","intimidating_beard"],
+			"purple4" : ["the_power_of_science","svens_sword_of_dooooom","diplomatic_immunity","peter_pipers_pepper_spray","dirk_of_disemboweling","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","blacksteel_blade","head_banger","readin_rain_bow","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["antimagic_shell","dragons_ballz","bowie_knife","monster_hunter_armor","helm_of_the_raging_bear","chugg_boots"]
+		}
+	},
+	"megataur" : {
+		"name" : "Megataur",
+        "version" : "0.1",
+		"gearsets" : {
 			"white" : [],
 			"green" : [],
 			"green1" : [],
@@ -322,142 +341,422 @@ var heroes = {
 			"orange1" : []
 		}
 	},
-	"megataur" : {
-		"name" : "Megataur",
-        "version" : "0.1",
-		"gearsets" : {
-		}
-	},
 	"medusa" : {
 		"name" : "Medusa",
         "version" : "0.2",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"catapult_knight" : {
 		"name" : "Catapult Knight",
         "version" : "0.2",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"aquatic_man" : {
 		"name" : "Aquatic Man",
         "version" : "0.3.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"zombie_squire" : {
 		"name" : "Zombie Squire",
         "version" : "0.3.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"bardbarian" : {
 		"name" : "Bardbarian",
         "version" : "1.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"magic_dragon" : {
 		"name" : "Magic Dragon",
         "version" : "1.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"bone_dragon" : {
 		"name" : "Bone Dragon",
         "version" : "1.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"groovy_druid" : {
 		"name" : "Groovy Druid",
         "version" : "1.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"savage_cutie" : {
 		"name" : "Savage Cutie",
         "version" : "1.2",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"frost_giant" : {
 		"name" : "Frost Giant",
         "version" : "1.3",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"spikey_dragon" : {
 		"name" : "Spikey Dragon",
         "version" : "1.3",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"dark_horse" : {
 		"name" : "Dark Horse",
         "version" : "1.3",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"pixie_queen" : {
 		"name" : "Pixie Queen",
         "version" : "1.3",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"rabid_dragon" : {
 		"name" : "Rabid Dragon",
         "version" : "2.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"orc_monk" : {
 		"name" : "Orc Monk",
         "version" : "2.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"dwarven_archer" : {
 		"name" : "Dwarven Archer",
         "version" : "2.0",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"storm_drake" : {
 		"name" : "Storm Drake",
         "version" : "2.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"wild_satyr" : {
 		"name" : "Wild Satyr",
         "version" : "2.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
 	"skeleton_king" : {
 		"name" : "Skeleton King",
         "version" : "2.1",
 		"gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
 		}
 	},
     "unicorgi" : {
         "name" : "Unicorgi",
         "version" : "2.2",
         "gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
         }
     },
     "golden_genie" : {
         "name" : "Golden Genie",
         "version" : "2.2",
         "gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
         }
     },
     "spirit_wolf" : {
         "name" : "Spirit Wolf",
         "version" : "2.2",
         "gearsets" : {
+			"white" : [],
+			"green" : [],
+			"green1" : [],
+			"blue" : [],
+			"blue1" : [],
+			"blue2" : [],
+			"purple" : [],
+			"purple1" : [],
+			"purple2" : [],
+			"purple3" : [],
+			"purple4" : [],
+			"orange" : [],
+			"orange1" : []
         }
     }
 };
