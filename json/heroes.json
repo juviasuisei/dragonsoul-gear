@@ -327,7 +327,7 @@ var heroes = {
         "version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","fine_brie","paper_crown","free_mans_crowbar"],
-			"green" : ["protein_powder","bloody_bat","bessies_bane","enchanted_elbow_pads","raw_egg","stickon_moutache"],
+			"green" : ["protein_powder","bloody_bat","bessies_bane","enchanted_elbow_pads","raw_egg","stickon_moustache"],
 			"green1" : ["muscle_wax","blissful_ignorance","protein_powder","thong_of_vitality","my_first_shield","stickon_moustache"],
 			"blue" : ["robe_of_sharp_comebacks","raw_egg","side_of_bacon","bag_ohammers","penetrable_armor","directors_cut"],
 			"blue1" : ["mussel_milk","impractical_chestplate","protein_powder","axes_of_dual_wielding","thong_of_vitality","directors_cut"],
