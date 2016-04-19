@@ -106,10 +106,8 @@ function calculate_gear() {
         });
     });
     $.each(progress, function(k,v) {
-        console.log(k);
-        console.log(v);
-        console.log(Cookies.set(k, v, { "expires" : 99999 }));
-        console.log(Cookies.getJSON());
+        Cookies.remove(k);
+        Cookies.set(k, v, { "expires" : 99999 });
     });
     var needed_sortable = [];
     $.each(needed, function(k,v) {
