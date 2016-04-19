@@ -43,7 +43,7 @@ function populate_heroes() {
         result += '<h5>added in v' + hero.version + '</h5>';
         $.each(hero.gearsets, function(gk,gearset) {
             var color = gk.match(/^[^\d]*/)[0];
-            result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true);">mark as completed</span>)</h4>';
+            result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span>)</h4>';
             result += '<ul id="' + hk + gk + '">';
             var i = 1;
             $.each(gearset, function(slot,item) {
@@ -70,13 +70,16 @@ function populate_heroes() {
 
 function check_gearsets(id,checked) {
     $.each(heroes[id].gearsets, function(gk,gearset) {
-        check_gearset(id + gk, checked);
+        check_gearset(id + gk, checked, false);
     });
+    calculate_gear();
 }
 
-function check_gearset(id,checked) {
+function check_gearset(id,checked,recalculate) {
     $('#' + id + ' li input').prop('checked', checked);
-    calculate_gear();
+    if(true === recalculate) {
+        calculate_gear();
+    }
 }
 
 function calculate_gear() {
@@ -156,10 +159,9 @@ function calculate_recipe(recipe) {
 
 function reset() {
     if(true === confirm('Are you sure?')) {
-        $.each(heroes, function(hk,hero) {
-            check_gearsets(hk, false);
-        });
+        $('input').prop('checked', false);
     }
+    calculate_gear();
 }
 
 function tab(id) {
