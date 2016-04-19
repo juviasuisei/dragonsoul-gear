@@ -346,7 +346,7 @@ var heroes = {
         "version" : "0.2",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","goblin_grog","paper_crown","stolen_sneakers","my_first_shield"],
-			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","snazzy_gear","stickon_moustache"],
+			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","snazzy_vest","stickon_moustache"],
 			"green1" : ["racing_stripes","sparkle_pony_keychain","goblin_whacker","arcane_slacks","ya_vampire_series","stickon_moustache"],
 			"blue" : ["spud_gun","snake_oil","goblin_whacker","the_mad_gods_trident","captains_tightpants","stickon_moustache"],
 			"blue1" : ["axes_of_dual_wielding","lifesipper","excaliburtreynolds","the_compensator","banjo_of_dueling","plucky_heroines_shortbow"],
