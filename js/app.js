@@ -106,7 +106,7 @@ function calculate_gear() {
         });
     });
     $.each(progress, function(k,v) {
-        //Cookies.set(k, v, { "expires" : 999999 });
+        Cookies.set(k, v, { "expires" : 999999 });
     });
     var needed_sortable = [];
     $.each(needed, function(k,v) {
