@@ -364,19 +364,19 @@ var heroes = {
 		"name" : "Catapult Knight",
         "version" : "0.2",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
+			"green" : ["shiny_bottlecap","chunky_femur","bit_onip","chunky_femur","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","king_jeffs_crossbow","snazzy_vest","smarty_pants","chunky_femur","stickon_moustache"],
+			"blue" : ["laser_pointer","hemp_bracelet","chunky_femur","necronomicon","artifact_of_unimaginable_power","intimidating_beard"],
+			"blue1" : ["laser_pointer","glaive_of_dismemberment","chunky_femur","staff_of_boss_fighting","sacred_codex","intimidating_beard"],
+			"blue2" : ["the_1_ring","the_compensator","wand_of_gold_sparkles","tome_of_forbidden_trivia","blissful_ignorance","intimidating_beard"],
+			"purple" : ["laser_visor","thinking_cap","wand_of_gold_sparkles","hammer_of_wicked_beats","the_power_of_medicine","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","framed_diploma","muscle_wax","adamantium_tiara","king_jeffs_crossbow","intimidating_beard"],
+			"purple2" : ["laser_sword","the_1_ring","sacred_codex","dirk_of_disemboweling","king_jeffs_crossbow","intimidating_beard"],
+			"purple3" : ["laser_kitten","rod_of_witty_banter","the_compensator","tome_of_nasty_behavior","hammer_of_wicked_beats","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","the_1_ring","framed_diploma","high_tea","purple_pills_of_potentcy","chugg_boots"],
+			"orange" : ["laser_kitten","overpowering_fragrance","adamantium_tiara","glass_case_of_emotion","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","championship_belt","tome_of_occult_nonsense","ivy_league_haircut","liche_finger","chugg_boots"]
 		}
 	},
 	"aquatic_man" : {
