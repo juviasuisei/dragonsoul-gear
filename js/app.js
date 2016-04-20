@@ -129,18 +129,22 @@ function calculate_gear() {
     var crafts = '';
     $.each(needed_sortable, function(k,v) {
         if(true === v.k in recipes) {
-            crafts += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + v.quantity + '</li>';
+            crafts += '<li class"="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
         } else {
-            collects += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + v.quantity + '</li>';
+            collects += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
         }
     });
     $('#collect_list').html(collects);
     $('#craft_list').html(crafts);
 }
 
+function commas(raw) {
+	return(raw.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"))
+}
+
 function calculate_recipe(recipe) {
     cost += recipe.cost;
-    $('#gold').html(cost.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); 
+    $('#gold').html(commas(cost)); 
     $.each(recipe.materials, function(k,material) {
         if(false === material.item in needed) {
             needed[material.item] = material.quantity;
