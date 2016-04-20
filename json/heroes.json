@@ -374,7 +374,7 @@ var heroes = {
 			"purple1" : ["27_pocket_protector","framed_diploma","muscle_wax","adamantium_tiara","king_jeffs_crossbow","intimidating_beard"],
 			"purple2" : ["laser_sword","the_1_ring","sacred_codex","dirk_of_disemboweling","king_jeffs_crossbow","intimidating_beard"],
 			"purple3" : ["laser_kitten","rod_of_witty_banter","the_compensator","tome_of_nasty_behavior","hammer_of_wicked_beats","intimidating_beard"],
-			"purple4" : ["girdle_of_victory","the_1_ring","framed_diploma","high_tea","purple_pills_of_potentcy","chugg_boots"],
+			"purple4" : ["girdle_of_victory","the_1_ring","framed_diploma","high_tea","purple_pills_of_potency","chugg_boots"],
 			"orange" : ["laser_kitten","overpowering_fragrance","adamantium_tiara","glass_case_of_emotion","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","championship_belt","tome_of_occult_nonsense","ivy_league_haircut","liche_finger","chugg_boots"]
 		}
