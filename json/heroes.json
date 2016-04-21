@@ -440,19 +440,19 @@ var heroes = {
 		"name" : "Magic Dragon",
         "version" : "1.0",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","loaded_die","rubber_vest"],
+			"green" : ["sparkle_pony_keychain","chunky_femur","fine_brie","snazzy_vest","chunky_femur","stickon_moustache"],
+			"green1" : ["gentlemens_club","bessies_bane","melty_chocolate_bar","the_power_of_medicine","bessies_bane","stickon_moustache"],
+			"blue" : ["sacred_codex","mace_of_friendship","chunky_femur","gentlemens_club","excaliburtreynolds","sock_full_opennies"],
+			"blue1" : ["the_compensator","king_jeffs_crossbow","ya_vampire_series","glaive_of_dismemberment","king_jeffs_crossbow","sock_full_opennies"],
+			"blue2" : ["rod_of_witty_banter","lifesipper","hemp_bracelet","rod_of_tasing","staff_of_boss_fighting","sock_full_opennies"],
+			"purple" : ["the_1_ring","kindness","chunky_femur","hammer_of_wicked_beats","impractical_chestplate","sock_full_opennies"],
+			"purple1" : ["27_pocket_protector","adamantium_tiara","the_ugly_stick","mjlnirby","necronomicon","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","framed_diploma","the_ugly_stick","tome_of_nasty_behavior","the_mad_gods_trident","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","super_spikey_spear","the_compensator","shovel","orb_of_everlasting_flavor","intimidating_beard"],
+			"purple4" : ["yodeling_sword","dirk_of_disemboweling","adamanatium_tiara","high_tea","big_stabby_spear","chugg_boots"],
+			"orange" : ["laser_kitten","war_sandals","overpowering_fragrance","readin_rain_bow","framed_diploma","chugg_boots"],
+			"orange1" : ["self_preserver","motivational_cassette","axe_of_major_riffage","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		}
 	},
 	"bone_dragon" : {
