@@ -421,19 +421,19 @@ var heroes = {
 		"name" : "Bardbarian",
         "version" : "1.0",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
+			"green" : ["ya_vampire_series","goblin_whacker","free_mans_crowbar","snazzy_vest","goblin_whacker","stickon_moustache"],
+			"green1" : ["vampire_bunnyears","sparkle_pony_keychain","bessies_bane","racing_stripes","raw_egg","stickon_moustache"],
+			"blue" : ["glaive_of_dismemberment","thong_of_vitality","protein_powder","lead_zeppelin","the_ugly_stick","sock_full_opennies"],
+			"blue1" : ["death_metal_blade","the_compensator","arcane_slacks","blissful_ignorance","bag_ohammers","sock_full_opennies"],
+			"blue2" : ["dirk_of_disemboweling","axes_of_dual_wielding","impractical_chestplate","flail_of_total_devastation","vampire_bunnyears","sock_full_opennies"],
+			"purple" : ["super_spikey_spear","head_banger","snazzy_vest","hammer_of_wicked_beats","thong_of_vitality","intimidating_beard"],
+			"purple1" : ["lavishly_adorned_rapier","flail_of_total_devastation","and_my_axe","mussel_milk","lead_zeppelin","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","glaive_of_dismemberment","vampire_bunnyears","diplomatic_immunity","gentlemens_club","intimidating_beard"],
+			"purple3" : ["svens_sword_of_dooooom","shovel","thong_of_vitality","sandwich_of_unsurpassed_meatiness","the_compensator","intimidating_beard"],
+			"purple4" : ["rattling_sabre","lifedrinker","dead_eye","ring_of_the_squirrel","sandwich_of_unsurpassed_meatiness","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","blacksteel_blade","bowie_knife","readin_rain_bow","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["self_preserver","ring_of_the_squirrel","bowie_knife","helm_of_screaming_manface","healthy_dose_of_skepticism","chugg_boots"]
 		}
 	},
 	"magic_dragon" : {
