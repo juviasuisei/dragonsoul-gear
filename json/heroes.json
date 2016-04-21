@@ -383,19 +383,19 @@ var heroes = {
 		"name" : "Aquatic Man",
         "version" : "0.3.1",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","loaded_die","my_first_shield","paper_crown","loaded_die","rubber_vest"],
+			"green" : ["raw_egg","goblin_whacker","bessies_bane","goblin_grog","goblin_whacker","stickon_moustache"],
+			"green1" : ["racing_stripes","sparkle_pony_keychain","bloody_bat","thong_of_vitality","snazzy_vest","stickon_moustache"],
+			"blue" : ["spud_gun","tenfoot_pole","protein_powder","rod_of_tasing","arcane_slacks","stickon_moustache"],
+			"blue1" : ["axes_of_dual_wielding","impractical_chestplate","penetrable_armor","flail_of_total_devastation","blissful_ignorance","sock_full_opennies"],
+			"blue2" : ["super_spikey_spear","the_ugly_stick","goblin_whacker","kindness","the_ugly_stick","sock_full_opennies"],
+			"purple" : ["diplomatic_immunity","spud_gun","banjo_of_dueling","mjlnirby","the_compensator","sock_full_opennies"],
+			"purple1" : ["lavishly_adorned_rapier","the_mad_gods_trident","goblin_whacker","dirk_of_disemboweling","thong_of_vitality","intimidating_beard"],
+			"purple2" : ["grievous_bodily_harm","racing_stripes","raw_egg","shovel","muscle_wax","intimidating_beard"],
+			"purple3" : ["big_stabby_spear","rod_of_tasing","thong_of_vitality","sandwich_of_unsurpassed_meatiness","robe_of_sharp_comebacks","intimidating_beard"],
+			"purple4" : ["rattling_sabre","overpowering_fragrance","adamantium_tiara","ring_of_the_squirrel","super_spikey_spear","chugg_boots"],
+			"orange" : ["lens_of_decryption","blacksteel_blade","dirk_of_disemboweling","readin_rain_bow","boots_made_for_walkin","chugg_boots"],
+			"orange1" : ["self_preserver","ring_of_the_squirrel","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
 		}
 	},
 	"zombie_squire" : {
