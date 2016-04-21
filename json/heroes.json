@@ -402,19 +402,19 @@ var heroes = {
 		"name" : "Zombie Squire",
         "version" : "0.3.1",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
+			"green" : ["bloody_bat","gloves_of_crit","artifact_of_unimaginable_power","bloody_bat","bessies_bane","stickon_moustache"],
+			"green1" : ["excaliburtreynolds","captains_tightpants","bloody_bat","sparkle_pony_keychain","bessies_bane","stickon_moustache"],
+			"blue" : ["lead_zeppelin","bag_ohammers","snazzy_vest","thong_of_vitality","ya_vampire_series","directors_cut"],
+			"blue1" : ["mussel_milk","vampire_bunnyears","protein_powder","axes_of_dual_wielding","side_of_bacon","directors_cut"],
+			"blue2" : ["super_spikey_spear","gentlemens_club","artifact_of_unimaginable_power","the_mad_gods_trident","gentlemens_club","directors_cut"],
+			"purple" : ["shovel","flail_of_total_devastation","muscle_wax","the_compensator","raw_egg","intimidating_beard"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","lead_zeppelin","bloody_bat","mjlnirby","magic_eight_ball","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","death_metal_blade","thong_of_vitality","swordy_mcepicpants","plastic_vampire_teeth","intimidating_beard"],
+			"purple3" : ["big_stabby_spear","robe_of_sharp_comebacks","mussel_milk","lifedrinker","the_compensator","intimidating_beard"],
+			"purple4" : ["the_power_of_science","philter_of_pure_testosterone","diplomatic_immunity","peter_pipers_pepper_spray","dirk_of_disemboweling","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","lifedrinker","hammer_of_wicked_beats","wicked_mullet","self_preserver","chugg_boots"],
+			"orange1" : ["antimagic_shell","ring_of_the_squirrel","helm_of_the_raging_bear","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		}
 	},
 	"bardbarian" : {
