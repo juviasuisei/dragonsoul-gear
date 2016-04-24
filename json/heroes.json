@@ -465,7 +465,7 @@ var heroes = {
 			"blue" : ["lead_zeppelin","nonstick_shield","bloody_bat","bag_ohammers","lifesipper","stickon_moustache"],
 			"blue1" : ["impractical_chestplate","gentlemens_club","tenfoot_pole","the_mad_gods_trident","blissful_ignorance","directors_cut"],
 			"blue2" : ["super_spikey_spear","rod_of_tasing","penetrable_armor","the_compensator","muscle_wax","directors_cut"],
-			"purple" : ["philter_of_pure_testosterone","robe_of_sharp_comeback","thong_of_vitality","swordy_myepicpants","axes_of_dual_wielding","directors_cut"],
+			"purple" : ["philter_of_pure_testosterone","robe_of_sharp_comebacks","thong_of_vitality","swordy_mcepicpants","axes_of_dual_wielding","directors_cut"],
 			"purple1" : ["sandwich_of_unsurpassed_meatiness","lead_zeppelin","gentlemens_club","shovel","tenfoot_pole","intimidating_beard"],
 			"purple2" : ["grievous_bodily_harm","diplomatic_immunity","the_ugly_stick","dirk_of_disemboweling","lifesipper","intimidating_beard"],
 			"purple3" : ["lifedrinker","hammer_of_wicked_beats","side_of_bacon","sandwich_of_unsurpassed_meatiness","the_compensator","intimidating_beard"],
