@@ -554,19 +554,19 @@ var heroes = {
 		"name" : "Dark Horse",
         "version" : "1.3",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","fine_brie","foam_finger","fine_brie","paper_crown","my_first_shield"],
+			"green" : ["bloody_bat","raw_egg","bessies_bane","bloody_bat","shiny_bottlecap","stickon_moustache"],
+			"green1" : ["muscle_wax","excaliburtreynolds","bloody_bat","blissful_ignorance","my_first_shield","stickon_moustache"],
+			"blue" : ["robe_of_sharp_comebacks","thong_of_vitality","side_of_bacon","bag_ohammers","penetrable_armor","directors_cut"],
+			"blue1" : ["mussel_milk","impractical_chestplate","protein_powder","lead_zeppelin","vampire_bunnyears","directors_cut"],
+			"blue2" : ["super_spikey_spear","magic_eight_ball","raw_egg","the_compensator","thong_of_vitality","directors_cut"],
+			"purple" : ["hammer_of_wicked_beats","the_mad_gods_trident","excaliburtreynolds","diplomatic_immunity","artifact_of_unimaginable_power","directors_cut"],
+			"purple1" : ["27_pocket_protector","bag_ohammers","thong_of_vitality","enids_expensive_elixir","mace_of_friendship","intimidating_beard"],
+			"purple2" : ["lifedrinker","swordy_mcepicpants","lifesipper","philter_of_pure_testosterone","the_compensator","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","diplomatic_immunity","thong_of_vitality","big_stabby_spear","mussel_milk","intimidating_beard"],
+			"purple4" : ["the_power_of_science","sandwich_of_unsurpassed_meatiness","philter_of_pure_testosterone","peter_pipers_pepper_spray","grievous_bodily_harm","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","dragon_scale","antimagic_shell","mystical_elven_sh*t","big_stabby_spear","chugg_boots"],
+			"orange1" : ["antimagic_shell","dragons_ballz","healthy_dose_of_skepticism","helm_of_screaming_manface","liche_finger","chugg_boots"]
 		}
 	},
 	"pixie_queen" : {
