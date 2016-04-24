@@ -129,7 +129,7 @@ function calculate_gear() {
     var crafts = '';
     $.each(needed_sortable, function(k,v) {
         if(true === v.k in recipes) {
-            crafts += '<li class"="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
+            crafts += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
         } else {
             collects += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
         }
