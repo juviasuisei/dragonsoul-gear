@@ -459,19 +459,19 @@ var heroes = {
 		"name" : "Bone Dragon",
         "version" : "1.0",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","foam_finger","enchanted_elbow_pads","paper_crown","foam_finger","goblin_grog"],
+			"green" : ["captains_tightpants","bloody_bat","bessies_bane","gloves_of_crit","bloody_bat","stickon_moustache"],
+			"green1" : ["muscle_wax","bloody_bat","ya_vampire_series","side_of_bacon","bloody_bat","stickon_moustache"],
+			"blue" : ["lead_zeppelin","nonstick_shield","bloody_bat","bag_ohammers","lifesipper","stickon_moustache"],
+			"blue1" : ["impractical_chestplate","gentlemens_club","tenfoot_pole","the_mad_gods_trident","blissful_ignorance","directors_cut"],
+			"blue2" : ["super_spikey_spear","rod_of_tasing","penetrable_armor","the_compensator","muscle_wax","directors_cut"],
+			"purple" : ["philter_of_pure_testosterone","robe_of_sharp_comeback","thong_of_vitality","swordy_myepicpants","axes_of_dual_wielding","directors_cut"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","lead_zeppelin","gentlemens_club","shovel","tenfoot_pole","intimidating_beard"],
+			"purple2" : ["grievous_bodily_harm","diplomatic_immunity","the_ugly_stick","dirk_of_disemboweling","lifesipper","intimidating_beard"],
+			"purple3" : ["lifedrinker","hammer_of_wicked_beats","side_of_bacon","sandwich_of_unsurpassed_meatiness","the_compensator","intimidating_beard"],
+			"purple4" : ["the_power_of_science","dead_eye","svens_sword_of_dooooom","peter_pipers_pepper_spray","shovel","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","big_stabby_spear","head_banger","readin_rain_bow","mjlnirby","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","dragons_ballz","helm_of_the_raging_bear","monster_hunter_armor","blacksteel_blade","chugg_boots"]
 		}
 	},
 	"groovy_druid" : {
