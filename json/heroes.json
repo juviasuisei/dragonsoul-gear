@@ -478,19 +478,19 @@ var heroes = {
 		"name" : "Groovy Druid",
         "version" : "1.1",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","enchanted_elbow_pads","goblin_grog"],
+			"green" : ["sparkle_pony_keychain","chunky_femur","wand_of_gold_sparkles","bloody_bat","chunky_femur","stickon_moustache"],
+			"green1" : ["sacred_codex","tenfoot_pole","chunky_femur","the_power_of_medicine","artifact_of_unimaginable_power","stickon_moustache"],
+			"blue" : ["rod_of_tasing","nonstick_shield","bessies_bane","necronomicon","king_jeffs_crossbow","hippy_glo_sticks"],
+			"blue1" : ["laser_pointer","tome_of_forbidden_trivia","penetrable_armor","orb_of_everlasting_flavor","hemp_bracelet","hippy_glo_sticks"],
+			"blue2" : ["sacred_codex","snake_oil","side_of_bacon","rod_of_witty_banter","rod_of_tasing","hippy_glo_sticks"],
+			"purple" : ["enids_expensive_elixir","impractical_chestplate","blissful_ignorance","the_1_ring","thong_of_vitality","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","adamantium_tiara","tenfoot_pole","diplomatic_immunity","thinking_cap","intimidating_beard"],
+			"purple2" : ["laser_sword","tome_of_eldritch_goingson","lucky_orcs_foot","rod_of_witty_banter","rod_of_shenanigans","intimidating_beard"],
+			"purple3" : ["laser_kitten","the_1_ring","thong_of_vitality","tome_of_unspeakable_hearsay","rod_of_tasing","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","overpowering_fragrance","purple_pills_of_potency","high_tea","disk_of_some_power","chugg_boots"],
+			"orange" : ["laser_kitten","framed_diploma","hammer_of_wicked_beats","glass_case_of_emotion","27_pocket_protector","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","liche_finger","healthy_dose_of_skepticism","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		}
 	},
 	"savage_cutie" : {
