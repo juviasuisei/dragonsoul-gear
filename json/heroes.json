@@ -618,7 +618,7 @@ var heroes = {
 			"blue1" : ["the_power_of_positive_thinking","tenfoot_pole","melty_chocolate_bar","necronomicon","vampire_bunnyears","hippy_glo_sticks"],
 			"blue2" : ["diplomatic_immunity","the_compensator","hemp_bracelet","shot_in_the_arm","blissful_ignorance","hippy_glo_sticks"],
 			"purple" : ["the_power_of_friendship","muscle_wax","excaliburtreynolds","hammer_of_wicked_beats","sacred_codex","intimidating_beard"],
-			"purple1" : ["27_pocket_protectors","framed_diploma","impractical_chestplate","enids_expensive_elixir","adamantium_tiara","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","framed_diploma","impractical_chestplate","enids_expensive_elixir","adamantium_tiara","intimidating_beard"],
 			"purple2" : ["the_power_of_love","philter_of_pure_testosterone","thong_of_vitality","the_1_ring","impractical_chestplate","intimidating_beard"],
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","the_compensator","super_spikey_spear","necronomicon","intimidating_beard"],
 			"purple4" : ["purifying_tuning_fork","dragon_scale","head_banger","peter_pipers_pepper_spray","overpowering_fragrance","chugg_boots"],
