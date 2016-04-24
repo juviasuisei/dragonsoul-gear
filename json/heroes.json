@@ -497,19 +497,19 @@ var heroes = {
 		"name" : "Savage Cutie",
         "version" : "1.2",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
+			"green" : ["bloody_bat","protein_powder","snazzy_vest","bloody_bat","enchanted_elbow_pads","stickon_moustache"],
+			"green1" : ["bag_ohammers","penetrable_armor","oxfords_of_alacrity","thong_of_vitality","protein_powder","stickon_moustache"],
+			"blue" : ["axes_of_dual_wielding","plastic_vampire_teeth","nonstick_shield","magic_eight_ball","ya_vampire_series","directors_cut"],
+			"blue1" : ["lead_zeppelin","vampire_bunnyears","protein_powder","robe_of_sharp_comebacks","blissful_ignorance","sock_full_opennies"],
+			"blue2" : ["diplomatic_immunity","and_my_axe","bloody_bat","kindness","bag_ohammers","directors_cut"],
+			"purple" : ["mjlnirby","the_mad_gods_trident","bloody_bat","axes_of_dual_wielding","tenfoot_pole","intimidating_beard"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","mace_of_friendship","thong_of_vitality","head_banger","gentlemens_club","intimidating_beard"],
+			"purple2" : ["lifedrinker","the_compensator","excaliburtreynolds","shovel","excaliburtreynolds","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","mussel_milk","flail_of_total_devastation","super_spikey_spear","mussel_milk","intimidating_beard"],
+			"purple4" : ["rattling_sabre","blacksteel_blade","adamantium_tiara","peter_pipers_pepper_spray","sandwich_of_unsurpassed_meatiness","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","dragon_scale","head_banger","wicked_mullet","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["self_preserver","peter_pipers_pepper_spray","healthy_dose_of_skepticism","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		}
 	},
 	"frost_giant" : {
