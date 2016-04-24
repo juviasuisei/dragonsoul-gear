@@ -535,19 +535,19 @@ var heroes = {
 		"name" : "Spikey Dragon",
         "version" : "1.3",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","rubber_vest","stolen_sneakers","bit_onip","paper_crown","stolen_sneakers"],
+			"green" : ["oxfords_of_alacrity","goblin_whacker","goblin_grog","snazzy_vest","goblin_whacker","stickon_moustache"],
+			"green1" : ["gentlemens_club","sparkle_pony_keychain","goblin_whacker","thong_of_vitality","ya_vampire_series","stickon_moustache"],
+			"blue" : ["the_mad_gods_trident","spud_gun","arcane_slacks","muscle_wax","side_of_bacon","plucky_heroines_shortbow"],
+			"blue1" : ["mace_of_friendship","flail_of_total_devastation","goblin_whacker","the_compensator","oxfords_of_alacrity","plucky_heroines_shortbow"],
+			"blue2" : ["dirk_of_disemboweling","orb_of_everlasting_flavor","penetrable_armor","super_spikey_spear","blissful_ignorance","sock_full_opennies"],
+			"purple" : ["diplomatic_immunity","axes_of_dual_wielding","banjo_of_dueling","boots_made_for_walkin","excaliburtreynolds","sock_full_opennies"],
+			"purple1" : ["lavishly_adorned_rapier","mace_of_friendship","lifesipper","shovel","penetrable_armor","intimidating_beard"],
+			"purple2" : ["lifedrinker","axes_of_dual_wielding","banjo_of_dueling","big_stabby_spear","the_mad_gods_trident","intimidating_beard"],
+			"purple3" : ["grievous_bodily_harm","the_1_ring","the_compensator","svens_sword_of_dooooom","glaive_of_dismemberment","intimidating_beard"],
+			"purple4" : ["yodeling_sword","dirk_of_disemboweling","head_banger","ring_of_the_squirrel","shovel","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","blacksteel_blade","bowie_knife","unicorn_puke","vorpal_boomerang","chugg_boots"],
+			"orange1" : ["self_preserver","motivational_cassette","helm_of_the_raging_bear","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
 		}
 	},
 	"dark_horse" : {
