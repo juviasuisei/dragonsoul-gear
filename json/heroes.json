@@ -592,19 +592,19 @@ var heroes = {
 		"name" : "Rabid Dragon",
         "version" : "2.0",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["enchanted_elbow_pads","stolen_sneakers","free_mans_crowbar","enchanted_elbow_pads","stolen_sneakers","paper_crown"],
+			"green" : ["stickon_moustache","swash_buckler","goblin_whacker","free_mans_crowbar","snazzy_vest","oxfords_of_alacrity"],
+			"green1" : ["stickon_moustache","bessies_bane","plastic_vampire_teeth","goblin_whacker","lifesipper","racing_stripes"],
+			"blue" : ["sock_full_opennies","the_mad_gods_trident","banjo_of_dueling","ya_vampire_series","snazzy_vest","spud_gun"],
+			"blue1" : ["plucky_heroines_crossbow","the_mad_gods_trident","plastic_vampire_teeth","tenfoot_pole","goblin_whacker","flail_of_total_devastation"],
+			"blue2" : ["plucky_heroines_crossbow","death_metal_blade","the_compensator","lifesipper","spud_gun","dirk_of_disemboweling"],
+			"purple" : ["plucky_heroines_shortbow","super_spikey_spear","mussel_milk","mace_of_friendship","oxfords_of_alacrity","shovel"],
+			"purple1" : ["lavishly_adorned_rapier","death_metal_blade","tenfoot_pole","head_banger","flail_of_total_devastation","intimidating_beard"],
+			"purple2" : ["intimidating_beard","mace_of_friendship","grievous_bodily_harm","vampire_bunnyears","hammer_of_wicked_beats","svens_sword_of_dooooom"],
+			"purple3" : ["intimidating_beard","dirk_of_disemboweling","lifedrinker","lifesipper","mjlnirby","big_stabby_spear"],
+			"purple4" : ["yodeling_sword","grievous_bodily_harm","adamantium_tiara","ring_of_the_squirrel","dirk_of_disemboweling","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","blacksteel_blade","the_mad_gods_trident","readin_rain_bow","lifedrinker","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","dragons_ballz","bowie_knife","monster_hunter_armor","healthy_dose_of_skepticism","chugg_boots"]
 		}
 	},
 	"orc_monk" : {
