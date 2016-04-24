@@ -573,19 +573,19 @@ var heroes = {
 		"name" : "Pixie Queen",
         "version" : "1.3",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","stolen_sneakers","enchanted_elbow_pads","enchanted_elbow_pads"],
+			"green" : ["oxfords_of_alacrity","goblin_whacker","enchanted_elbow_pads","snazzy_vest","enchanted_elbow_pads","stickon_moustache"],
+			"green1" : ["tenfoot_pole","goblin_whacker","goblin_whacker","oxfords_of_alacrity","arcane_slacks","stickon_moustache"],
+			"blue" : ["axes_of_dual_wielding","vampire_bunnyears","free_mans_crowbar","side_of_bacon","oxfords_of_alacrity","plucky_heroines_shortbow"],
+			"blue1" : ["the_compensator","gentlemens_club","sparkle_pony_keychain","flail_of_total_devastation","lifesipper","plucky_heroines_shortbow"],
+			"blue2" : ["dirk_of_disemboweling","kindness","tenfoot_pole","adamantium_tiara","the_compensator","plucky_heroines_shortbow"],
+			"purple" : ["mjlnirby","laser_pointer","lifesipper","boots_made_for_walkin","glaive_of_dismemberment","intimidating_beard"],
+			"purple1" : ["lavishly_adorned_rapier","harolds_homemade_halberd","oxfords_of_alacrity","shovel","the_compensator","intimidating_beard"],
+			"purple2" : ["sandwich_of_unsurpassed_meatiness","adamantium_tiara","impractical_chestplate","svens_sword_of_dooooom","axes_of_dual_wielding","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","tome_of_nasty_behavior","thong_of_vitality","big_stabby_spear","glaive_of_dismemberment","intimidating_beard"],
+			"purple4" : ["rattling_sabre","svens_sword_of_dooooom","dead_eye","ring_of_the_squirrel","lifedrinker","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","war_sandals","unicorn_puke","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","dragons_ballz","axe_of_major_riffage","knives_of_hackenslash","blacksteel_blade","chugg_boots"]
 		}
 	},
 	"rabid_dragon" : {
