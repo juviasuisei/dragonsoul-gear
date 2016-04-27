@@ -668,19 +668,19 @@ var heroes = {
 		"name" : "Wild Satyr",
         "version" : "2.1",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","rubber_vest","fine_brie","paper_crown","bit_onip","my_first_shield"],
+			"green" : ["shiny_bottlecap","snazzy_vest","bloody_bat","chunky_femur","nonstick_shield","stickon_moustache"],
+			"green1" : ["the_power_of_medicine","sacred_codex","sparkle_pony_keychain","thong_of_vitality","blissful_ignorance","stickon_moustache"],
+			"blue" : ["rod_of_tasing","sacred_codex","nonstick_shield","staff_of_boss_fighting","hemp_bracelet","stickon_moustache"],
+			"blue1" : ["the_power_of_positive_thinking","necronomicon","chunky_femur","orb_of_everlasting_flavor","tenfoot_pole","butter_knife"],
+			"blue2" : ["the_1_ring","the_compensator","chunky_femur","laser_pointer","blissful_ignorance","butter_knife"],
+			"purple" : ["the_power_of_friendship","laser_visor","hemp_bracelet","diplomatic_immunity","raw_egg","butter_knife"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","framed_diploma","impractical_chestplate","27_pocket_protector","wand_of_gold_sparkles","intimidating_beard"],
+			"purple2" : ["the_power_of_love","sacred_codex","blissful_ignorance","laser_sword","muscle_wax","intimidating_beard"],
+			"purple3" : ["big_stabby_spear","hammer_of_wicked_beats","thong_of_vitality","laser_kitten","rod_of_tasing","intimidating_beard"],
+			"purple4" : ["purifying_tuning_fork","overpowering_fragrance","adamantium_tiara","high_tea","diplomatic_immunity","chugg_boots"],
+			"orange" : ["laser_kitten","sandwich_of_unsurpassed_meatiness","framed_diploma","jar_of_kitten_tears","hammer_of_wicked_beats","chugg_boots"],
+			"orange1" : ["self_preserver","dragons_ballz","wizardry_for_idiots","ivy_league_haircut","healthy_dose_of_skepticism","chugg_boots"]
 		}
 	},
 	"skeleton_king" : {
