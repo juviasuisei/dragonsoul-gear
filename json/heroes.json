@@ -687,19 +687,19 @@ var heroes = {
 		"name" : "Skeleton King",
         "version" : "2.1",
 		"gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","paper_crown","enchanted_elbow_pads","foam_finger","bit_onip","goblin_grog"],
+			"green" : ["pretty_sweet_cape","sparkle_pony_keychain","snazzy_vest","lucky_orcs_foot","bloody_bat","stickon_moustache"],
+			"green1" : ["the_power_of_medicine","side_of_bacon","sparkle_pony_keychain","snazzy_vest","bloody_bat","stickon_moustache"],
+			"blue" : ["rod_of_tasing","blissful_ignorance","side_of_bacon","sparkle_pony_keychain","bloody_bat","hippy_glo_sticks"],
+			"blue1" : ["the_power_of_positive_thinking","hemp_bracelet","tome_of_forbidden_trivia","tenfoot_pole","vampire_bunnyears","hippy_glo_sticks"],
+			"blue2" : ["the_1_ring","laser_pointer","necronomicon","excaliburtreynolds","chunky_femur","hippy_glo_sticks"],
+			"purple" : ["enids_expensive_elixir","framed_diploma","muscle_wax","wand_of_gold_sparkles","bit_onip","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","the_power_of_friendship","sacred_codex","raw_egg","lucky_orcs_foot","intimidating_beard"],
+			"purple2" : ["sandwich_of_unsurpassed_meatiness","laser_sword","tome_of_forbidden_trivia","tenfoot_pole","chunky_femur","intimidating_beard"],
+			"purple3" : ["laser_kitten","the_power_of_love","rod_of_tasing","shot_in_the_arm","side_of_bacon","intimidating_beard"],
+			"purple4" : ["purifying_tuning_fork","high_tea","purple_pills_of_potency","disk_of_some_power","the_1_ring","chugg_boots"],
+			"orange" : ["laser_kitten","jar_of_kitten_tears","overpowering_fragrance","rod_of_witty_banter","adamantium_tiara","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","ivy_league_haircut","championship_belt","purple_pills_of_potency","wizardry_for_idiots","chugg_boots"]
 		}
 	},
     "unicorgi" : {
