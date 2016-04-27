@@ -725,19 +725,19 @@ var heroes = {
         "name" : "Golden Genie",
         "version" : "2.2",
         "gearsets" : {
-			"white" : [],
-			"green" : [],
-			"green1" : [],
-			"blue" : [],
-			"blue1" : [],
-			"blue2" : [],
-			"purple" : [],
-			"purple1" : [],
-			"purple2" : [],
-			"purple3" : [],
-			"purple4" : [],
-			"orange" : [],
-			"orange1" : []
+			"white" : ["paper_crown","enchanted_elbow_pads","foam_finger","paper_crown","enchanted_elbow_pads","my_first_shield"],
+			"green" : ["raw_egg","bloody_bat","gloves_of_crit","enchanted_elbow_pads","bloody_bat","stickon_moustache"],
+			"green1" : ["muscle_wax","excaliburtreynolds","bloody_bat","sparkle_pony_keychain","my_first_shield","stickon_moustache"],
+			"blue" : ["rod_of_tasing","blissful_ignorance","bloody_bat","side_of_bacon","protein_powder","directors_cut"],
+			"blue1" : ["necronomicon","tome_of_forbidden_trivia","thong_of_vitality","rod_of_shenanigans","penetrable_armor","directors_cut"],
+			"blue2" : ["diplomatic_immunity","rod_of_tasing","blissful_ignorance","snake_oil","muscle_wax","directors_cut"],
+			"purple" : ["hammer_of_wicked_beats","laser_pointer","raw_egg","framed_diploma","necronomicon","directors_cut"],
+			"purple1" : ["27_pocket_protector","laser_visor","tenfoot_pole","diplomatic_immunity","snake_oil","intimidating_beard"],
+			"purple2" : ["sandwich_of_unsurpassed_meatiness","the_compensator","thong_of_vitality","laser_sword","tome_of_forbidden_trivia","intimidating_beard"],
+			"purple3" : ["27_pocket_protector","framed_diploma","tenfoot_pole","the_1_ring","adamantium_tiara","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","overpowering_fragrance","rod_of_witty_banter","high_tea","tome_of_nasty_behavior","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","disk_of_some_power","hammer_of_wicked_beats","jar_of_kitten_tears","antimagic_shell","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","high_tea","helm_of_the_raging_bear","ivy_league_haircut","championship_belt","chugg_boots"]
         }
     },
     "spirit_wolf" : {
