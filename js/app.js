@@ -29,16 +29,12 @@ function sanity_check() {
 }
 
 function populate_heroes() {
-    var h = 0;
     $.each(heroes, function(hk,hero) {
-        var nav = '';
-        if(0 < h) {
-            nav += ' &#x2022; ';
-        }
-        nav += '<a href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')">' + hero.name + '</a>';
+        var nav = '<a class="hero_nav" href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')"><img class="hero_nav" src="heroes/' + hk + '.png" /></a>';
         $('#heroes_nav').html($('#heroes_nav').html() + nav);
         var result = '';
         result += '<div id="' + hk + '" class="hero_tab">';
+        result += '<img class="hero" src="heroes/' + hk + '.png" />';
         result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span>)</h3>';
         result += '<h5>added in v' + hero.version + '</h5>';
         $.each(hero.gearsets, function(gk,gearset) {
@@ -63,7 +59,6 @@ function populate_heroes() {
         });
         result += '</div>';
         $('#heroes_list').html($('#heroes_list').html() + result);
-        h++;
     });
     calculate_gear();
 }

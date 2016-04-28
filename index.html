@@ -9,7 +9,7 @@
             * { font-family: sans-serif; }
 			#error { background:red; color:white; }
 			h2 { padding-top: 10px; border-top:solid 1px #666; }
-			h4 { text-transform:capitalize; }
+			h4 { text-transform:uppercase; clear: both; }
 			span { text-transform:lowercase; color:#666; cursor:pointer; }
             .capped { text-transform:none; }
 			.strike { text-decoration:line-through; cursor:default; }
@@ -19,6 +19,8 @@
 			.orange { color:orange; }
 			.inline { display:inline-block; width: 300px; padding-bottom: 20px; }
             .tab, .hero_tab { display:none; }
+            .hero { float: left; width: 80px; margin: 0 20px 20px 0; }
+            .hero_nav { width: 40px; margin: 0 1px 3px 0; }
 		</style>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,7 +32,7 @@
 		</script>
 	</head>
 	<body>
-		<h1>DragonSoul RPG Gear Calculator (v0.43)</h1>
+		<h1>DragonSoul RPG Gear Calculator (v0.44)</h1>
 		<p><em>Definitely a Work-in-Progress</em></p>
 		<div id="error"></div>
         <p id="nav">
@@ -81,6 +83,7 @@
         <div id="history" class="tab">
             <h2>Release History</h2>
             <ul>
+                <li>v0.44 &#x2014; 27 April 2016 &#x2014; added in hero icons</li>
                 <li>v0.43 &#x2014; 26 April 2016 &#x2014; added basic Google Analytics tracking</li>
                 <li>v0.42 &#x2014; 26 April 2016 &#x2014; added in Golden Genie data</li>
                 <li>v0.41 &#x2014; 26 April 2016 &#x2014; added in Unicorgi data</li>
