@@ -35,11 +35,11 @@ function populate_heroes() {
         var result = '';
         result += '<div id="' + hk + '" class="hero_tab">';
         result += '<img class="hero" src="heroes/' + hk + '.png" />';
-        result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span>)</h3>';
+        result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
         result += '<h5>added in v' + hero.version + '</h5>';
         $.each(hero.gearsets, function(gk,gearset) {
             var color = gk.match(/^[^\d]*/)[0];
-            result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span>)</h4>';
+            result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';
             result += '<ul id="' + hk + gk + '">';
             var i = 1;
             $.each(gearset, function(slot,item) {
@@ -124,9 +124,10 @@ function calculate_gear() {
     var crafts = '';
     $.each(needed_sortable, function(k,v) {
         if(true === v.k in recipes) {
-            crafts += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
+            r = recipes[v.k];
+            crafts += '<tr class="' + v.item.color + '"><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td></tr>';
         } else {
-            collects += '<li class="' + v.item.color + '">' + v.item.name + ' &#x2014; ' + commas(v.quantity) + '</li>';
+            collects += '<tr class="' + v.item.color + '"><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td></tr>';
         }
     });
     $('#collect_list').html(collects);
