@@ -36,7 +36,7 @@ function populate_heroes() {
         result += '<div id="' + hk + '" class="hero_tab">';
         result += '<img class="hero" src="heroes/' + hk + '.png" />';
         result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
-        result += '<h5>added in v' + hero.version + '</h5>';
+        result += '<h5>added to the game in v' + hero.version + '</h5>';
         $.each(hero.gearsets, function(gk,gearset) {
             var color = gk.match(/^[^\d]*/)[0];
             result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';

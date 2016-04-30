@@ -207,7 +207,7 @@ var gear = {
 	"the_power_of_friendship" : { "name" : "The Power of Friendship", "color" : "purple" },
 	"the_power_of_love" : { "name" : "The Power of Love", "color" : "purple" },
 	"purifying_tuning_fork" : { "name" : "Purifying Tuning Fork", "color" : "orange" },
-	"liger_balm" : { "name" : "Liger Palm", "color" : "purple" },
+	"liger_balm" : { "name" : "Liger Balm", "color" : "purple" },
 	"scrap_of_liger_balm" : { "name" : "Scrap of Liger Balm", "color" : "purple" },
 	"magic_eight_ball" : { "name" : "Magic Eight Ball", "color" : "green" },
 	"magic_eight_ball_scroll" : { "name" : "Magic Eight Ball Scroll", "color" : "green" },
