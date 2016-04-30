@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<script src="jquery-2.2.3.min.js"></script>
+		<script src="jquery.tablesorter-2.0.5.min.js"></script>
 		<script src="recipes.json"></script>
 		<script src="gear.json"></script>
 		<script src="heroes.json"></script>
@@ -9,7 +10,9 @@
             * { font-family: sans-serif; }
 			#error { background:red; color:white; }
 			h2 { padding-top: 10px; border-top:solid 1px #666; }
-			h4 { text-transform:uppercase; clear: both; }
+            h4 { text-transform:uppercase; }
+            h3 + h5 { margin-top: -15px; }
+            .hero_subnav { margin-top: -12px; }
 			span { text-transform:lowercase; color:#666; cursor:pointer; }
             .capped { text-transform:none; }
 			.strike { text-decoration:line-through; cursor:default; }
@@ -17,8 +20,11 @@
 			.blue { color:blue; }
 			.purple { color:purple; }
 			.orange { color:orange; }
+            ul { list-style: none; }
+            ul.real { list-style: initial; }
 			.inline { display:inline-block; width: 300px; padding-bottom: 20px; }
-            .tab, .hero_tab { display:none; }
+            .tab, .hero_tab, .hero_subtab { display:none; }
+            .hero_subtab { clear: both; }
             .hero { float: left; width: 80px; margin: 0 20px 20px 0; }
             .hero_nav { width: 40px; margin: 0 1px 3px 0; }
             table, tr, td, th { border: solid 1px black; border-collapse: collapse; }
@@ -38,7 +44,7 @@
 		</script>
 	</head>
 	<body>
-		<h1>DragonSoul RPG Gear Calculator (v0.46)</h1>
+		<h1>DragonSoul RPG Gear Calculator (v0.48)</h1>
 		<p><em>Definitely a Work-in-Progress</em></p>
 		<div id="error"></div>
         <p id="nav">
@@ -56,7 +62,7 @@
             <h2>Caveats</h2>
             <p>I'll be adding in more content most every day. This will get more and more complete (see more future features below). Also, I'm well aware that this site has no styling and that the UX kinda sucks. Once all the stats are in I'll start working on niceties.</p>
             <h2>Planned Features for the Future</h2>
-            <ul>
+            <ul class="real">
                 <li class="strike">Getting all the hero gearset data in</li>
                 <li class="strike">Storing your current checkbox states in a cookie so you don't have to fill it out each time you visit</li>
                 <li class="strike">Use hero icons</li>
@@ -67,6 +73,7 @@
                 <li>Being able to create a shopping list</li>
                 <li>Display the tree of dependencies for any given item</li>
                 <li>Display data about where to get each item</li>
+                <li>Display all legendary quest needs (non-gear, e.g., tokens, etc.)</li>
                 <li>Eventually expand into other DragonSoul RPG data topics like how to best go after runes, etc.</li>
             </ul>
             <h2>Ideas? Corrections?</h2>
@@ -76,12 +83,12 @@
         </div>
         <div id="collect" class="tab">
             <h2>Items to Collect</h2>
-            <table><thead><tr><th>Item</th><th>Needed</th></tr></thead><tbody id="collect_list"></tbody></table>
+            <table id="collects"><thead><tr><th>Item</th><th>Needed</th></tr></thead><tbody id="collect_list"></tbody></table>
         </div>
         <div id="craft" class="tab">
             <h2>Items to Craft</h2>
             <h3>Gold Needed: <span id="gold"></span></h3>
-            <table><thead><tr><th>Item</th><th>Needed</th><th>Cost Each</th><th>Cost Total</th></tr></thead><tbody id="craft_list"></tbody></table>
+            <table id="crafts"><thead><tr><th>Item</th><th>Needed</th><th>Cost Each</th><th>Cost Total</th></tr></thead><tbody id="craft_list"></tbody></table>
         </div>
         <div id="heroes" class="tab">
             <h2>Heroes</h2>
@@ -90,7 +97,9 @@
         </div>
         <div id="history" class="tab">
             <h2>Release History</h2>
-            <ul>
+            <ul class="real">
+                <li>v0.48 &#x2014; 30 April 2016 &#x2014; added in ability to sort the tables of data</li>
+                <li>v0.47 &#x2014; 30 April 2016 &#x2014; added in gear-based legendary quest data</li>
                 <li>v0.46 &#x2014; 28 April 2016 &#x2014; switched from lists to tables for clearer reading</li>
                 <li>v0.45 &#x2014; 28 April 2016 &#x2014; added in abiilty to clear gearsets and heroes</li>
                 <li>v0.44 &#x2014; 27 April 2016 &#x2014; added in hero icons</li>
