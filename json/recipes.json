@@ -794,12 +794,6 @@ var recipes = {
 			{ "item" : "pretty_sweet_cape", "quantity" : 1 }
 		]
 	},
-	"antimagic_shell" : {
-		"cost" : 25000,
-		"materials" : [
-			{ "item" : "scrap_of_antimagic_shell", "quantity" : 50 }
-		]
-	},
 	"glass_case_of_emotion" : {
 		"cost" : 72000,
 		"materials" : [

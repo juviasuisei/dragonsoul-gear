@@ -197,8 +197,6 @@ var gear = {
 	"scroll_of_the_power_of_medicine" : { "name" : "Scroll of The Power of Medicine", "color" : "green" },
 	"pretty_sweet_cape" : { "name" : "Pretty Sweet Cape", "color" : "green" },
 	"pretty_sweet_cape_scroll" : { "name" : "Pretty Sweet Cape Scroll", "color" : "green" },
-	"antimagic_scroll" : { "name" : "Anti-Magic Shell", "color" : "purple" },
-	"scrap_of_antimagic_shell" : { "name" : "Scrap of Anti-Magic Shell", "color" : "purple" },
 	"glass_case_of_emotion" : { "name" : "Glass Case of Emotion", "color" : "orange" },
 	"thinking_cap" : { "name" : "Thinking Cap", "color" : "blue" },
 	"thinking_cap_scroll" : { "name" : "Thinking Cap Scroll", "color" : "blue" },
