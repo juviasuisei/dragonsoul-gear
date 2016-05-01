@@ -230,7 +230,7 @@ var recipes = {
 	"hammer_of_wicked_beats_scroll" : {
 		"cost" : 6000,
 		"materials" : [
-			{ "item" : "scrap_of_a_hammer_of_wicked_beats", "quantity" : 20 }
+			{ "item" : "scrap_of_a_hammer_of_wicked_beats_scroll", "quantity" : 20 }
 		]
 	},
 	"intimidating_beard" : {
