@@ -60,7 +60,7 @@ function sanity_check() {
                     return s.toLowerCase().replace(/.*title="([^"]*)".*/,"$1");
                 }
             },
-            type: 'string'
+            type: 'text'
         });
         $.tablesorter.addParser({
             id: 'nocommas',
@@ -233,7 +233,7 @@ function calculate_gear() {
             crafts += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td>';
             $.each(r.materials, function(mk,material) {
                 var gear_item = gear[material.item];
-                crafts += '<td class="' + gear_item.color + '"><img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + material.quantity + '</td>';
+                crafts += '<td class="' + gear_item.color + '"><img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + commas(material.quantity * v.quantity) + '</td>';
             });
             crafts += '</tr>';
         } else {

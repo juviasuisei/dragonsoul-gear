@@ -202,7 +202,7 @@ var heroes = {
             "orange1" : ["extreme_fad_diet","motivational_cassette","axe_of_major_riffage","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		},
         "quests" : {
-            "orange" : { "type" : "token", "specific" : "guild", "quantity" : 5000 }
+            "orange" : { "type" : "gear", "specific" : "jar_of_kitten_tears", "quantity" : 2 }
         },
         "stats" : {
         }
