@@ -219,8 +219,6 @@ var gear = {
 	"flail_of_devastation_scroll" : { "name" : "Flail of Devastation Scroll", "color" : "blue" },
 	"scrap_of_a_flail_of_total_devastation_scroll" : { "name" : "Scrap of a Flail of Total Devastation Scroll", "color" : "blue" },
 	"arcane_slacks" : { "name" : "Arcane Slacks", "color" : "green" },
-	"Head Banger" : { "name" : "Head Banger", "color" : "purple" },
-	"scrap_of_a_head_banger" : { "name" : "Scrap of a Head Banger", "color" : "purple" },
 	"plucky_heroines_shortbow" : { "name" : "Plucky Heroine's Shortbow", "color" : "green" },
 	"shovel" : { "name" : "S.H.O.V.E.L.", "color" : "purple" },
 	"the_ugly_stick" : { "name" : "The Ugly Stick", "color" : "blue" },

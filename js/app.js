@@ -29,6 +29,40 @@ function sanity_check() {
     });
     if(false === litmus) {
         $.tablesorter.addParser({
+            id: 'gear',
+            is: function(s) {
+                return false;
+            },
+            format: function(s) {
+                var key = s.toLowerCase().replace(/.*gear\/(.*)\.png".*/,"$1");
+                if(key in gear) {
+                    var item = gear[key];
+                    var color = 9;
+                    switch(item.color) {
+                        case 'white':
+                            color = 1;
+                            break;
+                        case 'green':
+                            color = 2;
+                            break;
+                        case 'blue':
+                            color = 3;
+                            break;
+                        case 'purple':
+                            color = 4;
+                            break;
+                        case 'orange':
+                            color = 5;
+                            break;
+                    }
+                    return color + key;
+                } else {
+                    return s.toLowerCase().replace(/.*title="([^"]*)".*/,"$1");
+                }
+            },
+            type: 'string'
+        });
+        $.tablesorter.addParser({
             id: 'nocommas',
             is: function(s) {
                 return false;
@@ -40,11 +74,13 @@ function sanity_check() {
         });
         $('#collects').tablesorter({
             headers: {
+                0 : { sorter: 'gear' },
                 1 : { sorter: 'nocommas' }
             }
         });
         $('#crafts').tablesorter({
             headers: {
+                0 : { sorter: 'gear' },
                 1 : { sorter: 'nocommas' },
                 2 : { sorter: 'nocommas' },
                 3 : { sorter: 'nocommas' }
@@ -58,11 +94,11 @@ function sanity_check() {
 
 function populate_heroes() {
     $.each(heroes, function(hk,hero) {
-        var nav = '<a class="hero_nav" href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')"><img class="hero_nav" src="heroes/' + hk + '.png" /></a>';
+        var nav = '<a class="hero_nav" href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')"><img class="hero_nav" src="heroes/' + hk + '.png" title="' + hero.name + '" /></a>';
         $('#heroes_nav').html($('#heroes_nav').html() + nav);
         var result = '';
         result += '<div id="' + hk + '" class="hero_tab">';
-        result += '<img class="hero" src="heroes/' + hk + '.png" />';
+        result += '<img class="hero" src="heroes/' + hk + '.png" title="' + hero.name + '" />';
         result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
         result += '<h5>added to the game in v' + hero.version + '</h5>';
         result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
@@ -71,21 +107,21 @@ function populate_heroes() {
         $.each(hero.gearsets, function(gk,gearset) {
             var color = gk.match(/^[^\d]*/)[0];
             result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';
-            result += '<ul id="' + hk + gk + '">';
+            result += '<div id="' + hk + gk + '">';
             var i = 1;
             $.each(gearset, function(slot,item) {
                 var gear_item = gear[item]
-                result += '<li class="inline ' + gear_item.color + '"><label><input type="checkbox" id="' + hk + gk + slot + '" onchange="calculate_gear();"';
+                result += '<img id="' + hk + gk + slot + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="gearset';
                 if(null !== progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
-                    result += ' checked="checked"';
+                    result += ' have';
                 }
-                result += ' /> ' + gear_item.name + '</label></li>';
+                result += '" src="gear/' + item + '.png" title="' + gear_item.name + '" />';
                 if(3 === i) {
                     result += '<br />';
                 }
                 i++;
             });
-            result += '</ul>';
+            result += '</div>';
         });
         result += '</div>';
         result += '<div id="' + hk + 'quests" class="hero_subtab">';
@@ -94,11 +130,11 @@ function populate_heroes() {
                 var color = qk.match(/^[^\d]*/)[0];
                 var gear_item = gear[quest.specific];
                 result += '<h4 class="' + color + '">' + qk.replace(/(\d+)$/, " +$1") + '</h4>';
-                result += '<ul><li class="' + gear_item.color + '"><label><input type="checkbox" id="' + hk + 'quest' + qk + '" onchange="calculate_gear();"';
+                result += '<img id="' + hk + 'quest' + qk + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="quest';
                 if(null !== progress && 'quest' in progress && qk in progress['quest'] && true === progress['quest'][qk]) {
-                    result += ' checked="checked"';
+                    result += ' have';
                 }
-                result += ' /> ' + quest.quantity + ' ' + gear_item.name + '</label></li></ul>';
+                result += '" src="gear/' + quest.specific + '.png" title="' + gear_item.name + '" /> x' + quest.quantity;
             }
         });
         result += '</div>';
@@ -110,15 +146,19 @@ function populate_heroes() {
     calculate_gear();
 }
 
-function check_gearsets(id,checked) {
+function check_gearsets(id,have) {
     $.each(heroes[id].gearsets, function(gk,gearset) {
-        check_gearset(id + gk, checked, false);
+        check_gearset(id + gk, have, false);
     });
     calculate_gear();
 }
 
-function check_gearset(id,checked,recalculate) {
-    $('#' + id + ' li input').prop('checked', checked);
+function check_gearset(id,have,recalculate) {
+    if(true === have) {
+    $('#' + id + ' img').addClass('have');
+    } else {
+    $('#' + id + ' img').removeClass('have');
+    }
     if(true === recalculate) {
         calculate_gear();
     }
@@ -134,7 +174,7 @@ function calculate_gear() {
         $.each(hero.gearsets, function(gk,gearset) {
             progress[hk][gk] = {};
             $.each(gearset, function(slot,item) {
-                if(false === $('#' + hk + gk + slot).is(':checked')) {
+                if(false === $('#' + hk + gk + slot).hasClass('have')) {
                     progress[hk][gk][slot] = false;
                     if(false === item in needed) {
                         needed[item] = 1;
@@ -152,7 +192,7 @@ function calculate_gear() {
         progress[hk]['quest'] = {};
         $.each(hero.quests, function(qk,quest) {
             if('gear' === quest.type) {
-                if(false === $('#' + hk + 'quest' + qk).is(':checked')) {
+                if(false === $('#' + hk + 'quest' + qk).hasClass('have')) {
                     progress[hk]['quest'][qk] = false;
                     if(false === quest.specific in needed) {
                         needed[quest.specific] = quest.quantity;
@@ -190,9 +230,14 @@ function calculate_gear() {
     $.each(needed_sortable, function(k,v) {
         if(true === v.k in recipes) {
             r = recipes[v.k];
-            crafts += '<tr class="' + v.item.color + '"><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td></tr>';
+            crafts += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td>';
+            $.each(r.materials, function(mk,material) {
+                var gear_item = gear[material.item];
+                crafts += '<td class="' + gear_item.color + '"><img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + material.quantity + '</td>';
+            });
+            crafts += '</tr>';
         } else {
-            collects += '<tr class="' + v.item.color + '"><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td></tr>';
+            collects += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + commas(v.quantity) + '</td></tr>';
         }
     });
     $('#collect_list').html(collects);
@@ -221,7 +266,7 @@ function calculate_recipe(recipe, quantity) {
 
 function reset() {
     if(true === confirm('Are you sure?')) {
-        $('input').prop('checked', false);
+        $('img').removeClass('have');
     }
     calculate_gear();
 }

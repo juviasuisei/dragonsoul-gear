@@ -7,29 +7,34 @@
 		<script src="heroes.json"></script>
 		<script src="app.js"></script>
 		<style>
-            * { font-family: sans-serif; }
+			* { font-family: sans-serif; }
 			#error { background:red; color:white; }
 			h2 { padding-top: 10px; border-top:solid 1px #666; }
-            h4 { text-transform:uppercase; margin-bottom: 0; margin-top: 35px; }
-            h3 + h5 { margin-top: -15px; }
-            .hero_subnav { margin-top: -12px; }
+			h4 { text-transform:uppercase; margin-bottom: 0; margin-top: 35px; }
+			h3 + h5 { margin-top: -15px; }
+			.hero_subnav { margin-top: -12px; }
 			span { text-transform:lowercase; color:#666; cursor:pointer; }
-            .capped { text-transform:none; }
+			.capped { text-transform:none; }
 			.strike { text-decoration:line-through; cursor:default; }
 			.green { color:green; }
 			.blue { color:blue; }
 			.purple { color:purple; }
 			.orange { color:orange; }
-            .tab, .hero_tab, .hero_subtab { display:none; }
-            .hero_subtab { clear: both; }
-            .hero { float: left; width: 80px; margin: 0 20px 20px 0; }
-            .hero_nav { width: 40px; margin: 0 1px 3px 0; }
-            table, tr, td, th { border: solid 1px black; border-collapse: collapse; }
-            td, th { padding: 3px; text-align: center; }
-            .gearset { width: 80px; margin-left: 5px; margin-top: 5px; }
-            .quest { width: 70px; margin-left: 5px; margin-top: 5px; }
-            .list { width: 60px; }
-            .have { opacity: 0.1; }
+			tr.green, td.green { background:green; color:black; }
+			tr.blue, td.blue { background:blue; color:white; }
+			tr.purple, td.purple { background:purple; color:white; }
+			tr.orange, td.orange { background:orange; color:black; }
+            tr.white, td.white { background:white; color:black; }
+			.tab, .hero_tab, .hero_subtab { display:none; }
+			.hero_subtab { clear: both; }
+			.hero { float: left; width: 80px; margin: 0 20px 20px 0; }
+			.hero_nav { width: 40px; margin: 0 1px 3px 0; }
+			table, tr, td, th { border: solid 1px black; border-collapse: collapse; }
+			td, th { padding: 3px; text-align: center; }
+			.gearset { width: 80px; margin-left: 2px; margin-top: -2px; }
+			.quest { width: 60px; margin-left: 2px; margin-top: -2px; }
+			.list { width: 40px; }
+			.have { opacity: 0.3; }
 		</style>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,110 +46,111 @@
 		</script>
 	</head>
 	<body>
-		<h1>DragonSoul RPG Gear Calculator (v0.49)</h1>
+		<h1>DragonSoul RPG Gear Calculator (v0.50)</h1>
 		<p><em>Definitely a Work-in-Progress</em></p>
 		<div id="error"></div>
-        <p id="nav">
-            <a href="javascript:void(0);" onclick="tab('welcome');">Welcome</a> &#x2022;
-            <a href="javascript:void(0);" onclick="tab('collect');">Collect</a> &#x2022;
-            <a href="javascript:void(0);" onclick="tab('craft');">Craft</a> &#x2022;
-            <a href="javascript:void(0);" onclick="tab('heroes');">Heroes</a> &#x2022;
-            <a href="javascript:void(0);" onclick="tab('history');">Release History</a> &#x2022;
-		    <a href="javascript:void(0);" onclick="reset();">Reset Progress</a>
-        </p>
-        <div id="welcome" class="tab">
-            <p>Ever wondered how many of each material you needed to get every hero all the way to <span class="orange capped">Orange +1</span>? Or how much that would cost? (Or maybe you just want to get really depressed about how many Testosterone Philters and Tiaras you still need to collect? This site aims to eventually be able to tell you that.</p>
-            <h2>Instructions</h2>
-            <p>At the top it displays the total gold needed to craft all items listed below as well as all the raw materials necessary, grouped by rarity and sorted by amount needed. Below that is a list of all the heroes with all of their gearsets (currently this list is severely incomplete). Check the boxes if you've already equipped that gear so that it will remove it from the counts above. You can also quickly check off an entire gearset or even an entire hero to remove items from the materials list using the text links (mark as completed).</p>
-            <h2>Caveats</h2>
-            <p>I'll be adding in more content most every day. This will get more and more complete (see more future features below). Also, I'm well aware that this site has no styling and that the UX kinda sucks. Once all the stats are in I'll start working on niceties.</p>
-            <h2>Planned Features for the Future</h2>
-            <ul>
-                <li class="strike">Getting all the hero gearset data in</li>
-                <li class="strike">Storing your current checkbox states in a cookie so you don't have to fill it out each time you visit</li>
-                <li class="strike">Use hero icons</li>
-                <li>Include stats on all the heroes</li>
-                <li>Use gear icons</li>
-                <li>Include stats on all the gear</li>
-                <li>Better layout</li>
-                <li>Being able to create a shopping list</li>
-                <li>Display the tree of dependencies for any given item</li>
-                <li>Display data about where to get each item</li>
-                <li>Display all legendary quest needs (non-gear, e.g., tokens, etc.)</li>
-                <li>Eventually expand into other DragonSoul RPG data topics like how to best go after runes, etc.</li>
-            </ul>
-            <h2>Ideas? Corrections?</h2>
-            <p>Feel free to open an issue or comment: <a href="https://github.com/j-a-mercury/dragonsoul-gear">GitHub</a></p>
-            <h2>Join My Guild</h2>
-            <p>Also &#x2014; please consider joining my guild! It's growing and needs players! We're active and hope to grow and get competitive. We're on Server 1 (Foam Finger) and our guild is called "cool treats" &#x2014; come join us!</p>
-        </div>
-        <div id="collect" class="tab">
-            <h2>Items to Collect</h2>
-            <table id="collects"><thead><tr><th>Item</th><th>Needed</th></tr></thead><tbody id="collect_list"></tbody></table>
-        </div>
-        <div id="craft" class="tab">
-            <h2>Items to Craft</h2>
-            <h3>Gold Needed: <span id="gold"></span></h3>
-            <table id="crafts"><thead><tr><th>Item</th><th>Needed</th><th>Cost Each</th><th>Cost Total</th></tr></thead><tbody id="craft_list"></tbody></table>
-        </div>
-        <div id="heroes" class="tab">
-            <h2>Heroes</h2>
-            <p id="heroes_nav"></p>
-            <div id="heroes_list"></div>
-        </div>
-        <div id="history" class="tab">
-            <h2>Release History</h2>
-            <ul class="real">
-                <li>v0.49 &#x2014; 1 May 2016 &#x2014; added in Spirit Wolf data</li>
-                <li>v0.48 &#x2014; 30 April 2016 &#x2014; added in ability to sort the tables of data</li>
-                <li>v0.47 &#x2014; 30 April 2016 &#x2014; added in gear-based legendary quest data</li>
-                <li>v0.46 &#x2014; 28 April 2016 &#x2014; switched from lists to tables for clearer reading</li>
-                <li>v0.45 &#x2014; 28 April 2016 &#x2014; added in abiilty to clear gearsets and heroes</li>
-                <li>v0.44 &#x2014; 27 April 2016 &#x2014; added in hero icons</li>
-                <li>v0.43 &#x2014; 26 April 2016 &#x2014; added basic Google Analytics tracking</li>
-                <li>v0.42 &#x2014; 26 April 2016 &#x2014; added in Golden Genie data</li>
-                <li>v0.41 &#x2014; 26 April 2016 &#x2014; added in Unicorgi data</li>
-                <li>v0.40 &#x2014; 26 April 2016 &#x2014; added in Skeleton King data</li>
-                <li>v0.39 &#x2014; 26 April 2016 &#x2014; added in Wild Satyr data</li>
-                <li>v0.38 &#x2014; 26 April 2016 &#x2014; added in Storm Drake data</li>
-                <li>v0.37 &#x2014; 26 April 2016 &#x2014; added in Dwarven Archer data</li>
-                <li>v0.36 &#x2014; 24 April 2016 &#x2014; added in Orc Monk data</li>
-                <li>v0.35 &#x2014; 24 April 2016 &#x2014; added in Rabid Dragon data</li>
-                <li>v0.34 &#x2014; 24 April 2016 &#x2014; added in Pixie Queen data</li>
-                <li>v0.33 &#x2014; 24 April 2016 &#x2014; added in Dark Horse data</li>
-                <li>v0.32 &#x2014; 24 April 2016 &#x2014; added in Spikey Dragon data</li>
-                <li>v0.31 &#x2014; 24 April 2016 &#x2014; added in Frost Giant data</li>
-                <li>v0.30 &#x2014; 24 April 2016 &#x2014; added in Savage Cutie data</li>
-                <li>v0.29 &#x2014; 24 April 2016 &#x2014; added in Groovy Druid data</li>
-                <li>v0.28 &#x2014; 24 April 2016 &#x2014; added in Bone Dragon data</li>
-                <li>v0.27 &#x2014; 20 April 2016 &#x2014; added in Magic Dragon data</li>
-                <li>v0.26 &#x2014; 20 April 2016 &#x2014; added in Bardbarian data</li>
-                <li>v0.25 &#x2014; 20 April 2016 &#x2014; added in Zombie Squire data</li>
-                <li>v0.24 &#x2014; 20 April 2016 &#x2014; added in Aquatic Man data</li>
-                <li>v0.23 &#x2014; 19 April 2016 &#x2014; added in Catapult Knight data</li>
-                <li>v0.22 &#x2014; 19 April 2016 &#x2014; added in Medusa data</li>
-                <li>v0.21 &#x2014; 18 April 2016 &#x2014; added in Megataur data</li>
-                <li>v0.20 &#x2014; 18 April 2016 &#x2014; added in Polemaster data</li>
-                <li>v0.19 &#x2014; 18 April 2016 &#x2014; very minor UX improvements</li>
-                <li>v0.18 &#x2014; 15 April 2016 &#x2014; added in Brozerker data</li>
-                <li>v0.17 &#x2014; 15 April 2016 &#x2014; added in Ninja Dwarf data</li>
-                <li>v0.16 &#x2014; 15 April 2106 &#x2014; added in Crimson Witch data</li>
-                <li>v0.15 &#x2014; 14 April 2016 &#x2014; added in Moon Drake data</li>
-                <li>v0.14 &#x2014; 14 April 2016 &#x2014; added in Orange +1 data for all the heroes I'd already added</li>
-                <li>v0.13 &#x2014; 13 April 2016 &#x2014; added in Roller Warrior data</li>
-                <li>v0.12 &#x2014; 8 April 2016 &#x2014; added in Hydra data</li>
-                <li>v0.11 &#x2014; 3 April 2016 &#x2014; added in Centaur of Attention data</li>
-                <li>v0.10 &#x2014; 3 April 2016 &#x2014; added in Snap Dragon data</li>
-                <li>v0.09 &#x2014; 2 April 2016 &#x2014; added in Shadow Assassin data</li>
-                <li>v0.08 &#x2014; 2 April 2016 &#x2014; added in Dust Devil data</li>
-                <li>v0.07 &#x2014; 2 April 2016 &#x2014; added in Faith Healer data</li>
-                <li>v0.06 &#x2014; 2 April 2016 &#x2014; added in Cosmic Elf data</li>
-                <li>v0.05 &#x2014; 1 April 2016 &#x2014; added in Dark Dracul data</li>
-                <li>v0.04 &#x2014; 31 March 2016 &#x2014; added in Electroyeti data</li>
-                <li>v0.03 &#x2014; 30 March 2016 &#x2014; added in Unstable Understudy data</li>
-                <li>v0.02 &#x2014; 28 March 2016 &#x2014; added cookie-based progress-saving + reset functionality</li>
-                <li>v0.01 &#x2014; 27 March 2016 &#x2014; full Dragon Lady gear data; terrible UX; no design</li>
-            </ul>
-        </div>
+		<p id="nav">
+			<a href="javascript:void(0);" onclick="tab('welcome');">Welcome</a> &#x2022;
+			<a href="javascript:void(0);" onclick="tab('collect');">Collect</a> &#x2022;
+			<a href="javascript:void(0);" onclick="tab('craft');">Craft</a> &#x2022;
+			<a href="javascript:void(0);" onclick="tab('heroes');">Heroes</a> &#x2022;
+			<a href="javascript:void(0);" onclick="tab('history');">Release History</a> &#x2022;
+			<a href="javascript:void(0);" onclick="reset();">Reset Progress</a>
+		</p>
+		<div id="welcome" class="tab">
+			<p>Ever wondered how many of each material you needed to get every hero all the way to <span class="orange capped">Orange +1</span>? Or how much that would cost? (Or maybe you just want to get really depressed about how many Testosterone Philters and Tiaras you still need to collect? This site aims to eventually be able to tell you that.</p>
+			<h2>Instructions</h2>
+			<p>At the top it displays the total gold needed to craft all items listed below as well as all the raw materials necessary, grouped by rarity and sorted by amount needed. Below that is a list of all the heroes with all of their gearsets (currently this list is severely incomplete). Check the boxes if you've already equipped that gear so that it will remove it from the counts above. You can also quickly check off an entire gearset or even an entire hero to remove items from the materials list using the text links (mark as completed).</p>
+			<h2>Caveats</h2>
+			<p>I'll be adding in more content most every day. This will get more and more complete (see more future features below). Also, I'm well aware that this site has no styling and that the UX kinda sucks. Once all the stats are in I'll start working on niceties.</p>
+			<h2>Planned Features for the Future</h2>
+			<ul>
+				<li class="strike">Getting all the hero gearset data in</li>
+				<li class="strike">Storing your current checkbox states in a cookie so you don't have to fill it out each time you visit</li>
+				<li class="strike">Use hero icons</li>
+				<li class="strike">Use gear icons</li>
+				<li>Include stats on all the gear</li>
+				<li>Include stats on all the heroes</li>
+				<li>Better layout</li>
+				<li>Being able to create a shopping list</li>
+				<li>Display the tree of dependencies for any given item</li>
+				<li>Display data about where to get each item</li>
+				<li>Display all legendary quest needs (non-gear, e.g., tokens, etc.)</li>
+				<li>Eventually expand into other DragonSoul RPG data topics like how to best go after runes, etc.</li>
+			</ul>
+			<h2>Ideas? Corrections?</h2>
+			<p>Feel free to open an issue or comment: <a href="https://github.com/j-a-mercury/dragonsoul-gear">GitHub</a></p>
+			<h2>Join My Guild</h2>
+			<p>Also &#x2014; please consider joining my guild! It's growing and needs players! We're active and hope to grow and get competitive. We're on Server 1 (Foam Finger) and our guild is called "cool treats" &#x2014; come join us!</p>
+		</div>
+		<div id="collect" class="tab">
+			<h2>Items to Collect</h2>
+			<table id="collects"><thead><tr><th>Item</th><th>Needed</th></tr></thead><tbody id="collect_list"></tbody></table>
+		</div>
+		<div id="craft" class="tab">
+			<h2>Items to Craft</h2>
+			<h3>Gold Needed: <span id="gold"></span></h3>
+            <table id="crafts"><thead><tr><th>Item</th><th>Needed</th><th>Cost Each</th><th>Cost Total</th><th colspan="4">Materials Needed</th></tr></thead><tbody id="craft_list"></tbody></table>
+		</div>
+		<div id="heroes" class="tab">
+			<h2>Heroes</h2>
+			<p id="heroes_nav"></p>
+			<div id="heroes_list"></div>
+		</div>
+		<div id="history" class="tab">
+			<h2>Release History</h2>
+			<ul class="real">
+				<li>v0.50 &#x2014; 1 May 2016 &#x2014; added in gear/material icons and displayed needed materials on craft list</li>
+				<li>v0.49 &#x2014; 1 May 2016 &#x2014; added in Spirit Wolf data</li>
+				<li>v0.48 &#x2014; 30 April 2016 &#x2014; added in ability to sort the tables of data</li>
+				<li>v0.47 &#x2014; 30 April 2016 &#x2014; added in gear-based legendary quest data</li>
+				<li>v0.46 &#x2014; 28 April 2016 &#x2014; switched from lists to tables for clearer reading</li>
+				<li>v0.45 &#x2014; 28 April 2016 &#x2014; added in abiilty to clear gearsets and heroes</li>
+				<li>v0.44 &#x2014; 27 April 2016 &#x2014; added in hero icons</li>
+				<li>v0.43 &#x2014; 26 April 2016 &#x2014; added basic Google Analytics tracking</li>
+				<li>v0.42 &#x2014; 26 April 2016 &#x2014; added in Golden Genie data</li>
+				<li>v0.41 &#x2014; 26 April 2016 &#x2014; added in Unicorgi data</li>
+				<li>v0.40 &#x2014; 26 April 2016 &#x2014; added in Skeleton King data</li>
+				<li>v0.39 &#x2014; 26 April 2016 &#x2014; added in Wild Satyr data</li>
+				<li>v0.38 &#x2014; 26 April 2016 &#x2014; added in Storm Drake data</li>
+				<li>v0.37 &#x2014; 26 April 2016 &#x2014; added in Dwarven Archer data</li>
+				<li>v0.36 &#x2014; 24 April 2016 &#x2014; added in Orc Monk data</li>
+				<li>v0.35 &#x2014; 24 April 2016 &#x2014; added in Rabid Dragon data</li>
+				<li>v0.34 &#x2014; 24 April 2016 &#x2014; added in Pixie Queen data</li>
+				<li>v0.33 &#x2014; 24 April 2016 &#x2014; added in Dark Horse data</li>
+				<li>v0.32 &#x2014; 24 April 2016 &#x2014; added in Spikey Dragon data</li>
+				<li>v0.31 &#x2014; 24 April 2016 &#x2014; added in Frost Giant data</li>
+				<li>v0.30 &#x2014; 24 April 2016 &#x2014; added in Savage Cutie data</li>
+				<li>v0.29 &#x2014; 24 April 2016 &#x2014; added in Groovy Druid data</li>
+				<li>v0.28 &#x2014; 24 April 2016 &#x2014; added in Bone Dragon data</li>
+				<li>v0.27 &#x2014; 20 April 2016 &#x2014; added in Magic Dragon data</li>
+				<li>v0.26 &#x2014; 20 April 2016 &#x2014; added in Bardbarian data</li>
+				<li>v0.25 &#x2014; 20 April 2016 &#x2014; added in Zombie Squire data</li>
+				<li>v0.24 &#x2014; 20 April 2016 &#x2014; added in Aquatic Man data</li>
+				<li>v0.23 &#x2014; 19 April 2016 &#x2014; added in Catapult Knight data</li>
+				<li>v0.22 &#x2014; 19 April 2016 &#x2014; added in Medusa data</li>
+				<li>v0.21 &#x2014; 18 April 2016 &#x2014; added in Megataur data</li>
+				<li>v0.20 &#x2014; 18 April 2016 &#x2014; added in Polemaster data</li>
+				<li>v0.19 &#x2014; 18 April 2016 &#x2014; very minor UX improvements</li>
+				<li>v0.18 &#x2014; 15 April 2016 &#x2014; added in Brozerker data</li>
+				<li>v0.17 &#x2014; 15 April 2016 &#x2014; added in Ninja Dwarf data</li>
+				<li>v0.16 &#x2014; 15 April 2106 &#x2014; added in Crimson Witch data</li>
+				<li>v0.15 &#x2014; 14 April 2016 &#x2014; added in Moon Drake data</li>
+				<li>v0.14 &#x2014; 14 April 2016 &#x2014; added in Orange +1 data for all the heroes I'd already added</li>
+				<li>v0.13 &#x2014; 13 April 2016 &#x2014; added in Roller Warrior data</li>
+				<li>v0.12 &#x2014; 8 April 2016 &#x2014; added in Hydra data</li>
+				<li>v0.11 &#x2014; 3 April 2016 &#x2014; added in Centaur of Attention data</li>
+				<li>v0.10 &#x2014; 3 April 2016 &#x2014; added in Snap Dragon data</li>
+				<li>v0.09 &#x2014; 2 April 2016 &#x2014; added in Shadow Assassin data</li>
+				<li>v0.08 &#x2014; 2 April 2016 &#x2014; added in Dust Devil data</li>
+				<li>v0.07 &#x2014; 2 April 2016 &#x2014; added in Faith Healer data</li>
+				<li>v0.06 &#x2014; 2 April 2016 &#x2014; added in Cosmic Elf data</li>
+				<li>v0.05 &#x2014; 1 April 2016 &#x2014; added in Dark Dracul data</li>
+				<li>v0.04 &#x2014; 31 March 2016 &#x2014; added in Electroyeti data</li>
+				<li>v0.03 &#x2014; 30 March 2016 &#x2014; added in Unstable Understudy data</li>
+				<li>v0.02 &#x2014; 28 March 2016 &#x2014; added cookie-based progress-saving + reset functionality</li>
+				<li>v0.01 &#x2014; 27 March 2016 &#x2014; full Dragon Lady gear data; terrible UX; no design</li>
+			</ul>
+		</div>
 	</body>
 </html>
