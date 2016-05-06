@@ -1,7 +1,7 @@
 var heroes = {
 	"dragon_lady" : {
 		"name" : "Dragon Lady",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
 			"green" : ["paper_crown","foam_finger","bloody_bat","enchanted_elbow_pads","captains_tightpants","stickon_moustache"],
@@ -15,35 +15,35 @@ var heroes = {
 			"purple3" : ["lifedrinker","mjlnirby","thong_of_vitality","big_stabby_spear","glaive_of_dismemberment","intimidating_beard"],
 			"purple4" : ["the_power_of_science","sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","peter_pipers_pepper_spray","swordy_mcepicpants","chugg_boots"],
 			"orange" : ["philter_of_pure_testosterone","dragon_scale","self_preserver","mystical_elven_sh*t","extreme_fad_diet","chugg_boots"],
-            "orange1" : ["antimagic_shell","peter_pipers_pepper_spray","helm_of_the_raging_bear","monster_hunter_armor","dragons_ballz","chugg_boots"]
+			"orange1" : ["antimagic_shell","peter_pipers_pepper_spray","helm_of_the_raging_bear","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "token", "specific" : "expedition", "quantity" : 5000 }
-        },
-        "stats" : {
-            "stars" : 1,
-            "basic_attack" : { "damage" : 53.6, "type" : "physical" },
-            "max_health" : 606,
-            "health_regen" : 0,
-            "energy" : 1000,
-            "energy_regen" : 0,
-            "strength" : 24,
-            "agility" : 14,
-            "intellect" : 18,
-            "strength_growth" : 3.3,
-            "agility_growth" : 1.3,
-            "intellect_growth" : 2.2,
-            "primary_stat" : "strength",
-            "damage" : 53.6,
-            "skill_power" : 43.2,
-            "armor" : 4.65,
-            "magic_resist" : 1.8,
-            "crit_rating" : 5.6
-        }
+		"quests" : {
+			"orange" : { "type" : "token", "specific" : "expedition", "quantity" : 5000 }
+		},
+		"stats" : {
+			"stars" : 1,
+			"basic_attack" : { "damage" : 53.6, "type" : "physical" },
+			"max_health" : 606,
+			"health_regen" : 0,
+			"energy" : 1000,
+			"energy_regen" : 0,
+			"strength" : 24,
+			"agility" : 14,
+			"intellect" : 18,
+			"strength_growth" : 3.3,
+			"agility_growth" : 1.3,
+			"intellect_growth" : 2.2,
+			"primary_stat" : "strength",
+			"damage" : 53.6,
+			"skill_power" : 43.2,
+			"armor" : 4.65,
+			"magic_resist" : 1.8,
+			"crit_rating" : 5.6
+		}
 	},
 	"unstable_understudy" : {
 		"name" : "Unstable Understudy",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["wand_of_gold_sparkles","chunky_femur","bloody_bat","smarty_pants","chunky_femur","stickon_moustache"],
@@ -57,17 +57,17 @@ var heroes = {
 			"purple3" : ["laser_kitten","the_1_ring","the_compensator","sandwich_of_unsurpassed_meatiness","rod_of_tasing","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","disk_of_some_power","hammer_of_wicked_beats","high_tea","rod_of_witty_banter","chugg_boots"],
 			"orange" : ["laser_kitten","overpowering_fragrance","framed_diploma","jar_of_kitten_tears","motivational_cassette","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","high_tea","purple_pills_of_potency","ivy_league_haircut","championship_belt","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","high_tea","purple_pills_of_potency","ivy_league_haircut","championship_belt","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "fine_brie", "quantity" : 100 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "fine_brie", "quantity" : 100 }
+		},
+		"stats" : {
+		}
 	},
 	"electroyeti" : {
 		"name" : "Electroyeti",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
 			"green" : ["hemp_bracelet","chunky_femur","snazzy_vest","chunky_femur","goblin_grog","stickon_moustache"],
@@ -81,16 +81,16 @@ var heroes = {
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","tome_of_nasty_behavior","rod_of_tasing","27_pocket_protector","the_compensator","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","overpowering_fragrance","the_1_ring","high_tea","disk_of_some_power","chugg_boots"],
 			"orange" : ["laser_kitten","purple_pills_of_potency","framed_diploma","jar_of_kitten_tears","27_pocket_protector","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","high_tea","helm_of_the_raging_bear","ivy_league_haircut","championship_belt","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","high_tea","helm_of_the_raging_bear","ivy_league_haircut","championship_belt","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"dark_dracul" : {
 		"name" : "Dark Dracul",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["raw_egg","chunky_femur","goblin_grog","wand_of_gold_sparkles","chunky_femur","stickon_moustache"],
@@ -104,17 +104,17 @@ var heroes = {
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","enids_expensive_elixir","side_of_bacon","tome_of_unspeakable_hearsay","the_compensator","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","27_pocket_protector","disk_of_some_power","high_tea","the_1_ring","chugg_boots"],
 			"orange" : ["laser_kitten","purple_pills_of_potency","adamantium_tiara","jar_of_kitten_tears","overpowering_fragrance","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","tome_of_occult_nonsense","wizardry_for_idiots","ivy_league_haircut","helm_of_the_raging_bear","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","tome_of_occult_nonsense","wizardry_for_idiots","ivy_league_haircut","helm_of_the_raging_bear","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "magic_eight_ball", "quantity" : 30 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "magic_eight_ball", "quantity" : 30 }
+		},
+		"stats" : {
+		}
 	},
 	"cosmic_elf" : {
 		"name" : "Cosmic Elf",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["smarty_pants","chunky_femur","my_first_shield","lucky_orcs_foot","chunky_femur","stickon_moustache"],
@@ -128,16 +128,16 @@ var heroes = {
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","the_1_ring","thong_of_vitality","laser_kitten","the_compensator","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","overpowering_fragrance","adamantium_tiara","high_tea","27_pocket_protector","chugg_boots"],
 			"orange" : ["laser_kitten","sandwich_of_unsurpassed_meatiness","antimagic_shell","glass_case_of_emotion","disk_of_some_power","chugg_boots"],
-            "orange1" : ["antimagic_shell","high_tea","wizardry_for_idiots","ivy_league_haircut","championship_belt","chugg_boots"]
+			"orange1" : ["antimagic_shell","high_tea","wizardry_for_idiots","ivy_league_haircut","championship_belt","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"faith_healer" : {
 		"name" : "Faith Healer",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","enchanted_elbow_pads","rubber_vest"],
 			"green" : ["wand_of_gold_sparkles","snazzy_vest","bloody_bat","chunky_femur","lucky_orcs_foot","stickon_moustache"],
@@ -151,17 +151,17 @@ var heroes = {
 			"purple3" : ["27_pocket_protector","the_1_ring","rod_of_tasing","diplomatic_immunity","necronomicon","intimidating_beard"],
 			"purple4" : ["purifying_tuning_fork","disk_of_some_power","rod_of_witty_banter","high_tea","hammer_of_wicked_beats","chugg_boots"],
 			"orange" : ["laser_kitten","overpowering_fragrance","adamantium_tiara","glass_case_of_emotion","extreme_fad_diet","chugg_boots"],
-            "orange1" : ["self_preserver","high_tea","liger_balm","deerstalker_hat","championship_belt","chugg_boots"]
+			"orange1" : ["self_preserver","high_tea","liger_balm","deerstalker_hat","championship_belt","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gold", "specific" : "gold", "quantity" : 5000000 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gold", "specific" : "gold", "quantity" : 5000000 }
+		},
+		"stats" : {
+		}
 	},
 	"dust_devil" : {
 		"name" : "Dust Devil",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","fine_brie","rubber_vest"],
 			"green" : ["sparkle_pony_keychain","chunky_femur","goblin_grog","snazzy_vest","chunky_femur","stickon_moustache"],
@@ -175,17 +175,17 @@ var heroes = {
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","side_of_bacon","tome_of_nasty_behavior","laser_kitten","intimidating_beard"],
 			"purple4" : ["girdle_of_victory","disk_of_some_power","overpowering_fragrance","high_tea","framed_diploma","chugg_boots"],
 			"orange" : ["laser_kitten","extreme_fad_diet","hammer_of_wicked_beats","jar_of_kitten_tears","adamantium_tiara","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","liche_finger","wizardry_for_idiots","ivy_league_haircut","tome_of_occult_nonsense","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","liche_finger","wizardry_for_idiots","ivy_league_haircut","tome_of_occult_nonsense","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "muscle_wax", "quantity" : 5 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "muscle_wax", "quantity" : 5 }
+		},
+		"stats" : {
+		}
 	},
 	"shadow_assassin" : {
 		"name" : "Shadow Assassin",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","stolen_sneakers","paper_crown","stolen_sneakers","my_first_shield"],
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","captains_tightpants","stickon_moustache"],
@@ -199,17 +199,17 @@ var heroes = {
 			"purple3" : ["grievous_bodily_harm","shovel","glaive_of_dismemberment","dirk_of_disemboweling","mjlnirby","intimidating_beard"],
 			"purple4" : ["yodeling_sword","blacksteel_blade","swordy_mcepicpants","ring_of_the_squirrel","wizardry_for_idiots","chugg_boots"],
 			"orange" : ["boots_made_for_walkin","lifedrinker","head_banger","readin_rain_bow","harolds_homemade_halberd","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","motivational_cassette","axe_of_major_riffage","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","motivational_cassette","axe_of_major_riffage","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "jar_of_kitten_tears", "quantity" : 2 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "jar_of_kitten_tears", "quantity" : 2 }
+		},
+		"stats" : {
+		}
 	},
 	"snap_dragon" : {
 		"name" : "Snap Dragon",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","paper_crown","foam_finger","free_mans_crowbar"],
 			"green" : ["raw_egg","bloody_bat","bessies_bane","fine_brie","bloody_bat","stickon_moustache"],
@@ -223,17 +223,17 @@ var heroes = {
 			"purple3" : ["big_stabby_spear","hammer_of_wicked_beats","thong_of_vitality","sandwich_of_unsurpassed_meatiness","robe_of_sharp_comebacks","intimidating_beard"],
 			"purple4" : ["rattling_sabre","liche_finger","mjlnirby","peter_pipers_pepper_spray","philter_of_pure_testosterone","chugg_boots"],
 			"orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","self_preserver","wicked_mullet","super_spikey_spear","chugg_boots"],
-            "orange1" : ["antimagic_shell","peter_pipers_pepper_spray","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
+			"orange1" : ["antimagic_shell","peter_pipers_pepper_spray","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "bunny_slippers", "quantity" : 3 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "bunny_slippers", "quantity" : 3 }
+		},
+		"stats" : {
+		}
 	},
 	"centaur_of_attention" : {
 		"name" : "Centaur of Attention",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","enchanted_elbow_pads","paper_crown","stolen_sneakers","enchanted_elbow_pads"],
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","ya_vampire_series","stickon_moustache"],
@@ -247,16 +247,16 @@ var heroes = {
 			"purple3" : ["glaive_of_dismemberment","lifedrinker","dirk_of_disemboweling","flail_of_total_devastation","super_spikey_spear","intimidating_beard"],
 			"purple4" : ["yodeling_sword","head_banger","rod_of_witty_banter","ring_of_the_squirrel","hammer_of_wicked_beats","chugg_boots"],
 			"orange" : ["boots_made_for_walkin","shovel","war_sandals","readin_rain_bow","bowie_knife","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","ring_of_the_squirrel","bowie_knife","knives_of_hackenslash","blacksteel_blade","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","ring_of_the_squirrel","bowie_knife","knives_of_hackenslash","blacksteel_blade","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"hydra" : {
 		"name" : "Hydra",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","my_first_shield"],
 			"green" : ["captains_tightpants","bloody_bat","swash_buckler","goblin_whacker","goblin_whacker","stickon_moustache"],
@@ -270,133 +270,133 @@ var heroes = {
 			"purple3" : ["sandwich_of_unsurpassed_meatiness","the_compensator","lifesipper","holy_hand_grenade","rod_of_tasing","intimidating_beard"],
 			"purple4" : ["rattling_sabre","harolds_homemade_halberd","mjlnirby","ring_of_the_squirrel","motivational_cassette","chugg_boots"],
 			"orange" : ["lens_of_decryption","big_stabby_spear","head_banger","readin_rain_bow","boots_made_for_walkin","chugg_boots"],
-            "orange1" : ["antimagic_shell","blacksteel_blade","bowie_knife","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
+			"orange1" : ["antimagic_shell","blacksteel_blade","bowie_knife","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"roller_warrior" : {
 		"name" : "Roller Warrior",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
-            "white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
-            "green" : ["ya_vampire_series","goblin_whacker","free_mans_crowbar","snazzy_vest","goblin_whacker","stickon_moustache"],
-            "green1" : ["vampire_bunnyears","sparkle_pony_keychain","bessies_bane","muscle_wax","raw_egg","stickon_moustache"],
-            "blue" : ["glaive_of_dismemberment","thong_of_vitality","protein_powder","lead_zeppelin","the_ugly_stick","sock_full_opennies"],
-            "blue1" : ["death_metal_blade","the_compensator","arcane_slacks","blissful_ignorance","bag_ohammers","sock_full_opennies"],
-            "blue2" : ["dirk_of_disemboweling","axes_of_dual_wielding","impractical_chestplate","the_compensator","vampire_bunnyears","sock_full_opennies"],
-            "purple" : ["super_spikey_spear","thong_of_vitality","muscle_wax","hammer_of_wicked_beats","excaliburtreynolds","intimidating_beard"],
-            "purple1" : ["sandwich_of_unsurpassed_meatiness","the_compensator","raw_egg","mussel_milk","lead_zeppelin","intimidating_beard"],
-            "purple2" : ["svens_sword_of_dooooom","glaive_of_dismemberment","vampire_bunnyears","diplomatic_immunity","gentlemens_club","intimidating_beard"],
-            "purple3" : ["sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","thong_of_vitality","lavishly_adorned_rapier","the_compensator","intimidating_beard"],
-            "purple4" : ["rattling_sabre","lifedrinker","dead_eye","peter_pipers_pepper_spray","svens_sword_of_dooooom","chugg_boots"],
-            "orange" : ["boots_made_for_walkin","blacksteel_blade","adamantium_tiara","readin_rain_bow","dirk_of_disemboweling","chugg_boots"],
-            "orange1" : ["self_preserver","dragons_ballz","bowie_knife","monster_hunter_armor","helm_of_the_raging_bear","chugg_boots"]
+			"white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
+			"green" : ["ya_vampire_series","goblin_whacker","free_mans_crowbar","snazzy_vest","goblin_whacker","stickon_moustache"],
+			"green1" : ["vampire_bunnyears","sparkle_pony_keychain","bessies_bane","muscle_wax","raw_egg","stickon_moustache"],
+			"blue" : ["glaive_of_dismemberment","thong_of_vitality","protein_powder","lead_zeppelin","the_ugly_stick","sock_full_opennies"],
+			"blue1" : ["death_metal_blade","the_compensator","arcane_slacks","blissful_ignorance","bag_ohammers","sock_full_opennies"],
+			"blue2" : ["dirk_of_disemboweling","axes_of_dual_wielding","impractical_chestplate","the_compensator","vampire_bunnyears","sock_full_opennies"],
+			"purple" : ["super_spikey_spear","thong_of_vitality","muscle_wax","hammer_of_wicked_beats","excaliburtreynolds","intimidating_beard"],
+			"purple1" : ["sandwich_of_unsurpassed_meatiness","the_compensator","raw_egg","mussel_milk","lead_zeppelin","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","glaive_of_dismemberment","vampire_bunnyears","diplomatic_immunity","gentlemens_club","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","thong_of_vitality","lavishly_adorned_rapier","the_compensator","intimidating_beard"],
+			"purple4" : ["rattling_sabre","lifedrinker","dead_eye","peter_pipers_pepper_spray","svens_sword_of_dooooom","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","blacksteel_blade","adamantium_tiara","readin_rain_bow","dirk_of_disemboweling","chugg_boots"],
+			"orange1" : ["self_preserver","dragons_ballz","bowie_knife","monster_hunter_armor","helm_of_the_raging_bear","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"moon_drake" : {
 		"name" : "Moon Drake",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
-            "white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","foam_finger","goblin_grog"],
-            "green" : ["sparkle_pony_keychain","bloody_bat","lucky_orcs_foot","snazzy_vest","bloody_bat","stickon_moustache"],
-            "green1" : ["sacred_codex","pretty_sweet_cape","chunky_femur","tenfoot_pole","wand_of_gold_sparkles","stickon_moustache"],
-            "blue" : ["orb_of_everlasting_flavor","the_power_of_medicine","bessies_bane","necronomicon","side_of_bacon","stickon_moustache"],
-            "blue1" : ["rod_of_shenanigans","snake_oil","blissful_ignorance","tome_of_forbidden_trivia","raw_egg","stickon_moustache"],
-            "blue2" : ["rod_of_witty_banter","thinking_cap","chunky_femur","adamantium_tiara","thong_of_vitality","sock_full_opennies"],
-            "purple" : ["tome_of_nasty_behavior","laser_pointer","chunky_femur","framed_diploma","tenfoot_pole","sock_full_opennies"],
-            "purple1" : ["27_pocket_protector","laser_visor","lucky_orcs_foot","the_1_ring","the_power_of_medicine","sock_full_opennies"],
-            "purple2" : ["super_spikey_spear","laser_sword","vampire_bunnyears","adamantium_tiara","shot_in_the_arm","intimidating_beard"],
-            "purple3" : ["sandwich_of_unsurpassed_meatiness","laser_kitten","thong_of_vitality","diplomatic_immunity","tome_of_forbidden_trivia","intimidating_beard"],
-            "purple4" : ["girdle_of_victory","overpowering_fragrance","rod_of_witty_banter","high_tea","hammer_of_wicked_beats","chugg_boots"],
-            "orange" : ["laser_kitten","disk_of_some_power","framed_diploma","jar_of_kitten_tears","tome_of_nasty_behavior","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","championship_belt","wizardry_for_idiots","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","foam_finger","goblin_grog"],
+			"green" : ["sparkle_pony_keychain","bloody_bat","lucky_orcs_foot","snazzy_vest","bloody_bat","stickon_moustache"],
+			"green1" : ["sacred_codex","pretty_sweet_cape","chunky_femur","tenfoot_pole","wand_of_gold_sparkles","stickon_moustache"],
+			"blue" : ["orb_of_everlasting_flavor","the_power_of_medicine","bessies_bane","necronomicon","side_of_bacon","stickon_moustache"],
+			"blue1" : ["rod_of_shenanigans","snake_oil","blissful_ignorance","tome_of_forbidden_trivia","raw_egg","stickon_moustache"],
+			"blue2" : ["rod_of_witty_banter","thinking_cap","chunky_femur","adamantium_tiara","thong_of_vitality","sock_full_opennies"],
+			"purple" : ["tome_of_nasty_behavior","laser_pointer","chunky_femur","framed_diploma","tenfoot_pole","sock_full_opennies"],
+			"purple1" : ["27_pocket_protector","laser_visor","lucky_orcs_foot","the_1_ring","the_power_of_medicine","sock_full_opennies"],
+			"purple2" : ["super_spikey_spear","laser_sword","vampire_bunnyears","adamantium_tiara","shot_in_the_arm","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","laser_kitten","thong_of_vitality","diplomatic_immunity","tome_of_forbidden_trivia","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","overpowering_fragrance","rod_of_witty_banter","high_tea","hammer_of_wicked_beats","chugg_boots"],
+			"orange" : ["laser_kitten","disk_of_some_power","framed_diploma","jar_of_kitten_tears","tome_of_nasty_behavior","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","championship_belt","wizardry_for_idiots","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"crimson_witch" : {
 		"name" : "Crimson Witch",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
-            "white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","goblin_grog"],
-            "green" : ["oxfords_of_alacrity","bloody_bat","bessies_bane","goblin_whacker","goblin_whacker","stickon_moustache"],
-            "green1" : ["racing_stripes","lifesipper","bessies_bane","tenfoot_pole","arcane_slacks","stickon_moustache"],
-            "blue" : ["spud_gun","gentlemens_club","banjo_of_dueling","decoder_ring","mace_of_friendship","sock_full_opennies"],
-            "blue1" : ["the_compensator","flail_of_total_devastation","raw_egg","the_mad_gods_trident","impractical_chestplate","sock_full_opennies"],
-            "blue2" : ["super_spikey_spear","kindness","goblin_whacker","adamantium_tiara","lifesipper","plucky_heroines_shortbow"],
-            "purple" : ["mjlnirby","the_compensator","arcane_slacks","dirk_of_disemboweling","blissful_ignorance","plucky_heroines_shortbow"],
-            "purple1" : ["lavishly_adorned_rapier","lens_of_decryption","goblin_whacker","hammer_of_wicked_beats","and_my_axe","intimidating_beard"],
-            "purple2" : ["grievous_bodily_harm","cryptozoology","oxfords_of_alacrity","tome_of_nasty_behavior","mace_of_friendship","intimidating_beard"],
-            "purple3" : ["sandwich_of_unsurpassed_meatiness","shovel","lifesipper","holy_hand_grenade","laser_pointer","intimidating_beard"],
-            "purple4" : ["rattling_sabre","hammer_of_wicked_beats","swordy_mcepicpants","ring_of_the_squirrel","rod_of_witty_banter","chugg_boots"],
-            "orange" : ["boots_made_for_walkin","big_stabby_spear","adamantium_tiara","readin_rain_bow","dirk_of_disemboweling","chugg_boots"],
-            "orange1" : ["self_preserver","motivational_cassette","bowie_knife","monster_hunter_armor","axe_of_major_riffage","chugg_boots"]
+			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","goblin_grog"],
+			"green" : ["oxfords_of_alacrity","bloody_bat","bessies_bane","goblin_whacker","goblin_whacker","stickon_moustache"],
+			"green1" : ["racing_stripes","lifesipper","bessies_bane","tenfoot_pole","arcane_slacks","stickon_moustache"],
+			"blue" : ["spud_gun","gentlemens_club","banjo_of_dueling","decoder_ring","mace_of_friendship","sock_full_opennies"],
+			"blue1" : ["the_compensator","flail_of_total_devastation","raw_egg","the_mad_gods_trident","impractical_chestplate","sock_full_opennies"],
+			"blue2" : ["super_spikey_spear","kindness","goblin_whacker","adamantium_tiara","lifesipper","plucky_heroines_shortbow"],
+			"purple" : ["mjlnirby","the_compensator","arcane_slacks","dirk_of_disemboweling","blissful_ignorance","plucky_heroines_shortbow"],
+			"purple1" : ["lavishly_adorned_rapier","lens_of_decryption","goblin_whacker","hammer_of_wicked_beats","and_my_axe","intimidating_beard"],
+			"purple2" : ["grievous_bodily_harm","cryptozoology","oxfords_of_alacrity","tome_of_nasty_behavior","mace_of_friendship","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","shovel","lifesipper","holy_hand_grenade","laser_pointer","intimidating_beard"],
+			"purple4" : ["rattling_sabre","hammer_of_wicked_beats","swordy_mcepicpants","ring_of_the_squirrel","rod_of_witty_banter","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","big_stabby_spear","adamantium_tiara","readin_rain_bow","dirk_of_disemboweling","chugg_boots"],
+			"orange1" : ["self_preserver","motivational_cassette","bowie_knife","monster_hunter_armor","axe_of_major_riffage","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"ninja_dwarf" : {
 		"name" : "Ninja Dwarf",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
-            "white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","paper_crown","my_first_shield","enchanted_elbow_pads"],
-            "green" : ["hemp_bracelet","my_first_shield","snazzy_vest","goblin_whacker","bloody_bat","stickon_moustache"],
-            "green1" : ["tenfoot_pole","goblin_whacker","free_mans_crowbar","excaliburtreynolds","goblin_whacker","stickon_moustache"],
-            "blue" : ["glaive_of_dismemberment","vampire_bunnyears","bloody_bat","banjo_of_dueling","my_first_shield","plucky_heroines_shortbow"],
-            "blue1" : ["mussel_milk","thong_of_vitality","free_mans_crowbar","gentlemens_club","blissful_ignorance","plucky_heroines_shortbow"],
-            "blue2" : ["dirk_of_disemboweling","the_compensator","vampire_bunnyears","head_banger","swash_buckler","plucky_heroines_shortbow"],
-            "purple" : ["shovel","spud_gun","lifesipper","mussel_milk","glaive_of_dismemberment","intimidating_beard"],
-            "purple1" : ["lavishly_adorned_rapier","the_mad_gods_trident","tenfoot_pole","harolds_homemade_halberd","axes_of_dual_wielding","intimidating_beard"],
-            "purple2" : ["svens_sword_of_dooooom","adamantium_tiara","thong_of_vitality","dirk_of_disemboweling","death_metal_blade","intimidating_beard"],
-            "purple3" : ["lavishly_adorned_rapier","tome_of_nasty_behavior","lifesipper","grievous_bodily_harm","the_compensator","intimidating_beard"],
-            "purple4" : ["the_power_of_science","adamantium_tiara","head_banger","peter_pipers_pepper_spray","vorpal_boomerang","chugg_boots"],
-            "orange" : ["boots_made_for_walkin","dirk_of_disemboweling","bowie_knife","wicked_mullet","war_sandals","chugg_boots"],
-            "orange1" : ["antimagic_shell","dragons_ballz","bowie_knife","monster_hunter_armor","axe_of_major_riffage","chugg_boots"]
+			"white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","paper_crown","my_first_shield","enchanted_elbow_pads"],
+			"green" : ["hemp_bracelet","my_first_shield","snazzy_vest","goblin_whacker","bloody_bat","stickon_moustache"],
+			"green1" : ["tenfoot_pole","goblin_whacker","free_mans_crowbar","excaliburtreynolds","goblin_whacker","stickon_moustache"],
+			"blue" : ["glaive_of_dismemberment","vampire_bunnyears","bloody_bat","banjo_of_dueling","my_first_shield","plucky_heroines_shortbow"],
+			"blue1" : ["mussel_milk","thong_of_vitality","free_mans_crowbar","gentlemens_club","blissful_ignorance","plucky_heroines_shortbow"],
+			"blue2" : ["dirk_of_disemboweling","the_compensator","vampire_bunnyears","head_banger","swash_buckler","plucky_heroines_shortbow"],
+			"purple" : ["shovel","spud_gun","lifesipper","mussel_milk","glaive_of_dismemberment","intimidating_beard"],
+			"purple1" : ["lavishly_adorned_rapier","the_mad_gods_trident","tenfoot_pole","harolds_homemade_halberd","axes_of_dual_wielding","intimidating_beard"],
+			"purple2" : ["svens_sword_of_dooooom","adamantium_tiara","thong_of_vitality","dirk_of_disemboweling","death_metal_blade","intimidating_beard"],
+			"purple3" : ["lavishly_adorned_rapier","tome_of_nasty_behavior","lifesipper","grievous_bodily_harm","the_compensator","intimidating_beard"],
+			"purple4" : ["the_power_of_science","adamantium_tiara","head_banger","peter_pipers_pepper_spray","vorpal_boomerang","chugg_boots"],
+			"orange" : ["boots_made_for_walkin","dirk_of_disemboweling","bowie_knife","wicked_mullet","war_sandals","chugg_boots"],
+			"orange1" : ["antimagic_shell","dragons_ballz","bowie_knife","monster_hunter_armor","axe_of_major_riffage","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "goblin_grog", "quantity" : 100 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "goblin_grog", "quantity" : 100 }
+		},
+		"stats" : {
+		}
 	},
 	"brozerker" : {
 		"name" : "Brozerker",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
-            "white" : ["paper_crown","paper_crown","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
-            "green" : ["sparkle_pony_keychain","snazzy_vest","bloody_bat","lucky_orcs_foot","my_first_shield","stickon_moustache"],
-            "green1" : ["the_power_of_medicine","thong_of_vitality","fine_brie","blissful_ignorance","bit_onip","stickon_moustache"],
-            "blue" : ["mussel_milk","vampire_bunnyears","bloody_bat","side_of_bacon","protein_powder","directors_cut"],
-            "blue1" : ["necronomicon","tenfoot_pole","melty_chocolate_bar","melty_chocolate_bar","the_power_of_positive_thinking","directors_cut"],
-            "blue2" : ["diplomatic_immunity","the_compensator","hemp_bracelet","adamantium_tiara","blissful_ignorance","directors_cut"],
-            "purple" : ["the_power_of_friendship","muscle_wax","directors_cut","hammer_of_wicked_beats","sacred_codex","intimidating_beard"],
-            "purple1" : ["27_pocket_protector","philter_of_pure_testosterone","impractical_chestplate","enids_expensive_elixir","shot_in_the_arm","intimidating_beard"],
-            "purple2" : ["sandwich_of_unsurpassed_meatiness","the_1_ring","thong_of_vitality","harolds_homemade_halberd","impractical_chestplate","intimidating_beard"],
-            "purple3" : ["the_power_of_love","hammer_of_wicked_beats","the_compensator","big_stabby_spear","necronomicon","intimidating_beard"],
-            "purple4" : ["purifying_tuning_fork","lifedrinker","overpowering_fragrance","peter_pipers_pepper_spray","adamantium_tiara","chugg_boots"],
-            "orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","antimagic_shell","mystical_elven_sh*t","super_spikey_spear","chugg_boots"],
-            "orange1" : ["extreme_fad_diet","peter_pipers_pepper_spray","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
+			"white" : ["paper_crown","paper_crown","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
+			"green" : ["sparkle_pony_keychain","snazzy_vest","bloody_bat","lucky_orcs_foot","my_first_shield","stickon_moustache"],
+			"green1" : ["the_power_of_medicine","thong_of_vitality","fine_brie","blissful_ignorance","bit_onip","stickon_moustache"],
+			"blue" : ["mussel_milk","vampire_bunnyears","bloody_bat","side_of_bacon","protein_powder","directors_cut"],
+			"blue1" : ["necronomicon","tenfoot_pole","melty_chocolate_bar","melty_chocolate_bar","the_power_of_positive_thinking","directors_cut"],
+			"blue2" : ["diplomatic_immunity","the_compensator","hemp_bracelet","adamantium_tiara","blissful_ignorance","directors_cut"],
+			"purple" : ["the_power_of_friendship","muscle_wax","directors_cut","hammer_of_wicked_beats","sacred_codex","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","philter_of_pure_testosterone","impractical_chestplate","enids_expensive_elixir","shot_in_the_arm","intimidating_beard"],
+			"purple2" : ["sandwich_of_unsurpassed_meatiness","the_1_ring","thong_of_vitality","harolds_homemade_halberd","impractical_chestplate","intimidating_beard"],
+			"purple3" : ["the_power_of_love","hammer_of_wicked_beats","the_compensator","big_stabby_spear","necronomicon","intimidating_beard"],
+			"purple4" : ["purifying_tuning_fork","lifedrinker","overpowering_fragrance","peter_pipers_pepper_spray","adamantium_tiara","chugg_boots"],
+			"orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","antimagic_shell","mystical_elven_sh*t","super_spikey_spear","chugg_boots"],
+			"orange1" : ["extreme_fad_diet","peter_pipers_pepper_spray","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "soul_stones", "specific" : "brozerker", "quantity" : 30 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "soul_stones", "specific" : "brozerker", "quantity" : 30 }
+		},
+		"stats" : {
+		}
 	},
 	"polemaster" : {
 		"name" : "Polemaster",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","goblin_grog","foam_finger","free_mans_crowbar","my_first_shield"],
 			"green" : ["bloody_bat","raw_egg","shiny_bottlecap","bloody_bat","protein_powder","stickon_moustache"],
@@ -412,15 +412,15 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","blacksteel_blade","head_banger","readin_rain_bow","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["antimagic_shell","dragons_ballz","bowie_knife","monster_hunter_armor","helm_of_the_raging_bear","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "hammer_of_wicked_beats", "quantity" : 3 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "hammer_of_wicked_beats", "quantity" : 3 }
+		},
+		"stats" : {
+		}
 	},
 	"megataur" : {
 		"name" : "Megataur",
-        "version" : "0.1",
+		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","fine_brie","paper_crown","free_mans_crowbar"],
 			"green" : ["protein_powder","bloody_bat","bessies_bane","enchanted_elbow_pads","raw_egg","stickon_moustache"],
@@ -436,14 +436,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","big_stabby_spear","super_spikey_spear","mystical_elven_sh*t","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["self_preserver","dragons_ballz","helm_of_the_raging_bear","helm_of_screaming_manface","liche_finger","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"medusa" : {
 		"name" : "Medusa",
-        "version" : "0.2",
+		"version" : "0.2",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","goblin_grog","paper_crown","stolen_sneakers","my_first_shield"],
 			"green" : ["goblin_whacker","oxfords_of_alacrity","swash_buckler","goblin_whacker","snazzy_vest","stickon_moustache"],
@@ -459,15 +459,15 @@ var heroes = {
 			"orange" : ["lens_of_decryption","blacksteel_blade","boots_made_for_walkin","unicorn_puke","dirk_of_disemboweling","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","ring_of_the_squirrel","helm_of_the_raging_bear","knives_of_hackenslash","liche_finger","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "raw_egg", "quantity" : 100 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "raw_egg", "quantity" : 100 }
+		},
+		"stats" : {
+		}
 	},
 	"catapult_knight" : {
 		"name" : "Catapult Knight",
-        "version" : "0.2",
+		"version" : "0.2",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
 			"green" : ["shiny_bottlecap","chunky_femur","bit_onip","chunky_femur","chunky_femur","stickon_moustache"],
@@ -483,15 +483,15 @@ var heroes = {
 			"orange" : ["laser_kitten","overpowering_fragrance","adamantium_tiara","glass_case_of_emotion","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","championship_belt","tome_of_occult_nonsense","ivy_league_haircut","liche_finger","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "token", "specific" : "fight_pit", "quantity" : 5000 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "token", "specific" : "fight_pit", "quantity" : 5000 }
+		},
+		"stats" : {
+		}
 	},
 	"aquatic_man" : {
 		"name" : "Aquatic Man",
-        "version" : "0.3.1",
+		"version" : "0.3.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","my_first_shield","paper_crown","loaded_die","rubber_vest"],
 			"green" : ["raw_egg","goblin_whacker","bessies_bane","goblin_grog","goblin_whacker","stickon_moustache"],
@@ -507,14 +507,14 @@ var heroes = {
 			"orange" : ["lens_of_decryption","blacksteel_blade","dirk_of_disemboweling","readin_rain_bow","boots_made_for_walkin","chugg_boots"],
 			"orange1" : ["self_preserver","ring_of_the_squirrel","healthy_dose_of_skepticism","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"zombie_squire" : {
 		"name" : "Zombie Squire",
-        "version" : "0.3.1",
+		"version" : "0.3.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
 			"green" : ["bloody_bat","gloves_of_crit","artifact_of_unimaginable_power","bloody_bat","bessies_bane","stickon_moustache"],
@@ -530,15 +530,15 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","lifedrinker","hammer_of_wicked_beats","wicked_mullet","self_preserver","chugg_boots"],
 			"orange1" : ["antimagic_shell","ring_of_the_squirrel","helm_of_the_raging_bear","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "holy_hand_grenade", "quantity" : 3 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "holy_hand_grenade", "quantity" : 3 }
+		},
+		"stats" : {
+		}
 	},
 	"bardbarian" : {
 		"name" : "Bardbarian",
-        "version" : "1.0",
+		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
 			"green" : ["ya_vampire_series","goblin_whacker","free_mans_crowbar","snazzy_vest","goblin_whacker","stickon_moustache"],
@@ -554,14 +554,14 @@ var heroes = {
 			"orange" : ["boots_made_for_walkin","blacksteel_blade","bowie_knife","readin_rain_bow","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["self_preserver","ring_of_the_squirrel","bowie_knife","helm_of_screaming_manface","healthy_dose_of_skepticism","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"magic_dragon" : {
 		"name" : "Magic Dragon",
-        "version" : "1.0",
+		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","loaded_die","rubber_vest"],
 			"green" : ["sparkle_pony_keychain","chunky_femur","fine_brie","snazzy_vest","chunky_femur","stickon_moustache"],
@@ -577,15 +577,15 @@ var heroes = {
 			"orange" : ["laser_kitten","war_sandals","overpowering_fragrance","readin_rain_bow","framed_diploma","chugg_boots"],
 			"orange1" : ["self_preserver","motivational_cassette","axe_of_major_riffage","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "gear", "specific" : "sparkle_pony_keychain", "quantity" : 25 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "gear", "specific" : "sparkle_pony_keychain", "quantity" : 25 }
+		},
+		"stats" : {
+		}
 	},
 	"bone_dragon" : {
 		"name" : "Bone Dragon",
-        "version" : "1.0",
+		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","enchanted_elbow_pads","paper_crown","foam_finger","goblin_grog"],
 			"green" : ["captains_tightpants","bloody_bat","bessies_bane","gloves_of_crit","bloody_bat","stickon_moustache"],
@@ -601,14 +601,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","big_stabby_spear","head_banger","readin_rain_bow","mjlnirby","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","dragons_ballz","helm_of_the_raging_bear","monster_hunter_armor","blacksteel_blade","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"groovy_druid" : {
 		"name" : "Groovy Druid",
-        "version" : "1.1",
+		"version" : "1.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","enchanted_elbow_pads","goblin_grog"],
 			"green" : ["sparkle_pony_keychain","chunky_femur","wand_of_gold_sparkles","bloody_bat","chunky_femur","stickon_moustache"],
@@ -624,15 +624,15 @@ var heroes = {
 			"orange" : ["laser_kitten","framed_diploma","hammer_of_wicked_beats","glass_case_of_emotion","27_pocket_protector","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","liche_finger","healthy_dose_of_skepticism","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "potion", "specific" : "flask", "quantity" : 1000 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "potion", "specific" : "flask", "quantity" : 1000 }
+		},
+		"stats" : {
+		}
 	},
 	"savage_cutie" : {
 		"name" : "Savage Cutie",
-        "version" : "1.2",
+		"version" : "1.2",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
 			"green" : ["bloody_bat","protein_powder","snazzy_vest","bloody_bat","enchanted_elbow_pads","stickon_moustache"],
@@ -648,14 +648,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","dragon_scale","head_banger","wicked_mullet","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["self_preserver","peter_pipers_pepper_spray","healthy_dose_of_skepticism","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"frost_giant" : {
 		"name" : "Frost Giant",
-        "version" : "1.3",
+		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","enchanted_elbow_pads","paper_crown","goblin_grog"],
 			"green" : ["sparkle_pony_keychain","chunky_femur","snazzy_vest","smarty_pants","chunky_femur","stickon_moustache"],
@@ -671,15 +671,15 @@ var heroes = {
 			"orange" : ["laser_kitten","disk_of_some_power","adamantium_tiara","jar_of_kitten_tears","purple_pills_of_potency","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","high_tea","tome_of_occult_nonsense","deerstalker_hat","championship_belt","chugg_boots"]
 		},
-        "quests" : {
-            "orange" : { "type" : "token", "specific" : "soulmart", "quantity" : 2000 }
-        },
-        "stats" : {
-        }
+		"quests" : {
+			"orange" : { "type" : "token", "specific" : "soulmart", "quantity" : 2000 }
+		},
+		"stats" : {
+		}
 	},
 	"spikey_dragon" : {
 		"name" : "Spikey Dragon",
-        "version" : "1.3",
+		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","rubber_vest","stolen_sneakers","bit_onip","paper_crown","stolen_sneakers"],
 			"green" : ["oxfords_of_alacrity","goblin_whacker","goblin_grog","snazzy_vest","goblin_whacker","stickon_moustache"],
@@ -695,14 +695,14 @@ var heroes = {
 			"orange" : ["boots_made_for_walkin","blacksteel_blade","bowie_knife","unicorn_puke","vorpal_boomerang","chugg_boots"],
 			"orange1" : ["self_preserver","motivational_cassette","helm_of_the_raging_bear","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"dark_horse" : {
 		"name" : "Dark Horse",
-        "version" : "1.3",
+		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","fine_brie","foam_finger","fine_brie","paper_crown","my_first_shield"],
 			"green" : ["bloody_bat","raw_egg","bessies_bane","bloody_bat","shiny_bottlecap","stickon_moustache"],
@@ -718,14 +718,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","dragon_scale","antimagic_shell","mystical_elven_sh*t","big_stabby_spear","chugg_boots"],
 			"orange1" : ["antimagic_shell","dragons_ballz","healthy_dose_of_skepticism","helm_of_screaming_manface","liche_finger","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"pixie_queen" : {
 		"name" : "Pixie Queen",
-        "version" : "1.3",
+		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","stolen_sneakers","enchanted_elbow_pads","enchanted_elbow_pads"],
 			"green" : ["oxfords_of_alacrity","goblin_whacker","enchanted_elbow_pads","snazzy_vest","enchanted_elbow_pads","stickon_moustache"],
@@ -741,14 +741,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","dirk_of_disemboweling","war_sandals","unicorn_puke","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","dragons_ballz","axe_of_major_riffage","knives_of_hackenslash","blacksteel_blade","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"rabid_dragon" : {
 		"name" : "Rabid Dragon",
-        "version" : "2.0",
+		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["enchanted_elbow_pads","stolen_sneakers","free_mans_crowbar","enchanted_elbow_pads","stolen_sneakers","paper_crown"],
 			"green" : ["stickon_moustache","swash_buckler","goblin_whacker","free_mans_crowbar","snazzy_vest","oxfords_of_alacrity"],
@@ -764,14 +764,14 @@ var heroes = {
 			"orange" : ["boots_made_for_walkin","blacksteel_blade","the_mad_gods_trident","readin_rain_bow","lifedrinker","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","dragons_ballz","bowie_knife","monster_hunter_armor","healthy_dose_of_skepticism","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"orc_monk" : {
 		"name" : "Orc Monk",
-        "version" : "2.0",
+		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
 			"green" : ["shiny_bottlecap","snazzy_vest","bloody_bat","lucky_orcs_foot","my_first_shield","stickon_moustache"],
@@ -787,14 +787,14 @@ var heroes = {
 			"orange" : ["philter_of_pure_testosterone","liche_finger","adamantium_tiara","mystical_elven_sh*t","self_preserver","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","peter_pipers_pepper_spray","tome_of_occult_nonsense","helm_of_screaming_manface","dragons_ballz","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"dwarven_archer" : {
 		"name" : "Dwarven Archer",
-        "version" : "2.0",
+		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","fine_brie","paper_crown","stolen_sneakers","bit_onip"],
 			"green" : ["goblin_whacker","banjo_of_dueling","shiny_bottlecap","goblin_whacker","goblin_grog","stickon_moustache"],
@@ -810,14 +810,14 @@ var heroes = {
 			"orange" : ["lens_of_decryption","boots_made_for_walkin","shovel","readin_rain_bow","war_sandals","chugg_boots"],
 			"orange1" : ["antimagic_shell","blacksteel_blade","helm_of_the_raging_bear","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"storm_drake" : {
 		"name" : "Storm Drake",
-        "version" : "2.1",
+		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
 			"green" : ["sparkle_pony_keychain","snazzy_vest","chunky_femur","chunky_femur","fine_brie","stickon_moustache"],
@@ -833,14 +833,14 @@ var heroes = {
 			"orange" : ["laser_kitten","disk_of_some_power","extreme_fad_diet","jar_of_kitten_tears","tome_of_nasty_behavior","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","championship_belt","tome_of_occult_nonsense","deerstalker_hat","liche_finger","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"wild_satyr" : {
 		"name" : "Wild Satyr",
-        "version" : "2.1",
+		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","rubber_vest","fine_brie","paper_crown","bit_onip","my_first_shield"],
 			"green" : ["shiny_bottlecap","snazzy_vest","bloody_bat","chunky_femur","nonstick_shield","stickon_moustache"],
@@ -856,14 +856,14 @@ var heroes = {
 			"orange" : ["laser_kitten","sandwich_of_unsurpassed_meatiness","framed_diploma","jar_of_kitten_tears","hammer_of_wicked_beats","chugg_boots"],
 			"orange1" : ["self_preserver","dragons_ballz","wizardry_for_idiots","ivy_league_haircut","healthy_dose_of_skepticism","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
 	"skeleton_king" : {
 		"name" : "Skeleton King",
-        "version" : "2.1",
+		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","enchanted_elbow_pads","foam_finger","bit_onip","goblin_grog"],
 			"green" : ["pretty_sweet_cape","sparkle_pony_keychain","snazzy_vest","lucky_orcs_foot","bloody_bat","stickon_moustache"],
@@ -879,15 +879,15 @@ var heroes = {
 			"orange" : ["laser_kitten","jar_of_kitten_tears","overpowering_fragrance","rod_of_witty_banter","adamantium_tiara","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","ivy_league_haircut","championship_belt","purple_pills_of_potency","wizardry_for_idiots","chugg_boots"]
 		},
-        "quests" : {
-        },
-        "stats" : {
-        }
+		"quests" : {
+		},
+		"stats" : {
+		}
 	},
-    "unicorgi" : {
-        "name" : "Unicorgi",
-        "version" : "2.2",
-        "gearsets" : {
+	"unicorgi" : {
+		"name" : "Unicorgi",
+		"version" : "2.2",
+		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","my_first_shield","stolen_sneakers","free_mans_crowbar","rubber_vest"],
 			"green" : ["oxfords_of_alacrity","goblin_whacker","goblin_grog","swash_buckler","snazzy_vest","stickon_moustache"],
 			"green1" : ["racing_stripes","ya_vampire_series","goblin_whacker","sparkle_pony_keychain","arcane_slacks","stickon_moustache"],
@@ -901,16 +901,16 @@ var heroes = {
 			"purple4" : ["the_power_of_science","hammer_of_wicked_beats","adamantium_tiara","ring_of_the_squirrel","liger_balm","chugg_boots"],
 			"orange" : ["lens_of_decryption","photo_bomb","boots_made_for_walkin","unicorn_puke","vorpal_boomerang","chugg_boots"],
 			"orange1" : ["antimagic_shell","dragons_ballz","bowie_knife","helm_of_the_raging_bear","monster_hunter_armor","chugg_boots"]
-        },
-        "quests" : {
-        },
-        "stats" : {
-        }
-    },
-    "golden_genie" : {
-        "name" : "Golden Genie",
-        "version" : "2.2",
-        "gearsets" : {
+		},
+		"quests" : {
+		},
+		"stats" : {
+		}
+	},
+	"golden_genie" : {
+		"name" : "Golden Genie",
+		"version" : "2.2",
+		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","foam_finger","paper_crown","enchanted_elbow_pads","my_first_shield"],
 			"green" : ["raw_egg","bloody_bat","gloves_of_crit","enchanted_elbow_pads","bloody_bat","stickon_moustache"],
 			"green1" : ["muscle_wax","excaliburtreynolds","bloody_bat","sparkle_pony_keychain","my_first_shield","stickon_moustache"],
@@ -924,16 +924,16 @@ var heroes = {
 			"purple4" : ["girdle_of_victory","overpowering_fragrance","rod_of_witty_banter","high_tea","tome_of_nasty_behavior","chugg_boots"],
 			"orange" : ["philter_of_pure_testosterone","disk_of_some_power","hammer_of_wicked_beats","jar_of_kitten_tears","antimagic_shell","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","high_tea","helm_of_the_raging_bear","ivy_league_haircut","championship_belt","chugg_boots"]
-        },
-        "quests" : {
-        },
-        "stats" : {
-        }
-    },
-    "spirit_wolf" : {
-        "name" : "Spirit Wolf",
-        "version" : "2.2",
-        "gearsets" : {
+		},
+		"quests" : {
+		},
+		"stats" : {
+		}
+	},
+	"spirit_wolf" : {
+		"name" : "Spirit Wolf",
+		"version" : "2.2",
+		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","loaded_die","loaded_die","enchanted_elbow_pads","goblin_grog"],
 			"green" : ["sparkle_pony_keychain","snazzy_vest","chunky_femur","chunky_femur","fine_brie","stickon_moustache"],
 			"green1" : ["gentlemens_club","the_power_of_medicine","wand_of_gold_sparkles","smarty_pants","melty_chocolate_bar","stickon_moustache"],
@@ -947,10 +947,10 @@ var heroes = {
 			"purple4" : ["girdle_of_victory","high_tea","tome_of_eldritch_goingson","tome_of_nasty_behavior","shot_in_the_arm","chugg_boots"],
 			"orange" : ["laser_kitten","jar_of_kitten_tears","disk_of_some_power","purple_pills_of_potency","overpowering_fragrance","chugg_boots"],
 			"orange1" : ["extreme_fad_diet","deerstalker_hat","motivational_cassette","glasses_of_lenslessness","tome_of_occult_nonsense","chugg_boots"]
-        },
-        "quests" : {
-        },
-        "stats" : {
-        }
-    }
+		},
+		"quests" : {
+		},
+		"stats" : {
+		}
+	}
 };
