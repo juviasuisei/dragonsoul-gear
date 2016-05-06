@@ -77,15 +77,15 @@ function sanity_check() {
 		$('#collects').tablesorter({
 			headers: {
 //				0 : { sorter: 'gear' },
-				1 : { sorter: 'nocommas' }
+				2 : { sorter: 'nocommas' }
 			}
 		});
 		$('#crafts').tablesorter({
 			headers: {
 //				0 : { sorter: 'gear' },
-				1 : { sorter: 'nocommas' },
 				2 : { sorter: 'nocommas' },
-				3 : { sorter: 'nocommas' }
+				3 : { sorter: 'nocommas' },
+				4 : { sorter: 'nocommas' }
 			}
 		});
 		populate_heroes();
