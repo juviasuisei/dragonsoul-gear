@@ -29,60 +29,22 @@ function sanity_check() {
 	});
 	if(false === litmus) {
 		$.tablesorter.addParser({
-			id: 'gear',
-			is: function(s) {
-				return false;
-			},
-			format: function(s) {
-				var key = s.toLowerCase().replace(/.*gear\/(.*)\.png".*/,"$1");
-				if(key in gear) {
-					var item = gear[key];
-					var color = 9;
-					switch(item.color) {
-						case 'white':
-							color = 1;
-							break;
-						case 'green':
-							color = 2;
-							break;
-						case 'blue':
-							color = 3;
-							break;
-						case 'purple':
-							color = 4;
-							break;
-						case 'orange':
-							color = 5;
-							break;
-					}
-					return color + key;
-				} else {
-					return s.toLowerCase().replace(/.*title="([^"]*)".*/,"$1");
-				}
-			},
-			type: 'text'
-		});
-		$.tablesorter.addParser({
 			id: 'nocommas',
 			is: function(s) {
 				return false;
 			},
 			format: function(s) {
-				console.log(s);
-				console.log(s.toLowerCase().replace(/,/g,''));
 				return s.toLowerCase().replace(/,/g,'');
 			},
 			type: 'numeric'
 		});
 		$('#collects').tablesorter({
 			headers: {
-//				0 : { sorter: 'gear' },
 				2 : { sorter: 'nocommas' }
 			}
 		});
 		$('#crafts').tablesorter({
 			headers: {
-//				0 : { sorter: 'gear' },
 				2 : { sorter: 'nocommas' },
 				3 : { sorter: 'nocommas' },
 				4 : { sorter: 'nocommas' }
