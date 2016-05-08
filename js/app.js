@@ -248,7 +248,7 @@ function getStats(stats) {
 			if(0 < i) {
 				result += '; ';
 			}
-			result += k + ': +' + v;
+			result += k.replace(/_/g, " ") + ': +' + v;
 		}
 	});
 	return result;

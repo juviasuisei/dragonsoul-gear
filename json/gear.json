@@ -16,18 +16,23 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"fine_brie" : {
 		"name" : "Fine Brie",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made from raw, organic dragon milk.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 80,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -36,15 +41,20 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"free_mans_crowbar" : {
 		"name" : "Free Man's Crowbar",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For assailants of few words.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -52,23 +62,28 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 6,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"goblin_grog" : {
 		"name" : "Goblin Grog",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The only energy drink illegal in 10 kingdoms!",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health_regen" : 15,
+			"energy_regen" : 15,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
@@ -76,15 +91,20 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"my_first_shield" : {
 		"name" : "My First Shield",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made of stain resistant ingestible plastics.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -94,116 +114,146 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 2,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"paper_crown" : {
 		"name" : "Paper Crown",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "At least your mom thinks you're special enough to be royalty.",
+		"level" : 1,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 1,
+			"agility" : 1,
+			"intellect" : 1,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bloody_bat" : {
 		"name" : "Bloody Bat",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Take the attacking shot!",
+		"level" : 9,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 6,
+			"agility" : 3,
+			"intellect" : 3,
+			"damage" : 3,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"enchanted_elbow_pads" : {
 		"name" : "Enchanted Elbow Pads",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Prevents owies with aplomb.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 2,
+			"agility" : 2,
+			"intellect" : 2,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"captains_tightpants" : {
 		"name" : "Captain's Tightpants",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For those folks who are aimin' to misbehave.",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 90,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 5,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"stickon_moustache" : {
 		"name" : "Stick-on Moustache",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Insta-hipster.",
+		"level" : 8,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 5,
+			"agility" : 5,
+			"intellect" : 5,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bloody_bat_scroll" : {
 		"name" : "Bloody Bat Scroll",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
+		"type" : "scroll",
+		"description" : "Ancient recipe for crafting a Bloody Bat.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -216,15 +266,20 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"mace_of_friendship" : {
 		"name" : "Mace of Friendship",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "My mace wants to hug you... in the face!",
+		"level" : 22,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -232,18 +287,23 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 21,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_mace_of_friendship" : {
 		"name" : "Scrap of a Mace of Friendship",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
+		"type" : "scrap",
+		"description" : "Collect to construct a Mace of Friendship.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -256,34 +316,44 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lucky_orcs_foot" : {
 		"name" : "Lucky Orc's Foot",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Heaviest. Keychain. Ever.",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 120,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 2,
+			"agility" : 2,
+			"intellect" : 2,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lucky_orcs_foot_scroll" : {
 		"name" : "Lucky Orc's Foot Scroll",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
+		"type" : "scroll",
+		"description" : "Ancient recipe for constructing a Lucky Orc's Foot.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -296,37 +366,47 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"thong_of_vitality" : {
 		"name" : "Thong of Vitality",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Armor that's worth the wedgie.",
+		"level" : 19,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
+			"health" : 280,
+			"health_regen" : 240,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 4,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"raw_egg" : {
 		"name" : "Raw Egg",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I love the smell of salmonella in the morning!",
+		"level" : 12,
 		"stats" : {
-			"health" : 0,
+			"health" : 250,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
@@ -336,18 +416,23 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"melty_chocolate_bar" : {
 		"name" : "Melty Chocolate Bar",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "MmmmmmMMM!",
+		"level" : 20,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 150,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -356,55 +441,70 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"directors_cut" : {
 		"name" : "Director's Cut",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Beautiful, long and superfluous.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 14,
+			"agility" : 6,
+			"intellect" : 6,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 75,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"protein_powder" : {
 		"name" : "Protein Powder",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Ingredients: Waffle Mix, Red Dye 40, Natural Flavors",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 6,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"gloves_of_crit" : {
 		"name" : "Gloves of Crit",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "If it fits, I crits.",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -416,15 +516,20 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 37,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"glaive_of_dismemberment" : {
 		"name" : "Glaive of Dismemberment",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Wicked!",
+		"level" : 34,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -432,18 +537,23 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 30,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 75,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dont_tase_me_bow" : {
 		"name" : "Don't Tase Me Bow!",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_gear",
+		"description" : "Shock your enemies!",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -456,15 +566,20 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 75,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"and_my_axe" : {
 		"name" : "And My Axe!",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The perfect weapon for competitive kill counts.",
+		"level" : 21,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -472,42 +587,52 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 18,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"side_of_bacon" : {
 		"name" : "Side of Bacon",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Now gluten free!",
+		"level" : 16,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
+			"health_regen" : 70,
+			"energy_regen" : 50,
+			"strength" : 6,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bit_onip" : {
 		"name" : "Bit o' Nip",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Let's (hic) go (hic) questing!",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 30,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -516,14 +641,19 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_a_side_of_bacon" : {
 		"name" : "Scroll of a Side of Bacon",
 		"color": "green",
-		"type" : "",
-		"description" : "",
+		"type" : "scroll",
+		"description" : "Ancient recipe for crafting a Side of Bacon.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -536,35 +666,45 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"snazzy_vest" : {
 		"name" : "Snazzy Vest",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Protecting people from the perils of dating since 1972.",
+		"level" : 9,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 30,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 2,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rubber_vest" : {
 		"name" : "Rubber Vest",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Where fashion and defense meet the road.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -574,20 +714,25 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 2,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"blissful_ignorance" : {
 		"name" : "Blissful Ignorance",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Every hero needs their beauty rest.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 180,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -595,16 +740,21 @@ var gear = {
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
-			"crit_rating" : 0
+			"magic_resist" : 12,
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"nonstick_shield" : {
 		"name" : "Nonstick Shield",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Great for omelettes, too!",
+		"level" : 27,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -615,39 +765,49 @@ var gear = {
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
-			"crit_rating" : 0
+			"magic_resist" : 5,
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"excaliburtreynolds" : {
 		"name" : "Excaliburtreynolds",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Granted by the Lady of the Lake, imbued with majestic moustache power.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health_regen" : 200,
+			"energy_regen" : 75,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 10,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"hemp_bracelet" : {
 		"name" : "Hemp Bracelet",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made with peace, friendship and really itchy fibers.",
+		"level" : 11,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 60,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -656,35 +816,45 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sock_full_opennies" : {
 		"name" : "Sock Full o' Pennies",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The ultimate contigency plan.",
+		"level" : 19,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 9,
+			"agility" : 9,
+			"intellect" : 9,
+			"damage" : 24,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bessies_bane" : {
 		"name" : "Bessie's Bane",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The prime choice for adventurers everywhere.",
+		"level" : 19,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -692,18 +862,23 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 9,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_dont_tase_me_bow" : {
 		"name" : "Scrap of a Don't Tase Me Bow!",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
+		"type" : "scrap",
+		"description" : "Collect to construct a Don't Tase Me Bow.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -716,14 +891,19 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_and_my_axe" : {
 		"name" : "Scrap of an And My Axe!",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
+		"type" : "scrap",
+		"description" : "Collect to construct an And My Axe!",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -736,7 +916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"axes_of_dual_wielding" : {
@@ -756,7 +941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bag_ohammers" : {
@@ -776,7 +966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"muscle_wax" : {
@@ -796,7 +991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_muscle_wax" : {
@@ -816,7 +1016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bag_ohammers_scroll" : {
@@ -836,7 +1041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"spud_gun" : {
@@ -856,7 +1066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"oxfords_of_alacrity" : {
@@ -876,7 +1091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"spudgun_scroll" : {
@@ -896,7 +1116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"racing_stripes" : {
@@ -916,7 +1141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_racing_stripes" : {
@@ -936,7 +1166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"robe_of_sharp_comebacks" : {
@@ -956,7 +1191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"penetrable_armor" : {
@@ -976,7 +1216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"smarty_pants" : {
@@ -996,7 +1241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"mussel_milk" : {
@@ -1016,7 +1266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sparkle_pony_keychain" : {
@@ -1036,7 +1291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sparkle_pony_keychain_scroll" : {
@@ -1056,7 +1316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"super_spikey_spear" : {
@@ -1076,7 +1341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"vorpal_boomerang" : {
@@ -1096,7 +1366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_vorpal_boomerang" : {
@@ -1116,7 +1391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"impractical_chestplate" : {
@@ -1136,7 +1416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_impractical_chestplate" : {
@@ -1156,7 +1441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_a_super_spikey_spear" : {
@@ -1176,7 +1466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_super_spikey_spear_scroll" : {
@@ -1196,7 +1491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_mad_gods_trident" : {
@@ -1216,7 +1516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_mad_gods_trident_scroll" : {
@@ -1236,7 +1541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_the_mad_gods_trident_scroll" : {
@@ -1256,7 +1566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_compensator" : {
@@ -1276,7 +1591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"gentlemens_club" : {
@@ -1296,7 +1616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_gentlemens_club" : {
@@ -1316,7 +1641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_compensator_scroll" : {
@@ -1336,7 +1666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_compensator_scroll" : {
@@ -1356,7 +1691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"hammer_of_wicked_beats" : {
@@ -1376,7 +1716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"adamantium_tiara" : {
@@ -1396,7 +1741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_adamantium_tiara" : {
@@ -1416,7 +1766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"hammer_of_wicked_beats_scroll" : {
@@ -1436,7 +1791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_hammer_of_wicked_beats_scroll" : {
@@ -1456,7 +1816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"intimidating_beard" : {
@@ -1476,7 +1841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_an_intimidating_beard" : {
@@ -1496,7 +1866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_intimidating_beard_scroll" : {
@@ -1516,7 +1891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sandwich_of_unsurpassed_meatiness" : {
@@ -1536,7 +1916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"meaty_sandwich_scroll" : {
@@ -1556,7 +1941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_meaty_sandwich_scroll" : {
@@ -1576,7 +1966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"philter_of_pure_testosterone" : {
@@ -1596,7 +1991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_philter_of_pure_testosterone" : {
@@ -1616,7 +2016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"diplomatic_immunity" : {
@@ -1636,7 +2041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"diplomatic_immunity_scroll" : {
@@ -1656,7 +2066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_diplomatic_immunity_scroll" : {
@@ -1676,7 +2091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lifesipper" : {
@@ -1696,7 +2116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"ya_vampire_series" : {
@@ -1716,7 +2141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"grievous_bodily_harm" : {
@@ -1736,7 +2166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_grievous_bodily_harm" : {
@@ -1756,7 +2191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_grievous_bodily_harm_scroll" : {
@@ -1776,7 +2216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"head_banger" : {
@@ -1796,7 +2241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_head_banger" : {
@@ -1816,7 +2266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"enids_expensive_elixir" : {
@@ -1836,7 +2291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"king_jeffs_crossbow" : {
@@ -1856,7 +2316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"banjo_of_dueling" : {
@@ -1876,7 +2341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"enids_expensive_elixir_scroll" : {
@@ -1896,7 +2366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_enids_expensive_elixir_scroll" : {
@@ -1916,7 +2391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"kindness" : {
@@ -1936,7 +2416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"kindness_scroll" : {
@@ -1956,7 +2441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_kindness_scroll" : {
@@ -1976,7 +2466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lifedrinker" : {
@@ -1996,7 +2491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lifedrinker_scroll" : {
@@ -2016,7 +2516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_lifedrinker_scroll" : {
@@ -2036,7 +2541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"mjlnirby" : {
@@ -2056,7 +2566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"mjlnirby_scroll" : {
@@ -2076,7 +2591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_mjlnirby_scroll" : {
@@ -2096,7 +2616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"big_stabby_spear" : {
@@ -2116,7 +2641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"harolds_homemade_halberd" : {
@@ -2136,7 +2666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_harolds_homemade_halberd" : {
@@ -2156,7 +2691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"big_stabby_spear_scroll" : {
@@ -2176,7 +2716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_big_stabby_spear_scroll" : {
@@ -2196,7 +2741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_power_of_science" : {
@@ -2216,7 +2766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"peter_pipers_pepper_spray" : {
@@ -2236,7 +2791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_peter_pipers_pepper_spray" : {
@@ -2256,7 +2816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"swordy_mcepicpants" : {
@@ -2276,7 +2841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bunny_slippers" : {
@@ -2296,7 +2866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_bunny_slippers" : {
@@ -2316,7 +2891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"chugg_boots" : {
@@ -2336,7 +2916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dragon_scale" : {
@@ -2356,7 +2941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"antimagic_shell" : {
@@ -2376,7 +2966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_antimagic_shell" : {
@@ -2396,7 +2991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"self_preserver" : {
@@ -2416,7 +3016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_self_preserver" : {
@@ -2436,7 +3041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"mystical_elven_sh*t" : {
@@ -2456,7 +3066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"extreme_fad_diet" : {
@@ -2476,7 +3091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_extreme_fad_diet" : {
@@ -2496,7 +3116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"loaded_die" : {
@@ -2516,7 +3141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"wand_of_gold_sparkles" : {
@@ -2536,7 +3166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"chunky_femur" : {
@@ -2556,7 +3191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"chunky_femur_scroll" : {
@@ -2576,7 +3216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"staff_of_boss_fighting" : {
@@ -2596,7 +3241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_staff_of_boss_fighting" : {
@@ -2616,7 +3266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sacred_codex" : {
@@ -2636,7 +3291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_sacred_codex" : {
@@ -2656,7 +3316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"laser_pointer" : {
@@ -2676,7 +3341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"laser_pointer_scroll" : {
@@ -2696,7 +3366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_laser_pointer_scroll" : {
@@ -2716,7 +3391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rod_of_tasing" : {
@@ -2736,7 +3416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"artifact_of_unimaginable_power" : {
@@ -2756,7 +3441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"hippy_glo_sticks" : {
@@ -2776,7 +3466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"necronomicon" : {
@@ -2796,7 +3491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"necronomicon_scroll" : {
@@ -2816,7 +3516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_necronomicon_scroll" : {
@@ -2836,7 +3541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"laser_visor" : {
@@ -2856,7 +3566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"orb_of_everlasting_flavor" : {
@@ -2876,7 +3591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"orb_of_everlasting_flavor_scroll" : {
@@ -2896,7 +3616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_orb_of_everlasting_flavor_scroll" : {
@@ -2916,7 +3641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"framed_diploma" : {
@@ -2936,7 +3666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_framed_diploma" : {
@@ -2956,7 +3691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"shiny_bottlecap" : {
@@ -2976,7 +3716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_a_bottle_cap" : {
@@ -2996,7 +3741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_1_ring" : {
@@ -3016,7 +3766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_1_ring_scroll" : {
@@ -3036,7 +3791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_the_1_ring_scroll" : {
@@ -3056,7 +3816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"27_pocket_protector" : {
@@ -3076,7 +3841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"27_pocket_protector_scroll" : {
@@ -3096,7 +3866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_27_pocket_protector_scroll" : {
@@ -3116,7 +3891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"laser_sword" : {
@@ -3136,7 +3916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rod_of_witty_banter" : {
@@ -3156,7 +3941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rod_of_witty_banter_scroll" : {
@@ -3176,7 +3966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_rod_of_witty_banter_scroll" : {
@@ -3196,7 +3991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"holy_hand_grenade" : {
@@ -3216,7 +4016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"boots_made_for_walkin" : {
@@ -3236,7 +4041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_boots_made_for_walkin" : {
@@ -3256,7 +4066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"laser_kitten" : {
@@ -3276,7 +4091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"girdle_of_victory" : {
@@ -3296,7 +4116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"disk_of_some_power" : {
@@ -3316,7 +4141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_disk_of_some_power" : {
@@ -3336,7 +4166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"high_tea" : {
@@ -3356,7 +4191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_high_tea" : {
@@ -3376,7 +4216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"overpowering_fragrance" : {
@@ -3396,7 +4241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"shot_in_the_arm" : {
@@ -3416,7 +4266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"snake_oil" : {
@@ -3436,7 +4291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"jar_of_kitten_tears" : {
@@ -3456,7 +4316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"roll_of_duct_tape" : {
@@ -3476,7 +4341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_roll_of_duct_tape" : {
@@ -3496,7 +4366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"motivational_cassette" : {
@@ -3516,7 +4391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_forbidden_trivia" : {
@@ -3536,7 +4416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_trivia_scroll" : {
@@ -3556,7 +4441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_tome_of_trivia_scroll" : {
@@ -3576,7 +4466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_eldritch_goingson" : {
@@ -3596,7 +4491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_unspeakable_hearsay" : {
@@ -3616,7 +4516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_nasty_behavior" : {
@@ -3636,7 +4541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"daisy_chainsaw" : {
@@ -3656,7 +4566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"purple_pills_of_potency" : {
@@ -3676,7 +4591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"wizardry_for_idiots" : {
@@ -3696,7 +4616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_wizardry_for_idiots" : {
@@ -3716,7 +4641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"chaps_of_endurance" : {
@@ -3736,7 +4666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rod_of_shenanigans" : {
@@ -3756,7 +4691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tenfoot_pole" : {
@@ -3776,7 +4716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tenfoot_pole_scroll" : {
@@ -3796,7 +4741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"butter_knife" : {
@@ -3816,7 +4766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dirk_of_disemboweling" : {
@@ -3836,7 +4791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dirk_of_disemboweling_scroll" : {
@@ -3856,7 +4816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_dirk_of_disemboweling_scroll" : {
@@ -3876,7 +4841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_power_of_medicine" : {
@@ -3896,7 +4866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_the_power_of_medicine" : {
@@ -3916,7 +4891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"pretty_sweet_cape" : {
@@ -3936,7 +4916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"pretty_sweet_cape_scroll" : {
@@ -3956,7 +4941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"glass_case_of_emotion" : {
@@ -3976,7 +4966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"thinking_cap" : {
@@ -3996,7 +4991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"thinking_cap_scroll" : {
@@ -4016,7 +5016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_thinking_cap_scroll" : {
@@ -4036,7 +5041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_power_of_positive_thinking" : {
@@ -4056,7 +5066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_power_of_friendship" : {
@@ -4076,7 +5091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_power_of_love" : {
@@ -4096,7 +5116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"purifying_tuning_fork" : {
@@ -4116,7 +5141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"liger_balm" : {
@@ -4136,7 +5166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_liger_balm" : {
@@ -4156,7 +5191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"magic_eight_ball" : {
@@ -4176,7 +5216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"magic_eight_ball_scroll" : {
@@ -4196,7 +5241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"stolen_sneakers" : {
@@ -4216,7 +5266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"goblin_whacker" : {
@@ -4236,7 +5291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"goblin_whacker_scroll" : {
@@ -4256,7 +5316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"swash_buckler" : {
@@ -4276,7 +5341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"plastic_vampire_teeth" : {
@@ -4296,7 +5366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"plastic_vampire_teeth_scroll" : {
@@ -4316,7 +5391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"flail_of_total_devastation" : {
@@ -4336,7 +5416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"flail_of_devastation_scroll" : {
@@ -4356,7 +5441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_flail_of_total_devastation_scroll" : {
@@ -4376,7 +5466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"arcane_slacks" : {
@@ -4396,7 +5491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"plucky_heroines_shortbow" : {
@@ -4416,7 +5516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"shovel" : {
@@ -4436,7 +5541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"the_ugly_stick" : {
@@ -4456,7 +5566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_ugly_stick" : {
@@ -4476,7 +5591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"shovel_scroll" : {
@@ -4496,7 +5616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_shovel_scroll" : {
@@ -4516,7 +5641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lavishly_adorned_rapier" : {
@@ -4536,7 +5666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"yodeling_sword" : {
@@ -4556,7 +5691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"war_sandals" : {
@@ -4576,7 +5716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_war_sandals" : {
@@ -4596,7 +5741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dead_eye" : {
@@ -4616,7 +5766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_dead_eye" : {
@@ -4636,7 +5791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"ring_of_the_squirrel" : {
@@ -4656,7 +5816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_ring_of_the_squirrel" : {
@@ -4676,7 +5841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"blacksteel_blade" : {
@@ -4696,7 +5866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"readin_rain_bow" : {
@@ -4716,7 +5891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"photo_bomb" : {
@@ -4736,7 +5916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_photo_bomb" : {
@@ -4756,7 +5941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"bowie_knife" : {
@@ -4776,7 +5966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_bowie_knife" : {
@@ -4796,7 +5991,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"rattling_sabre" : {
@@ -4816,7 +6016,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"liche_finger" : {
@@ -4836,7 +6041,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"wicked_mullet" : {
@@ -4856,7 +6066,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"decoder_ring" : {
@@ -4876,7 +6091,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scroll_of_a_decoder_ring" : {
@@ -4896,7 +6116,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_decoder_ring_scroll" : {
@@ -4916,7 +6141,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"death_metal_blade" : {
@@ -4936,7 +6166,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"death_metal_blade_scroll" : {
@@ -4956,7 +6191,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_death_metal_blade_scroll" : {
@@ -4976,7 +6216,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lens_of_decryption" : {
@@ -4996,7 +6241,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lead_zeppelin" : {
@@ -5016,7 +6266,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"lead_zeppelin_scroll" : {
@@ -5036,7 +6291,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_lead_zeppelin_scroll" : {
@@ -5056,7 +6316,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"svens_sword_of_dooooom" : {
@@ -5076,7 +6341,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"vampire_bunnyears" : {
@@ -5096,7 +6366,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"vampire_bunny_ears_scroll" : {
@@ -5116,7 +6391,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"helm_of_the_raging_bear" : {
@@ -5136,7 +6416,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_helm_of_the_raging_bear" : {
@@ -5156,7 +6441,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"monster_hunter_armor" : {
@@ -5176,7 +6466,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"sweatband_of_bewitching" : {
@@ -5196,7 +6491,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_sweatband_of_bewitching" : {
@@ -5216,7 +6516,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"axe_of_major_riffage" : {
@@ -5236,7 +6541,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_axe_of_major_riffage" : {
@@ -5256,7 +6566,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"ivy_league_haircut" : {
@@ -5276,7 +6591,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"glasses_of_lenslessness" : {
@@ -5296,7 +6616,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_glasses_of_lenslessness" : {
@@ -5316,7 +6641,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"healthy_dose_of_skepticism" : {
@@ -5336,7 +6666,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_healthy_dose_of_skepticism" : {
@@ -5356,7 +6691,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"championship_belt" : {
@@ -5376,7 +6716,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"tome_of_occult_nonsense" : {
@@ -5396,7 +6741,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_a_tome_of_occult_nonsense" : {
@@ -5416,7 +6766,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"deerstalker_hat" : {
@@ -5436,7 +6791,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"helm_of_screaming_manface" : {
@@ -5456,7 +6816,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"dragons_ballz" : {
@@ -5476,7 +6841,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"knives_of_hackenslash" : {
@@ -5496,7 +6866,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"untested_jetpack" : {
@@ -5516,7 +6891,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"scrap_of_an_untested_jetpack" : {
@@ -5536,7 +6916,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"cryptozoology" : {
@@ -5556,7 +6941,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	},
 	"unicorn_puke" : {
@@ -5576,7 +6966,12 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"crit_rating" : 0
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0
 		}
 	}
 };
