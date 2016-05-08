@@ -250,7 +250,7 @@ function getStats(stats) {
 			}
 			result += k + ': +' + v;
 		}
-	}
+	});
 	return result;
 }
 
