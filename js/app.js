@@ -75,7 +75,7 @@ function populate_heroes() {
 			var subresult = ''
 			$.each(gearset, function(slot,item) {
 				var gear_item = gear[item]
-				subresult += '<img id="' + hk + gk + slot + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="gearset';
+				subresult += '<img id="' + hk + gk + '_' + slot + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="gearset';
 				if(null !== progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
 					subresult += ' have';
 					j++;
@@ -143,9 +143,9 @@ function check_gearsets(id,have) {
 
 function check_gearset(id,have,recalculate) {
 	if(true === have) {
-	$('#' + id + ' img').addClass('have');
+		$('#' + id + ' img').addClass('have');
 	} else {
-	$('#' + id + ' img').removeClass('have');
+		$('#' + id + ' img').removeClass('have');
 	}
 	if(true === recalculate) {
 		calculate_gear();
@@ -163,7 +163,7 @@ function calculate_gear() {
 			progress[hk][gk] = {};
 			var i = 0;
 			$.each(gearset, function(slot,item) {
-				if(false === $('#' + hk + gk + slot).hasClass('have')) {
+				if(false === $('#' + hk + gk + '_' + slot).hasClass('have')) {
 					progress[hk][gk][slot] = false;
 					if(false === item in needed) {
 						needed[item] = 1;
@@ -178,8 +178,6 @@ function calculate_gear() {
 					i++;
 				}
 			});
-			console.log(hk + gk);
-			console.log(i);
 			$('#' + hk + gk).removeClass('hide');
 			$('#' + hk + gk + 'toggle').html('-');
 			if(6 === i) {
