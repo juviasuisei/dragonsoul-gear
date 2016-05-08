@@ -248,7 +248,7 @@ function getStats(stats) {
 			if(0 < i) {
 				result += '<br />';
 			}
-			result += k.replace(/_/g, " ") + ': +' + v;
+			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;+' + v;
 			i++
 		}
 	});
