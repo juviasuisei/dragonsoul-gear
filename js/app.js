@@ -86,7 +86,7 @@ function populate_heroes() {
 				}
 				i++;
 			});
-			result += '<h4 class="' + color + '">[<span id="' hk + gk + 'toggle" onclick="toggleGearset(\'' + hk + gk + '\');">';
+			result += '<h4 class="' + color + '">[<span id="' + hk + gk + 'toggle" onclick="toggleGearset(\'' + hk + gk + '\');">';
 			if(6 === j) {
 				result += '+';
 			} else {
