@@ -125,6 +125,7 @@ function populate_heroes() {
 }
 
 function toggleGearset(id) {
+	console.log(id);
 	$('#' + id).toggleClass('hide');
 	if(true === $('#' + id).hasClass('hide')) {
 		$('#' + id + 'toggle').html('+');
@@ -177,6 +178,8 @@ function calculate_gear() {
 					i++;
 				}
 			});
+			console.log(hk + gk);
+			console.log(i);
 			$('#' + hk + gk).removeClass('hide');
 			$('#' + hk + gk + 'toggle').html('-');
 			if(6 === i) {
