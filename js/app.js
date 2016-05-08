@@ -125,7 +125,6 @@ function populate_heroes() {
 }
 
 function toggleGearset(id) {
-	console.log(id);
 	$('#' + id).toggleClass('hide');
 	if(true === $('#' + id).hasClass('hide')) {
 		$('#' + id + 'toggle').html('+');
