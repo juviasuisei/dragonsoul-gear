@@ -246,9 +246,10 @@ function getStats(stats) {
 	$.each(stats, function(k,v) {
 		if(0 !== v) {
 			if(0 < i) {
-				result += '; ';
+				result += '<br />';
 			}
 			result += k.replace(/_/g, " ") + ': +' + v;
+			i++
 		}
 	});
 	return result;
