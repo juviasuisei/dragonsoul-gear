@@ -126,6 +126,11 @@ function populate_heroes() {
 
 function toggleGearset(id) {
 	$('#' + id).toggleClass('hide');
+	if(true === $('#' + id).hasClass('hide')) {
+		$('#' + id + 'toggle').html('+');
+	} else {
+		$('#' + id + 'toggle').html('-');
+	}
 }
 
 function check_gearsets(id,have) {
