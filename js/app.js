@@ -244,7 +244,7 @@ function getStats(stats) {
 	var result = '';
 	var i = 0;
 	$.each(stats, function(k,v) {
-		if(0 !=== v) {
+		if(0 !== v) {
 			if(0 < i) {
 				result += '; ';
 			}
