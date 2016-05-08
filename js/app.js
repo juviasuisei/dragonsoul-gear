@@ -225,19 +225,33 @@ function calculate_gear() {
 	$.each(needed_sortable, function(k,v) {
 		if(true === v.k in recipes) {
 			r = recipes[v.k];
-			crafts += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td>';
+			crafts += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td><td>' + v.item.type + '</td><td>' + (0 !=== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + v.item.description + '</td>';
 /*			$.each(r.materials, function(mk,material) {
 				var gear_item = gear[material.item];
 				crafts += '<td class="' + gear_item.color + '"><img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + commas(material.quantity * v.quantity) + '</td>';
 			});
 */		   crafts += '</tr>';
 		} else {
-			collects += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td></tr>';
+			collects += '<tr class="' + v.item.color + '"><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + v.item.type + '</td><td>' + (0 !=== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + v.item.description + '</td></tr>';
 		}
 	});
 	$('#collect_list').html(collects);
 	$('#craft_list').html(crafts);
 	$('table').trigger('update');
+}
+
+function getStats(stats) {
+	var result = '';
+	var i = 0;
+	$.each(stats, function(k,v) {
+		if(0 !=== v) {
+			if(0 < i) {
+				result += '; ';
+			}
+			result += k + ': +' + v;
+		}
+	}
+	return result;
 }
 
 function commas(raw) {
