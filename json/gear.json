@@ -22,7 +22,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"fine_brie" : {
@@ -48,7 +49,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"free_mans_crowbar" : {
@@ -74,7 +76,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"goblin_grog" : {
@@ -100,7 +103,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"my_first_shield" : {
@@ -126,7 +130,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"paper_crown" : {
@@ -152,7 +157,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bloody_bat" : {
@@ -178,7 +184,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"enchanted_elbow_pads" : {
@@ -204,7 +211,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"captains_tightpants" : {
@@ -230,7 +238,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"stickon_moustache" : {
@@ -256,7 +265,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bloody_bat_scroll" : {
@@ -282,7 +292,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"mace_of_friendship" : {
@@ -308,7 +319,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_mace_of_friendship" : {
@@ -334,7 +346,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lucky_orcs_foot" : {
@@ -360,7 +373,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lucky_orcs_foot_scroll" : {
@@ -386,7 +400,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"thong_of_vitality" : {
@@ -412,7 +427,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"raw_egg" : {
@@ -438,7 +454,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"melty_chocolate_bar" : {
@@ -464,7 +481,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"directors_cut" : {
@@ -490,7 +508,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"protein_powder" : {
@@ -516,7 +535,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"gloves_of_crit" : {
@@ -542,7 +562,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"glaive_of_dismemberment" : {
@@ -568,7 +589,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dont_tase_me_bow" : {
@@ -594,7 +616,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"and_my_axe" : {
@@ -620,7 +643,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"side_of_bacon" : {
@@ -646,7 +670,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bit_onip" : {
@@ -672,7 +697,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_a_side_of_bacon" : {
@@ -698,7 +724,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"snazzy_vest" : {
@@ -724,7 +751,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rubber_vest" : {
@@ -750,7 +778,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"blissful_ignorance" : {
@@ -776,7 +805,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"nonstick_shield" : {
@@ -802,7 +832,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"excaliburtreynolds" : {
@@ -828,7 +859,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"hemp_bracelet" : {
@@ -854,7 +886,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sock_full_opennies" : {
@@ -880,7 +913,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bessies_bane" : {
@@ -906,7 +940,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_dont_tase_me_bow" : {
@@ -932,7 +967,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_and_my_axe" : {
@@ -958,7 +994,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"axes_of_dual_wielding" : {
@@ -984,7 +1021,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bag_ohammers" : {
@@ -1010,7 +1048,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"muscle_wax" : {
@@ -1036,7 +1075,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_muscle_wax" : {
@@ -1062,7 +1102,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bag_ohammers_scroll" : {
@@ -1088,7 +1129,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"spud_gun" : {
@@ -1114,7 +1156,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"oxfords_of_alacrity" : {
@@ -1140,7 +1183,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"spudgun_scroll" : {
@@ -1166,7 +1210,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"racing_stripes" : {
@@ -1192,7 +1237,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_racing_stripes" : {
@@ -1218,7 +1264,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"robe_of_sharp_comebacks" : {
@@ -1244,7 +1291,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"penetrable_armor" : {
@@ -1270,7 +1318,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"smarty_pants" : {
@@ -1296,7 +1345,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"mussel_milk" : {
@@ -1322,7 +1372,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sparkle_pony_keychain" : {
@@ -1348,7 +1399,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sparkle_pony_keychain_scroll" : {
@@ -1374,7 +1426,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"super_spikey_spear" : {
@@ -1400,7 +1453,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"vorpal_boomerang" : {
@@ -1426,7 +1480,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_vorpal_boomerang" : {
@@ -1452,7 +1507,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"impractical_chestplate" : {
@@ -1478,7 +1534,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_impractical_chestplate" : {
@@ -1504,7 +1561,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_a_super_spikey_spear" : {
@@ -1530,7 +1588,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_super_spikey_spear_scroll" : {
@@ -1556,7 +1615,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_mad_gods_trident" : {
@@ -1582,7 +1642,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_mad_gods_trident_scroll" : {
@@ -1608,7 +1669,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_the_mad_gods_trident_scroll" : {
@@ -1634,7 +1696,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_compensator" : {
@@ -1660,7 +1723,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"gentlemens_club" : {
@@ -1686,7 +1750,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_gentlemens_club" : {
@@ -1712,7 +1777,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_compensator_scroll" : {
@@ -1738,7 +1804,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_compensator_scroll" : {
@@ -1764,7 +1831,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"hammer_of_wicked_beats" : {
@@ -1790,7 +1858,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"adamantium_tiara" : {
@@ -1816,7 +1885,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_adamantium_tiara" : {
@@ -1842,7 +1912,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"hammer_of_wicked_beats_scroll" : {
@@ -1868,7 +1939,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_hammer_of_wicked_beats_scroll" : {
@@ -1894,7 +1966,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"intimidating_beard" : {
@@ -1920,7 +1993,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_an_intimidating_beard" : {
@@ -1946,7 +2020,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_intimidating_beard_scroll" : {
@@ -1972,7 +2047,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sandwich_of_unsurpassed_meatiness" : {
@@ -1998,7 +2074,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"meaty_sandwich_scroll" : {
@@ -2024,7 +2101,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_meaty_sandwich_scroll" : {
@@ -2050,7 +2128,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"philter_of_pure_testosterone" : {
@@ -2076,7 +2155,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_philter_of_pure_testosterone" : {
@@ -2102,7 +2182,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"diplomatic_immunity" : {
@@ -2128,7 +2209,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"diplomatic_immunity_scroll" : {
@@ -2154,7 +2236,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_diplomatic_immunity_scroll" : {
@@ -2180,7 +2263,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lifesipper" : {
@@ -2206,7 +2290,8 @@ var gear = {
 			"life_steal" : 15,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"ya_vampire_series" : {
@@ -2232,7 +2317,8 @@ var gear = {
 			"life_steal" : 15,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"grievous_bodily_harm" : {
@@ -2258,7 +2344,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_grievous_bodily_harm" : {
@@ -2284,7 +2371,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_grievous_bodily_harm_scroll" : {
@@ -2310,7 +2398,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"head_banger" : {
@@ -2336,7 +2425,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_head_banger" : {
@@ -2362,7 +2452,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"enids_expensive_elixir" : {
@@ -2388,41 +2479,43 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 15
+			"conservation" : 15,
+			"tenacity" : 0
 		}
 	},
 	"king_jeffs_crossbow" : {
 		"name" : "King Jeff's Crossbow",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For the discerning evil young monarch in your life.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
+			"energy_regen" : 40,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"intellect" : 6,
+			"damage" : 15,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 25,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"banjo_of_dueling" : {
 		"name" : "Banjo of Dueling",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Cue disturbing banjo solo.",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -2430,23 +2523,24 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 10,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 25,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"enids_expensive_elixir_scroll" : {
 		"name" : "Enid's Expensive Elixir Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2466,13 +2560,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_enids_expensive_elixir_scroll" : {
 		"name" : "Scrap of an Enid's Expensive Elixir Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2492,15 +2587,16 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"kindness" : {
 		"name" : "Kindness",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Make your Mama proud by following her wise advice.",
+		"level" : 43,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -2508,23 +2604,24 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 24,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 75,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"kindness_scroll" : {
 		"name" : "Kindess Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2544,13 +2641,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_kindness_scroll" : {
 		"name" : "Scrap of a Kindness Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2570,39 +2668,41 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lifedrinker" : {
 		"name" : "Lifedrinker",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "A very thirsty sword.",
+		"level" : 80,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 25,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 50,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 15,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
-			"life_steal" : 0,
+			"life_steal" : 25,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lifedrinker_scroll" : {
 		"name" : "Lifedrinker Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2622,13 +2722,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_lifedrinker_scroll" : {
 		"name" : "Scrap of a Lifedrinker Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2648,15 +2749,16 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"mjlnirby" : {
 		"name" : "Mjlnirby",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Harness the power of the Gods, throttle your closest enemies.",
+		"level" : 62,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -2664,23 +2766,24 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 48,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 200,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"mjlnirby_scroll" : {
 		"name" : "Mjlnirby Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2700,13 +2803,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_mjlnirby_scroll" : {
 		"name" : "Scrap of a Mjlnirby Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2726,15 +2830,16 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"big_stabby_spear" : {
 		"name" : "Big Stabby Spear",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Works as advertised.",
+		"level" : 80,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -2742,25 +2847,26 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 100,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 30,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"harolds_homemade_halberd" : {
 		"name" : "Harold's Homemade Halberd",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made with tender loving care.",
+		"level" : 70,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -2768,7 +2874,7 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 60,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -2778,13 +2884,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_harolds_homemade_halberd" : {
 		"name" : "Scrap of Harold's Homemade Halberd",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2804,13 +2911,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"big_stabby_spear_scroll" : {
 		"name" : "Big Stabby Spear Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2830,13 +2938,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_big_stabby_spear_scroll" : {
 		"name" : "Scrap of a Big Stabby Spear Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2856,23 +2965,24 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_power_of_science" : {
 		"name" : "The Power of SCIENCE",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Crystal no. 5 in the pseudoscientific health set.",
+		"level" : 85,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
+			"health" : 1000,
+			"health_regen" : 400,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 60,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 22,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -2882,20 +2992,21 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"peter_pipers_pepper_spray" : {
 		"name" : "Peter Piper's Pepper Spray",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Pulverise a peck of pernicious pilferers!",
+		"level" : 82,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 36,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
@@ -2908,13 +3019,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_peter_pipers_pepper_spray" : {
 		"name" : "Scrap of Peter Piper's Pepper Spray",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -2934,40 +3046,42 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"swordy_mcepicpants" : {
 		"name" : "Swordy McEpicPants",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "scrap",
+		"description" : "100% pure butt-kicking nonsense.",
+		"level" : 64,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 20,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 20,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
-			"dodge" : 0,
+			"dodge" : 25,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bunny_slippers" : {
 		"name" : "Bunny Slippers",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_item",
+		"description" : "Slay enemies in adorable comfort.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -2984,15 +3098,16 @@ var gear = {
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
-			"dodge" : 0,
+			"dodge" : 20,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_bunny_slippers" : {
 		"name" : "Scrap of Bunny Slippers",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3012,22 +3127,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"chugg_boots" : {
 		"name" : "CHUGG Boots",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made of 100% Mosstralian CHUGG hide.",
+		"level" : 81,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 31,
+			"agility" : 31,
+			"intellect" : 31,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -3038,41 +3154,43 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dragon_scale" : {
 		"name" : "Dragon Scale",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "DS3000 now supports max weight up to 12,000 lbs. Order now!",
+		"level" : 84,
 		"stats" : {
-			"health" : 0,
+			"health" : 480,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 10,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 16,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 35,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"antimagic_shell" : {
 		"name" : "Anti-Magic Shell",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Pour it on to create a chocolatey, magic-resistant coating in seconds.",
+		"level" : 82,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -3083,20 +3201,21 @@ var gear = {
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 20,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_antimagic_shell" : {
 		"name" : "Scrap of Anti-Magic Shell",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3116,15 +3235,16 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"self_preserver" : {
 		"name" : "Self Preserver",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Bravely take to the streets to immediately beat a hasty self preserving retreat!",
+		"level" : 80,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -3134,7 +3254,7 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 20,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -3142,13 +3262,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_self_preserver" : {
 		"name" : "Scrap of a Self Preserver",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3168,25 +3289,26 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"mystical_elven_sh*t" : {
 		"name" : "Mystical Elven Sh*t",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Instantly adds bloom and causes a faint breeze to ruffle the hair of the bearer in an insanely attractive manner.",
+		"level" : 88,
 		"stats" : {
-			"health" : 0,
+			"health" : 1100,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 28,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 40,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -3194,17 +3316,18 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"extreme_fad_diet" : {
 		"name" : "Extreme Fad Diet",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For best results, only ingest items ranging in color from puce to ecru.",
+		"level" : 87,
 		"stats" : {
-			"health" : 0,
+			"health" : 900,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
@@ -3220,13 +3343,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_extreme_fad_diet" : {
 		"name" : "Scrap of an Extreme Fad Diet",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3246,22 +3370,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"loaded_die" : {
 		"name" : "Loaded Die",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Who needs luck?",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 3,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -3272,15 +3397,16 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"wand_of_gold_sparkles" : {
 		"name" : "Wand of Gold Sparkles",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Fun for all ages at 1000 degrees celsius.",
+		"level" : 11,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -3289,7 +3415,7 @@ var gear = {
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 30,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -3298,23 +3424,24 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"chunky_femur" : {
 		"name" : "Chunky Femur",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I found this humerus.",
+		"level" : 9,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 3,
+			"agility" : 3,
+			"intellect" : 6,
+			"damage" : 3,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -3324,13 +3451,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"chunky_femur_scroll" : {
 		"name" : "Chunky Femur Scroll",
 		"color" : "white",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3350,39 +3478,41 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"staff_of_boss_fighting" : {
 		"name" : "Staff of Boss Fighting",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Hope you found a save point!",
+		"level" : 24,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 7,
+			"agility" : 7,
+			"intellect" : 7,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 100,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_staff_of_boss_fighting" : {
 		"name" : "Scrap of a Staff of Boss Fighting",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3402,22 +3532,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sacred_codex" : {
 		"name" : "Sacred Codex",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Magically transports you into fantastic realms from your mom's basement.",
+		"level" : 20,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -3428,13 +3559,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_sacred_codex" : {
 		"name" : "Scrap of a Sacred Codex",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3454,39 +3586,41 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"laser_pointer" : {
 		"name" : "Laser Pointer",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The power of science, pocket sized!",
+		"level" : 33,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 15,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 30,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 25,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"laser_pointer_scroll" : {
 		"name" : "Laser Pointer Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3506,13 +3640,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_laser_pointer_scroll" : {
 		"name" : "Scrap of a Laser Pointer Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3532,50 +3667,52 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rod_of_tasing" : {
 		"name" : "Rod of Tasing",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "An ideal tool for crowd control, stalker exes and jump starting vehicles.",
+		"level" : 35,
 		"stats" : {
-			"health" : 0,
+			"health" : 200,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 10,
+			"agility" : 10,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 50,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"artifact_of_unimaginable_power" : {
 		"name" : "Artifact of Unimaginable Power",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Behold the unstoppable power of my 20-sided die!!!",
+		"level" : 13,
 		"stats" : {
-			"health" : 0,
+			"health" : 200,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 18,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -3584,24 +3721,25 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"hippy_glo_sticks" : {
 		"name" : "Hippy Glo Sticks",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Great for campers, deep sea divers and people who are REALLY high.",
+		"level" : 17,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"energy_regen" : 60,
+			"strength" : 6,
+			"agility" : 6,
+			"intellect" : 6,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 40,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -3610,22 +3748,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"necronomicon" : {
 		"name" : "Necronomicon",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Go ahead, read from it. How much harm can it do?",
+		"level" : 30,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 120,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -3634,15 +3773,16 @@ var gear = {
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
-			"dodge" : 0,
+			"dodge" : 5,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"necronomicon_scroll" : {
 		"name" : "Necronomicon Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3662,13 +3802,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_necronomicon_scroll" : {
 		"name" : "Scrap of a Necronomicon Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3688,65 +3829,68 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"laser_visor" : {
 		"name" : "Laser Visor",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Don some yellow spandex and become the leader that no one wants you to be.",
+		"level" : 51,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 17,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 60,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 50,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"orb_of_everlasting_flavor" : {
 		"name" : "Orb of Everlasting Flavor",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For adventurers with very little pocket money.",
+		"level" : 34,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
+			"energy_regen" : 90,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
-			"magic_penetration" : 0,
+			"magic_penetration" : 5,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"orb_of_everlasting_flavor_scroll" : {
 		"name" : "Orb of Everlasting Flavor Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3766,13 +3910,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_orb_of_everlasting_flavor_scroll" : {
 		"name" : "Scrap of an Orb of Everlasting Flavor Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3792,22 +3937,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"framed_diploma" : {
 		"name" : "Framed Diploma",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Sorry, I'm afraid that we don't accept diplomas with clip art on them.",
+		"level" : 49,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 25,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -3818,13 +3964,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_framed_diploma" : {
 		"name" : "Scrap of a Framed Diploma",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3844,24 +3991,25 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"shiny_bottlecap" : {
 		"name" : "Shiny Bottlecap",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Straight from the vault!",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health_regen" : 120,
+			"energy_regen" : 30,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 12,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -3870,13 +4018,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_a_bottle_cap" : {
 		"name" : "Scroll of a Bottle Cap",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3896,39 +4045,41 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_1_ring" : {
 		"name" : "The 1 Ring",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "One ring to school them all!",
+		"level" : 53,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"energy_regen" : 110,
+			"strength" : 10,
+			"agility" : 10,
+			"intellect" : 35,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
-			"magic_penetration" : 0,
+			"magic_penetration" : 20,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_1_ring_scroll" : {
 		"name" : "The 1 Ring Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3948,13 +4099,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_the_1_ring_scroll" : {
 		"name" : "Scrap of The 1 Ring Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -3974,25 +4126,26 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"27_pocket_protector" : {
 		"name" : "+27 Pocket Protector",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Ancient runes translate to \"Nerd Pride\".",
+		"level" : 70,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 30,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 40,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -4000,13 +4153,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"27_pocket_protector_scroll" : {
 		"name" : "+27 Pocket Protector Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4026,13 +4180,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_27_pocket_protector_scroll" : {
 		"name" : "Scrap of a +27 Pocket Protector Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4052,65 +4207,68 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"laser_sword" : {
 		"name" : "Laser Sword",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Search your feelings, you know this weapon is awesome.",
+		"level" : 78,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 19,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 90,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rod_of_witty_banter" : {
 		"name" : "Rod of Witty Banter",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Never have to hear about an arrow in the knee again!",
+		"level" : 51,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
+			"energy_regen" : 100,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"intellect" : 25,
+			"damage" : 30,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 75,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rod_of_witty_banter_scroll" : {
 		"name" : "Rod of Witty Banter Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4130,13 +4288,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_rod_of_witty_banter_scroll" : {
 		"name" : "Scrap of a Rod of Witty Banter Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4156,47 +4315,49 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"holy_hand_grenade" : {
 		"name" : "Holy Hand Grenade",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "One, two, five!",
+		"level" : 80,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 10,
+			"agility" : 10,
+			"intellect" : 40,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 15,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"boots_made_for_walkin" : {
 		"name" : "Boots Made for Walkin'",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Technically, they're made for rolling.",
+		"level" : 66,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 25,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
@@ -4208,13 +4369,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_boots_made_for_walkin" : {
 		"name" : "Scrap of Boots Made for Walkin'",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4234,67 +4396,70 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"laser_kitten" : {
 		"name" : "Laser Kitten",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I can see through time!",
+		"level" : 80,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 21,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 150,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 250,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"girdle_of_victory" : {
 		"name" : "Girdle of Victory",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Turn blades, turn heads and combat muffin top!",
+		"level" : 85,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 200,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 60,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
-			"magic_resist" : 0,
+			"armor" : 15,
+			"magic_resist" : 18,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"disk_of_some_power" : {
 		"name" : "Disk of Some Power",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Now if I could only find a way to USE it.",
+		"level" : 82,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -4303,7 +4468,7 @@ var gear = {
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 120,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4312,13 +4477,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_disk_of_some_power" : {
 		"name" : "Scrap of a Disk of Some Power",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4338,22 +4504,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"high_tea" : {
 		"name" : "High Tea",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For stone cold warriors in need of refreshment.",
+		"level" : 82,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 36,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -4364,13 +4531,14 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_high_tea" : {
 		"name" : "Scrap of High Tea",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4390,22 +4558,23 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"overpowering_fragrance" : {
 		"name" : "Overpowering Fragrance",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Because it is always better to smell good than feel good.",
+		"level" : 84,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
+			"health" : 470,
+			"health_regen" : 250,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 35,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -4416,7 +4585,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 30
 		}
 	},
 	"shot_in_the_arm" : {
@@ -4442,7 +4612,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"snake_oil" : {
@@ -4468,7 +4639,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"jar_of_kitten_tears" : {
@@ -4494,7 +4666,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"roll_of_duct_tape" : {
@@ -4520,7 +4693,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_roll_of_duct_tape" : {
@@ -4546,7 +4720,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"motivational_cassette" : {
@@ -4572,7 +4747,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_forbidden_trivia" : {
@@ -4598,7 +4774,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_trivia_scroll" : {
@@ -4624,7 +4801,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_tome_of_trivia_scroll" : {
@@ -4650,7 +4828,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_eldritch_goingson" : {
@@ -4676,7 +4855,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_unspeakable_hearsay" : {
@@ -4702,7 +4882,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_nasty_behavior" : {
@@ -4728,7 +4909,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"daisy_chainsaw" : {
@@ -4754,7 +4936,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"purple_pills_of_potency" : {
@@ -4780,7 +4963,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"wizardry_for_idiots" : {
@@ -4806,7 +4990,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_wizardry_for_idiots" : {
@@ -4832,7 +5017,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"chaps_of_endurance" : {
@@ -4858,7 +5044,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rod_of_shenanigans" : {
@@ -4884,7 +5071,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tenfoot_pole" : {
@@ -4910,7 +5098,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tenfoot_pole_scroll" : {
@@ -4936,7 +5125,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"butter_knife" : {
@@ -4962,7 +5152,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dirk_of_disemboweling" : {
@@ -4988,7 +5179,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dirk_of_disemboweling_scroll" : {
@@ -5014,7 +5206,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_dirk_of_disemboweling_scroll" : {
@@ -5040,7 +5233,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_power_of_medicine" : {
@@ -5066,7 +5260,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_the_power_of_medicine" : {
@@ -5092,7 +5287,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"pretty_sweet_cape" : {
@@ -5118,7 +5314,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"pretty_sweet_cape_scroll" : {
@@ -5144,7 +5341,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"glass_case_of_emotion" : {
@@ -5170,7 +5368,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"thinking_cap" : {
@@ -5196,7 +5395,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"thinking_cap_scroll" : {
@@ -5222,7 +5422,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_thinking_cap_scroll" : {
@@ -5248,7 +5449,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_power_of_positive_thinking" : {
@@ -5274,7 +5476,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_power_of_friendship" : {
@@ -5300,7 +5503,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_power_of_love" : {
@@ -5326,7 +5530,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"purifying_tuning_fork" : {
@@ -5352,7 +5557,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"liger_balm" : {
@@ -5378,7 +5584,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_liger_balm" : {
@@ -5404,7 +5611,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"magic_eight_ball" : {
@@ -5430,7 +5638,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"magic_eight_ball_scroll" : {
@@ -5456,7 +5665,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"stolen_sneakers" : {
@@ -5482,7 +5692,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"goblin_whacker" : {
@@ -5508,7 +5719,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"goblin_whacker_scroll" : {
@@ -5534,7 +5746,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"swash_buckler" : {
@@ -5560,7 +5773,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"plastic_vampire_teeth" : {
@@ -5586,7 +5800,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"plastic_vampire_teeth_scroll" : {
@@ -5612,7 +5827,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"flail_of_total_devastation" : {
@@ -5638,7 +5854,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"flail_of_devastation_scroll" : {
@@ -5664,7 +5881,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_flail_of_total_devastation_scroll" : {
@@ -5690,7 +5908,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"arcane_slacks" : {
@@ -5716,7 +5935,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"plucky_heroines_shortbow" : {
@@ -5742,7 +5962,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"shovel" : {
@@ -5768,7 +5989,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"the_ugly_stick" : {
@@ -5794,7 +6016,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_ugly_stick" : {
@@ -5820,7 +6043,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"shovel_scroll" : {
@@ -5846,7 +6070,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_shovel_scroll" : {
@@ -5872,7 +6097,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lavishly_adorned_rapier" : {
@@ -5898,7 +6124,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"yodeling_sword" : {
@@ -5924,7 +6151,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"war_sandals" : {
@@ -5950,7 +6178,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_war_sandals" : {
@@ -5976,7 +6205,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dead_eye" : {
@@ -6002,7 +6232,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_dead_eye" : {
@@ -6028,7 +6259,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"ring_of_the_squirrel" : {
@@ -6054,7 +6286,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_ring_of_the_squirrel" : {
@@ -6080,7 +6313,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"blacksteel_blade" : {
@@ -6106,7 +6340,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"readin_rain_bow" : {
@@ -6132,7 +6367,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"photo_bomb" : {
@@ -6158,7 +6394,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_photo_bomb" : {
@@ -6184,7 +6421,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"bowie_knife" : {
@@ -6210,7 +6448,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_bowie_knife" : {
@@ -6236,7 +6475,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"rattling_sabre" : {
@@ -6262,7 +6502,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"liche_finger" : {
@@ -6288,7 +6529,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"wicked_mullet" : {
@@ -6314,7 +6556,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"decoder_ring" : {
@@ -6340,7 +6583,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scroll_of_a_decoder_ring" : {
@@ -6366,7 +6610,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_decoder_ring_scroll" : {
@@ -6392,7 +6637,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"death_metal_blade" : {
@@ -6418,7 +6664,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"death_metal_blade_scroll" : {
@@ -6444,7 +6691,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_death_metal_blade_scroll" : {
@@ -6470,7 +6718,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lens_of_decryption" : {
@@ -6496,7 +6745,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lead_zeppelin" : {
@@ -6522,7 +6772,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"lead_zeppelin_scroll" : {
@@ -6548,7 +6799,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_lead_zeppelin_scroll" : {
@@ -6574,7 +6826,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"svens_sword_of_dooooom" : {
@@ -6600,7 +6853,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"vampire_bunnyears" : {
@@ -6626,7 +6880,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"vampire_bunny_ears_scroll" : {
@@ -6652,7 +6907,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"helm_of_the_raging_bear" : {
@@ -6678,7 +6934,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_helm_of_the_raging_bear" : {
@@ -6704,7 +6961,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"monster_hunter_armor" : {
@@ -6730,7 +6988,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"sweatband_of_bewitching" : {
@@ -6756,7 +7015,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_sweatband_of_bewitching" : {
@@ -6782,7 +7042,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"axe_of_major_riffage" : {
@@ -6808,7 +7069,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_axe_of_major_riffage" : {
@@ -6834,7 +7096,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"ivy_league_haircut" : {
@@ -6860,7 +7123,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"glasses_of_lenslessness" : {
@@ -6886,7 +7150,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_glasses_of_lenslessness" : {
@@ -6912,7 +7177,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"healthy_dose_of_skepticism" : {
@@ -6938,7 +7204,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_healthy_dose_of_skepticism" : {
@@ -6964,7 +7231,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"championship_belt" : {
@@ -6990,7 +7258,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"tome_of_occult_nonsense" : {
@@ -7016,7 +7285,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_a_tome_of_occult_nonsense" : {
@@ -7042,7 +7312,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"deerstalker_hat" : {
@@ -7068,7 +7339,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"helm_of_screaming_manface" : {
@@ -7094,7 +7366,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"dragons_ballz" : {
@@ -7120,7 +7393,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"knives_of_hackenslash" : {
@@ -7146,7 +7420,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"untested_jetpack" : {
@@ -7172,7 +7447,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"scrap_of_an_untested_jetpack" : {
@@ -7198,7 +7474,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"cryptozoology" : {
@@ -7224,7 +7501,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	},
 	"unicorn_puke" : {
@@ -7250,7 +7528,8 @@ var gear = {
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
-			"conservation" : 0
+			"conservation" : 0,
+			"tenacity" : 0
 		}
 	}
 };
