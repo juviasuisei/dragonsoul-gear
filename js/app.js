@@ -70,21 +70,33 @@ function populate_heroes() {
 		var progress = $.parseJSON(localStorage.getItem(hk));
 		$.each(hero.gearsets, function(gk,gearset) {
 			var color = gk.match(/^[^\d]*/)[0];
-			result += '<h4 class="' + color + '">' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';
-			result += '<div id="' + hk + gk + '">';
 			var i = 1;
+			var j = 0;
+			var subresult = ''
 			$.each(gearset, function(slot,item) {
 				var gear_item = gear[item]
-				result += '<img id="' + hk + gk + slot + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="gearset';
+				subresult += '<img id="' + hk + gk + slot + '" onclick="$(this).toggleClass(\'have\'); calculate_gear();" class="gearset';
 				if(null !== progress && gk in progress && slot in progress[gk] && true === progress[gk][slot]) {
-					result += ' have';
+					subresult += ' have';
+					j++;
 				}
-				result += '" src="gear/' + item + '.png" title="' + gear_item.name + '" />';
+				subresult += '" src="gear/' + item + '.png" title="' + gear_item.name + '" />';
 				if(3 === i) {
-					result += '<br />';
+					subresult += '<br />';
 				}
 				i++;
 			});
+			result += '<h4 class="' + color + '">[<span onclick="toggleGearset(\'' + hk + gk + '\');">';
+			if(6 === j) {
+				result += '+';
+			}
+			result += '</span>] ' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';
+			result += '<div id="' + hk + gk + '" class="';
+			if(6 === j) {
+				result += 'hide';
+			}
+			result += '">';
+			result += subresult;
 			result += '</div>';
 		});
 		result += '</div>';
@@ -108,6 +120,10 @@ function populate_heroes() {
 		$('#heroes_list').html($('#heroes_list').html() + result);
 	});
 	calculate_gear();
+}
+
+function toggleGearset(id) {
+	$('#' + id).toggleClass('hide');
 }
 
 function check_gearsets(id,have) {
@@ -137,6 +153,7 @@ function calculate_gear() {
 		progress[hk] = {};
 		$.each(hero.gearsets, function(gk,gearset) {
 			progress[hk][gk] = {};
+			var i = 0;
 			$.each(gearset, function(slot,item) {
 				if(false === $('#' + hk + gk + slot).hasClass('have')) {
 					progress[hk][gk][slot] = false;
@@ -150,8 +167,13 @@ function calculate_gear() {
 					}
 				} else {
 					progress[hk][gk][slot] = true;
+					i++;
 				}
 			});
+			$('#' + hk + gk).removeClass('hide');
+			if(6 === i) {
+				$('#' + hk + gk).addClass('hide');
+			}
 		});
 		progress[hk]['quest'] = {};
 		$.each(hero.quests, function(qk,quest) {
