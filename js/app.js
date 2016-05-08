@@ -86,9 +86,11 @@ function populate_heroes() {
 				}
 				i++;
 			});
-			result += '<h4 class="' + color + '">[<span onclick="toggleGearset(\'' + hk + gk + '\');">';
+			result += '<h4 class="' + color + '">[<span id="' hk + gk + 'toggle" onclick="toggleGearset(\'' + hk + gk + '\');">';
 			if(6 === j) {
 				result += '+';
+			} else {
+				result += '-';
 			}
 			result += '</span>] ' + gk.replace(/(\d+)$/, " +$1") + ' (<span onclick="check_gearset(\'' + hk + gk + '\', true, true);">mark as completed</span> &#x2022; <span onclick="check_gearset(\'' + hk + gk + '\', false, true);">clear</span>)</h4>';
 			result += '<div id="' + hk + gk + '" class="';
@@ -171,8 +173,10 @@ function calculate_gear() {
 				}
 			});
 			$('#' + hk + gk).removeClass('hide');
+			$('#' + hk + gk + 'toggle').html('-');
 			if(6 === i) {
 				$('#' + hk + gk).addClass('hide');
+				$('#' + hk + gk + 'toggle').html('+');
 			}
 		});
 		progress[hk]['quest'] = {};
