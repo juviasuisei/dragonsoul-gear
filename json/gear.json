@@ -3279,7 +3279,7 @@ var gear = {
 	"swordy_mcepicpants" : {
 		"name" : "Swordy McEpicPants",
 		"color" : "purple",
-		"type" : "scrap",
+		"type" : "gear",
 		"description" : "100% pure butt-kicking nonsense.",
 		"level" : 64,
 		"stats" : {
