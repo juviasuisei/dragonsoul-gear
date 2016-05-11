@@ -23,7 +23,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"fine_brie" : {
@@ -50,7 +52,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"free_mans_crowbar" : {
@@ -77,7 +81,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"goblin_grog" : {
@@ -104,7 +110,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"my_first_shield" : {
@@ -131,7 +139,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"paper_crown" : {
@@ -158,7 +168,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bloody_bat" : {
@@ -185,7 +197,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"enchanted_elbow_pads" : {
@@ -212,7 +226,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"captains_tightpants" : {
@@ -239,7 +255,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"stickon_moustache" : {
@@ -266,7 +284,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bloody_bat_scroll" : {
@@ -293,7 +313,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"mace_of_friendship" : {
@@ -320,7 +342,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_mace_of_friendship" : {
@@ -347,7 +371,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lucky_orcs_foot" : {
@@ -374,7 +400,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lucky_orcs_foot_scroll" : {
@@ -401,7 +429,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"thong_of_vitality" : {
@@ -428,7 +458,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"raw_egg" : {
@@ -455,7 +487,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"melty_chocolate_bar" : {
@@ -482,7 +516,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"directors_cut" : {
@@ -509,7 +545,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"protein_powder" : {
@@ -536,7 +574,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"gloves_of_crit" : {
@@ -563,7 +603,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"glaive_of_dismemberment" : {
@@ -590,7 +632,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dont_tase_me_bow" : {
@@ -617,7 +661,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"and_my_axe" : {
@@ -644,7 +690,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"side_of_bacon" : {
@@ -671,7 +719,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bit_onip" : {
@@ -698,7 +748,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_a_side_of_bacon" : {
@@ -725,7 +777,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"snazzy_vest" : {
@@ -752,7 +806,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rubber_vest" : {
@@ -779,7 +835,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"blissful_ignorance" : {
@@ -806,7 +864,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"nonstick_shield" : {
@@ -833,7 +893,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"excaliburtreynolds" : {
@@ -860,7 +922,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"hemp_bracelet" : {
@@ -887,7 +951,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sock_full_opennies" : {
@@ -914,7 +980,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bessies_bane" : {
@@ -941,7 +1009,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_dont_tase_me_bow" : {
@@ -968,7 +1038,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_and_my_axe" : {
@@ -995,7 +1067,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"axes_of_dual_wielding" : {
@@ -1022,7 +1096,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bag_ohammers" : {
@@ -1049,7 +1125,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"muscle_wax" : {
@@ -1076,7 +1154,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_muscle_wax" : {
@@ -1103,7 +1183,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bag_ohammers_scroll" : {
@@ -1130,7 +1212,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"spud_gun" : {
@@ -1157,7 +1241,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"oxfords_of_alacrity" : {
@@ -1184,7 +1270,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"spudgun_scroll" : {
@@ -1211,7 +1299,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"racing_stripes" : {
@@ -1238,7 +1328,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_racing_stripes" : {
@@ -1265,7 +1357,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"robe_of_sharp_comebacks" : {
@@ -1292,7 +1386,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"penetrable_armor" : {
@@ -1319,7 +1415,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"smarty_pants" : {
@@ -1346,7 +1444,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"mussel_milk" : {
@@ -1373,7 +1473,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sparkle_pony_keychain" : {
@@ -1400,7 +1502,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sparkle_pony_keychain_scroll" : {
@@ -1427,7 +1531,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"super_spikey_spear" : {
@@ -1454,7 +1560,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"vorpal_boomerang" : {
@@ -1481,7 +1589,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_vorpal_boomerang" : {
@@ -1508,7 +1618,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"impractical_chestplate" : {
@@ -1535,7 +1647,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_impractical_chestplate" : {
@@ -1562,7 +1676,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_a_super_spikey_spear" : {
@@ -1589,7 +1705,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_super_spikey_spear_scroll" : {
@@ -1616,7 +1734,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_mad_gods_trident" : {
@@ -1643,7 +1763,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_mad_gods_trident_scroll" : {
@@ -1670,7 +1792,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_the_mad_gods_trident_scroll" : {
@@ -1697,7 +1821,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_compensator" : {
@@ -1724,7 +1850,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"gentlemens_club" : {
@@ -1751,7 +1879,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_gentlemens_club" : {
@@ -1778,7 +1908,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_compensator_scroll" : {
@@ -1805,7 +1937,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_compensator_scroll" : {
@@ -1832,7 +1966,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"hammer_of_wicked_beats" : {
@@ -1859,7 +1995,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"adamantium_tiara" : {
@@ -1886,7 +2024,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_adamantium_tiara" : {
@@ -1913,7 +2053,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"hammer_of_wicked_beats_scroll" : {
@@ -1940,7 +2082,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_hammer_of_wicked_beats_scroll" : {
@@ -1967,7 +2111,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"intimidating_beard" : {
@@ -1994,7 +2140,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_an_intimidating_beard" : {
@@ -2021,7 +2169,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_intimidating_beard_scroll" : {
@@ -2048,7 +2198,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sandwich_of_unsurpassed_meatiness" : {
@@ -2075,7 +2227,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"meaty_sandwich_scroll" : {
@@ -2102,7 +2256,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_meaty_sandwich_scroll" : {
@@ -2129,7 +2285,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"philter_of_pure_testosterone" : {
@@ -2156,7 +2314,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_philter_of_pure_testosterone" : {
@@ -2183,7 +2343,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"diplomatic_immunity" : {
@@ -2210,7 +2372,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"diplomatic_immunity_scroll" : {
@@ -2237,7 +2401,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_diplomatic_immunity_scroll" : {
@@ -2264,7 +2430,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lifesipper" : {
@@ -2291,7 +2459,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"ya_vampire_series" : {
@@ -2318,7 +2488,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"grievous_bodily_harm" : {
@@ -2345,7 +2517,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_grievous_bodily_harm" : {
@@ -2372,7 +2546,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_grievous_bodily_harm_scroll" : {
@@ -2399,7 +2575,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"head_banger" : {
@@ -2426,7 +2604,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_head_banger" : {
@@ -2453,7 +2633,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"enids_expensive_elixir" : {
@@ -2480,7 +2662,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 15,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"king_jeffs_crossbow" : {
@@ -2507,7 +2691,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"banjo_of_dueling" : {
@@ -2534,7 +2720,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"enids_expensive_elixir_scroll" : {
@@ -2561,7 +2749,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_enids_expensive_elixir_scroll" : {
@@ -2588,7 +2778,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"kindness" : {
@@ -2615,7 +2807,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"kindness_scroll" : {
@@ -2642,7 +2836,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_kindness_scroll" : {
@@ -2669,7 +2865,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lifedrinker" : {
@@ -2696,7 +2894,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lifedrinker_scroll" : {
@@ -2723,7 +2923,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_lifedrinker_scroll" : {
@@ -2750,7 +2952,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"mjlnirby" : {
@@ -2777,7 +2981,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"mjlnirby_scroll" : {
@@ -2804,7 +3010,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_mjlnirby_scroll" : {
@@ -2831,7 +3039,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"big_stabby_spear" : {
@@ -2858,7 +3068,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"harolds_homemade_halberd" : {
@@ -2885,7 +3097,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_harolds_homemade_halberd" : {
@@ -2912,7 +3126,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"big_stabby_spear_scroll" : {
@@ -2939,7 +3155,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_big_stabby_spear_scroll" : {
@@ -2966,7 +3184,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_power_of_science" : {
@@ -2993,7 +3213,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"peter_pipers_pepper_spray" : {
@@ -3020,7 +3242,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_peter_pipers_pepper_spray" : {
@@ -3047,7 +3271,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"swordy_mcepicpants" : {
@@ -3074,7 +3300,9 @@ var gear = {
 			"dodge" : 25,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bunny_slippers" : {
@@ -3101,7 +3329,9 @@ var gear = {
 			"dodge" : 20,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_bunny_slippers" : {
@@ -3128,7 +3358,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"chugg_boots" : {
@@ -3155,7 +3387,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dragon_scale" : {
@@ -3182,7 +3416,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"antimagic_shell" : {
@@ -3209,7 +3445,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_antimagic_shell" : {
@@ -3236,7 +3474,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"self_preserver" : {
@@ -3263,7 +3503,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_self_preserver" : {
@@ -3290,7 +3532,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"mystical_elven_sh*t" : {
@@ -3317,7 +3561,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"extreme_fad_diet" : {
@@ -3344,7 +3590,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_extreme_fad_diet" : {
@@ -3371,7 +3619,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"loaded_die" : {
@@ -3398,7 +3648,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"wand_of_gold_sparkles" : {
@@ -3425,7 +3677,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"chunky_femur" : {
@@ -3452,7 +3706,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"chunky_femur_scroll" : {
@@ -3479,7 +3735,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"staff_of_boss_fighting" : {
@@ -3506,7 +3764,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_staff_of_boss_fighting" : {
@@ -3533,7 +3793,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sacred_codex" : {
@@ -3560,7 +3822,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_sacred_codex" : {
@@ -3587,7 +3851,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"laser_pointer" : {
@@ -3614,7 +3880,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"laser_pointer_scroll" : {
@@ -3641,7 +3909,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_laser_pointer_scroll" : {
@@ -3668,7 +3938,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rod_of_tasing" : {
@@ -3695,7 +3967,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"artifact_of_unimaginable_power" : {
@@ -3722,7 +3996,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"hippy_glo_sticks" : {
@@ -3749,7 +4025,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"necronomicon" : {
@@ -3776,7 +4054,9 @@ var gear = {
 			"dodge" : 5,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"necronomicon_scroll" : {
@@ -3803,7 +4083,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_necronomicon_scroll" : {
@@ -3830,7 +4112,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"laser_visor" : {
@@ -3857,7 +4141,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"orb_of_everlasting_flavor" : {
@@ -3884,7 +4170,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"orb_of_everlasting_flavor_scroll" : {
@@ -3911,7 +4199,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_orb_of_everlasting_flavor_scroll" : {
@@ -3938,7 +4228,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"framed_diploma" : {
@@ -3965,7 +4257,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_framed_diploma" : {
@@ -3992,7 +4286,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"shiny_bottlecap" : {
@@ -4019,7 +4315,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_a_bottle_cap" : {
@@ -4046,7 +4344,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_1_ring" : {
@@ -4073,7 +4373,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_1_ring_scroll" : {
@@ -4100,7 +4402,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_the_1_ring_scroll" : {
@@ -4127,7 +4431,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"27_pocket_protector" : {
@@ -4154,7 +4460,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"27_pocket_protector_scroll" : {
@@ -4181,7 +4489,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_27_pocket_protector_scroll" : {
@@ -4208,7 +4518,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"laser_sword" : {
@@ -4235,7 +4547,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rod_of_witty_banter" : {
@@ -4262,7 +4576,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rod_of_witty_banter_scroll" : {
@@ -4289,7 +4605,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_rod_of_witty_banter_scroll" : {
@@ -4316,7 +4634,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"holy_hand_grenade" : {
@@ -4343,7 +4663,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"boots_made_for_walkin" : {
@@ -4370,7 +4692,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_boots_made_for_walkin" : {
@@ -4397,7 +4721,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"laser_kitten" : {
@@ -4424,7 +4750,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"girdle_of_victory" : {
@@ -4451,7 +4779,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"disk_of_some_power" : {
@@ -4478,7 +4808,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_disk_of_some_power" : {
@@ -4505,7 +4837,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"high_tea" : {
@@ -4532,7 +4866,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_high_tea" : {
@@ -4559,7 +4895,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"overpowering_fragrance" : {
@@ -4586,24 +4924,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 30
+			"improve_healing" : 0,
+			"tenacity" : 30,
+			"expertise" : 0
 		}
 	},
 	"shot_in_the_arm" : {
 		"name" : "Shot in the Arm",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "So what ingredients are in this \"placebo\" stuff, anyway?",
+		"level" : 45,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health" : 400,
+			"health_regen" : 200,
+			"energy_regen" : 30,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 48,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4613,24 +4953,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 20,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"snake_oil" : {
 		"name" : "Snake Oil",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "11% of the time it works, every time!",
+		"level" : 35,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health" : 350,
+			"health_regen" : 100,
+			"energy_regen" : 32,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 30,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4640,41 +4982,45 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"jar_of_kitten_tears" : {
 		"name" : "Jar of Kitten Tears",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "D'awwww Mwahahaha!",
+		"level" : 87,
 		"stats" : {
-			"health" : 0,
+			"health" : 298,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 200,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 16,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 125,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"roll_of_duct_tape" : {
 		"name" : "Roll of Duct Tape",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_item",
+		"description" : "Fixes everything. EVERYTHING.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -4694,13 +5040,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_roll_of_duct_tape" : {
 		"name" : "Scrap of a Roll of Duct Tape",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4721,51 +5069,55 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"motivational_cassette" : {
 		"name" : "Motivational Cassette",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I listen to this every morning and I feel SO FREAKING MOTIVATED!",
+		"level" : 83,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 10,
+			"agility" : 10,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 600,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tome_of_forbidden_trivia" : {
 		"name" : "Tome of Forbidden Trivia",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The perfect outhouse tome.",
+		"level" : 43,
 		"stats" : {
-			"health" : 0,
+			"health" : 200,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 8,
 			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
-			"skill_power" : 0,
+			"intellect" : 15,
+			"damage" : 21,
+			"skill_power" : 21,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4775,13 +5127,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tome_of_trivia_scroll" : {
 		"name" : "Tome of Trivia Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4802,13 +5156,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_tome_of_trivia_scroll" : {
 		"name" : "Scrap of a Tome of Trivia Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -4829,24 +5185,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tome_of_eldritch_goingson" : {
 		"name" : "Tome of Eldritch Goings-on",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Filled with unpronounceable deities intent upon destroying coastal New England.",
+		"level" : 63,
 		"stats" : {
-			"health" : 0,
+			"health" : 300,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 12,
 			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
-			"skill_power" : 0,
+			"intellect" : 21,
+			"damage" : 31,
+			"skill_power" : 31,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4856,24 +5214,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tome_of_unspeakable_hearsay" : {
 		"name" : "Tome of Unspeakable Hearsay",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Page 9 feature: Bat Boy cures King of lycanthropy!",
+		"level" : 74,
 		"stats" : {
-			"health" : 0,
+			"health" : 400,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 16,
 			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
-			"skill_power" : 0,
+			"intellect" : 24,
+			"damage" : 41,
+			"skill_power" : 41,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4883,24 +5243,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tome_of_nasty_behavior" : {
 		"name" : "Tome of Nasty Behavior",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Taketh thine bag of canine feces, set it aflame upon the doorstep of thine enemy.",
+		"level" : 65,
 		"stats" : {
-			"health" : 0,
+			"health" : 250,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
-			"skill_power" : 0,
+			"strength" : 25,
+			"agility" : 25,
+			"intellect" : 25,
+			"damage" : 30,
+			"skill_power" : 60,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4910,14 +5272,16 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"daisy_chainsaw" : {
 		"name" : "Daisy Chainsaw",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_item",
+		"description" : "By my pretty pink chainsaw, I swear I will end you!",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -4926,7 +5290,7 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 5,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -4937,24 +5301,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"purple_pills_of_potency" : {
 		"name" : "Purple Pills of Potency",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "If potency lasts for more than 24 hours, call your barber.",
+		"level" : 83,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 50,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 100,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -4964,22 +5330,24 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 2
 		}
 	},
 	"wizardry_for_idiots" : {
 		"name" : "Wizardry for Idiots",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Learn advanced magic in just 5 days... the Idiot's way!",
+		"level" : 81,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -4991,13 +5359,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 1
 		}
 	},
 	"scrap_of_wizardry_for_idiots" : {
 		"name" : "Scrap of Wizardry for Idiots",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5018,25 +5388,27 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"chaps_of_endurance" : {
 		"name" : "Chaps of Endurance",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The preferred armor of cowboys, motorcyclists and hedonists worldwide.",
+		"level" : 16,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 90,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 7,
+			"agility" : 7,
+			"intellect" : 7,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 1,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -5045,50 +5417,54 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rod_of_shenanigans" : {
 		"name" : "Rod of Shenanigans",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Let's cause some trouble, shall we?",
+		"level" : 42,
 		"stats" : {
-			"health" : 0,
+			"health" : 235,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 25,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
-			"magic_penetration" : 0,
+			"magic_penetration" : 5,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tenfoot_pole" : {
 		"name" : "Ten-Foot Pole",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Reserved for really nasty enemies.",
+		"level" : 20,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 9,
+			"agility" : 9,
+			"intellect" : 9,
+			"damage" : 3,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -5099,13 +5475,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"tenfoot_pole_scroll" : {
 		"name" : "Ten-Foot Pole Scroll",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5126,67 +5504,73 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"butter_knife" : {
 		"name" : "Butter Knife",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Spread your enemies thin!",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 6,
+			"agility" : 6,
+			"intellect" : 14,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 75,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dirk_of_disemboweling" : {
 		"name" : "Dirk of Disemboweling",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "This dagger is going to work great, I can feel it in my gut!",
+		"level" : 53,
 		"stats" : {
-			"health" : 0,
+			"health" : 250,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 10,
+			"agility" : 26,
+			"intellect" : 10,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 80,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dirk_of_disemboweling_scroll" : {
 		"name" : "Dirk of Disemboweling Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5207,13 +5591,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_dirk_of_disemboweling_scroll" : {
 		"name" : "Scrap of a Dirk of Disemboweling_scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5234,40 +5620,44 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_power_of_medicine" : {
 		"name" : "The Power of Medicine",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Crystal #1 in the pseudoscientific alternative medicine keepsake set.",
+		"level" : 21,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 5,
+			"agility" : 5,
+			"intellect" : 5,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 5,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 10,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_the_power_of_medicine" : {
 		"name" : "Scroll of The Power of Medicine",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5288,25 +5678,27 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"pretty_sweet_cape" : {
 		"name" : "Pretty Sweet Cape",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Caution: Avoid escalators, jet turbines, wood chippers and outboard motors while wearing.",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 2,
+			"agility" : 2,
+			"intellect" : 2,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 5,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -5315,13 +5707,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"pretty_sweet_cape_scroll" : {
 		"name" : "Pretty Sweet Cape Scroll",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5342,15 +5736,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"glass_case_of_emotion" : {
 		"name" : "Glass Case of Emotion",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Let's get EMO.",
+		"level" : 88,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5359,50 +5755,54 @@ var gear = {
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
-			"armor" : 0,
-			"magic_resist" : 0,
+			"skill_power" : 130,
+			"armor" : 15,
+			"magic_resist" : 14,
 			"armor_penetration" : 0,
-			"magic_penetration" : 0,
+			"magic_penetration" : 15,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"thinking_cap" : {
 		"name" : "Thinking Cap",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Your cunning levels are dangerously low! Take this!",
+		"level" : 41,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 12,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
-			"magic_penetration" : 0,
+			"magic_penetration" : 12,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"thinking_cap_scroll" : {
 		"name" : "Thinking Cap Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5423,13 +5823,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_thinking_cap_scroll" : {
 		"name" : "Scrap of a Thinking Cap Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5450,42 +5852,46 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_power_of_positive_thinking" : {
 		"name" : "The Power of Positive Thinking",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Crystal #2 in the pseudoscientific alternative medicine keepsake set.",
+		"level" : 41,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 5,
+			"agility" : 5,
+			"intellect" : 5,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 5,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 20,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_power_of_friendship" : {
 		"name" : "The Power of Friendship",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Crystal #3 in the pseudoscientific alternative medicine keepsake set.",
+		"level" : 62,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5504,15 +5910,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 60,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_power_of_love" : {
 		"name" : "The Power of Love",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Crystal #4 in the pseudoscientific alternative medicine keepsake set.",
+		"level" : 77,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5531,24 +5939,26 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 80,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"purifying_tuning_fork" : {
 		"name" : "Purifying Tuning Fork",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Just turn your head and cough while I wail on your knee repeatedly with this.",
+		"level" : 84,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 100,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 55,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
@@ -5558,15 +5968,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 50,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"liger_balm" : {
 		"name" : "Liger Balm",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Liger: Bled for its skills in healing.",
+		"level" : 81,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5585,13 +5997,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 12,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_liger_balm" : {
 		"name" : "Scrap of Liger Balm",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5612,19 +6026,21 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"magic_eight_ball" : {
 		"name" : "Magic Eight Ball",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Outlook not so good.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
+			"energy_regen" : 30,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
@@ -5632,20 +6048,22 @@ var gear = {
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 6,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"magic_eight_ball_scroll" : {
 		"name" : "Magic Eight Ball Scroll",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5666,21 +6084,23 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"stolen_sneakers" : {
 		"name" : "Stolen Sneakers",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "At least they're not socks with sandals.",
+		"level" : 2,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 3,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
@@ -5693,23 +6113,25 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"goblin_whacker" : {
 		"name" : "Goblin Whacker",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Leave a lasting impression on your enemies.",
+		"level" : 9,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 3,
+			"agility" : 6,
+			"intellect" : 3,
+			"damage" : 3,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -5720,13 +6142,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"goblin_whacker_scroll" : {
 		"name" : "Goblin Whacker Scroll",
 		"color" : "white",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5747,25 +6171,27 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"swash_buckler" : {
 		"name" : "Swash Buckler",
 		"color" : "white",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "ChARRRRRRRRRRge!",
+		"level" : 10,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 6,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 3,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -5774,15 +6200,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"plastic_vampire_teeth" : {
 		"name" : "Plastic Vampire Teeth",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I vont to suck your bluuud!",
+		"level" : 19,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5792,22 +6220,24 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : -10,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
-			"life_steal" : 0,
+			"crit_rating" : 100,
+			"life_steal" : 20,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"plastic_vampire_teeth_scroll" : {
 		"name" : "Plastic Vampire Teeth Scroll",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5828,15 +6258,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"flail_of_total_devastation" : {
 		"name" : "Flail of Total Devastation",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Let's get dangerous.",
+		"level" : 44,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5844,24 +6276,26 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 60,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 7,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"flail_of_devastation_scroll" : {
 		"name" : "Flail of Devastation Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5882,13 +6316,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_flail_of_total_devastation_scroll" : {
 		"name" : "Scrap of a Flail of Total Devastation Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -5909,25 +6345,27 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"arcane_slacks" : {
 		"name" : "Arcane Slacks",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Because nothing says \"defense\" like pleats!",
+		"level" : 15,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"energy_regen" : 32,
+			"strength" : 3,
+			"agility" : 3,
+			"intellect" : 3,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 3,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -5936,42 +6374,46 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"plucky_heroines_shortbow" : {
 		"name" : "Plucky Heroine's Shortbow",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Because no one wants to be a damsel in distress.",
+		"level" : 18,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 6,
+			"agility" : 14,
+			"intellect" : 6,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 75,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"shovel" : {
 		"name" : "S.H.O.V.E.L.",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Super Hardcore Obscenity Volleying Electric....Ummmm......Leprosy?",
+		"level" : 64,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -5979,26 +6421,28 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 88,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 10,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 75,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"the_ugly_stick" : {
 		"name" : "The Ugly Stick",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Give your enemy a face only their mother will love.",
+		"level" : 23,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6006,7 +6450,7 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 24,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6017,13 +6461,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_ugly_stick" : {
 		"name" : "Scrap of an Ugly Stick",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6044,13 +6490,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"shovel_scroll" : {
 		"name" : "S.H.O.V.E.L. Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6071,13 +6519,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_shovel_scroll" : {
 		"name" : "Scrap of a S.H.O.V.E.L. Scroll",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6098,50 +6548,54 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lavishly_adorned_rapier" : {
 		"name" : "Lavishly Adorned Rapier",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For those who make revenge their business.",
+		"level" : 73,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 30,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 30,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
-			"dodge" : 0,
+			"dodge" : 30,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"yodeling_sword" : {
 		"name" : "Yodeling Sword",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "YODELAYHE-SLEW!!!",
+		"level" : 85,
 		"stats" : {
-			"health" : 0,
+			"health" : 260,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 60,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 90,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6150,17 +6604,19 @@ var gear = {
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
-			"accuracy" : 0,
+			"accuracy" : 12,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"war_sandals" : {
 		"name" : "War Sandals",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "When battle cometh, the veteran doth don his war sandals.",
+		"level" : 81,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6168,7 +6624,7 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 75,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6179,13 +6635,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_war_sandals" : {
 		"name" : "Scrap of War Sandals",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6206,15 +6664,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dead_eye" : {
 		"name" : "Dead Eye",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Just pop it in, aim and fire!",
+		"level" : 81,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6231,15 +6691,17 @@ var gear = {
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
-			"accuracy" : 0,
+			"accuracy" : 8,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_dead_eye" : {
 		"name" : "Scrap of Dead Eye",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6260,21 +6722,23 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"ring_of_the_squirrel" : {
 		"name" : "Ring of the Squirrel",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Creates inexplicable compulsions to bury nuts.",
+		"level" : 82,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 36,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
@@ -6287,13 +6751,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_ring_of_the_squirrel" : {
 		"name" : "Scrap of a Ring of the Squirrel",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6314,50 +6780,54 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"blacksteel_blade" : {
 		"name" : "Blacksteel Blade",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Some Lord of Chaos gave me this. I keep trying to throw it away, but it just reappears the next day.",
+		"level" : 83,
 		"stats" : {
-			"health" : 0,
+			"health" : 250,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 85,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
-			"armor_penetration" : 0,
+			"armor_penetration" : 14,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"readin_rain_bow" : {
 		"name" : "Readin' Rain Bow",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "\"The More You Bow\"",
+		"level" : 89,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
+			"health_regen" : 500,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"strength" : 10,
+			"agility" : 10,
+			"intellect" : 10,
+			"damage" : 125,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6368,15 +6838,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"photo_bomb" : {
 		"name" : "Photo Bomb",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Time to ruin the enemy's special moment.",
+		"level" : 87,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6384,7 +6856,7 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 90,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6395,13 +6867,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_photo_bomb" : {
 		"name" : "Scrap of a Photo Bomb",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6422,15 +6896,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"bowie_knife" : {
 		"name" : "Bowie Knife",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Confiscated from sailors fighting in the dance hall.",
+		"level" : 86,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6438,24 +6914,26 @@ var gear = {
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 30,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 30,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_bowie_knife" : {
 		"name" : "Scrap of a Bowie Knife",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6476,53 +6954,57 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"rattling_sabre" : {
 		"name" : "Rattling Sabre",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For highest effectiveness, wave wildly in the face of enemies.",
+		"level" : 84,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 40,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 80,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 15,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
-			"life_steal" : 0,
+			"life_steal" : 30,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"liche_finger" : {
 		"name" : "Liche Finger",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "I found this on the ground. In the 12th level of a crypt. Smells like butt.",
+		"level" : 83,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
+			"health" : 300,
+			"health_regen" : 300,
+			"energy_regen" : 100,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 26,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
@@ -6530,25 +7012,27 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"wicked_mullet" : {
 		"name" : "Wicked Mullet",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Business in the front, battle in the back.",
+		"level" : 87,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"strength" : 25,
+			"agility" : 25,
+			"intellect" : 25,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 25,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -6557,23 +7041,25 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"decoder_ring" : {
 		"name" : "Decoder Ring",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Translates all messages to \"Make sure to drink your Brand Name cocoa.\"",
+		"level" : 35,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"agility" : 22,
+			"intellect" : 4,
+			"damage" : 20,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6584,13 +7070,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scroll_of_a_decoder_ring" : {
 		"name" : "Scroll of a Decoder Ring",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6611,13 +7099,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_decoder_ring_scroll" : {
 		"name" : "Scrap of a Decoder Ring Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6638,40 +7128,44 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"death_metal_blade" : {
 		"name" : "Death Metal Blade",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Burninate your enemies.",
+		"level" : 44,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 3,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 40,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 50,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"death_metal_blade_scroll" : {
 		"name" : "Death Metal Blade Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6692,13 +7186,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_death_metal_blade_scroll" : {
 		"name" : "Scrap of a Death Metal Blade Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6719,23 +7215,25 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lens_of_decryption" : {
 		"name" : "Lens of Decryption",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Cipher! I barely know her!",
+		"level" : 61,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"agility" : 28,
+			"intellect" : 12,
+			"damage" : 40,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -6746,40 +7244,44 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lead_zeppelin" : {
 		"name" : "Lead Zeppelin",
 		"color" : "blue",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Insert wailing guitar solo here.",
+		"level" : 32,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 25,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 9,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 5,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 50,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"lead_zeppelin_scroll" : {
 		"name" : "Lead Zeppelin Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6800,13 +7302,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_lead_zeppelin_scroll" : {
 		"name" : "Scrap of a Lead Zeppelin Scroll",
 		"color" : "blue",
-		"type" : "",
+		"type" : "scroll_scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6827,67 +7331,73 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"svens_sword_of_dooooom" : {
 		"name" : "Sven's Sword of DOOOOOM",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "DOOOOOOOOOOO (deep breath) OOOOOOOOOMMMMM!",
+		"level" : 78,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 10,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 100,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"vampire_bunnyears" : {
 		"name" : "Vampire Bunnyears",
 		"color" : "green",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Awww how cu-OH GODS MY FACE!!!",
+		"level" : 25,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
-			"energy_regen" : 0,
+			"energy_regen" : 40,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 5,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
-			"life_steal" : 0,
+			"crit_rating" : 75,
+			"life_steal" : 16,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"vampire_bunny_ears_scroll" : {
 		"name" : "Vampire Bunny Ears Scroll",
 		"color" : "green",
-		"type" : "",
+		"type" : "scroll",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6908,15 +7418,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"helm_of_the_raging_bear" : {
 		"name" : "Helm of the Raging Bear",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "rawr.",
+		"level" : 90,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -6926,7 +7438,7 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 23,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -6935,13 +7447,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_helm_of_the_raging_bear" : {
 		"name" : "Scrap of a Helm of the Raging Bear",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -6962,26 +7476,28 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"monster_hunter_armor" : {
 		"name" : "Monster Hunter Armor",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Dignity. Always dignity.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 400,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 50,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 100,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 20,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
@@ -6989,14 +7505,16 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"sweatband_of_bewitching" : {
 		"name" : "Sweatband of Bewitching",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_item",
+		"description" : "Cue inspirational training montage.",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -7016,13 +7534,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_sweatband_of_bewitching" : {
 		"name" : "Scrap of a Sweatband of Bewitching",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7043,15 +7563,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"axe_of_major_riffage" : {
 		"name" : "Axe of Major Riffage",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Wail on your enemies.",
+		"level" : 90,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -7065,18 +7587,20 @@ var gear = {
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 180,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_axe_of_major_riffage" : {
 		"name" : "Scrap of an Axe of Major Riffage",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7097,26 +7621,28 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"ivy_league_haircut" : {
 		"name" : "Ivy League Haircut",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "The ultimate trump card.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 1000,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 15,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 100,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 35,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
@@ -7124,22 +7650,24 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"glasses_of_lenslessness" : {
 		"name" : "Glasses of Lenslessness",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Insta-geek chic.",
+		"level" : 90,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 43,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -7151,13 +7679,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_glasses_of_lenslessness" : {
 		"name" : "Scrap of Glasses of Lenslessness",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7178,15 +7708,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"healthy_dose_of_skepticism" : {
 		"name" : "Healthy Dose of Skepticism",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Side Effects may include: incredulity, restless leg syndrome, and bloating.",
+		"level" : 90,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -7197,7 +7729,7 @@ var gear = {
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
-			"magic_resist" : 0,
+			"magic_resist" : 23,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
@@ -7205,13 +7737,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_healthy_dose_of_skepticism" : {
 		"name" : "Scrap of a Healthy Dose of Skepticism",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7232,22 +7766,24 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"championship_belt" : {
 		"name" : "Championship Belt",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "No time for losers! We are the Champions!",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
+			"health" : 650,
+			"health_regen" : 580,
+			"energy_regen" : 150,
+			"strength" : 15,
+			"agility" : 15,
+			"intellect" : 15,
 			"damage" : 0,
 			"skill_power" : 0,
 			"armor" : 0,
@@ -7259,15 +7795,17 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 5,
+			"expertise" : 0
 		}
 	},
 	"tome_of_occult_nonsense" : {
 		"name" : "Tome of Occult Nonsense",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Made possible by an endowment from the Society of Conspiracy Theorists and the contributions of readers like you.",
+		"level" : 90,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
@@ -7281,18 +7819,20 @@ var gear = {
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 180,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_a_tome_of_occult_nonsense" : {
 		"name" : "Scrap of a Tome of Occult Nonsense",
 		"color" : "purple",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7313,52 +7853,56 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"deerstalker_hat" : {
 		"name" : "Deerstalker Hat",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "High fashion for high functioning sociopaths.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 300,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
-			"intellect" : 0,
+			"intellect" : 50,
 			"damage" : 0,
-			"skill_power" : 0,
+			"skill_power" : 200,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 150,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"helm_of_screaming_manface" : {
 		"name" : "Helm of Screaming Manface",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Berate your enemies, protect against decapitation.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 1000,
 			"health_regen" : 0,
 			"energy_regen" : 0,
-			"strength" : 0,
+			"strength" : 15,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 50,
 			"skill_power" : 0,
-			"armor" : 0,
+			"armor" : 35,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
@@ -7367,17 +7911,19 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"dragons_ballz" : {
 		"name" : "Dragon's Ballz",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Unleash imaginable power over the span of five episodes.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 500,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
@@ -7385,8 +7931,8 @@ var gear = {
 			"intellect" : 0,
 			"damage" : 0,
 			"skill_power" : 0,
-			"armor" : 0,
-			"magic_resist" : 0,
+			"armor" : 20,
+			"magic_resist" : 20,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
 			"crit_rating" : 0,
@@ -7394,41 +7940,45 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 30,
+			"expertise" : 0
 		}
 	},
 	"knives_of_hackenslash" : {
 		"name" : "Knives of Hackenslash",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "For when you want to cut and run.",
+		"level" : 90,
 		"stats" : {
-			"health" : 0,
+			"health" : 300,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
+			"agility" : 50,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 120,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
 			"armor_penetration" : 0,
 			"magic_penetration" : 0,
-			"crit_rating" : 0,
+			"crit_rating" : 125,
 			"life_steal" : 0,
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"untested_jetpack" : {
 		"name" : "Untested Jetpack",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
+		"type" : "crafting_item",
+		"description" : "Need a lift, man? No sweat! Get a backpack with jets!",
 		"level" : 0,
 		"stats" : {
 			"health" : 0,
@@ -7448,13 +7998,15 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"scrap_of_an_untested_jetpack" : {
 		"name" : "Scrap of an Untested Jetpack",
 		"color" : "orange",
-		"type" : "",
+		"type" : "scrap",
 		"description" : "",
 		"level" : 0,
 		"stats" : {
@@ -7475,23 +8027,25 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"cryptozoology" : {
 		"name" : "Cryptozoology",
 		"color" : "purple",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Probably still more useful than an English Lit degree.",
+		"level" : 79,
 		"stats" : {
 			"health" : 0,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
-			"agility" : 0,
-			"intellect" : 0,
-			"damage" : 0,
+			"agility" : 34,
+			"intellect" : 20,
+			"damage" : 60,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -7502,23 +8056,25 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	},
 	"unicorn_puke" : {
 		"name" : "Unicorn Puke",
 		"color" : "orange",
-		"type" : "",
-		"description" : "",
-		"level" : 0,
+		"type" : "gear",
+		"description" : "Smells like Steed Spirit",
+		"level" : 89,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 0,
-			"energy_regen" : 0,
-			"strength" : 0,
+			"health_regen" : 200,
+			"energy_regen" : 50,
+			"strength" : 60,
 			"agility" : 0,
 			"intellect" : 0,
-			"damage" : 0,
+			"damage" : 100,
 			"skill_power" : 0,
 			"armor" : 0,
 			"magic_resist" : 0,
@@ -7529,7 +8085,9 @@ var gear = {
 			"dodge" : 0,
 			"accuracy" : 0,
 			"conservation" : 0,
-			"tenacity" : 0
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
 		}
 	}
 };
