@@ -253,10 +253,10 @@ function calculate_gear() {
 	$.each(needed_sortable, function(k,v) {
 		if(true === v.k in recipes) {
 			r = recipes[v.k];
-			crafts += '<tr class="' + v.item.color + '"><td rowspan="2">' + v.item.color + '</td><td rowspan="2"><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td rowspan="2">' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr><tr><td colspan="2"><em>Required Materials to Craft Each:</em></td><td colspan="5">';
+			crafts += '<tr class="' + v.item.color + '"><td rowspan="2">' + v.item.color + '</td><td rowspan="2"><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td rowspan="2">' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr><tr><td colspan="3"><em>Required Materials to Craft Each:</em></td><td colspan="4">';
 			$.each(r.materials, function(mk,material) {
 				var gear_item = gear[material.item];
-				crafts += ' <img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + commas(material.quantity * v.quantity);
+				crafts += ' <img class="list" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" /> x' + commas(material.quantity); // * v.quantity);
 			});
 		   crafts += '</td></tr>';
 		} else {
