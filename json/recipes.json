@@ -190,7 +190,7 @@ var recipes = {
 	"the_mad_gods_trident_scroll" : {
 		"cost" : 1500,
 		"materials" : [
-			{ "item" : "scrap_of_the_mad_gods_trident_scroll", "quantity" : 1 }
+			{ "item" : "scrap_of_the_mad_gods_trident_scroll", "quantity" : 5 }
 		]
 	},
 	"the_compensator" : {
@@ -731,7 +731,7 @@ var recipes = {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
-			{ "item" : "tome_of_nasty_behavior", "quantity" : 1 },
+			{ "item" : "tome_of_unspeakable_hearsay", "quantity" : 1 },
 			{ "item" : "disk_of_some_power", "quantity" : 1 }
 		]
 	},
@@ -1183,7 +1183,7 @@ var recipes = {
 	"untested_jetpack" : {
 		"cost" : 25000,
 		"materials" : [
-			{ "item" : "scrap_of_war_sandals", "quantity" : 50 }
+			{ "item" : "scrap_of_an_untested_jetpack", "quantity" : 50 }
 		]
 	},
 	"cryptozoology" : {
