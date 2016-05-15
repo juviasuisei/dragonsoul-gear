@@ -257,7 +257,7 @@ function calculate_gear() {
 			$.each(r.materials, function(mk,material) {
 				var gear_item = gear[material.item];
 				var inception = material.item in recipes;
-				crafts += ' ' + (true === inception ? '<a href="#' + material.item + '">' : '') + '<img class="sublist" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" />' + (true === inception ? '</a>' :: '') + ' x' + commas(material.quantity); // * v.quantity);
+				crafts += ' ' + (true === inception ? '<a href="#' + material.item + '">' : '') + '<img class="sublist" src="gear/' + material.item  + '.png" title="' + gear_item.name + '" />' + (true === inception ? '</a>' : '') + ' x' + commas(material.quantity); // * v.quantity);
 			});
 		   crafts += '</td></tr>';
 		} else {
