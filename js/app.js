@@ -29,6 +29,32 @@ function sanity_check() {
 	});
 	if(false === litmus) {
 		$.tablesorter.addParser({
+			id: 'color',
+			is: function(s) {
+				return false;
+			},
+			format: function(s) {
+				switch(s) {
+					case 'white':
+						return 0;
+						break;
+					case 'green':
+						return 1;
+						break;
+					case 'blue':
+						return 2;
+						break;
+					case 'purple':
+						return 3;
+						break;
+					case 'orange':
+						return 4;
+						break;
+				}
+			},
+			type: 'numeric'
+		});
+		$.tablesorter.addParser({
 			id: 'nocommas',
 			is: function(s) {
 				return false;
@@ -40,14 +66,16 @@ function sanity_check() {
 		});
 		$('#collects').tablesorter({
 			headers: {
-				2 : { sorter: 'nocommas' }
+				0 : { sorter: 'color' },
+				3 : { sorter: 'nocommas' }
 			}
 		});
 		$('#crafts').tablesorter({
 			headers: {
-				2 : { sorter: 'nocommas' },
+				0 : { sorter: 'color' },
 				3 : { sorter: 'nocommas' },
-				4 : { sorter: 'nocommas' }
+				4 : { sorter: 'nocommas' },
+				5 : { sorter: 'nocommas' }
 			}
 		});
 		populate_heroes();
