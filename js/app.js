@@ -146,6 +146,8 @@ function populate_heroes() {
 		});
 		result += '</div>';
 		result += '<div id="' + hk + 'stats" class="hero_subtab">';
+		result += '<h4>Base Stats</h4>';
+		result += '<p>' + getStats(hero.stats) + '</p>';
 		result += '</div>';
 		result += '</div>';
 		$('#heroes_list').html($('#heroes_list').html() + result);
@@ -278,7 +280,10 @@ function getStats(stats) {
 			if(0 < i) {
 				result += '<br />';
 			}
-			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;+' + v;
+			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;' + v;
+			if(k in ['crit_damage','bashing','piercing','slashing','necrotic','water','toxic','electric','fire','conservation','improve_healing','longer_disables','movement_speed','attack_speed','cooldown_reduction','larger_shields']) {
+				result += '%';
+			}
 			i++
 		}
 	});
