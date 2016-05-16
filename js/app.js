@@ -91,6 +91,7 @@ function populate_heroes() {
 		var result = '';
 		result += '<div id="' + hk + '" class="hero_tab">';
 		result += '<img class="hero" src="heroes/' + hk + '.png" title="' + hero.name + '" />';
+		result += '<img class="role" src="roles/' + hero.role + '.png" title="' + hero.role + '" />';
 		result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
 		result += '<h5>added to the game in v' + hero.version + '</h5>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';

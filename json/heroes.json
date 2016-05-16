@@ -1,6 +1,7 @@
 var heroes = {
 	"dragon_lady" : {
 		"name" : "Dragon Lady",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","free_mans_crowbar","foam_finger","goblin_grog","my_first_shield"],
@@ -38,11 +39,12 @@ var heroes = {
 			"skill_power" : 43.2,
 			"armor" : 4.65,
 			"magic_resist" : 1.8,
-			"crit_rating" : 5.6
+			"crit_rating" : 5.6 
 		}
 	},
 	"unstable_understudy" : {
 		"name" : "Unstable Understudy",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
@@ -67,6 +69,7 @@ var heroes = {
 	},
 	"electroyeti" : {
 		"name" : "Electroyeti",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
@@ -90,6 +93,7 @@ var heroes = {
 	},
 	"dark_dracul" : {
 		"name" : "Dark Dracul",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
@@ -114,6 +118,7 @@ var heroes = {
 	},
 	"cosmic_elf" : {
 		"name" : "Cosmic Elf",
+		"role" : "control",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
@@ -137,6 +142,7 @@ var heroes = {
 	},
 	"faith_healer" : {
 		"name" : "Faith Healer",
+		"role" : "support",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","enchanted_elbow_pads","rubber_vest"],
@@ -161,6 +167,7 @@ var heroes = {
 	},
 	"dust_devil" : {
 		"name" : "Dust Devil",
+		"role" : "control",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","fine_brie","rubber_vest"],
@@ -185,6 +192,7 @@ var heroes = {
 	},
 	"shadow_assassin" : {
 		"name" : "Shadow Assassin",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","stolen_sneakers","paper_crown","stolen_sneakers","my_first_shield"],
@@ -209,6 +217,7 @@ var heroes = {
 	},
 	"snap_dragon" : {
 		"name" : "Snap Dragon",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","paper_crown","foam_finger","free_mans_crowbar"],
@@ -233,6 +242,7 @@ var heroes = {
 	},
 	"centaur_of_attention" : {
 		"name" : "Centaur of Attention",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","enchanted_elbow_pads","paper_crown","stolen_sneakers","enchanted_elbow_pads"],
@@ -256,6 +266,7 @@ var heroes = {
 	},
 	"hydra" : {
 		"name" : "Hydra",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","my_first_shield"],
@@ -279,6 +290,7 @@ var heroes = {
 	},
 	"roller_warrior" : {
 		"name" : "Roller Warrior",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
@@ -302,6 +314,7 @@ var heroes = {
 	},
 	"moon_drake" : {
 		"name" : "Moon Drake",
+		"role" : "support",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","foam_finger","goblin_grog"],
@@ -325,6 +338,7 @@ var heroes = {
 	},
 	"crimson_witch" : {
 		"name" : "Crimson Witch",
+		"role" : "support",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","stolen_sneakers","paper_crown","enchanted_elbow_pads","goblin_grog"],
@@ -348,6 +362,7 @@ var heroes = {
 	},
 	"ninja_dwarf" : {
 		"name" : "Ninja Dwarf",
+		"role" : "damage",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","paper_crown","my_first_shield","enchanted_elbow_pads"],
@@ -372,6 +387,7 @@ var heroes = {
 	},
 	"brozerker" : {
 		"name" : "Brozerker",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
@@ -396,6 +412,7 @@ var heroes = {
 	},
 	"polemaster" : {
 		"name" : "Polemaster",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["foam_finger","fine_brie","goblin_grog","foam_finger","free_mans_crowbar","my_first_shield"],
@@ -420,6 +437,7 @@ var heroes = {
 	},
 	"megataur" : {
 		"name" : "Megataur",
+		"role" : "tank",
 		"version" : "0.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","my_first_shield","fine_brie","paper_crown","free_mans_crowbar"],
@@ -443,6 +461,7 @@ var heroes = {
 	},
 	"medusa" : {
 		"name" : "Medusa",
+		"role" : "control",
 		"version" : "0.2",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","goblin_grog","paper_crown","stolen_sneakers","my_first_shield"],
@@ -467,6 +486,7 @@ var heroes = {
 	},
 	"catapult_knight" : {
 		"name" : "Catapult Knight",
+		"role" : "damage",
 		"version" : "0.2",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","loaded_die","fine_brie"],
@@ -491,6 +511,7 @@ var heroes = {
 	},
 	"aquatic_man" : {
 		"name" : "Aquatic Man",
+		"role" : "damage",
 		"version" : "0.3.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","my_first_shield","paper_crown","loaded_die","rubber_vest"],
@@ -514,6 +535,7 @@ var heroes = {
 	},
 	"zombie_squire" : {
 		"name" : "Zombie Squire",
+		"role" : "tank",
 		"version" : "0.3.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
@@ -538,6 +560,7 @@ var heroes = {
 	},
 	"bardbarian" : {
 		"name" : "Bardbarian",
+		"role" : "support",
 		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","rubber_vest","paper_crown","stolen_sneakers","my_first_shield"],
@@ -561,6 +584,7 @@ var heroes = {
 	},
 	"magic_dragon" : {
 		"name" : "Magic Dragon",
+		"role" : "damage",
 		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","paper_crown","loaded_die","rubber_vest"],
@@ -585,6 +609,7 @@ var heroes = {
 	},
 	"bone_dragon" : {
 		"name" : "Bone Dragon",
+		"role" : "damage",
 		"version" : "1.0",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","enchanted_elbow_pads","paper_crown","foam_finger","goblin_grog"],
@@ -608,6 +633,7 @@ var heroes = {
 	},
 	"groovy_druid" : {
 		"name" : "Groovy Druid",
+		"role" : "damage",
 		"version" : "1.1",
 		"gearsets" : {
 			"white" : ["paper_crown","loaded_die","bit_onip","paper_crown","enchanted_elbow_pads","goblin_grog"],
@@ -632,6 +658,7 @@ var heroes = {
 	},
 	"savage_cutie" : {
 		"name" : "Savage Cutie",
+		"role" : "tank",
 		"version" : "1.2",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","free_mans_crowbar","paper_crown","foam_finger","my_first_shield"],
@@ -655,6 +682,7 @@ var heroes = {
 	},
 	"frost_giant" : {
 		"name" : "Frost Giant",
+		"role" : "damage",
 		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","bit_onip","enchanted_elbow_pads","paper_crown","goblin_grog"],
@@ -679,6 +707,7 @@ var heroes = {
 	},
 	"spikey_dragon" : {
 		"name" : "Spikey Dragon",
+		"role" : "damage",
 		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","rubber_vest","stolen_sneakers","bit_onip","paper_crown","stolen_sneakers"],
@@ -702,6 +731,7 @@ var heroes = {
 	},
 	"dark_horse" : {
 		"name" : "Dark Horse",
+		"role" : "tank",
 		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","fine_brie","foam_finger","fine_brie","paper_crown","my_first_shield"],
@@ -725,6 +755,7 @@ var heroes = {
 	},
 	"pixie_queen" : {
 		"name" : "Pixie Queen",
+		"role" : "damage",
 		"version" : "1.3",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","free_mans_crowbar","stolen_sneakers","enchanted_elbow_pads","enchanted_elbow_pads"],
@@ -748,6 +779,7 @@ var heroes = {
 	},
 	"rabid_dragon" : {
 		"name" : "Rabid Dragon",
+		"role" : "damage",
 		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["enchanted_elbow_pads","stolen_sneakers","free_mans_crowbar","enchanted_elbow_pads","stolen_sneakers","paper_crown"],
@@ -771,6 +803,7 @@ var heroes = {
 	},
 	"orc_monk" : {
 		"name" : "Orc Monk",
+		"role" : "tank",
 		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
@@ -794,6 +827,7 @@ var heroes = {
 	},
 	"dwarven_archer" : {
 		"name" : "Dwarven Archer",
+		"role" : "damage",
 		"version" : "2.0",
 		"gearsets" : {
 			"white" : ["paper_crown","stolen_sneakers","fine_brie","paper_crown","stolen_sneakers","bit_onip"],
@@ -817,6 +851,7 @@ var heroes = {
 	},
 	"storm_drake" : {
 		"name" : "Storm Drake",
+		"role" : "damage",
 		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","foam_finger","bit_onip","paper_crown","enchanted_elbow_pads","fine_brie"],
@@ -840,6 +875,7 @@ var heroes = {
 	},
 	"wild_satyr" : {
 		"name" : "Wild Satyr",
+		"role" : "support",
 		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","rubber_vest","fine_brie","paper_crown","bit_onip","my_first_shield"],
@@ -863,6 +899,7 @@ var heroes = {
 	},
 	"skeleton_king" : {
 		"name" : "Skeleton King",
+		"role" : "support",
 		"version" : "2.1",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","enchanted_elbow_pads","foam_finger","bit_onip","goblin_grog"],
@@ -886,6 +923,7 @@ var heroes = {
 	},
 	"unicorgi" : {
 		"name" : "Unicorgi",
+		"role" : "damage",
 		"version" : "2.2",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","my_first_shield","stolen_sneakers","free_mans_crowbar","rubber_vest"],
@@ -909,6 +947,7 @@ var heroes = {
 	},
 	"golden_genie" : {
 		"name" : "Golden Genie",
+		"role" : "damage",
 		"version" : "2.2",
 		"gearsets" : {
 			"white" : ["paper_crown","enchanted_elbow_pads","foam_finger","paper_crown","enchanted_elbow_pads","my_first_shield"],
@@ -932,6 +971,7 @@ var heroes = {
 	},
 	"spirit_wolf" : {
 		"name" : "Spirit Wolf",
+		"role" : "control",
 		"version" : "2.2",
 		"gearsets" : {
 			"white" : ["paper_crown","paper_crown","loaded_die","loaded_die","enchanted_elbow_pads","goblin_grog"],
