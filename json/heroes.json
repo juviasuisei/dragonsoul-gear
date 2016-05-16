@@ -102,11 +102,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "fine_brie", "quantity" : 100 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -179,11 +179,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -257,11 +257,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "magic_eight_ball", "quantity" : 30 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -334,11 +334,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 2,
@@ -412,11 +412,11 @@ var heroes = {
 			"orange" : { "type" : "gold", "specific" : "gold", "quantity" : 5000000 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -490,11 +490,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "muscle_wax", "quantity" : 5 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -568,11 +568,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "jar_of_kitten_tears", "quantity" : 2 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -646,11 +646,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "bunny_slippers", "quantity" : 3 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -723,11 +723,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -800,11 +800,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -877,11 +877,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -954,11 +954,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1031,11 +1031,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1109,11 +1109,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "goblin_grog", "quantity" : 100 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1187,11 +1187,11 @@ var heroes = {
 			"orange" : { "type" : "soul_stones", "specific" : "brozerker", "quantity" : 30 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1265,11 +1265,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "hammer_of_wicked_beats", "quantity" : 3 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1342,11 +1342,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1420,11 +1420,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "raw_egg", "quantity" : 100 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1498,11 +1498,11 @@ var heroes = {
 			"orange" : { "type" : "token", "specific" : "fight_pit", "quantity" : 5000 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1575,11 +1575,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1653,11 +1653,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "holy_hand_grenade", "quantity" : 3 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1730,11 +1730,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1808,11 +1808,11 @@ var heroes = {
 			"orange" : { "type" : "gear", "specific" : "sparkle_pony_keychain", "quantity" : 25 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1885,11 +1885,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -1963,11 +1963,11 @@ var heroes = {
 			"orange" : { "type" : "potion", "specific" : "flask", "quantity" : 1000 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2040,11 +2040,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2118,11 +2118,11 @@ var heroes = {
 			"orange" : { "type" : "token", "specific" : "soulmart", "quantity" : 2000 }
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2195,11 +2195,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2272,11 +2272,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2349,11 +2349,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2426,11 +2426,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2503,11 +2503,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2580,11 +2580,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2657,11 +2657,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2734,11 +2734,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2811,11 +2811,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2888,11 +2888,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -2965,11 +2965,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
@@ -3042,11 +3042,11 @@ var heroes = {
 		"quests" : {
 		},
 		"skills" : {
-			"white" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"green" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"blue" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"purple" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
-			"orange" : { "values" : [ { "label" : "", "value" : , "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stats" : {
 			"stars" : 1,
