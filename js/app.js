@@ -281,7 +281,8 @@ function getStats(stats) {
 				result += '<br />';
 			}
 			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;' + v;
-			if(k in ['crit_damage','bashing','piercing','slashing','necrotic','water','toxic','electric','fire','conservation','improve_healing','longer_disables','movement_speed','attack_speed','cooldown_reduction','larger_shields']) {
+			console.log(k)
+			if(true === k in ['crit_damage','bashing','piercing','slashing','necrotic','water','toxic','electric','fire','conservation','improve_healing','longer_disables','movement_speed','attack_speed','cooldown_reduction','larger_shields']) {
 				result += '%';
 			}
 			i++
