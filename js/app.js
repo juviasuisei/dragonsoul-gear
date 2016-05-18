@@ -84,15 +84,23 @@ function sanity_check() {
 	}
 }
 
-function generateStars(number) {
+function updateStars(hk, number) {
+	$('#' + hk + 'stars').html(generateStars(hk, number));
+}
+
+function generateStars(hk, number) {
 	var i = 1;
 	var result = '';
-	while(i < 6){
+	var id = hk + 'stars';
+	var min = heroes[hk].stars;
+	while(i < 6) {
+		result += '<span onclick="updateStars(\'' + hk + '\', ' + (number > min ? number : min) + ')">';
 		if(i > number) {
 			result += '&#x2606;';
 		} else {
 			result += '&#x2605;';
 		}
+		result += '</span>';
 		i++;
 	}
 	return result;
@@ -108,7 +116,7 @@ function populate_heroes() {
 		result += '<img class="role" src="roles/' + hero.role + '.png" title="' + hero.role + '" />';
 		result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
 		result += '<h5>' + hero.position + '-row ' + hero.role + ' added to the game in v' + hero.version + '</h5>';
-		result += '<p class="stars">' + generateStars(hero.stars) + '</p>';
+		result += '<p class="stars" id="' + hk + 'stars">' + generateStars(hk, hero.stars) + '</p>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
 		var progress = $.parseJSON(localStorage.getItem(hk));
