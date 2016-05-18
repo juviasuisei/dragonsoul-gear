@@ -94,7 +94,7 @@ function generateStars(hk, number) {
 	var id = hk + 'stars';
 	var min = heroes[hk].stars;
 	while(i < 6) {
-		result += '<span onclick="updateStars(\'' + hk + '\', ' + (number > min ? number : min) + ')">';
+		result += '<span onclick="updateStars(\'' + hk + '\', ' + (i > min ? i : min) + ')">';
 		if(i > number) {
 			result += '&#x2606;';
 		} else {
