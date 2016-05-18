@@ -195,6 +195,8 @@ function populate_heroes() {
 		result += '</div>';
 		result += '<div id="' + hk + 'stats" class="hero_subtab">';
 		result += '<p>' + hero.description + '</p>';
+		result += '<h4>Current Stats (currently excludes Stars, Promotions, Enhancements, Runes, and Skills)</h4>';
+		result += '<p id="' + hk + 'calcstats"></p>';
 		result += '<h4>Base Stats</h4>';
 		result += '<p>' + get_stats(hero.stats) + '</p>';
 		result += '</div>';
@@ -298,6 +300,7 @@ function calculate_gear() {
 	});
 	$.each(progress, function(k,v) {
 		localStorage.setItem(k, JSON.stringify(v));
+		calculate_stats(k)
 	});
 	var needed_sortable = [];
 	$.each(needed, function(k,v) {
@@ -332,6 +335,25 @@ function calculate_gear() {
 	$('#collect_list').html(collects);
 	$('#craft_list').html(crafts);
 	$('table').trigger('update');
+}
+
+function calculate_stats(hk) {
+	var base_stats = $.extend({}, heroes[hk].stats);
+	var progress = $.parseJSON(localStorage.getItem(hk));
+	var level = progress.level;
+	var stars = progress.stars;
+	base_stats.strength += level * base_stats.strength_growth;
+	base_stats.agility += level * base_stats.agility_growth;
+	base_stats.intellect += level * base_stats.intellect_growth;
+	base_stats.max_health += 18 * base_stats.strength;
+	base_stats.armor += 0.15 * base_stats.strength;
+	base_stats.damage += 0.4 * base_stats.agility;
+	base_stats.armor += 0.075 * base_stats.agility;
+	base_stats.crit_rating += 0.4 * base_stats.agility;
+	base_stats.skill_power += 2.4 * base_stats.intellect;
+	base_stats.magic_resistance += 0.1 * base_stats.intellect;
+	base_stats.damage += base_stats[base_stats.primary_stat];
+	$('#' + hk + 'calcstats').html(get_stats(base_stats));
 }
 
 function get_stats(stats) {
