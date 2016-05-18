@@ -110,11 +110,8 @@ function generate_stars(hk, number) {
 }
 
 function update_level(hk) {
-	console.log(hk);
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var number = $('#' + hk + 'level').val();
-	console.log(number);
-	console.log($.isNumeric(number));
 	if(true === $.isNumeric(number)) {
 		number = parseInt(number);
 	} else {
@@ -145,7 +142,7 @@ function populate_heroes() {
 				level = progress.level;
 			}
 		}
-		result += '<p class="stars_level"><span id="' + hk + 'stars">' + generate_stars(hk, stars) + '</span> &#x2022; Level <input type="text" id="' + hk + 'level" value="' + level + '" onchange="updateLevel(\'' + hk + '\');" /></p>';
+		result += '<p class="stars_level"><span id="' + hk + 'stars">' + generate_stars(hk, stars) + '</span> &#x2022; Level <input type="text" id="' + hk + 'level" value="' + level + '" onchange="update_level(\'' + hk + '\');" /></p>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
 		$.each(hero.gearsets, function(gk,gearset) {
