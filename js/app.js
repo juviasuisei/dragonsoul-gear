@@ -362,13 +362,9 @@ function get_stats(stats) {
 	var result = '';
 	var i = 0;
 	$.each(stats, function(k,v) {
-		if(0 !== v && 'basic_attack' !== k) {
+		if(0 !== v && 'basic_attack' !== k && 'primary_stat' !== k) {
 			if(0 < i) {
 				result += '<br />';
-			}
-			if(false == $.isNumeric(v)) {
-				console.log(v);
-				console.log(typeof v);
 			}
 			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;' + +v.toFixed(2);
 			if(-1 != ['crit_damage','bashing','piercing','slashing','necrotic','water','toxic','electric','fire','conservation','improve_healing','longer_disables','movement_speed','attack_speed','cooldown_reduction','larger_shields'].indexOf(k)) {
