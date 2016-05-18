@@ -197,7 +197,7 @@ function populate_heroes() {
 		result += '</div>';
 		result += '<div id="' + hk + 'stats" class="hero_subtab">';
 		result += '<p>' + hero.description + '</p>';
-		result += '<h4>Current Stats (currently excludes Stars, Promotions, Enhancements, Runes, and Skills)</h4>';
+		result += '<h4>Current Stats (currently excludes Stars, Currently Equipped Gear, Promotions, Enhancements, Runes, and Skills)</h4>';
 		result += '<p id="' + hk + 'calcstats"></p>';
 		result += '<h4>Base Stats</h4>';
 		result += '<p>' + get_stats(hero.stats) + '</p>';
