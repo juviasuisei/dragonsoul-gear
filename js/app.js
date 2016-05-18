@@ -89,6 +89,7 @@ function update_stars(hk, number) {
 	progress.stars = number;
 	localStorage.setItem(hk, JSON.stringify(progress));
 	$('#' + hk + 'stars').html(generate_stars(hk, number));
+	calculate_stats(hk);
 }
 
 function generate_stars(hk, number) {
@@ -119,6 +120,7 @@ function update_level(hk) {
 	}
 	progress.level = number;
 	localStorage.setItem(hk, JSON.stringify(progress));
+	calculate_stats(hk);
 }
 
 function populate_heroes() {
@@ -364,7 +366,7 @@ function get_stats(stats) {
 			if(0 < i) {
 				result += '<br />';
 			}
-			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;' + v;
+			result += k.replace(/_/g, "&#x00A0;") + ':&#x00A0;' + +v.toFixed(2);
 			if(-1 != ['crit_damage','bashing','piercing','slashing','necrotic','water','toxic','electric','fire','conservation','improve_healing','longer_disables','movement_speed','attack_speed','cooldown_reduction','larger_shields'].indexOf(k)) {
 				result += '%';
 			}
