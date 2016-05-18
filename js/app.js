@@ -110,8 +110,11 @@ function generate_stars(hk, number) {
 }
 
 function update_level(hk) {
+	console.log(hk);
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var number = $('#' + hk + 'level').val();
+	console.log(number);
+	console.log($.isNumeric(number));
 	if(true === $.isNumeric(number)) {
 		number = parseInt(number);
 	} else {
