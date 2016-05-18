@@ -85,6 +85,9 @@ function sanity_check() {
 }
 
 function updateStars(hk, number) {
+	var progress = $.parseJSON(localStorage.getItem(hk));
+	progress.stars = number;
+	localStorage.setItem(hk, JSON.stringify(progress));
 	$('#' + hk + 'stars').html(generateStars(hk, number));
 }
 
@@ -108,6 +111,7 @@ function generateStars(hk, number) {
 
 function populate_heroes() {
 	$.each(heroes, function(hk,hero) {
+		var progress = $.parseJSON(localStorage.getItem(hk));
 		var nav = '<a class="hero_nav" href="javascript:void(0);" onclick="hero_tab(\'' + hk + '\')"><img class="hero_nav" src="heroes/' + hk + '.png" title="' + hero.name + '" /></a>';
 		$('#heroes_nav').html($('#heroes_nav').html() + nav);
 		var result = '';
@@ -116,10 +120,13 @@ function populate_heroes() {
 		result += '<img class="role" src="roles/' + hero.role + '.png" title="' + hero.role + '" />';
 		result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
 		result += '<h5>' + hero.position + '-row ' + hero.role + ' added to the game in v' + hero.version + '</h5>';
-		result += '<p class="stars" id="' + hk + 'stars">' + generateStars(hk, hero.stars) + '</p>';
+		var stars = hero.stars;
+		if(null !== progress && 'stars' in progress) {
+			stars = progress['stars'];
+		}
+		result += '<p class="stars" id="' + hk + 'stars">' + generateStars(hk, stars) + '</p>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
-		var progress = $.parseJSON(localStorage.getItem(hk));
 		$.each(hero.gearsets, function(gk,gearset) {
 			var color = gk.match(/^[^\d]*/)[0];
 			var i = 1;
@@ -213,6 +220,12 @@ function calculate_gear() {
 	$('#gold').html(0);
 	$.each(heroes, function(hk,hero) {
 		progress[hk] = {};
+		var current_progress = $.parseJSON(localStorage.getItem(hk));
+		var stars = hero.stars;
+		if(null !== current_progress && 'stars' in current_progress) {
+			stars = current_progress.stars;
+		}
+		progress[hk].stars = stars;
 		$.each(hero.gearsets, function(gk,gearset) {
 			progress[hk][gk] = {};
 			var i = 0;
