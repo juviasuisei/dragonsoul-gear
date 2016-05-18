@@ -84,20 +84,20 @@ function sanity_check() {
 	}
 }
 
-function updateStars(hk, number) {
+function update_stars(hk, number) {
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	progress.stars = number;
 	localStorage.setItem(hk, JSON.stringify(progress));
-	$('#' + hk + 'stars').html(generateStars(hk, number));
+	$('#' + hk + 'stars').html(generate_stars(hk, number));
 }
 
-function generateStars(hk, number) {
+function generate_stars(hk, number) {
 	var i = 1;
 	var result = '';
 	var id = hk + 'stars';
 	var min = heroes[hk].stars;
 	while(i < 6) {
-		result += '<span onclick="updateStars(\'' + hk + '\', ' + (i > min ? i : min) + ')">';
+		result += '<span onclick="update_stars(\'' + hk + '\', ' + (i > min ? i : min) + ')">';
 		if(i > number) {
 			result += '&#x2606;';
 		} else {
@@ -107,6 +107,18 @@ function generateStars(hk, number) {
 		i++;
 	}
 	return result;
+}
+
+function update_level(hk) {
+	var progress = $.parseJSON(localStorage.getItem(hk));
+	var number = $('#' + hk + 'level').val();
+	if(true === $.isNumeric(number)) {
+		number = parseInt(number);
+	} else {
+		number = 0;
+	}
+	progress.level = number;
+	localStorage.setItem(hk, JSON.stringify(progress));
 }
 
 function populate_heroes() {
@@ -121,10 +133,16 @@ function populate_heroes() {
 		result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
 		result += '<h5>' + hero.position + '-row ' + hero.role + ' added to the game in v' + hero.version + '</h5>';
 		var stars = hero.stars;
-		if(null !== progress && 'stars' in progress) {
-			stars = progress['stars'];
+		var level = 0;
+		if(null !== progress) {
+			if('stars' in progress) {
+				stars = progress.stars;
+			}
+			if('level' in progress) {
+				level = progress.level;
+			}
 		}
-		result += '<p class="stars" id="' + hk + 'stars">' + generateStars(hk, stars) + '</p>';
+		result += '<p class="user_data"><span id="' + hk + 'stars">' + generate_stars(hk, stars) + '</span> &#x2022; Level <input type="text" id="' + hk + 'level" value="' + level + '" onchange="updateLevel(\'' + hk + '\');" /></p>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
 		$.each(hero.gearsets, function(gk,gearset) {
@@ -145,7 +163,7 @@ function populate_heroes() {
 				}
 				i++;
 			});
-			result += '<h4 class="' + color + '">[<span id="' + hk + gk + 'toggle" onclick="toggleGearset(\'' + hk + gk + '\');">';
+			result += '<h4 class="' + color + '">[<span id="' + hk + gk + 'toggle" onclick="toggle_gearset(\'' + hk + gk + '\');">';
 			if(6 === j) {
 				result += '+';
 			} else {
@@ -178,7 +196,7 @@ function populate_heroes() {
 		result += '<div id="' + hk + 'stats" class="hero_subtab">';
 		result += '<p>' + hero.description + '</p>';
 		result += '<h4>Base Stats</h4>';
-		result += '<p>' + getStats(hero.stats) + '</p>';
+		result += '<p>' + get_stats(hero.stats) + '</p>';
 		result += '</div>';
 		result += '</div>';
 		$('#heroes_list').html($('#heroes_list').html() + result);
@@ -186,7 +204,7 @@ function populate_heroes() {
 	calculate_gear();
 }
 
-function toggleGearset(id) {
+function toggle_gearset(id) {
 	$('#' + id).toggleClass('hide');
 	if(true === $('#' + id).hasClass('hide')) {
 		$('#' + id + 'toggle').html('+');
@@ -222,10 +240,17 @@ function calculate_gear() {
 		progress[hk] = {};
 		var current_progress = $.parseJSON(localStorage.getItem(hk));
 		var stars = hero.stars;
-		if(null !== current_progress && 'stars' in current_progress) {
-			stars = current_progress.stars;
+		var level = 0;
+		if(null !== current_progress) {
+			if('stars' in current_progress) {
+				stars = current_progress.stars;
+			}
+			if('level' in current_progress) {
+				level = current_progress.level;
+			}
 		}
 		progress[hk].stars = stars;
+		progress[hk].level = level;
 		$.each(hero.gearsets, function(gk,gearset) {
 			progress[hk][gk] = {};
 			var i = 0;
@@ -293,7 +318,7 @@ function calculate_gear() {
 	$.each(needed_sortable, function(k,v) {
 		if(true === v.k in recipes) {
 			r = recipes[v.k];
-			crafts += '<tr class="' + v.item.color + '"><td rowspan="2">' + v.item.color + '</td><td rowspan="2"><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td rowspan="2"><a name="' + v.k + '"></a>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr><tr><td class="materials" colspan="7"><em>Required Materials to Craft One:</em>';
+			crafts += '<tr class="' + v.item.color + '"><td rowspan="2">' + v.item.color + '</td><td rowspan="2"><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td rowspan="2"><a name="' + v.k + '"></a>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + commas(r.cost) + '</td><td>' + commas(v.quantity * r.cost) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + get_stats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr><tr><td class="materials" colspan="7"><em>Required Materials to Craft One:</em>';
 			$.each(r.materials, function(mk,material) {
 				var gear_item = gear[material.item];
 				var inception = material.item in recipes;
@@ -301,7 +326,7 @@ function calculate_gear() {
 			});
 		   crafts += '</td></tr>';
 		} else {
-			collects += '<tr class="' + v.item.color + '"><td>' + v.item.color + '</td><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + getStats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr>';
+			collects += '<tr class="' + v.item.color + '"><td>' + v.item.color + '</td><td><img class="list" src="gear/' + v.k + '.png" title="' + v.item.name + '" /></td><td>' + v.item.name + '</td><td>' + commas(v.quantity) + '</td><td>' + v.item.type + '</td><td>' + (0 !== v.item.level ? v.item.level : '&#x2014;') + '</td><td>' + get_stats(v.item.stats) + '</td><td>' + ("" !== v.item.description ? v.item.description : '&#x2014;') + '</td></tr>';
 		}
 	});
 	$('#collect_list').html(collects);
@@ -309,7 +334,7 @@ function calculate_gear() {
 	$('table').trigger('update');
 }
 
-function getStats(stats) {
+function get_stats(stats) {
 	var result = '';
 	var i = 0;
 	$.each(stats, function(k,v) {
