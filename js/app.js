@@ -95,6 +95,7 @@ function generateStars(number) {
 		}
 		i++;
 	}
+	return result;
 }
 
 function populate_heroes() {
@@ -107,7 +108,7 @@ function populate_heroes() {
 		result += '<img class="role" src="roles/' + hero.role + '.png" title="' + hero.role + '" />';
 		result += '<h3>' + hero.name + ' (<span onclick="check_gearsets(\'' + hk + '\', true);">mark as completed</span> &#x2022; <span onclick="check_gearsets(\'' + hk + '\', false);">clear</span>)</h3>';
 		result += '<h5>' + hero.position + '-row ' + hero.role + ' added to the game in v' + hero.version + '</h5>';
-		result += '<p>' + generateStars(hero.stars) + '</p>';
+		result += '<p class="stars">' + generateStars(hero.stars) + '</p>';
 		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
 		var progress = $.parseJSON(localStorage.getItem(hk));
