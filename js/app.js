@@ -342,6 +342,7 @@ function calculate_gear() {
 function calculate_stats(hk) {
 	var base_stats = $.extend({}, heroes[hk].stats);
 	var progress = $.parseJSON(localStorage.getItem(hk));
+console.log(progress);
 	var level = progress.level;
 	var stars = progress.stars;
 	base_stats.strength += level * base_stats.strength_growth;
