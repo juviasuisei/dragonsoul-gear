@@ -1,3 +1,5 @@
+var colors = ['white','green','green1','blue','blue1','blue2','purple','purple1','purple2','purple3','purple4','orange','orange1']
+
 var needed = {};
 var cost = 0;
 
@@ -342,12 +344,24 @@ function calculate_gear() {
 function calculate_stats(hk) {
 	var base_stats = $.extend({}, heroes[hk].stats);
 	var progress = $.parseJSON(localStorage.getItem(hk));
-console.log(progress);
 	var level = progress.level;
 	var stars = progress.stars;
 	base_stats.strength += level * base_stats.strength_growth;
 	base_stats.agility += level * base_stats.agility_growth;
 	base_stats.intellect += level * base_stats.intellect_growth;
+	$.each(colors, function(ck,color) {
+		var gearset = progress[color];
+		$.each(gearset, function(slot,status) {
+			if(1 === status) {
+				var gear_item = gear[heroes[hk].gearsets[color][slot]];
+				$.each(gear_item.stats, function(stat, v) {
+					if(0 !== v) {
+						base_stats[stat] += v;
+					}
+				});
+			}
+		});
+	});
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
