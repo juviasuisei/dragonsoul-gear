@@ -352,10 +352,8 @@ function calculate_stats(hk) {
 	$.each(colors, function(ck,color) {
 		var gearset = progress[color];
 		$.each(gearset, function(slot,status) {
-			console.log(status);
-			if(1 === status) {
+			if(true === status) {
 				var gear_item = gear[heroes[hk].gearsets[color][slot]];
-			console.log(gear_item);
 				$.each(gear_item.stats, function(stat, v) {
 					if(0 !== v) {
 						base_stats[stat] += v;
