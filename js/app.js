@@ -199,7 +199,7 @@ function populate_heroes() {
 		result += '</div>';
 		result += '<div id="' + hk + 'stats" class="hero_subtab">';
 		result += '<p>' + hero.description + '</p>';
-		result += '<h4>Current Stats (currently excludes Stars, Enhancements, Runes, and Skills)</h4>';
+		result += '<h4>Current Stats (currently excludes Enhancements, Runes, and Skills)</h4>';
 		result += '<p id="' + hk + 'calcstats"></p>';
 		result += '<h4>Base Stats</h4>';
 		result += '<p>' + get_stats(hero.stats) + '</p>';
@@ -346,19 +346,15 @@ function calculate_stats(hk) {
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var level = progress.level;
 	var stars = progress.stars;
-	var strength_bump = ((stars - 1) * heroes[hk].stat_growth.strength);
-	var agility_bump = ((stars - 1) * heroes[hk].stat_growth.agility);
-	var intellect_bump = ((stars - 1) * heroes[hk].stat_growth.intellect);
-	base_stats.strength_growth += strength_bump * base_stats.strength_growth;
-	base_stats.agility_growth += agility_bump * base_stats.agility_growth;
-	base_stats.intellect_growth += intellect_bump * base_stats.intellect_growth;
-	console.log(hk);
-	console.log(strength_bump);
-	console.log(agility_bump);
-	console.log(intellect_bump);
-	base_stats.strength += (level * base_stats.strength_growth)// - ((stars - heroes[hk].stars) * strength_bump);
-	base_stats.agility += (level * base_stats.agility_growth)// - ((stars - heroes[hk].stars) * agility_bump);
-	base_stats.intellect += (level * base_stats.intellect_growth)// - ((stars - heroes[hk].stars) * intellect_bump);
+	var strength_bump = heroes[hk].stat_growth.strength * base_stats.strength_growth;
+	var agility_bump = heroes[hk].stat_growth.agility * base_stats.agility_growth;
+	var intellect_bump = heroes[hk].stat_growth.intellect * base_stats.intellect_growth;
+	base_stats.strength_growth += (stars - 1) * strength_bump;
+	base_stats.agility_growth += (stars - 1) * agility_bump;
+	base_stats.intellect_growth += (stars - 1) * intellect_bump;
+	base_stats.strength += (level * base_stats.strength_growth) - ((stars - heroes[hk].stars) * strength_bump);
+	base_stats.agility += (level * base_stats.agility_growth) - ((stars - heroes[hk].stars) * agility_bump);
+	base_stats.intellect += (level * base_stats.intellect_growth) - ((stars - heroes[hk].stars) * intellect_bump);
 	var promotions = 0;
 	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
