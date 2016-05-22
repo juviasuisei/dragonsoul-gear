@@ -346,15 +346,15 @@ function calculate_stats(hk) {
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var level = progress.level;
 	var stars = progress.stars;
-	console.log(hk);
-	console.log(level);
-	console.log(heroes[hk].stats);
-	base_stats.strength_growth += ((stars - 1) * heroes[hk].stat_growth.strength) * base_stats.strength_growth;
-	base_stats.agility_growth += ((stars - 1) * heroes[hk].stat_growth.agility) * base_stats.agility_growth;
-	base_stats.intellect_growth += ((stars - 1) * heroes[hk].stat_growth.intellect) * base_stats.intellect_growth;
-	base_stats.strength += level * base_stats.strength_growth;
-	base_stats.agility += level * base_stats.agility_growth;
-	base_stats.intellect += level * base_stats.intellect_growth;
+	var strength_bump = ((stars - 1) * heroes[hk].stat_growth.strength);
+	var agility_bump = ((stars - 1) * heroes[hk].stat_growth.agility);
+	var intellect_bump = ((stars - 1) * heroes[hk].stat_growth.intellect);
+	base_stats.strength_growth += strength_bump * base_stats.strength_growth;
+	base_stats.agility_growth += agility_bump * base_stats.agility_growth;
+	base_stats.intellect_growth += intellect_bump * base_stats.intellect_growth;
+	base_stats.strength += (level * base_stats.strength_growth) - ((stars - heroes[hk].stars) * strength_bump);
+	base_stats.agility += (level * base_stats.agility_growth) - ((stars - heroes[hk].stars) * agility_bump);
+	base_stats.intellect += (level * base_stats.intellect_growth) - ((stars - heroes[hk].stars) * intellect_bump);
 	var promotions = 0;
 	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
@@ -365,7 +365,6 @@ function calculate_stats(hk) {
 				var gear_item = gear[heroes[hk].gearsets[color][slot]];
 				$.each(gear_item.stats, function(stat, v) {
 					if(0 !== v) {
-console.log(stat,v);
 						base_stats[stat] += v;
 					}
 				});
@@ -377,11 +376,9 @@ console.log(stat,v);
 			promotion_bonus += 2 * promotions;
 		}
 	});
-console.log(promotion_bonus);
 	base_stats.strength += promotion_bonus;
 	base_stats.agility += promotion_bonus;
 	base_stats.intellect += promotion_bonus;
-console.log(base_stats);
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
