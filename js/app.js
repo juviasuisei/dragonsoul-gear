@@ -349,9 +349,12 @@ function calculate_stats(hk) {
 	base_stats.strength += level * base_stats.strength_growth;
 	base_stats.agility += level * base_stats.agility_growth;
 	base_stats.intellect += level * base_stats.intellect_growth;
+	var promotions = 0;
+	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
 		var gearset = progress[color];
 		$.each(gearset, function(slot,status) {
+			var i = 0;
 			if(true === status) {
 				var gear_item = gear[heroes[hk].gearsets[color][slot]];
 				$.each(gear_item.stats, function(stat, v) {
@@ -359,9 +362,17 @@ function calculate_stats(hk) {
 						base_stats[stat] += v;
 					}
 				});
+				i++;
+			}
+			if(6 === i) {
+				promotions++;
+				promotion_bonus += 2 * promotions;
 			}
 		});
 	});
+	base_stats.strength += promotion_bonus;
+	base_stats.agility += promotion_bonus;
+	base_stats.intellect += promotion_bonus;
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
