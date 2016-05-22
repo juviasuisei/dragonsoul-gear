@@ -5429,7 +5429,7 @@ var gear = {
 		"description" : "Let's cause some trouble, shall we?",
 		"level" : 42,
 		"stats" : {
-			"max_health" : 235,
+			"max_health" : 325,
 			"health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
