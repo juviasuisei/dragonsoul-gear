@@ -790,8 +790,8 @@ var gear = {
 		"level" : 9,
 		"stats" : {
 			"health" : 0,
-			"health_regen" : 30,
-			"energy_regen" : 0,
+			"health_regen" : 0,
+			"energy_regen" : 30,
 			"strength" : 0,
 			"agility" : 0,
 			"intellect" : 0,
