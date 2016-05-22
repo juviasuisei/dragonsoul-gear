@@ -32,9 +32,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "self-heal", "value" : 180, "type" : "level" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.454545455
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.454545455
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -115,9 +115,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.766666667,
-			"intellect" : 1.515625
+			"strength" : 0.5,
+			"agility" : 0.766666667,
+			"intellect" : 0.515625
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -197,9 +197,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.391304348,
-			"agility" : 1.666666667,
-			"intellect" : 1.462962963
+			"strength" : 0.391304348,
+			"agility" : 0.666666667,
+			"intellect" : 0.462962963
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -280,9 +280,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -362,9 +362,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.565217391
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.565217391
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -445,9 +445,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -528,9 +528,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -611,9 +611,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -694,9 +694,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -776,9 +776,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -858,9 +858,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.625,
-			"intellect" : 1.526315789
+			"strength" : 0.5,
+			"agility" : 0.625,
+			"intellect" : 0.526315789
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -940,9 +940,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.516129032,
-			"agility" : 1.608695652,
-			"intellect" : 1.307692308
+			"strength" : 0.516129032,
+			"agility" : 0.608695652,
+			"intellect" : 0.307692308
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1022,9 +1022,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.589285714
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.589285714
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1104,9 +1104,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1187,9 +1187,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1270,9 +1270,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1353,9 +1353,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1435,9 +1435,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1518,9 +1518,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.533333333,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.533333333,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1601,9 +1601,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.533333333
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.533333333
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1683,9 +1683,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1766,9 +1766,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.403225806,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.403225806,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1848,9 +1848,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -1931,9 +1931,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2013,9 +2013,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.25,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.25,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2096,9 +2096,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2178,9 +2178,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2261,9 +2261,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "magic", "subtype" : "" },
@@ -2343,9 +2343,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2425,9 +2425,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2507,9 +2507,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2589,9 +2589,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2671,9 +2671,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2753,9 +2753,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2835,9 +2835,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2917,9 +2917,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.444444444,
-			"intellect" : 1.461538462
+			"strength" : 0.5,
+			"agility" : 0.444444444,
+			"intellect" : 0.461538462
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -2999,9 +2999,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -3081,9 +3081,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.578947368,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.578947368,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -3163,9 +3163,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "physical", "subtype" : "" },
@@ -3245,9 +3245,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "magic", "subtype" : "" },
@@ -3332,9 +3332,9 @@ var heroes = {
 			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
 		},
 		"stat_growth" : {
-			"strength" : 1.5,
-			"agility" : 1.5,
-			"intellect" : 1.5
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
 		},
 		"stats" : {
 			"basic_attack" : { "type" : "", "subtype" : "" },
