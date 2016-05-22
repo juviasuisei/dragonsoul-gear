@@ -352,11 +352,6 @@ function calculate_stats(hk) {
 	base_stats.strength_growth += ((stars - 1) * heroes[hk].stat_growth.strength) * base_stats.strength_growth;
 	base_stats.agility_growth += ((stars - 1) * heroes[hk].stat_growth.agility) * base_stats.agility_growth;
 	base_stats.intellect_growth += ((stars - 1) * heroes[hk].stat_growth.intellect) * base_stats.intellect_growth;
-//	base_stats.strength += level * base_stats.strength_growth;
-//	base_stats.agility += level * base_stats.agility_growth;
-//	base_stats.intellect += level * base_stats.intellect_growth;
-console.log(base_stats);
-/*
 	var promotions = 0;
 	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
@@ -368,6 +363,7 @@ console.log(base_stats);
 				$.each(gear_item.stats, function(stat, v) {
 					if(0 !== v) {
 						base_stats[stat] += v;
+console.log(stat,v);
 					}
 				});
 				i++;
@@ -378,9 +374,11 @@ console.log(base_stats);
 			promotion_bonus += 2 * promotions;
 		}
 	});
+console.log(promotion_bonus);
 	base_stats.strength += promotion_bonus;
 	base_stats.agility += promotion_bonus;
 	base_stats.intellect += promotion_bonus;
+console.log(base_stats);
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
