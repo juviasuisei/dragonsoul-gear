@@ -352,6 +352,7 @@ function calculate_stats(hk) {
 	base_stats.strength_growth += strength_bump * base_stats.strength_growth;
 	base_stats.agility_growth += agility_bump * base_stats.agility_growth;
 	base_stats.intellect_growth += intellect_bump * base_stats.intellect_growth;
+	console.log(hk);
 	console.log(strength_bump);
 	console.log(agility_bump);
 	console.log(intellect_bump);
