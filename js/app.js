@@ -353,8 +353,8 @@ function calculate_stats(hk) {
 	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
 		var gearset = progress[color];
+		var i = 0;
 		$.each(gearset, function(slot,status) {
-			var i = 0;
 			if(true === status) {
 				var gear_item = gear[heroes[hk].gearsets[color][slot]];
 				$.each(gear_item.stats, function(stat, v) {
@@ -364,11 +364,11 @@ function calculate_stats(hk) {
 				});
 				i++;
 			}
-			if(6 === i) {
-				promotions++;
-				promotion_bonus += 2 * promotions;
-			}
 		});
+		if(6 === i) {
+			promotions++;
+			promotion_bonus += 2 * promotions;
+		}
 	});
 	base_stats.strength += promotion_bonus;
 	base_stats.agility += promotion_bonus;
