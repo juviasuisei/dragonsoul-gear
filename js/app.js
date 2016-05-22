@@ -352,9 +352,12 @@ function calculate_stats(hk) {
 	base_stats.strength_growth += strength_bump * base_stats.strength_growth;
 	base_stats.agility_growth += agility_bump * base_stats.agility_growth;
 	base_stats.intellect_growth += intellect_bump * base_stats.intellect_growth;
-	base_stats.strength += (level * base_stats.strength_growth) - ((stars - heroes[hk].stars) * strength_bump);
-	base_stats.agility += (level * base_stats.agility_growth) - ((stars - heroes[hk].stars) * agility_bump);
-	base_stats.intellect += (level * base_stats.intellect_growth) - ((stars - heroes[hk].stars) * intellect_bump);
+	console.log(strength_bump);
+	console.log(agility_bump);
+	console.log(intellect_bump);
+	base_stats.strength += (level * base_stats.strength_growth)// - ((stars - heroes[hk].stars) * strength_bump);
+	base_stats.agility += (level * base_stats.agility_growth)// - ((stars - heroes[hk].stars) * agility_bump);
+	base_stats.intellect += (level * base_stats.intellect_growth)// - ((stars - heroes[hk].stars) * intellect_bump);
 	var promotions = 0;
 	var promotion_bonus = 0;
 	$.each(colors, function(ck,color) {
