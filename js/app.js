@@ -346,13 +346,13 @@ function calculate_stats(hk) {
 	console.log(base_stats);
 	console.log(heroes[hk].stats);
 	var base_stats = $.extend({}, heroes[hk].stats);
-/*
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var level = progress.level;
 	var stars = progress.stars;
 	console.log(hk);
 	console.log(stars);
 	console.log(base_stats);
+/*
 	base_stats.strength_growth += ((stars - 1) * heroes[hk].stat_growth.strength) * base_stats.strength_growth;
 	base_stats.agility_growth += ((stars - 1) * heroes[hk].stat_growth.agility) * base_stats.agility_growth;
 	base_stats.intellect_growth += ((stars - 1) * heroes[hk].stat_growth.intellect) * base_stats.intellect_growth;
