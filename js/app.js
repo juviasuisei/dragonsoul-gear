@@ -344,7 +344,9 @@ function calculate_gear() {
 function calculate_stats(hk) {
 	console.log('hi');
 	console.log(base_stats);
+	console.log(heroes[hk].stats);
 	var base_stats = $.extend({}, heroes[hk].stats);
+/*
 	var progress = $.parseJSON(localStorage.getItem(hk));
 	var level = progress.level;
 	var stars = progress.stars;
@@ -393,6 +395,7 @@ function calculate_stats(hk) {
 	base_stats.magic_resistance += 0.1 * base_stats.intellect;
 	base_stats.damage += base_stats[base_stats.primary_stat];
 	$('#' + hk + 'calcstats').html(get_stats(base_stats));
+*/
 }
 
 function get_stats(stats) {
