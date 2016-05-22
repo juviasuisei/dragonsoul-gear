@@ -382,7 +382,6 @@ console.log(promotion_bonus);
 	base_stats.agility += promotion_bonus;
 	base_stats.intellect += promotion_bonus;
 console.log(base_stats);
-/*
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
@@ -392,7 +391,6 @@ console.log(base_stats);
 	base_stats.magic_resistance += 0.1 * base_stats.intellect;
 	base_stats.damage += base_stats[base_stats.primary_stat];
 	$('#' + hk + 'calcstats').html(get_stats(base_stats));
-*/
 }
 
 function get_stats(stats) {
