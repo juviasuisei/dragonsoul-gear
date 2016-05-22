@@ -379,6 +379,7 @@ console.log(promotion_bonus);
 	base_stats.agility += promotion_bonus;
 	base_stats.intellect += promotion_bonus;
 console.log(base_stats);
+/*
 	base_stats.max_health += 18 * base_stats.strength;
 	base_stats.armor += 0.15 * base_stats.strength;
 	base_stats.damage += 0.4 * base_stats.agility;
