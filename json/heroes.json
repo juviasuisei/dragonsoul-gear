@@ -3393,11 +3393,11 @@ var heroes = {
 			"blue2" : ["adamantium_tiara","rod_of_tasing","gloves_of_crit","head_banger","thong_of_vitality","sock_full_opennies"],
 			"purple" : ["shovel","axes_of_dual_wielding","oxfords_of_alacrity","super_spikey_spear","tenfoot_pole","intimidating_beard"],
 			"purple1" : ["harolds_homemade_halberd","the_ugly_stick","goblin_whacker","diplomatic_immunity","banjo_of_dueling","intimidating_beard"],
-			"purple2" : ["big_stabby_spears","hammer_of_wicked_beats","goblin_whacker","grievous_bodily_harm","banjo_of_dueling","intimidating_beard"],
+			"purple2" : ["big_stabby_spear","hammer_of_wicked_beats","goblin_whacker","grievous_bodily_harm","banjo_of_dueling","intimidating_beard"],
 			"purple3" : ["lavishly_adorned_rapier","shovel","thong_of_vitality","sandwich_of_unsurpassed_meatiness","the_compensator","intimidating_beard"],
 			"purple4" : ["rattling_sabre","svens_sword_of_dooooom","mjlnirby","ring_of_the_squirrel","enids_expensive_elixir","chugg_boots"],
 			"orange" : ["boots_made_for_walkin","hammer_of_wicked_beats","bowie_knife","readin_rain_bow","shovel","chugg_boots"],
-			"orange1" : ["extreme_fad_diet","motivational_cassette","healty_dose_of_skepticism","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
+			"orange1" : ["extreme_fad_diet","motivational_cassette","healthy_dose_of_skepticism","knives_of_hackenslash","axe_of_major_riffage","chugg_boots"]
 		},
 		"quests" : {
 		},
@@ -3471,7 +3471,7 @@ var heroes = {
 			"green" : ["swash_buckler","goblin_grog","bloody_bat","goblin_whacker","snazzy_vest","stickon_moustache"],
 			"green1" : ["ya_vampire_series","racing_stripes","free_mans_crowbar","tenfoot_pole","sparkle_pony_keychain","stickon_moustache"],
 			"blue" : ["glaive_of_dismemberment","banjo_of_dueling","the_mad_gods_trident","bag_ohammers","rod_of_tasing","plucky_heroines_shortbow"],
-			"blue1" : ["tenfoot_pole","blissful_ignorance","flail_of_total_dismemberment","gentlemens_club","thong_of_vitality","plucky_heroines_shortbow"],
+			"blue1" : ["tenfoot_pole","blissful_ignorance","flail_of_total_devastation","gentlemens_club","thong_of_vitality","plucky_heroines_shortbow"],
 			"blue2" : ["dirk_of_disemboweling","death_metal_blade","the_compensator","head_banger","bag_ohammers","plucky_heroines_shortbow"],
 			"purple" : ["shovel","lifesipper","spud_gun","boots_made_for_walkin","glaive_of_dismemberment","intimidating_beard"],
 			"purple1" : ["lavishly_adorned_rapier","axes_of_dual_wielding","super_spikey_spear","harolds_homemade_halberd","the_mad_gods_trident","intimidating_beard"],
