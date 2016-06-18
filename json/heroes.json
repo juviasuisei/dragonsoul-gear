@@ -3392,7 +3392,7 @@ var heroes = {
 			"blue1" : ["the_mad_gods_trident","racing_stripes","penetrable_armor","the_compensator","nonstick_shield","sock_full_opennies"],
 			"blue2" : ["adamantium_tiara","rod_of_tasing","gloves_of_crit","head_banger","thong_of_vitality","sock_full_opennies"],
 			"purple" : ["shovel","axes_of_dual_wielding","oxfords_of_alacrity","super_spikey_spear","tenfoot_pole","intimidating_beard"],
-			"purple1" : ["harolds_homemade_halberd","the_ugly_stick","goblin_whacker","diplomatic_immunity","banjo_of_dueling","intimidating_beard"],
+			"purple1" : ["harolds_homemade_halberd","the_ugly_stick","goblin_whacker","diplomatic_immunity","thong_of_vitality","intimidating_beard"],
 			"purple2" : ["big_stabby_spear","hammer_of_wicked_beats","goblin_whacker","grievous_bodily_harm","banjo_of_dueling","intimidating_beard"],
 			"purple3" : ["lavishly_adorned_rapier","shovel","thong_of_vitality","sandwich_of_unsurpassed_meatiness","the_compensator","intimidating_beard"],
 			"purple4" : ["rattling_sabre","svens_sword_of_dooooom","mjlnirby","ring_of_the_squirrel","enids_expensive_elixir","chugg_boots"],
