@@ -146,8 +146,8 @@ function populate_heroes() {
 				level = progress.level;
 			}
 		}
-		result += '<p class="stars_level"><span id="' + hk + 'stars">' + generate_stars(hk, stars) + '</span> &#x2022; Level <input type="text" id="' + hk + 'level" value="' + level + '" onchange="update_level(\'' + hk + '\');" /></p>';
-		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests (work-in-progress; currently unreliable)</a><!-- &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a>--></p>';
+		result += '<!--<p class="stars_level"><span id="' + hk + 'stars">' + generate_stars(hk, stars) + '</span> &#x2022; Level <input type="text" id="' + hk + 'level" value="' + level + '" onchange="update_level(\'' + hk + '\');" /></p>-->';
+		result += '<p class="hero_subnav"><a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'gear\')">Gear</a> &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'quests\')">Legendary Quests</a><!-- &#x2022; <a href="javascript:void(0);" onclick="hero_subtab(\'' + hk + 'stats\')">Stats</a>--></p>';
 		result += '<div id="' + hk + 'gear" class="hero_subtab">';
 		$.each(hero.gearsets, function(gk,gearset) {
 			var color = gk.match(/^[^\d]*/)[0];
@@ -184,6 +184,7 @@ function populate_heroes() {
 		});
 		result += '</div>';
 		result += '<div id="' + hk + 'quests" class="hero_subtab">';
+		result += '<p>(work-in-progress; currently unreliable)</p>';
 		$.each(hero.quests, function(qk,quest) {
 			if('gear' === quest.type) {
 				var color = qk.match(/^[^\d]*/)[0];
