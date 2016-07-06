@@ -3541,7 +3541,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"" : {
+	"cyclops_shaman" : {
 		"name" : "Cyclops Shaman",
 		"role" : "support",
 		"stars" : 1,
@@ -3552,7 +3552,7 @@ var heroes = {
 			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
 			"green" : ["smarty_pants","chunky_femur","bloody_bat","bit_onip","chunky_femur","stickon_moustache"],
 			"green1" : ["tenfoot_pole","pretty_sweet_cape","chunky_femur","side_of_bacon","lucky_orcs_foot","chaps_of_endurance"],
-			"blue" : ["necromonicon","sparkle_pony_keychain","my_first_shield","rod_of_tasing","wand_of_gold_sparkles","butter_knife"],
+			"blue" : ["necronomicon","sparkle_pony_keychain","my_first_shield","rod_of_tasing","wand_of_gold_sparkles","butter_knife"],
 			"blue1" : ["tome_of_forbidden_trivia","thong_of_vitality","bloody_bat","orb_of_everlasting_flavor","chunky_femur","butter_knife"],
 			"blue2" : ["the_1_ring","sacred_codex","chunky_femur","the_compensator","blissful_ignorance","butter_knife"],
 			"purple" : ["hammer_of_wicked_beats","laser_pointer","wand_of_gold_sparkles","rod_of_shenanigans","staff_of_boss_fighting","intimidating_beard"],
