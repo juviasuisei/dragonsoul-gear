@@ -3540,6 +3540,88 @@ var heroes = {
 			"electric" : 100,
 			"fire" : 100
 		}
+	},
+	"" : {
+		"name" : "Cyclops Shaman",
+		"role" : "support",
+		"stars" : 1,
+		"description" : "\"He's really very sweet. A little shy maybe, but such a sweetie.\" &#x2014;Unstable Understudy",
+		"position" : "back",
+		"version" : "2.4",
+		"gearsets" : {
+			"white" : ["paper_crown","enchanted_elbow_pads","loaded_die","paper_crown","enchanted_elbow_pads","loaded_die"],
+			"green" : ["smarty_pants","chunky_femur","bloody_bat","bit_onip","chunky_femur","stickon_moustache"],
+			"green1" : ["tenfoot_pole","pretty_sweet_cape","chunky_femur","side_of_bacon","lucky_orcs_foot","chaps_of_endurance"],
+			"blue" : ["necromonicon","sparkle_pony_keychain","my_first_shield","rod_of_tasing","wand_of_gold_sparkles","butter_knife"],
+			"blue1" : ["tome_of_forbidden_trivia","thong_of_vitality","bloody_bat","orb_of_everlasting_flavor","chunky_femur","butter_knife"],
+			"blue2" : ["the_1_ring","sacred_codex","chunky_femur","the_compensator","blissful_ignorance","butter_knife"],
+			"purple" : ["hammer_of_wicked_beats","laser_pointer","wand_of_gold_sparkles","rod_of_shenanigans","staff_of_boss_fighting","intimidating_beard"],
+			"purple1" : ["27_pocket_protector","laser_visor","thong_of_vitality","framed_diploma","shot_in_the_arm","intimidating_beard"],
+			"purple2" : ["diplomatic_immunity","laser_sword","sacred_codex","enids_expensive_elixir","adamantium_tiara","intimidating_beard"],
+			"purple3" : ["sandwich_of_unsurpassed_meatiness","laser_kitten","the_compensator","the_1_ring","orb_of_everlasting_flavor","intimidating_beard"],
+			"purple4" : ["girdle_of_victory","overpowering_fragrance","rod_of_witty_banter","high_tea","hammer_of_wicked_beats","chugg_boots"],
+			"orange" : ["laser_kitten","tome_of_nasty_behavior","framed_diploma","jar_of_kitten_tears","disk_of_some_power","chugg_boots"],
+			"orange1" : ["self_preserver","purple_pills_of_potency","helm_of_the_raging_bear","deerstalker_hat","tome_of_occult_nonsense","chugg_boots"]
+		},
+		"quests" : {
+		},
+		"skills" : {
+			"white" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"green" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"blue" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"purple" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} },
+			"orange" : { "values" : [ { "label" : "", "value" : 0, "type" : "" } ], "type" : "", "subtype" : "", "secondary" : {} }
+		},
+		"stat_growth" : {
+			"strength" : 0.5,
+			"agility" : 0.5,
+			"intellect" : 0.5
+		},
+		"stats" : {
+			"basic_attack" : { "type" : "", "subtype" : "" },
+			"max_health" : 0,
+			"health_regen" : 0,
+			"energy" : 1000,
+			"energy_regen" : 0,
+			"strength" : 0,
+			"agility" : 0,
+			"intellect" : 0,
+			"strength_growth" : 1.0,
+			"agility_growth" : 1.0,
+			"intellect_growth" : 1.0,
+			"primary_stat" : "",
+			"damage" : 0,
+			"skill_power" : 0,
+			"armor" : 0,
+			"magic_resistance" : 0,
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"crit_damage" : 200,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0,
+			"fury" : 90,
+			"starting_energy" : 0,
+			"conservation" : 100,
+			"energy_gain" : 0,
+			"improve_healing" : 100,
+			"tenacity" : 0,
+			"longer_disables" : 100,
+			"expertise" : 0,
+			"movement_speed" : 100,
+			"attack_speed" : 100,
+			"cooldown_reduction" : 100,
+			"larger_shields" : 100,
+			"bashing" : 100,
+			"piercing" : 100,
+			"slashing" : 100,
+			"necrotic" : 100,
+			"water" : 100,
+			"toxic" : 100,
+			"electric" : 100,
+			"fire" : 100
+		}
 	}
 };
 
