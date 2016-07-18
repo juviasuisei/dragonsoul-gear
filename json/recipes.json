@@ -899,12 +899,6 @@ var recipes = {
 			{ "item" : "snazzy_vest", "quantity" : 1 }
 		]
 	},
-	"head_banger" : {
-		"cost" : 6000,
-		"materials" : [
-			{ "item" : "scrap_of_a_head_banger", "quantity" : 20 }
-		]
-	},
 	"plucky_heroines_shortbow" : {
 		"cost" : 1200,
 		"materials" : [
