@@ -16,8 +16,8 @@ var heroes = {
 			"purple" : ["hammer_of_wicked_beats","glaive_of_dismemberment","excaliburtreynolds","axes_of_dual_wielding","mace_of_friendship","intimidating_beard"],
 			"purple1" : ["sandwich_of_unsurpassed_meatiness","mussel_milk","thong_of_vitality","diplomatic_immunity","lifesipper","intimidating_beard"],
 			"purple2" : ["grievous_bodily_harm","the_compensator","impractical_chestplate","enids_expensive_elixir","kindness","intimidating_beard"],
-			"purple3" : ["lifedrinker","mjlnirby","thong_of_vitality","big_stabby_spear","glaive_of_dismemberment","intimidating_beard"],
-			"purple4" : ["the_power_of_science","sandwich_of_unsurpassed_meatiness","hammer_of_wicked_beats","peter_pipers_pepper_spray","swordy_mcepicpants","chugg_boots"],
+			"purple3" : ["liger_balm","mjlnirby","thong_of_vitality","big_stabby_spear","glaive_of_dismemberment","intimidating_beard"],
+			"purple4" : ["the_power_of_science","ring_of_the_squirrel","overpowering_fragrance","mjlnirby","swordy_mcepicpants","the_1_ring"],
 			"orange" : ["philter_of_pure_testosterone","dragon_scale","self_preserver","mystical_elven_sh*t","extreme_fad_diet","chugg_boots"],
 			"orange1" : ["antimagic_shell","peter_pipers_pepper_spray","helm_of_the_raging_bear","monster_hunter_armor","dragons_ballz","chugg_boots"]
 		},
@@ -82,7 +82,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"unstable_understudy" : {
+*	"unstable_understudy" : {
 		"name" : "Unstable Understudy",
 		"role" : "damage",
 		"stars" : 1,
@@ -165,7 +165,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"electroyeti" : {
+*	"electroyeti" : {
 		"name" : "Electroyeti",
 		"role" : "damage",
 		"stars" : 1,
@@ -247,7 +247,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"dark_dracul" : {
+*	"dark_dracul" : {
 		"name" : "Dark Dracul",
 		"role" : "damage",
 		"stars" : 1,
@@ -330,7 +330,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"cosmic_elf" : {
+*	"cosmic_elf" : {
 		"name" : "Cosmic Elf",
 		"role" : "control",
 		"stars" : 2,
@@ -412,7 +412,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"faith_healer" : {
+*	"faith_healer" : {
 		"name" : "Faith Healer",
 		"role" : "support",
 		"stars" : 1,
@@ -495,7 +495,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"dust_devil" : {
+*	"dust_devil" : {
 		"name" : "Dust Devil",
 		"role" : "control",
 		"stars" : 2,
@@ -578,7 +578,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"shadow_assassin" : {
+*	"shadow_assassin" : {
 		"name" : "Shadow Assassin",
 		"role" : "damage",
 		"stars" : 1,
@@ -661,7 +661,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"snap_dragon" : {
+*	"snap_dragon" : {
 		"name" : "Snap Dragon",
 		"role" : "tank",
 		"stars" : 2,
@@ -744,7 +744,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"centaur_of_attention" : {
+*	"centaur_of_attention" : {
 		"name" : "Centaur of Attention",
 		"role" : "damage",
 		"stars" : 1,
@@ -826,7 +826,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"hydra" : {
+*	"hydra" : {
 		"name" : "Hydra",
 		"role" : "damage",
 		"stars" : 3,
@@ -908,7 +908,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"roller_warrior" : {
+*	"roller_warrior" : {
 		"name" : "Roller Warrior",
 		"role" : "tank",
 		"stars" : 3,
@@ -990,7 +990,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"moon_drake" : {
+*	"moon_drake" : {
 		"name" : "Moon Drake",
 		"role" : "support",
 		"stars" : 2,
@@ -1072,7 +1072,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"crimson_witch" : {
+*	"crimson_witch" : {
 		"name" : "Crimson Witch",
 		"role" : "support",
 		"stars" : 1,
@@ -1154,7 +1154,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"ninja_dwarf" : {
+*	"ninja_dwarf" : {
 		"name" : "Ninja Dwarf",
 		"role" : "damage",
 		"stars" : 1,
@@ -1237,7 +1237,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"brozerker" : {
+*	"brozerker" : {
 		"name" : "Brozerker",
 		"role" : "tank",
 		"stars" : 3,
@@ -1320,7 +1320,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"polemaster" : {
+*	"polemaster" : {
 		"name" : "Polemaster",
 		"role" : "tank",
 		"stars" : 3,
@@ -1403,7 +1403,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"megataur" : {
+*	"megataur" : {
 		"name" : "Megataur",
 		"role" : "tank",
 		"stars" : 1,
@@ -1485,7 +1485,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"medusa" : {
+*	"medusa" : {
 		"name" : "Medusa",
 		"role" : "control",
 		"stars" : 2,
@@ -1568,7 +1568,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"catapult_knight" : {
+*	"catapult_knight" : {
 		"name" : "Catapult Knight",
 		"role" : "damage",
 		"stars" : 1,
@@ -1651,7 +1651,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"aquatic_man" : {
+*	"aquatic_man" : {
 		"name" : "Aquatic Man",
 		"role" : "damage",
 		"stars" : 1,
@@ -1733,7 +1733,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"zombie_squire" : {
+*	"zombie_squire" : {
 		"name" : "Zombie Squire",
 		"role" : "tank",
 		"stars" : 3,
@@ -1816,7 +1816,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"bardbarian" : {
+*	"bardbarian" : {
 		"name" : "Bardbarian",
 		"role" : "support",
 		"stars" : 2,
@@ -1898,7 +1898,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"magic_dragon" : {
+*	"magic_dragon" : {
 		"name" : "Magic Dragon",
 		"role" : "damage",
 		"stars" : 2,
@@ -1981,7 +1981,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"bone_dragon" : {
+*	"bone_dragon" : {
 		"name" : "Bone Dragon",
 		"role" : "damage",
 		"stars" : 3,
@@ -2063,7 +2063,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"groovy_druid" : {
+*	"groovy_druid" : {
 		"name" : "Groovy Druid",
 		"role" : "damage",
 		"stars" : 2,
@@ -2146,7 +2146,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"savage_cutie" : {
+*	"savage_cutie" : {
 		"name" : "Savage Cutie",
 		"role" : "tank",
 		"stars" : 2,
@@ -2228,7 +2228,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"frost_giant" : {
+*	"frost_giant" : {
 		"name" : "Frost Giant",
 		"role" : "damage",
 		"stars" : 1,
@@ -2311,7 +2311,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"spikey_dragon" : {
+*	"spikey_dragon" : {
 		"name" : "Spikey Dragon",
 		"role" : "damage",
 		"stars" : 3,
@@ -2393,7 +2393,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"dark_horse" : {
+*	"dark_horse" : {
 		"name" : "Dark Horse",
 		"role" : "tank",
 		"stars" : 3,
@@ -2475,7 +2475,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"pixie_queen" : {
+*	"pixie_queen" : {
 		"name" : "Pixie Queen",
 		"role" : "damage",
 		"stars" : 3,
@@ -2557,7 +2557,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"rabid_dragon" : {
+*	"rabid_dragon" : {
 		"name" : "Rabid Dragon",
 		"role" : "damage",
 		"stars" : 3,
@@ -2639,7 +2639,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"orc_monk" : {
+*	"orc_monk" : {
 		"name" : "Orc Monk",
 		"role" : "tank",
 		"stars" : 1,
@@ -2721,7 +2721,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"dwarven_archer" : {
+*	"dwarven_archer" : {
 		"name" : "Dwarven Archer",
 		"role" : "damage",
 		"stars" : 3,
@@ -2803,7 +2803,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"storm_drake" : {
+*	"storm_drake" : {
 		"name" : "Storm Drake",
 		"role" : "damage",
 		"stars" : 2,
@@ -2885,7 +2885,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"wild_satyr" : {
+*	"wild_satyr" : {
 		"name" : "Wild Satyr",
 		"role" : "support",
 		"stars" : 3,
@@ -2967,7 +2967,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"skeleton_king" : {
+*	"skeleton_king" : {
 		"name" : "Skeleton King",
 		"role" : "support",
 		"stars" : 1,
@@ -3049,7 +3049,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"unicorgi" : {
+*	"unicorgi" : {
 		"name" : "Unicorgi",
 		"role" : "damage",
 		"stars" : 2,
@@ -3131,7 +3131,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"golden_genie" : {
+*	"golden_genie" : {
 		"name" : "Golden Genie",
 		"role" : "damage",
 		"stars" : 3,
@@ -3213,7 +3213,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"spirit_wolf" : {
+*	"spirit_wolf" : {
 		"name" : "Spirit Wolf",
 		"role" : "control",
 		"stars" : 1,
@@ -3295,7 +3295,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"rot_beard" : {
+*	"rot_beard" : {
 		"name" : "Rot Beard",
 		"role" : "damage",
 		"stars" : 3,
@@ -3377,7 +3377,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"king_kaiju" : {
+*	"king_kaiju" : {
 		"name" : "King Kaiju",
 		"role" : "damage",
 		"stars" : 2,
@@ -3459,7 +3459,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"goblin_trio" : {
+*	"goblin_trio" : {
 		"name" : "Goblin Trio",
 		"role" : "damage",
 		"stars" : 3,
@@ -3541,7 +3541,7 @@ var heroes = {
 			"fire" : 100
 		}
 	},
-	"cyclops_shaman" : {
+*	"cyclops_shaman" : {
 		"name" : "Cyclops Shaman",
 		"role" : "support",
 		"stars" : 1,

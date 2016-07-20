@@ -2870,7 +2870,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lifedrinker" : {
+*	"lifedrinker" : {
 		"name" : "Lifedrinker",
 		"color" : "purple",
 		"type" : "gear",
@@ -2899,7 +2899,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lifedrinker_scroll" : {
+*	"lifedrinker_scroll" : {
 		"name" : "Lifedrinker Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -2928,7 +2928,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_lifedrinker_scroll" : {
+*	"scrap_of_a_lifedrinker_scroll" : {
 		"name" : "Scrap of a Lifedrinker Scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -3189,7 +3189,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_power_of_science" : {
+*	"the_power_of_science" : {
 		"name" : "The Power of SCIENCE",
 		"color" : "orange",
 		"type" : "gear",
@@ -3218,7 +3218,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"peter_pipers_pepper_spray" : {
+*	"peter_pipers_pepper_spray" : {
 		"name" : "Peter Piper's Pepper Spray",
 		"color" : "orange",
 		"type" : "gear",
@@ -3247,7 +3247,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_peter_pipers_pepper_spray" : {
+*	"scrap_of_peter_pipers_pepper_spray" : {
 		"name" : "Scrap of Peter Piper's Pepper Spray",
 		"color" : "orange",
 		"type" : "scrap",
@@ -3276,7 +3276,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"swordy_mcepicpants" : {
+*	"swordy_mcepicpants" : {
 		"name" : "Swordy McEpicPants",
 		"color" : "purple",
 		"type" : "gear",
@@ -3305,7 +3305,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"bunny_slippers" : {
+*	"bunny_slippers" : {
 		"name" : "Bunny Slippers",
 		"color" : "purple",
 		"type" : "crafting_item",
@@ -3334,7 +3334,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_bunny_slippers" : {
+*	"scrap_of_bunny_slippers" : {
 		"name" : "Scrap of Bunny Slippers",
 		"color" : "purple",
 		"type" : "scrap",
@@ -3363,7 +3363,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"chugg_boots" : {
+*	"chugg_boots" : {
 		"name" : "CHUGG Boots",
 		"color" : "purple",
 		"type" : "gear",
@@ -3392,7 +3392,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"dragon_scale" : {
+*	"dragon_scale" : {
 		"name" : "Dragon Scale",
 		"color" : "purple",
 		"type" : "gear",
@@ -3421,7 +3421,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"antimagic_shell" : {
+*	"antimagic_shell" : {
 		"name" : "Anti-Magic Shell",
 		"color" : "purple",
 		"type" : "gear",
@@ -3450,7 +3450,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_antimagic_shell" : {
+*	"scrap_of_antimagic_shell" : {
 		"name" : "Scrap of Anti-Magic Shell",
 		"color" : "purple",
 		"type" : "scrap",
@@ -3479,7 +3479,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"self_preserver" : {
+*	"self_preserver" : {
 		"name" : "Self Preserver",
 		"color" : "purple",
 		"type" : "gear",
@@ -3508,7 +3508,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_self_preserver" : {
+*	"scrap_of_a_self_preserver" : {
 		"name" : "Scrap of a Self Preserver",
 		"color" : "purple",
 		"type" : "scrap",
@@ -3537,7 +3537,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"mystical_elven_sh*t" : {
+*	"mystical_elven_sh*t" : {
 		"name" : "Mystical Elven Sh*t",
 		"color" : "orange",
 		"type" : "gear",
@@ -3566,7 +3566,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"extreme_fad_diet" : {
+*	"extreme_fad_diet" : {
 		"name" : "Extreme Fad Diet",
 		"color" : "purple",
 		"type" : "gear",
@@ -3595,7 +3595,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_an_extreme_fad_diet" : {
+*	"scrap_of_an_extreme_fad_diet" : {
 		"name" : "Scrap of an Extreme Fad Diet",
 		"color" : "purple",
 		"type" : "scrap",
@@ -3624,7 +3624,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"loaded_die" : {
+*	"loaded_die" : {
 		"name" : "Loaded Die",
 		"color" : "white",
 		"type" : "gear",
@@ -3653,7 +3653,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"wand_of_gold_sparkles" : {
+*	"wand_of_gold_sparkles" : {
 		"name" : "Wand of Gold Sparkles",
 		"color" : "green",
 		"type" : "gear",
@@ -3682,7 +3682,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"chunky_femur" : {
+*	"chunky_femur" : {
 		"name" : "Chunky Femur",
 		"color" : "white",
 		"type" : "gear",
@@ -3711,7 +3711,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"chunky_femur_scroll" : {
+*	"chunky_femur_scroll" : {
 		"name" : "Chunky Femur Scroll",
 		"color" : "white",
 		"type" : "scroll",
@@ -3740,7 +3740,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"staff_of_boss_fighting" : {
+*	"staff_of_boss_fighting" : {
 		"name" : "Staff of Boss Fighting",
 		"color" : "blue",
 		"type" : "gear",
@@ -3769,7 +3769,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_staff_of_boss_fighting" : {
+*	"scrap_of_a_staff_of_boss_fighting" : {
 		"name" : "Scrap of a Staff of Boss Fighting",
 		"color" : "blue",
 		"type" : "scrap",
@@ -3798,7 +3798,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"sacred_codex" : {
+*	"sacred_codex" : {
 		"name" : "Sacred Codex",
 		"color" : "blue",
 		"type" : "gear",
@@ -3827,7 +3827,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_sacred_codex" : {
+*	"scrap_of_a_sacred_codex" : {
 		"name" : "Scrap of a Sacred Codex",
 		"color" : "blue",
 		"type" : "scrap",
@@ -3856,7 +3856,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"laser_pointer" : {
+*	"laser_pointer" : {
 		"name" : "Laser Pointer",
 		"color" : "blue",
 		"type" : "gear",
@@ -3885,7 +3885,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"laser_pointer_scroll" : {
+*	"laser_pointer_scroll" : {
 		"name" : "Laser Pointer Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -3914,7 +3914,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_laser_pointer_scroll" : {
+*	"scrap_of_a_laser_pointer_scroll" : {
 		"name" : "Scrap of a Laser Pointer Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -3943,7 +3943,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"rod_of_tasing" : {
+*	"rod_of_tasing" : {
 		"name" : "Rod of Tasing",
 		"color" : "blue",
 		"type" : "gear",
@@ -3972,7 +3972,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"artifact_of_unimaginable_power" : {
+*	"artifact_of_unimaginable_power" : {
 		"name" : "Artifact of Unimaginable Power",
 		"color" : "green",
 		"type" : "gear",
@@ -4001,7 +4001,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"hippy_glo_sticks" : {
+*	"hippy_glo_sticks" : {
 		"name" : "Hippy Glo Sticks",
 		"color" : "green",
 		"type" : "gear",
@@ -4030,7 +4030,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"necronomicon" : {
+*	"necronomicon" : {
 		"name" : "Necronomicon",
 		"color" : "blue",
 		"type" : "gear",
@@ -4059,7 +4059,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"necronomicon_scroll" : {
+*	"necronomicon_scroll" : {
 		"name" : "Necronomicon Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -4088,7 +4088,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_necronomicon_scroll" : {
+*	"scrap_of_a_necronomicon_scroll" : {
 		"name" : "Scrap of a Necronomicon Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -4117,7 +4117,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"laser_visor" : {
+*	"laser_visor" : {
 		"name" : "Laser Visor",
 		"color" : "purple",
 		"type" : "gear",
@@ -4146,7 +4146,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"orb_of_everlasting_flavor" : {
+*	"orb_of_everlasting_flavor" : {
 		"name" : "Orb of Everlasting Flavor",
 		"color" : "blue",
 		"type" : "gear",
@@ -4175,7 +4175,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"orb_of_everlasting_flavor_scroll" : {
+*	"orb_of_everlasting_flavor_scroll" : {
 		"name" : "Orb of Everlasting Flavor Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -4204,7 +4204,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_an_orb_of_everlasting_flavor_scroll" : {
+*	"scrap_of_an_orb_of_everlasting_flavor_scroll" : {
 		"name" : "Scrap of an Orb of Everlasting Flavor Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -4233,7 +4233,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"framed_diploma" : {
+*	"framed_diploma" : {
 		"name" : "Framed Diploma",
 		"color" : "purple",
 		"type" : "gear",
@@ -4262,7 +4262,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_framed_diploma" : {
+*	"scrap_of_a_framed_diploma" : {
 		"name" : "Scrap of a Framed Diploma",
 		"color" : "purple",
 		"type" : "scrap",
@@ -4291,7 +4291,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"shiny_bottlecap" : {
+*	"shiny_bottlecap" : {
 		"name" : "Shiny Bottlecap",
 		"color" : "green",
 		"type" : "gear",
@@ -4320,7 +4320,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scroll_of_a_bottle_cap" : {
+*	"scroll_of_a_bottle_cap" : {
 		"name" : "Scroll of a Bottle Cap",
 		"color" : "green",
 		"type" : "scroll",
@@ -4349,7 +4349,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_1_ring" : {
+*	"the_1_ring" : {
 		"name" : "The 1 Ring",
 		"color" : "purple",
 		"type" : "gear",
@@ -4378,7 +4378,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_1_ring_scroll" : {
+*	"the_1_ring_scroll" : {
 		"name" : "The 1 Ring Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -4407,7 +4407,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_the_1_ring_scroll" : {
+*	"scrap_of_the_1_ring_scroll" : {
 		"name" : "Scrap of The 1 Ring Scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -4436,7 +4436,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"27_pocket_protector" : {
+*	"27_pocket_protector" : {
 		"name" : "+27 Pocket Protector",
 		"color" : "purple",
 		"type" : "gear",
@@ -4465,7 +4465,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"27_pocket_protector_scroll" : {
+*	"27_pocket_protector_scroll" : {
 		"name" : "+27 Pocket Protector Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -4494,7 +4494,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_27_pocket_protector_scroll" : {
+*	"scrap_of_a_27_pocket_protector_scroll" : {
 		"name" : "Scrap of a +27 Pocket Protector Scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -4523,7 +4523,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"laser_sword" : {
+*	"laser_sword" : {
 		"name" : "Laser Sword",
 		"color" : "purple",
 		"type" : "gear",
@@ -4552,7 +4552,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"rod_of_witty_banter" : {
+*	"rod_of_witty_banter" : {
 		"name" : "Rod of Witty Banter",
 		"color" : "purple",
 		"type" : "gear",
@@ -4581,7 +4581,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"rod_of_witty_banter_scroll" : {
+*	"rod_of_witty_banter_scroll" : {
 		"name" : "Rod of Witty Banter Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -4610,7 +4610,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_rod_of_witty_banter_scroll" : {
+*	"scrap_of_a_rod_of_witty_banter_scroll" : {
 		"name" : "Scrap of a Rod of Witty Banter Scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -4639,7 +4639,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"holy_hand_grenade" : {
+*	"holy_hand_grenade" : {
 		"name" : "Holy Hand Grenade",
 		"color" : "purple",
 		"type" : "gear",
@@ -4668,7 +4668,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"boots_made_for_walkin" : {
+*	"boots_made_for_walkin" : {
 		"name" : "Boots Made for Walkin'",
 		"color" : "purple",
 		"type" : "gear",
@@ -4697,7 +4697,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_boots_made_for_walkin" : {
+*	"scrap_of_boots_made_for_walkin" : {
 		"name" : "Scrap of Boots Made for Walkin'",
 		"color" : "purple",
 		"type" : "scrap",
@@ -4726,7 +4726,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"laser_kitten" : {
+*	"laser_kitten" : {
 		"name" : "Laser Kitten",
 		"color" : "purple",
 		"type" : "gear",
@@ -4755,7 +4755,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"girdle_of_victory" : {
+*	"girdle_of_victory" : {
 		"name" : "Girdle of Victory",
 		"color" : "orange",
 		"type" : "gear",
@@ -4784,7 +4784,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"disk_of_some_power" : {
+*	"disk_of_some_power" : {
 		"name" : "Disk of Some Power",
 		"color" : "purple",
 		"type" : "gear",
@@ -4813,7 +4813,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_disk_of_some_power" : {
+*	"scrap_of_a_disk_of_some_power" : {
 		"name" : "Scrap of a Disk of Some Power",
 		"color" : "purple",
 		"type" : "scrap",
@@ -4842,7 +4842,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"high_tea" : {
+*	"high_tea" : {
 		"name" : "High Tea",
 		"color" : "orange",
 		"type" : "gear",
@@ -4871,7 +4871,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_high_tea" : {
+*	"scrap_of_high_tea" : {
 		"name" : "Scrap of High Tea",
 		"color" : "orange",
 		"type" : "scrap",
@@ -4900,7 +4900,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"overpowering_fragrance" : {
+*	"overpowering_fragrance" : {
 		"name" : "Overpowering Fragrance",
 		"color" : "purple",
 		"type" : "gear",
@@ -4929,7 +4929,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"shot_in_the_arm" : {
+*	"shot_in_the_arm" : {
 		"name" : "Shot in the Arm",
 		"color" : "blue",
 		"type" : "gear",
@@ -4958,7 +4958,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"snake_oil" : {
+*	"snake_oil" : {
 		"name" : "Snake Oil",
 		"color" : "blue",
 		"type" : "gear",
@@ -4987,7 +4987,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"jar_of_kitten_tears" : {
+*	"jar_of_kitten_tears" : {
 		"name" : "Jar of Kitten Tears",
 		"color" : "orange",
 		"type" : "gear",
@@ -5016,7 +5016,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"roll_of_duct_tape" : {
+*	"roll_of_duct_tape" : {
 		"name" : "Roll of Duct Tape",
 		"color" : "orange",
 		"type" : "crafting_item",
@@ -5045,7 +5045,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_roll_of_duct_tape" : {
+*	"scrap_of_a_roll_of_duct_tape" : {
 		"name" : "Scrap of a Roll of Duct Tape",
 		"color" : "orange",
 		"type" : "scrap",
@@ -5074,7 +5074,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"motivational_cassette" : {
+*	"motivational_cassette" : {
 		"name" : "Motivational Cassette",
 		"color" : "purple",
 		"type" : "gear",
@@ -5103,7 +5103,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_forbidden_trivia" : {
+*	"tome_of_forbidden_trivia" : {
 		"name" : "Tome of Forbidden Trivia",
 		"color" : "blue",
 		"type" : "gear",
@@ -5132,7 +5132,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_trivia_scroll" : {
+*	"tome_of_trivia_scroll" : {
 		"name" : "Tome of Trivia Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -5161,7 +5161,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_tome_of_trivia_scroll" : {
+*	"scrap_of_a_tome_of_trivia_scroll" : {
 		"name" : "Scrap of a Tome of Trivia Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -5190,7 +5190,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_eldritch_goingson" : {
+*	"tome_of_eldritch_goingson" : {
 		"name" : "Tome of Eldritch Goings-on",
 		"color" : "purple",
 		"type" : "gear",
@@ -5219,7 +5219,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_unspeakable_hearsay" : {
+*	"tome_of_unspeakable_hearsay" : {
 		"name" : "Tome of Unspeakable Hearsay",
 		"color" : "purple",
 		"type" : "gear",
@@ -5248,7 +5248,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_nasty_behavior" : {
+*	"tome_of_nasty_behavior" : {
 		"name" : "Tome of Nasty Behavior",
 		"color" : "purple",
 		"type" : "gear",
@@ -5277,7 +5277,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"daisy_chainsaw" : {
+*	"daisy_chainsaw" : {
 		"name" : "Daisy Chainsaw",
 		"color" : "green",
 		"type" : "crafting_item",
@@ -5306,7 +5306,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"purple_pills_of_potency" : {
+*	"purple_pills_of_potency" : {
 		"name" : "Purple Pills of Potency",
 		"color" : "purple",
 		"type" : "gear",
@@ -5335,7 +5335,7 @@ var gear = {
 			"expertise" : 2
 		}
 	},
-	"wizardry_for_idiots" : {
+*	"wizardry_for_idiots" : {
 		"name" : "Wizardry for Idiots",
 		"color" : "purple",
 		"type" : "gear",
@@ -5364,7 +5364,7 @@ var gear = {
 			"expertise" : 1
 		}
 	},
-	"scrap_of_wizardry_for_idiots" : {
+*	"scrap_of_wizardry_for_idiots" : {
 		"name" : "Scrap of Wizardry for Idiots",
 		"color" : "purple",
 		"type" : "scrap",
@@ -5393,7 +5393,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"chaps_of_endurance" : {
+*	"chaps_of_endurance" : {
 		"name" : "Chaps of Endurance",
 		"color" : "green",
 		"type" : "gear",
@@ -5422,7 +5422,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"rod_of_shenanigans" : {
+*	"rod_of_shenanigans" : {
 		"name" : "Rod of Shenanigans",
 		"color" : "blue",
 		"type" : "gear",
@@ -5451,7 +5451,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tenfoot_pole" : {
+*	"tenfoot_pole" : {
 		"name" : "Ten-Foot Pole",
 		"color" : "green",
 		"type" : "gear",
@@ -5480,7 +5480,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tenfoot_pole_scroll" : {
+*	"tenfoot_pole_scroll" : {
 		"name" : "Ten-Foot Pole Scroll",
 		"color" : "green",
 		"type" : "scroll",
@@ -5509,7 +5509,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"butter_knife" : {
+*	"butter_knife" : {
 		"name" : "Butter Knife",
 		"color" : "green",
 		"type" : "gear",
@@ -5538,7 +5538,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"dirk_of_disemboweling" : {
+*	"dirk_of_disemboweling" : {
 		"name" : "Dirk of Disemboweling",
 		"color" : "purple",
 		"type" : "gear",
@@ -5567,7 +5567,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"dirk_of_disemboweling_scroll" : {
+*	"dirk_of_disemboweling_scroll" : {
 		"name" : "Dirk of Disemboweling Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -5596,7 +5596,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_dirk_of_disemboweling_scroll" : {
+*	"scrap_of_a_dirk_of_disemboweling_scroll" : {
 		"name" : "Scrap of a Dirk of Disemboweling_scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -5625,7 +5625,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_power_of_medicine" : {
+*	"the_power_of_medicine" : {
 		"name" : "The Power of Medicine",
 		"color" : "green",
 		"type" : "gear",
@@ -5654,7 +5654,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scroll_of_the_power_of_medicine" : {
+*	"scroll_of_the_power_of_medicine" : {
 		"name" : "Scroll of The Power of Medicine",
 		"color" : "green",
 		"type" : "scroll",
@@ -5683,7 +5683,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"pretty_sweet_cape" : {
+*	"pretty_sweet_cape" : {
 		"name" : "Pretty Sweet Cape",
 		"color" : "green",
 		"type" : "gear",
@@ -5712,7 +5712,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"pretty_sweet_cape_scroll" : {
+*	"pretty_sweet_cape_scroll" : {
 		"name" : "Pretty Sweet Cape Scroll",
 		"color" : "green",
 		"type" : "scroll",
@@ -5741,7 +5741,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"glass_case_of_emotion" : {
+*	"glass_case_of_emotion" : {
 		"name" : "Glass Case of Emotion",
 		"color" : "orange",
 		"type" : "gear",
@@ -5770,7 +5770,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"thinking_cap" : {
+*	"thinking_cap" : {
 		"name" : "Thinking Cap",
 		"color" : "blue",
 		"type" : "gear",
@@ -5799,7 +5799,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"thinking_cap_scroll" : {
+*	"thinking_cap_scroll" : {
 		"name" : "Thinking Cap Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -5828,7 +5828,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_thinking_cap_scroll" : {
+*	"scrap_of_a_thinking_cap_scroll" : {
 		"name" : "Scrap of a Thinking Cap Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -5857,7 +5857,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_power_of_positive_thinking" : {
+*	"the_power_of_positive_thinking" : {
 		"name" : "The Power of Positive Thinking",
 		"color" : "blue",
 		"type" : "gear",
@@ -5886,7 +5886,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_power_of_friendship" : {
+*	"the_power_of_friendship" : {
 		"name" : "The Power of Friendship",
 		"color" : "purple",
 		"type" : "gear",
@@ -5915,7 +5915,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_power_of_love" : {
+*	"the_power_of_love" : {
 		"name" : "The Power of Love",
 		"color" : "purple",
 		"type" : "gear",
@@ -5944,7 +5944,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"purifying_tuning_fork" : {
+*	"purifying_tuning_fork" : {
 		"name" : "Purifying Tuning Fork",
 		"color" : "orange",
 		"type" : "gear",
@@ -5981,7 +5981,7 @@ var gear = {
 		"level" : 81,
 		"stats" : {
 			"max_health" : 0,
-			"health_regen" : 0,
+            "health_regen" : 0,
 			"energy_regen" : 0,
 			"strength" : 0,
 			"agility" : 0,
@@ -6031,7 +6031,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"magic_eight_ball" : {
+*	"magic_eight_ball" : {
 		"name" : "Magic Eight Ball",
 		"color" : "green",
 		"type" : "gear",
@@ -6060,7 +6060,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"magic_eight_ball_scroll" : {
+*	"magic_eight_ball_scroll" : {
 		"name" : "Magic Eight Ball Scroll",
 		"color" : "green",
 		"type" : "scroll",
@@ -6089,7 +6089,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"stolen_sneakers" : {
+*	"stolen_sneakers" : {
 		"name" : "Stolen Sneakers",
 		"color" : "white",
 		"type" : "gear",
@@ -6118,7 +6118,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"goblin_whacker" : {
+*	"goblin_whacker" : {
 		"name" : "Goblin Whacker",
 		"color" : "white",
 		"type" : "gear",
@@ -6147,7 +6147,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"goblin_whacker_scroll" : {
+*	"goblin_whacker_scroll" : {
 		"name" : "Goblin Whacker Scroll",
 		"color" : "white",
 		"type" : "scroll",
@@ -6176,7 +6176,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"swash_buckler" : {
+*	"swash_buckler" : {
 		"name" : "Swash Buckler",
 		"color" : "white",
 		"type" : "gear",
@@ -6205,7 +6205,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"plastic_vampire_teeth" : {
+*	"plastic_vampire_teeth" : {
 		"name" : "Plastic Vampire Teeth",
 		"color" : "green",
 		"type" : "gear",
@@ -6234,7 +6234,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"plastic_vampire_teeth_scroll" : {
+*	"plastic_vampire_teeth_scroll" : {
 		"name" : "Plastic Vampire Teeth Scroll",
 		"color" : "green",
 		"type" : "scroll",
@@ -6263,7 +6263,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"flail_of_total_devastation" : {
+*	"flail_of_total_devastation" : {
 		"name" : "Flail of Total Devastation",
 		"color" : "blue",
 		"type" : "gear",
@@ -6292,7 +6292,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"flail_of_devastation_scroll" : {
+*	"flail_of_devastation_scroll" : {
 		"name" : "Flail of Devastation Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -6321,7 +6321,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_flail_of_total_devastation_scroll" : {
+*	"scrap_of_a_flail_of_total_devastation_scroll" : {
 		"name" : "Scrap of a Flail of Total Devastation Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -6350,7 +6350,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"arcane_slacks" : {
+*	"arcane_slacks" : {
 		"name" : "Arcane Slacks",
 		"color" : "green",
 		"type" : "gear",
@@ -6379,7 +6379,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"plucky_heroines_shortbow" : {
+*	"plucky_heroines_shortbow" : {
 		"name" : "Plucky Heroine's Shortbow",
 		"color" : "green",
 		"type" : "gear",
@@ -6408,7 +6408,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"shovel" : {
+*	"shovel" : {
 		"name" : "S.H.O.V.E.L.",
 		"color" : "purple",
 		"type" : "gear",
@@ -6437,7 +6437,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"the_ugly_stick" : {
+*	"the_ugly_stick" : {
 		"name" : "The Ugly Stick",
 		"color" : "blue",
 		"type" : "gear",
@@ -6466,7 +6466,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_an_ugly_stick" : {
+*	"scrap_of_an_ugly_stick" : {
 		"name" : "Scrap of an Ugly Stick",
 		"color" : "blue",
 		"type" : "scrap",
@@ -6495,7 +6495,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"shovel_scroll" : {
+*	"shovel_scroll" : {
 		"name" : "S.H.O.V.E.L. Scroll",
 		"color" : "purple",
 		"type" : "scroll",
@@ -6524,7 +6524,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_shovel_scroll" : {
+*	"scrap_of_a_shovel_scroll" : {
 		"name" : "Scrap of a S.H.O.V.E.L. Scroll",
 		"color" : "purple",
 		"type" : "scroll_scrap",
@@ -6553,7 +6553,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lavishly_adorned_rapier" : {
+*	"lavishly_adorned_rapier" : {
 		"name" : "Lavishly Adorned Rapier",
 		"color" : "purple",
 		"type" : "gear",
@@ -6582,7 +6582,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"yodeling_sword" : {
+*	"yodeling_sword" : {
 		"name" : "Yodeling Sword",
 		"color" : "orange",
 		"type" : "gear",
@@ -6611,7 +6611,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"war_sandals" : {
+*	"war_sandals" : {
 		"name" : "War Sandals",
 		"color" : "purple",
 		"type" : "gear",
@@ -6640,7 +6640,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_war_sandals" : {
+*	"scrap_of_war_sandals" : {
 		"name" : "Scrap of War Sandals",
 		"color" : "purple",
 		"type" : "scrap",
@@ -6669,7 +6669,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"dead_eye" : {
+*	"dead_eye" : {
 		"name" : "Dead Eye",
 		"color" : "blue",
 		"type" : "gear",
@@ -6698,7 +6698,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_dead_eye" : {
+*	"scrap_of_dead_eye" : {
 		"name" : "Scrap of Dead Eye",
 		"color" : "blue",
 		"type" : "scrap",
@@ -6727,7 +6727,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"ring_of_the_squirrel" : {
+*	"ring_of_the_squirrel" : {
 		"name" : "Ring of the Squirrel",
 		"color" : "orange",
 		"type" : "gear",
@@ -6756,7 +6756,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_ring_of_the_squirrel" : {
+*	"scrap_of_a_ring_of_the_squirrel" : {
 		"name" : "Scrap of a Ring of the Squirrel",
 		"color" : "orange",
 		"type" : "scrap",
@@ -6785,7 +6785,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"blacksteel_blade" : {
+*	"blacksteel_blade" : {
 		"name" : "Blacksteel Blade",
 		"color" : "purple",
 		"type" : "gear",
@@ -6814,7 +6814,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"readin_rain_bow" : {
+*	"readin_rain_bow" : {
 		"name" : "Readin' Rain Bow",
 		"color" : "orange",
 		"type" : "gear",
@@ -6843,7 +6843,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"photo_bomb" : {
+*	"photo_bomb" : {
 		"name" : "Photo Bomb",
 		"color" : "orange",
 		"type" : "gear",
@@ -6872,7 +6872,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_photo_bomb" : {
+*	"scrap_of_a_photo_bomb" : {
 		"name" : "Scrap of a Photo Bomb",
 		"color" : "orange",
 		"type" : "scrap",
@@ -6901,7 +6901,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"bowie_knife" : {
+*	"bowie_knife" : {
 		"name" : "Bowie Knife",
 		"color" : "purple",
 		"type" : "gear",
@@ -6930,7 +6930,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_bowie_knife" : {
+*	"scrap_of_a_bowie_knife" : {
 		"name" : "Scrap of a Bowie Knife",
 		"color" : "purple",
 		"type" : "scrap",
@@ -6959,7 +6959,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"rattling_sabre" : {
+*	"rattling_sabre" : {
 		"name" : "Rattling Sabre",
 		"color" : "orange",
 		"type" : "gear",
@@ -6988,7 +6988,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"liche_finger" : {
+*	"liche_finger" : {
 		"name" : "Liche Finger",
 		"color" : "purple",
 		"type" : "gear",
@@ -7017,7 +7017,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"wicked_mullet" : {
+*	"wicked_mullet" : {
 		"name" : "Wicked Mullet",
 		"color" : "orange",
 		"type" : "gear",
@@ -7046,7 +7046,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"decoder_ring" : {
+*	"decoder_ring" : {
 		"name" : "Decoder Ring",
 		"color" : "blue",
 		"type" : "gear",
@@ -7075,7 +7075,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scroll_of_a_decoder_ring" : {
+*	"scroll_of_a_decoder_ring" : {
 		"name" : "Scroll of a Decoder Ring",
 		"color" : "blue",
 		"type" : "scroll",
@@ -7104,7 +7104,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_decoder_ring_scroll" : {
+*	"scrap_of_a_decoder_ring_scroll" : {
 		"name" : "Scrap of a Decoder Ring Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -7133,7 +7133,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"death_metal_blade" : {
+*	"death_metal_blade" : {
 		"name" : "Death Metal Blade",
 		"color" : "blue",
 		"type" : "gear",
@@ -7162,7 +7162,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"death_metal_blade_scroll" : {
+*	"death_metal_blade_scroll" : {
 		"name" : "Death Metal Blade Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -7191,7 +7191,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_death_metal_blade_scroll" : {
+*	"scrap_of_a_death_metal_blade_scroll" : {
 		"name" : "Scrap of a Death Metal Blade Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -7220,7 +7220,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lens_of_decryption" : {
+*	"lens_of_decryption" : {
 		"name" : "Lens of Decryption",
 		"color" : "purple",
 		"type" : "gear",
@@ -7249,7 +7249,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lead_zeppelin" : {
+*	"lead_zeppelin" : {
 		"name" : "Lead Zeppelin",
 		"color" : "blue",
 		"type" : "gear",
@@ -7278,7 +7278,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"lead_zeppelin_scroll" : {
+*	"lead_zeppelin_scroll" : {
 		"name" : "Lead Zeppelin Scroll",
 		"color" : "blue",
 		"type" : "scroll",
@@ -7307,7 +7307,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_lead_zeppelin_scroll" : {
+*	"scrap_of_a_lead_zeppelin_scroll" : {
 		"name" : "Scrap of a Lead Zeppelin Scroll",
 		"color" : "blue",
 		"type" : "scroll_scrap",
@@ -7336,7 +7336,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"svens_sword_of_dooooom" : {
+*	"svens_sword_of_dooooom" : {
 		"name" : "Sven's Sword of DOOOOOM",
 		"color" : "purple",
 		"type" : "gear",
@@ -7365,7 +7365,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"vampire_bunnyears" : {
+*	"vampire_bunnyears" : {
 		"name" : "Vampire Bunnyears",
 		"color" : "green",
 		"type" : "gear",
@@ -7394,7 +7394,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"vampire_bunny_ears_scroll" : {
+*	"vampire_bunny_ears_scroll" : {
 		"name" : "Vampire Bunny Ears Scroll",
 		"color" : "green",
 		"type" : "scroll",
@@ -7423,7 +7423,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"helm_of_the_raging_bear" : {
+*	"helm_of_the_raging_bear" : {
 		"name" : "Helm of the Raging Bear",
 		"color" : "purple",
 		"type" : "gear",
@@ -7452,7 +7452,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_helm_of_the_raging_bear" : {
+*	"scrap_of_a_helm_of_the_raging_bear" : {
 		"name" : "Scrap of a Helm of the Raging Bear",
 		"color" : "purple",
 		"type" : "scrap",
@@ -7481,7 +7481,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"monster_hunter_armor" : {
+*	"monster_hunter_armor" : {
 		"name" : "Monster Hunter Armor",
 		"color" : "orange",
 		"type" : "gear",
@@ -7510,7 +7510,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"sweatband_of_bewitching" : {
+*	"sweatband_of_bewitching" : {
 		"name" : "Sweatband of Bewitching",
 		"color" : "orange",
 		"type" : "crafting_item",
@@ -7539,7 +7539,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_sweatband_of_bewitching" : {
+*	"scrap_of_a_sweatband_of_bewitching" : {
 		"name" : "Scrap of a Sweatband of Bewitching",
 		"color" : "orange",
 		"type" : "scrap",
@@ -7568,7 +7568,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"axe_of_major_riffage" : {
+*	"axe_of_major_riffage" : {
 		"name" : "Axe of Major Riffage",
 		"color" : "purple",
 		"type" : "gear",
@@ -7597,7 +7597,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_an_axe_of_major_riffage" : {
+*	"scrap_of_an_axe_of_major_riffage" : {
 		"name" : "Scrap of an Axe of Major Riffage",
 		"color" : "purple",
 		"type" : "scrap",
@@ -7626,7 +7626,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"ivy_league_haircut" : {
+*	"ivy_league_haircut" : {
 		"name" : "Ivy League Haircut",
 		"color" : "orange",
 		"type" : "gear",
@@ -7655,7 +7655,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"glasses_of_lenslessness" : {
+*	"glasses_of_lenslessness" : {
 		"name" : "Glasses of Lenslessness",
 		"color" : "orange",
 		"type" : "gear",
@@ -7684,7 +7684,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_glasses_of_lenslessness" : {
+*	"scrap_of_glasses_of_lenslessness" : {
 		"name" : "Scrap of Glasses of Lenslessness",
 		"color" : "orange",
 		"type" : "scrap",
@@ -7713,7 +7713,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"healthy_dose_of_skepticism" : {
+*	"healthy_dose_of_skepticism" : {
 		"name" : "Healthy Dose of Skepticism",
 		"color" : "purple",
 		"type" : "gear",
@@ -7742,7 +7742,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_healthy_dose_of_skepticism" : {
+*	"scrap_of_a_healthy_dose_of_skepticism" : {
 		"name" : "Scrap of a Healthy Dose of Skepticism",
 		"color" : "purple",
 		"type" : "scrap",
@@ -7771,7 +7771,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"championship_belt" : {
+*	"championship_belt" : {
 		"name" : "Championship Belt",
 		"color" : "purple",
 		"type" : "gear",
@@ -7800,7 +7800,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"tome_of_occult_nonsense" : {
+*	"tome_of_occult_nonsense" : {
 		"name" : "Tome of Occult Nonsense",
 		"color" : "purple",
 		"type" : "gear",
@@ -7829,7 +7829,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_a_tome_of_occult_nonsense" : {
+*	"scrap_of_a_tome_of_occult_nonsense" : {
 		"name" : "Scrap of a Tome of Occult Nonsense",
 		"color" : "purple",
 		"type" : "scrap",
@@ -7858,7 +7858,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"deerstalker_hat" : {
+*	"deerstalker_hat" : {
 		"name" : "Deerstalker Hat",
 		"color" : "orange",
 		"type" : "gear",
@@ -7887,7 +7887,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"helm_of_screaming_manface" : {
+*	"helm_of_screaming_manface" : {
 		"name" : "Helm of Screaming Manface",
 		"color" : "orange",
 		"type" : "gear",
@@ -7916,7 +7916,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"dragons_ballz" : {
+*	"dragons_ballz" : {
 		"name" : "Dragon's Ballz",
 		"color" : "purple",
 		"type" : "gear",
@@ -7945,7 +7945,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"knives_of_hackenslash" : {
+*	"knives_of_hackenslash" : {
 		"name" : "Knives of Hackenslash",
 		"color" : "orange",
 		"type" : "gear",
@@ -7974,7 +7974,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"untested_jetpack" : {
+*	"untested_jetpack" : {
 		"name" : "Untested Jetpack",
 		"color" : "orange",
 		"type" : "crafting_item",
@@ -8003,7 +8003,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"scrap_of_an_untested_jetpack" : {
+*	"scrap_of_an_untested_jetpack" : {
 		"name" : "Scrap of an Untested Jetpack",
 		"color" : "orange",
 		"type" : "scrap",
@@ -8032,7 +8032,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"cryptozoology" : {
+*	"cryptozoology" : {
 		"name" : "Cryptozoology",
 		"color" : "purple",
 		"type" : "gear",
@@ -8061,7 +8061,7 @@ var gear = {
 			"expertise" : 0
 		}
 	},
-	"unicorn_puke" : {
+*	"unicorn_puke" : {
 		"name" : "Unicorn Puke",
 		"color" : "orange",
 		"type" : "gear",
@@ -8091,3 +8091,37 @@ var gear = {
 		}
 	}
 };
+
+/*
+
+	},
+	"" : {
+		"name" : "",
+		"color" : "",
+		"type" : "gear",
+		"description" : "",
+		"level" : ,
+		"stats" : {
+			"max_health" : 0,
+			"health_regen" : 0,
+			"energy_regen" : 0,
+			"strength" : 0,
+			"agility" : 0,
+			"intellect" : 0,
+			"damage" : 0,
+			"skill_power" : 0,
+			"armor" : 0,
+			"magic_resistance" : 0,
+			"armor_penetration" : 0,
+			"magic_penetration" : 0,
+			"crit_rating" : 0,
+			"life_steal" : 0,
+			"dodge" : 0,
+			"accuracy" : 0,
+			"conservation" : 0,
+			"improve_healing" : 0,
+			"tenacity" : 0,
+			"expertise" : 0
+		}
+
+*/

@@ -343,7 +343,7 @@ var recipes = {
 			{ "item" : "scrap_of_a_kindness_scroll", "quantity" : 5 }
 		]
 	},
-	"lifedrinker" : {
+*	"lifedrinker" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "lifedrinker_scroll", "quantity" : 1 },
@@ -351,7 +351,7 @@ var recipes = {
 			{ "item" : "lifesipper", "quantity" : 1 }
 		]
 	},
-	"lifedrinker_scroll" : {
+*	"lifedrinker_scroll" : {
 		"cost" : 15000,
 		"materials" : [
 			{ "item" : "scrap_of_a_lifedrinker_scroll", "quantity" : 50 }
@@ -398,26 +398,26 @@ var recipes = {
 			{ "item" : "peter_pipers_pepper_spray", "quantity" : 1 }
 		]
 	},
-	"peter_pipers_pepper_spray" : {
+*	"peter_pipers_pepper_spray" : {
 		"cost" : 30000,
 		"materials" : [
 			{ "item" : "scrap_of_peter_pipers_pepper_spray", "quantity" : 50 }
 		]
 	},
-	"swordy_mcepicpants" : {
+*	"swordy_mcepicpants" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "bag_ohammers", "quantity" : 1 },
 			{ "item" : "bunny_slippers", "quantity" : 1 }
 		]
 	},
-	"bunny_slippers" : {
+*	"bunny_slippers" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_bunny_slippers", "quantity" : 20 }
 		]
 	},
-	"chugg_boots" : {
+*	"chugg_boots" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "vorpal_boomerang", "quantity" : 1 },
@@ -425,7 +425,7 @@ var recipes = {
 			{ "item" : "head_banger", "quantity" : 1 }
 		]
 	},
-	"dragon_scale" : {
+*	"dragon_scale" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "adamantium_tiara", "quantity" : 1 },
@@ -433,19 +433,19 @@ var recipes = {
 			{ "item" : "antimagic_shell", "quantity" : 1 }
 		]
 	},
-	"antimagic_shell" : {
+*	"antimagic_shell" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_antimagic_shell", "quantity" : 50 }
 		]
 	},
-	"self_preserver" : {
+*	"self_preserver" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_a_self_preserver", "quantity" : 50 }
 		]
 	},
-	"mystical_elven_sh*t" : {
+*	"mystical_elven_sh*t" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "self_preserver", "quantity" : 1 },
@@ -453,13 +453,13 @@ var recipes = {
 			{ "item" : "sandwich_of_unsurpassed_meatiness", "quantity" : 1 }
 		]
 	},
-	"extreme_fad_diet" : {
+*	"extreme_fad_diet" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_an_extreme_fad_diet", "quantity" : 50 }
 		]
 	},
-	"chunky_femur" : {
+*	"chunky_femur" : {
 		"cost" : 300,
 		"materials" : [
 			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
@@ -467,19 +467,19 @@ var recipes = {
 			{ "item" : "loaded_die", "quantity" : 1 }
 		]
 	},
-	"staff_of_boss_fighting" : {
+*	"staff_of_boss_fighting" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_staff_of_boss_fighting", "quantity" : 5 }
 		]
 	},
-	"sacred_codex" : {
+*	"sacred_codex" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_sacred_codex", "quantity" : 5 }
 		]
 	},
-	"laser_pointer" : {
+*	"laser_pointer" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "chunky_femur", "quantity" : 1 },
@@ -487,13 +487,13 @@ var recipes = {
 			{ "item" : "laser_pointer_scroll", "quantity" : 1 }
 		]
 	},
-	"laser_pointer_scroll" : {
+*	"laser_pointer_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_laser_pointer_scroll", "quantity" : 5 }
 		]
 	},
-	"rod_of_tasing" : {
+*	"rod_of_tasing" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "muscle_wax", "quantity" : 1 },
@@ -502,14 +502,14 @@ var recipes = {
 			{ "item" : "racing_stripes", "quantity" : 1 }
 		]
 	},
-	"hippy_glo_sticks" : {
+*	"hippy_glo_sticks" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "stickon_moustache", "quantity" : 1 },
 			{ "item" : "wand_of_gold_sparkles", "quantity" : 1 }
 		]
 	},
-	"necronomicon" : {
+*	"necronomicon" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "sacred_codex", "quantity" : 1 },
@@ -517,19 +517,19 @@ var recipes = {
 			{ "item" : "necronomicon_scroll", "quantity" : 1 }
 		]
 	},
-	"necronomicon_scroll" : {
+*	"necronomicon_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_necronomicon_scroll", "quantity" : 5 }
 		]
 	},
-	"laser_visor" : {
+*	"laser_visor" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "laser_pointer", "quantity" : 2 }
 		]
 	},
-	"orb_of_everlasting_flavor" : {
+*	"orb_of_everlasting_flavor" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "orb_of_everlasting_flavor_scroll", "quantity" : 1 },
@@ -538,19 +538,19 @@ var recipes = {
 			{ "item" : "hemp_bracelet", "quantity" : 1 }
 		]
 	},
-	"orb_of_everlasting_flavor_scroll" : {
+*	"orb_of_everlasting_flavor_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_an_orb_of_everlasting_flavor_scroll", "quantity" : 5 }
 		]
 	},
-	"framed_diploma" : {
+*	"framed_diploma" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_a_framed_diploma", "quantity" : 20 }
 		]
 	},
-	"shiny_bottlecap" : {
+*	"shiny_bottlecap" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "bit_onip", "quantity" : 1 },
@@ -558,7 +558,7 @@ var recipes = {
 			{ "item" : "fine_brie", "quantity" : 1 }
 		]
 	},
-	"the_1_ring" : {
+*	"the_1_ring" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "adamantium_tiara", "quantity" : 1 },
@@ -567,13 +567,13 @@ var recipes = {
 			{ "item" : "framed_diploma", "quantity" : 1 }
 		]
 	},
-	"the_1_ring_scroll" : {
+*	"the_1_ring_scroll" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_the_1_ring_scroll", "quantity" : 20 }
 		]
 	},
-	"27_pocket_protector" : {
+*	"27_pocket_protector" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "impractical_chestplate", "quantity" : 1 },
@@ -581,51 +581,51 @@ var recipes = {
 			{ "item" : "27_pocket_protector_scroll", "quantity" : 1 }
 		]
 	},
-	"27_pocket_protector_scroll" : {
+*	"27_pocket_protector_scroll" : {
 		"cost" : 15000,
 		"materials" : [
 			{ "item" : "scrap_of_a_27_pocket_protector_scroll", "quantity" : 50 }
 		]
 	},
-	"laser_sword" : {
+*	"laser_sword" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "laser_visor", "quantity" : 2 }
 		]
 	},
-	"rod_of_witty_banter" : {
+*	"rod_of_witty_banter" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "king_jeffs_crossbow", "quantity" : 2 },
 			{ "item" : "rod_of_witty_banter_scroll", "quantity" : 1 }
 		]
 	},
-	"rod_of_witty_banter_scroll" : {
+*	"rod_of_witty_banter_scroll" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_a_rod_of_witty_banter_scroll", "quantity" : 20 }
 		]
 	},
-	"holy_hand_grenade" : {
+*	"holy_hand_grenade" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "boots_made_for_walkin", "quantity" : 1 },
 			{ "item" : "staff_of_boss_fighting", "quantity" : 1 }
 		]
 	},
-	"boots_made_for_walkin" : {
+*	"boots_made_for_walkin" : {
 		"cost" : 15000,
 		"materials" : [
 			{ "item" : "scrap_of_boots_made_for_walkin", "quantity" : 50 }
 		]
 	},
-	"laser_kitten" : {
+*	"laser_kitten" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "laser_sword", "quantity" : 2 }
 		]
 	},
-	"girdle_of_victory" : {
+*	"girdle_of_victory" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "disk_of_some_power", "quantity" : 1 },
@@ -633,19 +633,19 @@ var recipes = {
 			{ "item" : "high_tea", "quantity" : 1 }
 		]
 	},
-	"disk_of_some_power" : {
+*	"disk_of_some_power" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_a_disk_of_some_power", "quantity" : 50 }
 		]
 	},
-	"high_tea" : {
+*	"high_tea" : {
 		"cost" : 30000,
 		"materials" : [
 			{ "item" : "scrap_of_high_tea", "quantity" : 50 }
 		]
 	},
-	"overpowering_fragrance" : {
+*	"overpowering_fragrance" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "enids_expensive_elixir", "quantity" : 1 },
@@ -654,14 +654,14 @@ var recipes = {
 			{ "item" : "shot_in_the_arm", "quantity" : 1 }
 		]
 	},
-	"shot_in_the_arm" : {
+*	"shot_in_the_arm" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "snake_oil", "quantity" : 1 },
 			{ "item" : "excaliburtreynolds", "quantity" : 1 }
 		]
 	},
-	"snake_oil" : {
+*	"snake_oil" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "raw_egg", "quantity" : 1 },
@@ -669,7 +669,7 @@ var recipes = {
 			{ "item" : "wand_of_gold_sparkles", "quantity" : 1 }
 		]
 	},
-	"jar_of_kitten_tears" : {
+*	"jar_of_kitten_tears" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "orb_of_everlasting_flavor", "quantity" : 1 },
@@ -678,13 +678,13 @@ var recipes = {
 			{ "item" : "roll_of_duct_tape", "quantity" : 1 }
 		]
 	},
-	"roll_of_duct_tape" : {
+*	"roll_of_duct_tape" : {
 		"cost" : 30000,
 		"materials" : [
 			{ "item" : "scrap_of_a_roll_of_duct_tape", "quantity" : 50 }
 		]
 	},
-	"motivational_cassette" : {
+*	"motivational_cassette" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "super_spikey_spear", "quantity" : 1 },
@@ -693,7 +693,7 @@ var recipes = {
 			{ "item" : "laser_kitten", "quantity" : 1 }
 		]
 	},
-	"tome_of_forbidden_trivia" : {
+*	"tome_of_forbidden_trivia" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "protein_powder", "quantity" : 1 },
@@ -701,25 +701,25 @@ var recipes = {
 			{ "item" : "tome_of_trivia_scroll", "quantity" : 1 }
 		]
 	},
-	"tome_of_trivia_scroll" : {
+*	"tome_of_trivia_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_tome_of_trivia_scroll", "quantity" : 5 }
 		]
 	},
-	"tome_of_eldritch_goingson" : {
+*	"tome_of_eldritch_goingson" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "tome_of_forbidden_trivia", "quantity" : 2 }
 		]
 	},
-	"tome_of_unspeakable_hearsay" : {
+*	"tome_of_unspeakable_hearsay" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "tome_of_eldritch_goingson", "quantity" : 2 }
 		]
 	},
-	"tome_of_nasty_behavior" : {
+*	"tome_of_nasty_behavior" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "daisy_chainsaw", "quantity" : 1 },
@@ -727,7 +727,7 @@ var recipes = {
 			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 }
 		]
 	},
-	"purple_pills_of_potency" : {
+*	"purple_pills_of_potency" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
@@ -735,13 +735,13 @@ var recipes = {
 			{ "item" : "disk_of_some_power", "quantity" : 1 }
 		]
 	},
-	"wizardry_for_idiots" : {
+*	"wizardry_for_idiots" : {
 		"cost" : 10000,
 		"materials" : [
 			{ "item" : "scrap_of_wizardry_for_idiots", "quantity" : 20 }
 		]
 	},
-	"chaps_of_endurance" : {
+*	"chaps_of_endurance" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "stickon_moustache", "quantity" : 1 },
@@ -749,14 +749,14 @@ var recipes = {
 			{ "item" : "rubber_vest", "quantity" : 1 }
 		]
 	},
-	"rod_of_shenanigans" : {
+*	"rod_of_shenanigans" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "sacred_codex", "quantity" : 2 },
 			{ "item" : "artifact_of_unimaginable_power", "quantity" : 1 }
 		]
 	},
-	"tenfoot_pole" : {
+*	"tenfoot_pole" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "enchanted_elbow_pads", "quantity" : 1 },
@@ -764,7 +764,7 @@ var recipes = {
 			{ "item" : "tenfoot_pole_scroll", "quantity" : 1 }
 		]
 	},
-	"butter_knife" : {
+*	"butter_knife" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "stickon_moustache", "quantity" : 1 },
@@ -772,7 +772,7 @@ var recipes = {
 			{ "item" : "smarty_pants", "quantity" : 1 }
 		]
 	},
-	"dirk_of_disemboweling" : {
+*	"dirk_of_disemboweling" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "adamantium_tiara", "quantity" : 1 },
@@ -780,13 +780,13 @@ var recipes = {
 			{ "item" : "spud_gun", "quantity" : 1 }
 		]
 	},
-	"dirk_of_disemboweling_scroll" : {
+*	"dirk_of_disemboweling_scroll" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_a_dirk_of_disemboweling_scroll", "quantity" : 20 }
 		]
 	},
-	"the_power_of_medicine" : {
+*	"the_power_of_medicine" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "lucky_orcs_foot", "quantity" : 1 },
@@ -794,7 +794,7 @@ var recipes = {
 			{ "item" : "pretty_sweet_cape", "quantity" : 1 }
 		]
 	},
-	"glass_case_of_emotion" : {
+*	"glass_case_of_emotion" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "thinking_cap", "quantity" : 1 },
@@ -802,7 +802,7 @@ var recipes = {
 			{ "item" : "rod_of_witty_banter", "quantity" : 1 }
 		]
 	},
-	"thinking_cap" : {
+*	"thinking_cap" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "captains_tightpants", "quantity" : 1 },
@@ -810,31 +810,31 @@ var recipes = {
 			{ "item" : "smarty_pants", "quantity" : 2 }
 		]
 	},
-	"thinking_cap_scroll" : {
+*	"thinking_cap_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_thinking_cap_scroll", "quantity" : 5 }
 		]
 	},
-	"the_power_of_positive_thinking" : {
+*	"the_power_of_positive_thinking" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "the_power_of_medicine", "quantity" : 2 }
 		]
 	},
-	"the_power_of_friendship" : {
+*	"the_power_of_friendship" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "the_power_of_positive_thinking", "quantity" : 2 }
 		]
 	},
-	"the_power_of_love" : {
+*	"the_power_of_love" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "the_power_of_friendship", "quantity" : 2 }
 		]
 	},
-	"purifying_tuning_fork" : {
+*	"purifying_tuning_fork" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "philter_of_pure_testosterone", "quantity" : 1 },
@@ -849,7 +849,7 @@ var recipes = {
 			{ "item" : "scrap_of_liger_balm", "quantity" : 50 }
 		]
 	},
-	"magic_eight_ball" : {
+*	"magic_eight_ball" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "magic_eight_ball_scroll", "quantity" : 1 },
@@ -857,7 +857,7 @@ var recipes = {
 			{ "item" : "penetrable_armor", "quantity" : 1 }
 		]
 	},
-	"goblin_whacker" : {
+*	"goblin_whacker" : {
 		"cost" : 300,
 		"materials" : [
 			{ "item" : "stolen_sneakers", "quantity" : 1 },
@@ -865,41 +865,41 @@ var recipes = {
 			{ "item" : "enchanted_elbow_pads", "quantity" : 1 }
 		]
 	},
-	"swash_buckler" : {
+*	"swash_buckler" : {
 		"cost" : 300,
 		"materials" : [
 			{ "item" : "stolen_sneakers", "quantity" : 2 },
 			{ "item" : "my_first_shield", "quantity" : 1 }
 		]
 	},
-	"plastic_vampire_teeth" : {
+*	"plastic_vampire_teeth" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "ya_vampire_series", "quantity" : 1 },
 			{ "item" : "plastic_vampire_teeth_scroll", "quantity" : 1 }
 		]
 	},
-	"flail_of_total_devastation" : {
+*	"flail_of_total_devastation" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "flail_of_devastation_scroll", "quantity" : 1 },
 			{ "item" : "gentlemens_club", "quantity" : 2 }
 		]
 	},
-	"flail_of_devastation_scroll" : {
+*	"flail_of_devastation_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_flail_of_total_devastation_scroll", "quantity" : 5 }
 		]
 	},
-	"arcane_slacks" : {
+*	"arcane_slacks" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "goblin_whacker", "quantity" : 1 },
 			{ "item" : "snazzy_vest", "quantity" : 1 }
 		]
 	},
-	"plucky_heroines_shortbow" : {
+*	"plucky_heroines_shortbow" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "oxfords_of_alacrity", "quantity" : 1 },
@@ -907,7 +907,7 @@ var recipes = {
 			{ "item" : "gloves_of_crit", "quantity" : 1 }
 		]
 	},
-	"shovel" : {
+*	"shovel" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "the_ugly_stick", "quantity" : 2 },
@@ -915,19 +915,19 @@ var recipes = {
 			{ "item" : "head_banger", "quantity" : 1 }
 		]
 	},
-	"the_ugly_stick" : {
+*	"the_ugly_stick" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_an_ugly_stick", "quantity" : 5 }
 		]
 	},
-	"shovel_scroll" : {
+*	"shovel_scroll" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_a_shovel_scroll", "quantity" : 20 }
 		]
 	},
-	"lavishly_adorned_rapier" : {
+*	"lavishly_adorned_rapier" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "banjo_of_dueling", "quantity" : 1 },
@@ -935,7 +935,7 @@ var recipes = {
 			{ "item" : "bunny_slippers", "quantity" : 1 }
 		]
 	},
-	"yodeling_sword" : {
+*	"yodeling_sword" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "war_sandals", "quantity" : 1 },
@@ -943,25 +943,25 @@ var recipes = {
 			{ "item" : "ring_of_the_squirrel", "quantity" : 1 }
 		]
 	},
-	"war_sandals" : {
+*	"war_sandals" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_war_sandals", "quantity" : 50 }
 		]
 	},
-	"dead_eye" : {
+*	"dead_eye" : {
 		"cost" : 6000,
 		"materials" : [
 			{ "item" : "scrap_of_dead_eye", "quantity" : 5 }
 		]
 	},
-	"ring_of_the_squirrel" : {
+*	"ring_of_the_squirrel" : {
 		"cost" : 30000,
 		"materials" : [
 			{ "item" : "scrap_of_a_ring_of_the_squirrel", "quantity" : 50 }
 		]
 	},
-	"blacksteel_blade" : {
+*	"blacksteel_blade" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "flail_of_total_devastation", "quantity" : 1 },
@@ -970,7 +970,7 @@ var recipes = {
 			{ "item" : "the_mad_gods_trident", "quantity" : 1 }
 		]
 	},
-	"readin_rain_bow" : {
+*	"readin_rain_bow" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "orb_of_everlasting_flavor", "quantity" : 1 },
@@ -979,19 +979,19 @@ var recipes = {
 			{ "item" : "bowie_knife", "quantity" : 1 }
 		]
 	},
-	"photo_bomb" : {
+*	"photo_bomb" : {
 		"cost" : 30000,
 		"materials" : [
 			{ "item" : "scrap_of_a_photo_bomb", "quantity" : 50 }
 		]
 	},
-	"bowie_knife" : {
+*	"bowie_knife" : {
 		"cost" : 10000,
 		"materials" : [
 			{ "item" : "scrap_of_a_bowie_knife", "quantity" : 20 }
 		]
 	},
-	"rattling_sabre" : {
+*	"rattling_sabre" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "lifedrinker", "quantity" : 1 },
@@ -999,7 +999,7 @@ var recipes = {
 			{ "item" : "peter_pipers_pepper_spray", "quantity" : 1 }
 		]
 	},
-	"liche_finger" : {
+*	"liche_finger" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "tome_of_unspeakable_hearsay", "quantity" : 1 },
@@ -1007,7 +1007,7 @@ var recipes = {
 			{ "item" : "antimagic_shell", "quantity" : 1 }
 		]
 	},
-	"wicked_mullet" : {
+*	"wicked_mullet" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "boots_made_for_walkin", "quantity" : 1 },
@@ -1016,7 +1016,7 @@ var recipes = {
 			{ "item" : "high_tea", "quantity" : 1 }
 		]
 	},
-	"decoder_ring" : {
+*	"decoder_ring" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "scroll_of_a_decoder_ring", "quantity" : 1 },
@@ -1024,13 +1024,13 @@ var recipes = {
 			{ "item" : "racing_stripes", "quantity" : 2 }
 		]
 	},
-	"scroll_of_a_decoder_ring" : {
+*	"scroll_of_a_decoder_ring" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_decoder_ring_scroll", "quantity" : 5 }
 		]
 	},
-	"death_metal_blade" : {
+*	"death_metal_blade" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "the_ugly_stick", "quantity" : 1 },
@@ -1038,19 +1038,19 @@ var recipes = {
 			{ "item" : "death_metal_blade_scroll", "quantity" : 1 }
 		]
 	},
-	"death_metal_blade_scroll" : {
+*	"death_metal_blade_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_death_metal_blade_scroll", "quantity" : 5 }
 		]
 	},
-	"lens_of_decryption" : {
+*	"lens_of_decryption" : {
 		"cost" : 18000,
 		"materials" : [
 			{ "item" : "decoder_ring", "quantity" : 2 }
 		]
 	},
-	"lead_zeppelin" : {
+*	"lead_zeppelin" : {
 		"cost" : 5000,
 		"materials" : [
 			{ "item" : "captains_tightpants", "quantity" : 1 },
@@ -1059,20 +1059,20 @@ var recipes = {
 			{ "item" : "gloves_of_crit", "quantity" : 1 }
 		]
 	},
-	"lead_zeppelin_scroll" : {
+*	"lead_zeppelin_scroll" : {
 		"cost" : 1500,
 		"materials" : [
 			{ "item" : "scrap_of_a_lead_zeppelin_scroll", "quantity" : 5 }
 		]
 	},
-	"svens_sword_of_dooooom" : {
+*	"svens_sword_of_dooooom" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "death_metal_blade", "quantity" : 1 },
 			{ "item" : "harolds_homemade_halberd", "quantity" : 1 }
 		]
 	},
-	"vampire_bunnyears" : {
+*	"vampire_bunnyears" : {
 		"cost" : 1200,
 		"materials" : [
 			{ "item" : "ya_vampire_series", "quantity" : 1 },
@@ -1081,13 +1081,13 @@ var recipes = {
 			{ "item" : "snazzy_vest", "quantity" : 1 }
 		]
 	},
-	"helm_of_the_raging_bear" : {
+*	"helm_of_the_raging_bear" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_a_helm_of_the_raging_bear", "quantity" : 50 }
 		]
 	},
-	"monster_hunter_armor" : {
+*	"monster_hunter_armor" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "war_sandals", "quantity" : 1 },
@@ -1095,19 +1095,19 @@ var recipes = {
 			{ "item" : "axe_of_major_riffage", "quantity" : 1 }
 		]
 	},
-	"sweatband_of_bewitching" : {
+*	"sweatband_of_bewitching" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_a_sweatband_of_bewitching", "quantity" : 50 }
 		]
 	},
-	"axe_of_major_riffage" : {
+*	"axe_of_major_riffage" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_an_axe_of_major_riffage", "quantity" : 50 }
 		]
 	},
-	"ivy_league_haircut" : {
+*	"ivy_league_haircut" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "extreme_fad_diet", "quantity" : 1 },
@@ -1115,19 +1115,19 @@ var recipes = {
 			{ "item" : "healthy_dose_of_skepticism", "quantity" : 1 }
 		]
 	},
-	"glasses_of_lenslessness" : {
+*	"glasses_of_lenslessness" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_glasses_of_lenslessness", "quantity" : 50 }
 		]
 	},
-	"healthy_dose_of_skepticism" : {
+*	"healthy_dose_of_skepticism" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_a_healthy_dose_of_skepticism", "quantity" : 50 }
 		]
 	},
-	"championship_belt" : {
+*	"championship_belt" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "wizardry_for_idiots", "quantity" : 1 },
@@ -1135,13 +1135,13 @@ var recipes = {
 			{ "item" : "healthy_dose_of_skepticism", "quantity" : 1 }
 		]
 	},
-	"tome_of_occult_nonsense" : {
+*	"tome_of_occult_nonsense" : {
 		"cost" : 40000,
 		"materials" : [
 			{ "item" : "scrap_of_a_tome_of_occult_nonsense", "quantity" : 50 }
 		]
 	},
-	"deerstalker_hat" : {
+*	"deerstalker_hat" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "tome_of_occult_nonsense", "quantity" : 1 },
@@ -1149,7 +1149,7 @@ var recipes = {
 			{ "item" : "disk_of_some_power", "quantity" : 1 }
 		]
 	},
-	"helm_of_screaming_manface" : {
+*	"helm_of_screaming_manface" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "extreme_fad_diet", "quantity" : 1 },
@@ -1157,7 +1157,7 @@ var recipes = {
 			{ "item" : "helm_of_the_raging_bear", "quantity" : 1 }
 		]
 	},
-	"dragons_ballz" : {
+*	"dragons_ballz" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "dead_eye", "quantity" : 1 },
@@ -1166,7 +1166,7 @@ var recipes = {
 			{ "item" : "helm_of_the_raging_bear", "quantity" : 1 }
 		]
 	},
-	"knives_of_hackenslash" : {
+*	"knives_of_hackenslash" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "war_sandals", "quantity" : 1 },
@@ -1174,19 +1174,19 @@ var recipes = {
 			{ "item" : "axe_of_major_riffage", "quantity" : 1 }
 		]
 	},
-	"untested_jetpack" : {
+*	"untested_jetpack" : {
 		"cost" : 25000,
 		"materials" : [
 			{ "item" : "scrap_of_an_untested_jetpack", "quantity" : 50 }
 		]
 	},
-	"cryptozoology" : {
+*	"cryptozoology" : {
 		"cost" : 36000,
 		"materials" : [
 			{ "item" : "lens_of_decryption", "quantity" : 2 }
 		]
 	},
-	"unicorn_puke" : {
+*	"unicorn_puke" : {
 		"cost" : 72000,
 		"materials" : [
 			{ "item" : "photo_bomb", "quantity" : 1 },
@@ -1198,12 +1198,12 @@ var recipes = {
 
 /*
 
-,
+    },
 	"" : {
 		"cost" : 00,
 		"materials" : [
 			{ "item" : "", "quantity" : 1 },
 		]
-	}
+
 
 */
